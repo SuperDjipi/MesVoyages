@@ -1,0 +1,342 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+X-WR-CALNAME:Vincent Delcourt (TripIt - Venise, France, December 2023)
+X-WR-CALDESC:Venise, France, December 2023 (Trip Shared by Vincent Delcour
+ t)
+PRODID:-//John Papaioannou/NONSGML Bennu 0.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20251227T165923Z
+UID:b468a5ad-b8c5-9000-0001-000014683121@tripit.com
+DTSTART;VALUE=DATE:20231230
+DTEND;VALUE=DATE:20240104
+SUMMARY:Venise\, France\, December 2023
+LOCATION:Venise\, France
+GEO:47.3474;6.10768
+TRANSP:TRANSPARENT
+DESCRIPTION:Vincent Delcourt is in Venise\, France from Dec 30\, 2023 to J
+ an 3\, 2024\nView and/or edit details in TripIt : https://www.tripit.com/t
+ rip/show?id=342372641\nTripIt - organize your travel at https://www.tripit
+ .com\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T165923Z
+SUMMARY:Drop Off Parking: MRS P7
+TRANSP:TRANSPARENT
+UID:item-9e38a3f0-3ac2-9000-0003-000104cb0d99@tripit.com
+DTSTART:20231230T123000Z
+DTEND:20231230T133000Z
+LOCATION:
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/342372641\n \n\nSat\, Dec 30\n1:30 PM CET\n[Parking] Drop Off M
+ RS P7\nMRS P7\n \n\n \nTripIt - organize your travel at https://www.tripit
+ .com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T165923Z
+DTEND:20231230T162500Z
+SUMMARY: MRS to Venise
+LOCATION:Marseille (MRS)
+UID:item-7bc7cda7-ca37-9000-0003-000103fc3da9@tripit.com
+DTSTART:20231230T150000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/342372641\n \n\n4:00 PM CET\n[Flight] MRS to Venise\n \n\nTermi
+ nal \, Gate \n \n\n5:25 PM CET\nArrive Venise\nTerminal \, Gate \n \n\n \n
+ TripIt - organize your travel at https://www.tripit.com
+GEO:47.3474;6.10768
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T165923Z
+DTEND:20231230T170000Z
+LOCATION:Aéroport de Venise-Marco Polo (VCE)\; Viale Galileo Galilei\, 30\
+ , 30173 Venezia VE\, Italie
+TRANSP:TRANSPARENT
+UID:item-86f920af-55f9-9000-0003-000104d2189d@tripit.com
+DTSTART:20231230T163000Z
+SUMMARY:Transportation - Aéroport de Venise-Marco Polo (VCE) to Antica Loc
+ anda Al Gambero
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/342372641\n \n\n5:30 PM CET\n[Transportation] Transportation - 
+ Aéroport de Venise-Marco Polo (VCE) to Antica Locanda Al Gambero\nDepart A
+ éroport de Venise-Marco Polo (VCE) Viale Galileo Galilei\, 30\, 30173 Vene
+ zia VE\, Italie\n \n6:00 PM CET\nArrive Antica Locanda Al Gambero Calle de
+ i Fabbri\, 4687\, 30124 Venezia VE\, Italie\n29 déc. 2023 23:30:28 GetYour
+ Guide <do-not-reply@notification.getyourguide.com>:\n \n\n[logo]\n**Merci 
+ pour votre commande\, Vincent**\nPour accéder facilement à votre billet et
+  gérer votre réservation où que vous soyez\, téléchargez notre appli[<a ta
+ rget="_blank" rel="nofollow" href="https://www.tripit.com/home/redirectPag
+ e/page_key/C0F5E8BF07573BEBD5EA60B7CA31ED9F">https://u22105166.ct.sendgrid
+ .net/uni/ls/click?upn=ztYmJEKDG9Eca1Hb7CE18DEf8cInYQQvqJpZgOwKCUXkx-2FbUzt
+ 9ukb7Tc5vD55sPc8oGPjri3D0OcutPuMCV9JTbFSpJr6PahGSl0x32Pw26vHNSMJMd9evzscwW
+ GoJXYpdxj-2FB788MI7Y6mZwyn4J-2BSTTKVVx-2BqahuOxhgejSi6AzrGj20Hqb6SfFp3ME0K
+ i1nP0fYkkRB9PExBTiqi30LkdDm1OuJIRQDn0Y0qLBGBZ0dtDT1v7d6qwai1yJSmFU1YKquM4R
+ QEFArHHi6JQFlN6ppY6vIaoNHGQJawK1oft6-2F7toXpJbt-2FX0f6tvVVL9cIDj2Vlsy3Kjgt
+ 3x-2BtXhMUxRjqtjdVlNsybloRMRZzfCSnsPYSg80beEjolIGhqXq9sKgqR5kTLqF-2FmXNROj
+ PV6pru051WvE-2BytU-2Fg7XDsZSD-2FRO0SQ2F0pl8lIo8KouQZUvpKLowJfghuhDaX5lMqqr
+ mWRj0X-2FfVYpTS12yCaucMJotJOMKAiJVrUQUB9JEtacjbccc9rZsNZAqZB4pEEIGB65Z5Ttv
+ GRBsW8yydt6VWNW4ZLtwPg1kg4WY8D-2FEmWvRtdp0DSWui6eHMoveMyrzhXXBp1wadZO6wx7l
+ ydNiIeujSvElsZaWYO9kTxph6UmzHIbn3obQBd7-2FrA6hx-2FerNLoW2prBmLAoRu7TBb0B6p
+ vtKMi4Y-2BLU823Hdgy7DZqnZwwmSnhM9Y0l2FIoya-2F8OtK083FgBBbyCyZXWZ0jAYCEQc9P
+ quCuy8Tr6aWaRb7VK1EnnsDf4k-2B4oW5evILKXNhtfFThTZkhfOUY6A1dirEwVem-2B0h7kjs
+ 23Q1re-2B8rV3Wih0prvMp5zdCEzQZDptW0tcpzOk38XHCEPaNeT65y0-2FxYW4VCdKw2ta2Yy
+ Wtzeb6TKAlA-2BBBPpT1CYJEgcsIXScZnlMbU3aAerVXB-2FGKYS5dIHyxjF9GBI4pT9k2fitr
+ a26-2BTPIZHa-2B4WNBFRJ6iIMnUUk3OaxPFOz5-2F3M2rkn-2Ft-2Fvvb-2B2aIpanuRjVY1d
+ mcvMxcx6TTNtFY9lDWFYkdnec5zSu1ZARi5iPyznO7M3NZcMQhRjtVVHQXG7oIPlgkVw-2BDeX
+ R-2Fc3f6z32uoR72Jha6IBPthMXTiPCC-2BbXZa-2FJTJcylybmLLMpAuxrM-2F0cKyMVkW-2F
+ ftYqy3LksqMg4yujb8ivxL3GGQJWq3Q64Jrm-2FTfYpIanR8Db5adwgLeVfjwR-2BtYdmJujwQ
+ QAGsYT8hfz7UFBhSa0PUdiJ4Utb1owsv2cx8t3dmPSMxBB7Mf6Gcxf2H-2Bo7UGxteHAmsIh1j
+ 3vnUydgi0FoyN4XaeCCekaKa8zlkzGuLEC6M2gV7ymx3wrCC7cOs-2BMa5VqN3KmcHsS7-2BAJ
+ AiWo5W3yIjJRMOVWqDEtxthJz7eulY8KcKRp-2B8umtMxJp95dfS9ae0fJOB0IgSMsNKBLIG7q
+ Q-3DCUYY_rSVI5F6DfcLlII1oF8PoTEkLL0I93yL2oN4T-2BMkDDgiR-2FH2Tb3VoWoltUwt5T
+ ASrWhVeeqf3EfxdKmR86I5zDNSsx3AhOXXacZZezK12N41m9GK-2BSZGgIVNk1jcKGnsfGd7MC
+ NkhCFd8nrVprZwiQ9IfZr1e3rSU5ZgHEwzDZIhIG8tS8SZLe0km0ZznrBtRm7-2Fiw9wxnF3A9
+ 5159mcxVRGlB6Q0jOyFWIrsqn4k7HSvg7DYl-2FGhBc23GaPN9steus-2Bw22dUjTpxRZnHMt7
+ dkOAWmCX9eLhXBeWk-2BdrPxX3pXzhp45UpLaJ4a6l7qpHd9YTI8KVdxjNEZJNzinTAugeWyu-
+ 2FXQtlms6XAFlOtlDGeT9flymk7dkxNbaw-2FapnP</a>].\n \n30 décembre 2023\nTran
+ sfert en bateau-taxi privé entre Venise et l'aéroport\n1 x Groupe jusqu’à 
+ 6 • 30 minutes\n220\,00 €\nVoir les détails de l’activité[<a target="_blan
+ k" rel="nofollow" href="https://www.tripit.com/home/redirectPage/page_key/
+ 30D78387F75767BEBE6AEB082B8A2BE2">https://l4ab.adj.st/tickets/booking/OD2E
+ MWQOP3SRUF42ZEJ8F0H73I614FS5?adj_t=6oimkb3_lut0srj&adj_deep_link=gyg%3A%2F
+ %2Ftickets%2Fbooking%2FOD2EMWQOP3SRUF42ZEJ8F0H73I614FS5%3Fvisitor_id%3DN7S
+ L1LST5VTHAUMCL7T482SAF8KL3VPI%26utm_source%3Dgetyourguide%26utm_medium%3De
+ mail_transactional%26utm_campaign%3Dshopping_cart_confirmation_v2%26utm_co
+ ntent%3Dbooking_summary_activity_details_move_v3&adj_fallback=https%3A%2F%
+ 2Fwww.getyourguide.fr%2Fbooking%2FOD2EMWQOP3SRUF42ZEJ8F0H73I614FS5%3Fpartn
+ er_id%3DXYJ201A%26visitor_id%3DN7SL1LST5VTHAUMCL7T482SAF8KL3VPI%26utm_sour
+ ce%3Dgetyourguide%26utm_medium%3Demail_transactional%26utm_campaign%3Dshop
+ ping_cart_confirmation_v2%26utm_content%3Dbooking_summary_activity_details
+ _move_v3&adj_redirect=https%3A%2F%2Fwww.getyourguide.fr%2Fbooking%2FOD2EMW
+ QOP3SRUF42ZEJ8F0H73I614FS5%3Fpartner_id%3DXYJ201A%26visitor_id%3DN7SL1LST5
+ VTHAUMCL7T482SAF8KL3VPI%26utm_source%3Dgetyourguide%26utm_medium%3Demail_t
+ ransactional%26utm_campaign%3Dshopping_cart_confirmation_v2%26utm_content%
+ 3Dbooking_summary_activity_details_move_v3&visitor_id=N7SL1LST5VTHAUMCL7T4
+ 82SAF8KL3VPI&utm_source=getyourguide&utm_medium=email_transactional&utm_ca
+ mpaign=shopping_cart_confirmation_v2&utm_content=booking_summary_activity_
+ details_move_v3</a>]\n[Transfert en bateau-taxi privé entre Venise et l'aé
+ roport]\n \n[tickets_large]\n \nTéléchargez l’appli GetYourGuide pour accé
+ der à votre activité\n \nAvec l’appli\, vous pouvez accéder aux détails de
+  votre activité et présenter vos billets facilement.\nOuvrir le billet dan
+ s l’appli[<a target="_blank" rel="nofollow" href="https://www.tripit.com/h
+ ome/redirectPage/page_key/4D132C9CD0C7745BCFE8CD72F9435703">https://u22105
+ 166.ct.sendgrid.net/uni/ls/click?upn=ztYmJEKDG9Eca1Hb7CE18DEf8cInYQQvqJpZg
+ OwKCUVc9PMbyOAq-2B9Wv-2FR2I0hl1r6K2jBEcBKHpdnkx9MFbqsuYm1GAhgO1KGa9dRUBAWu
+ XjdcoSO-2F3-2F19-2FfDNL-2BzTAtKA-2BFfBfTh-2FIMXSROcepeP-2F4bYPitBtoe2W1sTi
+ ymMyyehcMq9T3twmqKoWWd9wsyAAVHu87rs8FznSYTuk4SIMwa6c7LbkKSOemmcXK8gg1rlg2e
+ C02xGCUr2KP-2BzkQtx9pibpxZFCMcko-2FQc422omtNcgBGBvooajR2pcwPuAyTkb6iIlXbrS
+ 6A82fHPYf17b5sF7RmCUe0kch5bneHhF7cwi-2BkllPHS-2F26jYzuhFBcjggEB2DglZEKl9XY
+ 5DAXWKRkc191H5kxQcXjSoskRS8yg466Rptiq55dokl1rGy0gG10JhZr-2BcGFj0UwlY6QmoXy
+ 9OpGfqi3LiyGX9uauVRztCn8LYgzM7f8FG7o59-2BJ26-2F0XFt79JpDcg1B8kOGYTdBcc5CXu
+ i7-2F5BWAk9S8DkUoEGWu63K85NWUPVFJpZVEvZYBIPJbgCaZt-2FSgaLhWUAJlCDR6qHshD7p
+ JKPBitJKnaOvfYtGXZoWufMIR12Uf5CKMsFJ12WbKI0LKZ2sDk-2BcGTys1efcxLgYorVmsPn7
+ ZEcW1GHxsCrtISDJtozYn2czQK7efg9bDGV-2BpNixANDYqWj5X9pfShdZ8jjJvIUMZl9nBmYB
+ CQfH0Y8jgF8moNc5tPuNI7bbeCGRjQ1ejLZvQjweOV5dLRlX0niDoKO21fkSOyqiYG-2FxozHu
+ H-2Fmn9wqxZ6k6liyFJA-2B3DNnrQRWoyxs8s4VtD-2FNhJncnR5Fjf-2B6zIIoOU0QSpn-2Bz
+ tQoAMmT4CBhBegmurJgk-2FxyrHTX6R98nf-2FuDXF8AelZw-2FMTQ5on475LIc85xvaG3IrH9
+ zmYf3W-2BUvh7CUQIEhYEwUeceS5dTr-2F-2Fo1yARUMnfcRlw5Mdv54l5nmH-2BTnHnCz70mw
+ r1bX2-2FmSPPkmHqAawpnqtkTdc5PylzVr1tw9Yj3Cj0VCucJOm1v0K9wozyAqLFqGMJZFT5XD
+ uencL7ypu76yfO7FV8zoMvP6PWOdP4nuZkSpGLN6fcX9zB16OpGf-2B0zOrghOLScER7XNj8fY
+ VHbN-2FSP68qj3H0XPyCsH-2BwZtEZ05R3MTA-2FzHubjBQ8-2BXXv1zfXUKrT1izVLdj6ebMM
+ DiZi4kZrVFDZLg3-2FhoAJWGP4OxJs4ALtmPpYBbdmUMlPAxEr-2Bw-2BaH7EN19lV0Aktw5tI
+ nswUGaoS1wmtHLTYRnfYOrUjanej-2BTTHHILT0QCreVUI2z0ZfEbeMubPsN4c4uDLEQKFsjq8
+ KjAO1t2K9kqIf9IQ3rIqtkkzidgUfl09eat40TFUQjDNJIfbv736HG6aINr3ad8ZGyWFnL-2By
+ gF-2FIiZnYhYlavLdbMZ33TJf3LMLRJkZ3p59fdd95diGKEJiehrApGJldXVJlr0Ii-2F-2Bly
+ cR6CkTVIfcsqA6Nu2Q-3DHjBQ_rSVI5F6DfcLlII1oF8PoTEkLL0I93yL2oN4T-2BMkDDgiR-2
+ FH2Tb3VoWoltUwt5TASrWhVeeqf3EfxdKmR86I5zDNSsx3AhOXXacZZezK12N41m9GK-2BSZGg
+ IVNk1jcKGnsfGd7MCNkhCFd8nrVprZwiQ9IfZr1e3rSU5ZgHEwzDZIiucgCLOuPX0sFOh442mU
+ gMpepsWPgt03tppHsxTDAm8dCLIpM0qiHJ2gWIYLhEo1tqs6RGYxutAmuTK50m1jIY4az54XfP
+ xY1LUu-2BNtEAc7w8Ul4o7kUpAks0g3b9c3l4EPHRvS0eoO48ZX2L5YZSQPtiTDq6O9yRnXDpi
+ 0E2C0P5eL0nU5iK-2FGPmXqvKfp9gsAKMwFZm-2B3niF6Hi1KOci</a>]\nVous n’êtes pas
+  sur un smartphone ? Accédez à votre billet ici[<a target="_blank" rel="no
+ follow" href="https://www.tripit.com/home/redirectPage/page_key/E49AB5989A
+ 19F2A75EFE890E64F40CD5">https://u22105166.ct.sendgrid.net/ls/click?upn=ztY
+ mJEKDG9Eca1Hb7CE18CQpvv-2F-2Bza8by6546Ta4zdcbom2HIBE8GVT-2FcxkzTmKieIa-2Bq
+ vHsehVa9VELf9TmQf7NmWGEiTUjAx-2B8PUlvLkOewYCQBfiOTMR-2FAU1KHeCRToTq-2FESW-
+ 2BYL5mlAa-2FcudmxABPEEgS10eptzGujIlfmkodvT9tnWrYzYDmGXTjev3CaYw3BHEkYrSDkQ
+ DFVhzj11qGw619K-2BwxPqsID0jGsDOzON2tnC2sx30UFcEJHxW5mtjWWsa48-2BAWYGlkMZMS
+ x9lPcoRRp5lQyZxechna1UgoQvdVPe0ththFna7Pg69N7W0zLalesvFqexH-2ByNg1Zlb0yzH3
+ Az6heSCTmEkn9P8ar59dDZ5-2BrVs-2FL9MbW77klsfAirUzD6srBRu-2FhWVeA-3D-3DenBP_
+ rSVI5F6DfcLlII1oF8PoTEkLL0I93yL2oN4T-2BMkDDgiR-2FH2Tb3VoWoltUwt5TASrWhVeeq
+ f3EfxdKmR86I5zDNSsx3AhOXXacZZezK12N41m9GK-2BSZGgIVNk1jcKGnsfGd7MCNkhCFd8nr
+ VprZwiQ9IfZr1e3rSU5ZgHEwzDZIjF5u54KWHU9lcfrkJBralHlhlG43KtlLvhYzV8sInfwvyQ
+ wuBCVDUCtey57QW28im-2BX9x1tGJBR3Ym48am9fAf3cQKuGXXBxBdOGyFyjbigtR45e86Y5Hd
+ JEW2TOByVv341MC4kARZkPNLgmO5DTfdajJ3SxiCNoQvEJyUIoDFUHXP40Da668bI7SeDTFElU
+ 513pQkSFt75Rj-2FnqTZndyY</a>]\n \n[checkmark-out-circle_large]\n \nInforma
+ tions importantes\n \nBon à savoir\n \nVeuillez confirmer les détails de v
+ otre vol et le nom de l'hôtel au moins 48 h avant votre départ en envoyant
+  un e-mail à l'organisateur de l'activité La distance entre le terminal de
+  l'aéroport et l'embarcadère du bateau-taxi est d'environ 800 m. Vous pouv
+ ez la parcourir en quelques minutes à pied L'accès aux hôtels situés au bo
+ rd de différents canaux dépend des marées et d'autres conditions. Hôtels d
+ esservis : All'Angelo\, Ad Place\, Bonvecchiati\, Palace Bonvecchiati\, Cà
+  del Campo\, Ca' Dei Conti\, Ca' d'Oro\, Canaletto\, Cavaletto\, Casa Vera
+ rdo\, Centauro\, Città di Milano\, Colombina\, La Fenice et des Artistes\,
+  San Marco Palace Si votre hôtel est le JW Marriott - Isola delle Rose\, v
+ ous devrez payer un supplément de 20 EUR par trajet à votre arrivée Si vou
+ s vous déplacez en fauteuil roulant\, veuillez l'indiquer à l'organisateur
+  de l'activité car un bateau spécial devra être réservé à l'avance\n \n[pi
+ n_large]\n \nLe jour J\n \nLieu de rendez-vous\n \nViale Galileo Galilei\,
+  30\, 30173 Venezia VE\, Italy\nAprès votre arrivée à l'aéroport Marco Pol
+ o\, cherchez une personne à l'extérieur du hall des bagages tenant un pann
+ eau portant votre nom.\n \nLieu de fin de l’activité\n \nVenice\, Metropol
+ itan City of Venice\, Italy\nÀ votre hôtel à Venise. Si l'hôtel a une entr
+ ée sur l'eau\, les passagers et passagères seront déposés directement à l'
+ hôtel. Si l'hôtel n'a pas d'accès privé depuis les canaux\, le bateau-taxi
+  vous déposera au lieu le plus proche.\n \n[calendar-with-arrow_large]\n \
+ nConditions d’annulation\n \nIl n’est plus possible d’annuler ou de reprog
+ rammer cette réservation.\n \n[question-in-circle_large]\n \nVotre activit
+ é est organisée par Bucintoro Viaggi\n \nContactez l’organisateur si vous 
+ avez des questions sur votre activité.\n \n+39 041 521 0632[tel:+390415210
+ 632]\nE-mail[activity-provider-4fwgbiunfca4bax5@reply.getyourguide.com]\n 
+ \n\nRéférence de réservation\n \nGYGKBHNNQWHG\n \nCode PIN\n \n6vVMC/c=\n 
+ \n**Continuez votre voyage sur notre appli**\n \n[tickets_white_large]\nAc
+ cédez à vos billets hors ligne\n \n[chat-bubble_white_large]\nObtenez de l
+ ’aide en 1 minute\n \n[bell_white_large]\nRecevez les notifications import
+ antes où que vous soyez\n \nOuvrir l’appli[<a target="_blank" rel="nofollo
+ w" href="https://www.tripit.com/home/redirectPage/page_key/A43810AB30BFA63
+ EBB542CF5D4B6DF42">https://u22105166.ct.sendgrid.net/uni/ls/click?upn=ztYm
+ JEKDG9Eca1Hb7CE18DEf8cInYQQvqJpZgOwKCUXkx-2FbUzt9ukb7Tc5vD55sPc8oGPjri3D0O
+ cutPuMCV9NKkr3aSiB1Ug6NNPsR7cytzQYeqDEMyk4mb28TSwodRzFzWhfUWAEXBIIePfX1fqJ
+ Vyz9MGRTfKuxper-2BNhxfzMiPALhc9aGrCGfa8LYdzawbp5ksqOUNsg9vx8gQ6Uo1BHddAHMc
+ GArby1xhntQEM2p2aByLpnq9IlDI0t7u1D-2B1Ic7dpato0jPNfuqj2PRBTHsNWR15fwea4tts
+ t-2BD-2B7GWR28IT-2BQyJ5l-2FMYPENncbCuA5GNW2nctmHO3-2F1s5kcG5SUitlC4OeZV-2F
+ RNWQjt0pyLE4TT9yAySHI67AYSMRmKK2z-2FNE-2BvCVUSMSCbmUkiZ5koX8hHpdSCvTXQP-2F
+ -2Fz5Y863S9hCz0G2S-2B2arMOQEzJVa6upMcMS3DsrxzYJdnAEcUnDa0jTea-2Bl5lFm1pO8Z
+ yR3O8UVnQvyECtTmjE8nna689prct4AvIJ-2FTZ2ohreS9JkHJDAq6CmNpmygoD6Nasean92yo
+ Faakcst24qU6AxWgO8Z80ZxU3w-2BggfX6OBfBzcegy1zRBb5mmaFWS-2B3TukEQNSN3t7QPY6
+ LlefCzHgPlFWNCDY82UK9cW-2BFfboan4Z44NkdgCirxhWqNE5Jk9XTWzcQAitN-2BK133Ps8y
+ FDzeNgYQ7YvmjJUqntCb5ubYjdVsklKlQCsE6DYTtUiI7uKIMLttjPl2COD3fFgWMyHutDT7-2
+ BLWKb9N8rHpeEvW6cUCQP8Q0YvM6qgxq9kfX8mTkUQXmwqApuijYVo4-2BD7rW0PPJc2YXC0fB
+ uDoxdWbxqnYBw9dZL7-2BkmLGktnKNbeGveGAqIDL1JJclEc6uhJkd9MBGoAbMPJnuq9fM11s7
+ SwOYusY-2BaadMDOW4NhvHo286AWZe3lE3-2FjEwKSGrwDJsIz0GxpIYZKhuIa2h5QDORgmOH-
+ 2FdR2X4fUXdl5qHQJ6HUke-2BFK7bp4DQTfclKpxjPVKu4frrlWjhrDG5XOtsgsUYJ2EL77Enm
+ 07pjbnGGM5a-2FSmLn-2BS4fJN1-2BollcX36-2BjyIUJg8UIIsYpIgMqsRnO7aCfjz7qpVckg
+ bdYiL2iR8ZMvB9mP21DvE8JIhTJ6bw-2Flo8Hdaf-2B5vp-2BdOzzTxsveqWFyqskokac9QFDV
+ -2FLCRjhJS55KQUfgcXXlCRPo4t-2FGZ27ux9-2FZkRkvlfa3bgpgUy6EGYuOBnk4UEaN-2BdU
+ NWGOxpds8N6CUcLJWqKArIrlrIcOT66ikql0pLEO8bnYS9-2B-2BTLsCTzWuiC4oeU0dQVcXI8
+ xlkksVAImbhCortktRv2NdgXvZ1Ja40m2r82lmoPOgUjGfrqPYyZ98sVH1qBP8AclhgdtvMNTt
+ nmpeHwdZWxlaYxZR86-2BxHAoiki-2FFxhaKLnEqsRC03GKlGCcVJoI8BZ5g0mBupWElaFCnG0
+ vAI-2FURC4npOMeztSgDdA-3D-3DblOp_rSVI5F6DfcLlII1oF8PoTEkLL0I93yL2oN4T-2BMk
+ DDgiR-2FH2Tb3VoWoltUwt5TASrWhVeeqf3EfxdKmR86I5zDNSsx3AhOXXacZZezK12N41m9GK
+ -2BSZGgIVNk1jcKGnsfGd7MCNkhCFd8nrVprZwiQ9IfZr1e3rSU5ZgHEwzDZIgkAKbcZYrpgbj
+ M0HJnwGL9UDqGQZkCbM-2BnMR-2FlXiVKEjcbTd2FTFMZx8G5yuP-2BxMQy8-2BgLfJtzKeiYy
+ 1zwAKoDuJCbt4ALnyGdAJnbHh175RJSSYDKwhm6PYiwhJhS-2BMHGrx2CCrUqu8gM2w6sr-2F8
+ UMF8ABhzjv76VlN7Zgk3-2F9B2exgTRQUf5ArNBGEwE6TEg0ysDlCOI6fD6uaGVxfMg</a>]\n
+  \n**Vous avez payé 220\,00 €**\n \nVous pouvez consulter et enregistrer v
+ otre reçu en téléchargeant le PDF ci-dessous. Ceci n’est pas votre billet.
+  Pour savoir comment accéder à votre activité\, référez-vous aux informati
+ ons ci-dessus.\nTélécharger le reçu[<a target="_blank" rel="nofollow" href
+ ="https://www.tripit.com/home/redirectPage/page_key/FD5A88B59DFB069D8A2EEB
+ 497241F6A3">https://u22105166.ct.sendgrid.net/ls/click?upn=ztYmJEKDG9Eca1H
+ b7CE18CQpvv-2F-2Bza8by6546Ta4zde8mkyHSvtaA7zPk-2FmiMWfXCh4aw39jzELBsm-2BJw
+ QEmLoLrkjia4onhPkoXcHDfCUy5tlx3XIOskv66srSghHsrNlWthhQ7JjWhT7YOknup73uwaMR
+ S1rGsS67CjAYk6DW7OoVYwclN2dszFjGIBVnw0uTtdtHAIZyrahJnMLPwS-2Blq-2FPirvrQiH
+ VxPTp30kXS4ffpVY09khkBS-2BGXy8qX10JHlg9LPVL-2BD-2Bao65W6PR-2B3ckRwP8bPXwYi
+ z3VcUtpfBKyTCoDRDnnnkPtsJyXEfucFtVbuONlX4TKpNnB6jdCMbPq0C0XLHtpYz6QqC2DiVl
+ k5KW3594LlKBBzTBzOVP2P78rNcfQvfgLDUdndz-2BA-3D-3DRr_4_rSVI5F6DfcLlII1oF8Po
+ TEkLL0I93yL2oN4T-2BMkDDgiR-2FH2Tb3VoWoltUwt5TASrWhVeeqf3EfxdKmR86I5zDNSsx3
+ AhOXXacZZezK12N41m9GK-2BSZGgIVNk1jcKGnsfGd7MCNkhCFd8nrVprZwiQ9IfZr1e3rSU5Z
+ gHEwzDZIhmJUdplCLIbaPfw1QL2VpBvQ-2FwbtiXZaTTShRvCi-2BuZszcZIFuz-2F9WVfxJgA
+ apLUMZLduFH17i0JKS5cMCYOSJRsbXFgIDn2Ft5cIRILKLEDvb7uOwmp86PqeMqf9UFsZmb-2F
+ rQNryuohg36LTPymPJuj0zIUyHQgps9kmJUc2FJA4WSIf3wmJGFTuRC1ShyKXa-2BMQceo49Gm
+ gHoVzKFwFX</a>]\n \nVous trouverez les conditions générales de votre réser
+ vation en pièce jointe. Elles contiennent des informations au sujet de vot
+ re droit de rétractation.\n \n**Nous sommes là pour vous aider**\n \n**Des
+  questions sur votre activité ?**\n \nSi vous avez des questions concernan
+ t le lieu de rendez-vous\, la prise en charge ou tout autre aspect du jour
+  J\, contactez l’organisateur de votre activité aux coordonnées ci-dessus.
+ \n \n**Des questions sur votre réservation ?**\n \nSi vous avez des questi
+ ons concernant la reprogrammation de votre activité\, son annulation\, son
+  remboursement ou tout autre sujet de ce type\, consultez notre Centre d’a
+ ide.\n \n\n_[facebook_white_large]_\n_[twitter_white_large]_\n_[instagram_
+ white_large]_\n_[pinterest_white_large]_\n \nGetYourGuide Deutschland GmbH
+ \, Sonnenburger Strasse 73\, 10437 Berlin\, Allemagne. Direction : Tao Tao
+ \, Johannes Reck\, Nils Chrestin. Entreprise enregistrée sous : Amtsgerich
+ t Charlottenburg\, HRB 132059 B - N° de TVA : DE276456081. Pour plus d’inf
+ ormations\, consultez notre _politique de confidentialité[<a target="_blan
+ k" rel="nofollow" href="https://www.tripit.com/home/redirectPage/page_key/
+ 0C1126346ABA69D20DBFAD2A4F2E1292">https://u22105166.ct.sendgrid.net/ls/cli
+ ck?upn=ztYmJEKDG9Eca1Hb7CE18CQpvv-2F-2Bza8by6546Ta4zde7ysDXKORoupcXpx8IfoC
+ yq8XwvveSIDoK8GVNkAUz38VZDfU9C-2F8IxIxOxFGQYgnaQpX4VE4SgNEkEm5Iq987Me-2FMz
+ ME6IuS6d-2FM-2FgW8rmPQznskVFn-2BhR8viQdShj4Ek0Eo2i-2BXJulgHLoe3lVC5kGRSOv0
+ gI-2Fo87c9dbp1gi-2Fbp6Hpl-2Bh2-2FXxWBT4XwOaMKaf-2BkOQ-2F-2Fq-2BRInX2TIVQp4
+ ovcOs7XYBueUVoKHpZeSVWmlBpDzyNzpjgITbHg-2Fr-2Bx2TThyBP23rbIYA5-2Bn4mOyOi2_
+ rSVI5F6DfcLlII1oF8PoTEkLL0I93yL2oN4T-2BMkDDgiR-2FH2Tb3VoWoltUwt5TASrWhVeeq
+ f3EfxdKmR86I5zDNSsx3AhOXXacZZezK12N41m9GK-2BSZGgIVNk1jcKGnsfGd7MCNkhCFd8nr
+ VprZwiQ9IfZr1e3rSU5ZgHEwzDZIgNpp-2BhOGQXjHO-2FtNCqlub5TCVvPNdaIrg-2F0qiMTz
+ ubchC3bvfnRfJSYMGhotmopkmDlKA2PeU5-2BKQdMFyTxMhjV-2Fx1Nx9EaJqAlTK2Oz3o6Jdk
+ Xg04aF5ImEyd150wrMR6ZywGBwzVI82EwYfJnBoXX6bXLbetODMrcVrx0aWVJromouo7D9EQMB
+ RKUzfaaCQQCW0GdLQvOkka8efi9oDW]_</a>.\n \n[logo]\n \n[Image de pistage]\n 
+ \n\n \n\nTripIt - organize your travel at https://www.tripit.com
+GEO:45.435529;12.3365387
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T165923Z
+SUMMARY:Check-in: Hotel Antica Locanda Al Gambero
+TRANSP:TRANSPARENT
+UID:item-91a26112-381a-9000-0003-000103fc4951@tripit.com
+DTSTART:20231230T170000Z
+DTEND:20231230T180000Z
+LOCATION:Calle dei Fabbri\, 4687\, San Marco\, Venice\, VE\, 30124 Italie
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/342372641\n \n\n6:00 PM CET\n[Lodging] Arrive Hotel Antica Loca
+ nda Al Gambero\nCheck-In: 6:00pm\nCalle dei Fabbri\, 4687\, San Marco\, Ve
+ nice\, VE\, 30124 Italie\n \n\n \nTripIt - organize your travel at https:/
+ /www.tripit.com
+GEO:45.435529;12.3365387
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T165923Z
+UID:item-5a562412-07be-9000-0003-000104d6db15@tripit.com
+DTSTART:20231231T183000Z
+DTEND:20231231T193000Z
+SUMMARY:Osteria del Lovo
+LOCATION:S. Marco\, 4759\, 30124 Venezia
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/342372641\n \n\nSun\, Dec 31\n7:30 PM CET\n[Restaurant] Osteria
+  del Lovo\nS. Marco\, 4759\, 30124 Venezia\n+393386757688\n \n\n \nTripIt 
+ - organize your travel at https://www.tripit.com
+GEO:45.435136;12.3420903
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T165923Z
+DTEND:20240103T093500Z
+SUMMARY:V71210 VCE to MRS
+LOCATION:Venice (VCE)
+UID:item-c3429a8b-0a11-9000-0003-000103fc3dad@tripit.com
+DTSTART:20240103T080000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/342372641\n \n\nWed\, Jan 3\n9:00 AM CET\n[Flight] VCE to MRS\n
+  \n\nVolotea 1210\, Terminal \, Gate \n \n\n10:35 AM CET\nArrive Marseille
+  (MRS)\nTerminal \, Gate \n \n\n \nTripIt - organize your travel at https:
+ //www.tripit.com
+GEO:43.29695;5.38107
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T165923Z
+SUMMARY:Check-out: Hotel Antica Locanda Al Gambero
+TRANSP:TRANSPARENT
+UID:item-8ccfbf30-010f-9000-0003-000103fc4955@tripit.com
+DTSTART:20240103T100000Z
+DTEND:20240103T110000Z
+LOCATION:Calle dei Fabbri\, 4687\, San Marco\, Venice\, VE\, 30124 Italie
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/342372641\n \n\n11:00 AM CET\n[Lodging] Depart Hotel Antica Loc
+ anda Al Gambero\nCheck-Out: 11:00am\nCalle dei Fabbri\, 4687\, San Marco\,
+  Venice\, VE\, 30124 Italie\n \n\n \nTripIt - organize your travel at http
+ s://www.tripit.com
+GEO:45.435529;12.3365387
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T165923Z
+SUMMARY:Pick Up Parking: MRS P7
+TRANSP:TRANSPARENT
+UID:item-e831a1bf-9382-9000-0003-000104cb0d9d@tripit.com
+DTSTART:20240103T103000Z
+DTEND:20240103T113000Z
+LOCATION:
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/342372641\n \n\n11:30 AM CET\n[Parking] Pick Up MRS P7\nMRS P7\
+ n \n\n \nTripIt - organize your travel at https://www.tripit.com
+END:VEVENT
+END:VCALENDAR

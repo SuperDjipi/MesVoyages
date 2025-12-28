@@ -1,0 +1,290 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+X-WR-CALNAME:Vincent Delcourt (TripIt - Canada, Septembre 2017)
+X-WR-CALDESC:Canada, Septembre 2017 (Trip Shared by Vincent Delcourt)
+PRODID:-//John Papaioannou/NONSGML Bennu 0.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20251227T170341Z
+UID:561ff9a7-31c4-9000-0001-00000be04d64@tripit.com
+DTSTART;VALUE=DATE:20170918
+DTEND;VALUE=DATE:20171013
+SUMMARY:Canada\, Septembre 2017
+LOCATION:Mont-Royal\, QC\, Canada
+GEO:45.51675;-73.64918
+TRANSP:TRANSPARENT
+DESCRIPTION:Vincent Delcourt is in Mont-Royal\, QC\, Canada from Sep 18 to
+  Oct 12\, 2017\nView and/or edit details in TripIt : https://www.tripit.co
+ m/trip/show?id=199249252\nTripIt - organize your travel at https://www.tri
+ pit.com\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170341Z
+DTEND:20170918T200000Z
+SUMMARY:AC1963 MRS to YUL
+LOCATION:Marseille (MRS)
+UID:item-866acb2f-5618-9000-0003-00008099be6e@tripit.com
+DTSTART:20170918T114500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/199249252\n \n\nMon\, Sep 18\n1:45 PM CEST\n[Flight] MRS to YUL
+ \n \n\nAir Canada 1963\, Terminal \, Gate \n \n\n4:00 PM EDT\nArrive Montr
+ eal (YUL)\nTerminal \, Gate \n \n\n \nTripIt - organize your travel at htt
+ ps://www.tripit.com
+GEO:45.5016889;-73.567256
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170341Z
+SUMMARY:Check-in: Canopée Lit\, Hébergements insolites et bulles
+TRANSP:TRANSPARENT
+UID:item-a312ef80-b73b-9000-0003-000081e578ff@tripit.com
+DTSTART;VALUE=DATE:20171001
+DTEND;VALUE=DATE:20171002
+LOCATION:303 Chemin de l'Anse-de-Roche\, Sacré-Coeur\, QC G0T 1Y0\, Canada
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/199249252\n \n\nSun\, Oct 1\n  \n[Lodging] Arrive Canopée Lit\,
+  Hébergements insolites et bulles\nCheck-In: \n303 Chemin de l'Anse-de-Roc
+ he\, Sacré-Coeur\, QC G0T 1Y0\, Canada\n \n\n \nTripIt - organize your tra
+ vel at https://www.tripit.com
+GEO:48.2245541;-69.8704754
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170341Z
+SUMMARY:Check-out: Canopée Lit\, Hébergements insolites et bulles
+TRANSP:TRANSPARENT
+UID:item-7561cd0f-6459-9000-0003-000081e57900@tripit.com
+DTSTART;VALUE=DATE:20171002
+DTEND;VALUE=DATE:20171003
+LOCATION:303 Chemin de l'Anse-de-Roche\, Sacré-Coeur\, QC G0T 1Y0\, Canada
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/199249252\n \n\nMon\, Oct 2\n  \n[Lodging] Depart Canopée Lit\,
+  Hébergements insolites et bulles\nCheck-Out: \n303 Chemin de l'Anse-de-Ro
+ che\, Sacré-Coeur\, QC G0T 1Y0\, Canada\n \n\n \nTripIt - organize your tr
+ avel at https://www.tripit.com
+GEO:48.2245541;-69.8704754
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170341Z
+SUMMARY:Check-in: Gîte Chez Lucie
+TRANSP:TRANSPARENT
+UID:item-d7049f66-c9d5-9000-0003-000082a75590@tripit.com
+DTSTART:20171002T200000Z
+DTEND:20171002T210000Z
+LOCATION:2 rue Dion\, Les Escoumins (Québec)\, G0T 1K0\, Canada
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/199249252\n \n\n4:00 PM EDT\n[Lodging] Arrive Gîte Chez Lucie\n
+ Check-In: 4:00pm\n2 rue Dion\, Les Escoumins (Québec)\, G0T 1K0\, Canada\n
+ +14182333055\n \n\n \nTripIt - organize your travel at https://www.tripit.
+ com
+GEO:48.3211618;-69.4170391
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170341Z
+SUMMARY:Check-out: Gîte Chez Lucie
+TRANSP:TRANSPARENT
+UID:item-c49c7029-9c6c-9000-0003-000082a75591@tripit.com
+DTSTART:20171003T150000Z
+DTEND:20171003T160000Z
+LOCATION:2 rue Dion\, Les Escoumins (Québec)\, G0T 1K0\, Canada
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/199249252\n \n\nTue\, Oct 3\n11:00 AM EDT\n[Lodging] Depart Gît
+ e Chez Lucie\nCheck-Out: 11:00am\n2 rue Dion\, Les Escoumins (Québec)\, G0
+ T 1K0\, Canada\n+14182333055\n \n\n \nTripIt - organize your travel at htt
+ ps://www.tripit.com
+GEO:48.3211618;-69.4170391
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170341Z
+SUMMARY:Check-in: Gîte La Villa Victorienne
+TRANSP:TRANSPARENT
+UID:item-4ce61f79-da66-9000-0003-000082b4671e@tripit.com
+DTSTART:20171003T190000Z
+DTEND:20171003T200000Z
+LOCATION:432\, 3e Rang Ouest\, Saint-Henri-de-Taillon (Québec)\, G0W 2X0\,
+  Canada
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/199249252\n \n\n3:00 PM EDT\n[Lodging] Arrive Gîte La Villa Vic
+ torienne\nCheck-In: 3:00pm\n432\, 3e Rang Ouest\, Saint-Henri-de-Taillon (
+ Québec)\, G0W 2X0\, Canada\n+14183475959\n \n\n \nTripIt - organize your t
+ ravel at https://www.tripit.com
+GEO:48.6761411;-71.8188535
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170341Z
+SUMMARY:Check-out: Gîte La Villa Victorienne
+TRANSP:TRANSPARENT
+UID:item-a8b43bf0-92ab-9000-0003-000082b4671f@tripit.com
+DTSTART:20171004T150000Z
+DTEND:20171004T160000Z
+LOCATION:432\, 3e Rang Ouest\, Saint-Henri-de-Taillon (Québec)\, G0W 2X0\,
+  Canada
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/199249252\n \n\nWed\, Oct 4\n11:00 AM EDT\n[Lodging] Depart Gît
+ e La Villa Victorienne\nCheck-Out: 11:00am\n432\, 3e Rang Ouest\, Saint-He
+ nri-de-Taillon (Québec)\, G0W 2X0\, Canada\n+14183475959\n \n\n \nTripIt -
+  organize your travel at https://www.tripit.com
+GEO:48.6761411;-71.8188535
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170341Z
+SUMMARY:Check-in: Gite Du Lac St-Prime
+TRANSP:TRANSPARENT
+UID:item-f574f47b-f7c7-9000-0003-000082bc82b6@tripit.com
+DTSTART:20171004T220000Z
+DTEND:20171004T230000Z
+LOCATION:49 Rue des Amandiers\, Saint-Prime (Québec)\, G8J 1L8\, Canada
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/199249252\n \n\n6:00 PM EDT\n[Lodging] Arrive Gite Du Lac St-Pr
+ ime\nCheck-In: 6:00pm\n49 Rue des Amandiers\, Saint-Prime (Québec)\, G8J 1
+ L8\, Canada\n+14182514854\n \n\n \nTripIt - organize your travel at https:
+ //www.tripit.com
+GEO:48.5967449;-72.3295399
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170341Z
+SUMMARY:Check-out: Gite Du Lac St-Prime
+TRANSP:TRANSPARENT
+UID:item-56ab11b1-4243-9000-0003-000082bc82b7@tripit.com
+DTSTART:20171005T160000Z
+DTEND:20171005T170000Z
+LOCATION:49 Rue des Amandiers\, Saint-Prime (Québec)\, G8J 1L8\, Canada
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/199249252\n \n\nThu\, Oct 5\n12:00 PM EDT\n[Lodging] Depart Git
+ e Du Lac St-Prime\nCheck-Out: 12:00pm\n49 Rue des Amandiers\, Saint-Prime 
+ (Québec)\, G8J 1L8\, Canada\n+14182514854\n \n\n \nTripIt - organize your 
+ travel at https://www.tripit.com
+GEO:48.5967449;-72.3295399
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170341Z
+SUMMARY:Check-in: Gîte du Vieux Chemin
+TRANSP:TRANSPARENT
+UID:item-5000d85e-ae5c-9000-0003-000082c5d720@tripit.com
+DTSTART:20171005T210000Z
+DTEND:20171005T220000Z
+LOCATION:8313 Chemin de la batture\n \nLa Baie\, QC G7B 3P6
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/199249252\n \n\n5:00 PM EDT\n[Lodging] Arrive Gîte du Vieux Che
+ min\nCheck-In: 5:00pm\n8313 Chemin de la batture\n \nLa Baie\, QC G7B 3P6\
+ n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:48.3515184;-70.7562325
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170341Z
+SUMMARY:Check-out: Gîte du Vieux Chemin
+TRANSP:TRANSPARENT
+UID:item-67f4a8b5-8ec2-9000-0003-000082c5d721@tripit.com
+DTSTART:20171006T160000Z
+DTEND:20171006T170000Z
+LOCATION:8313 Chemin de la batture\n \nLa Baie\, QC G7B 3P6
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/199249252\n \n\nFri\, Oct 6\n12:00 PM EDT\n[Lodging] Depart Gît
+ e du Vieux Chemin\nCheck-Out: 12:00pm\n8313 Chemin de la batture\n \nLa Ba
+ ie\, QC G7B 3P6\n \n\n \nTripIt - organize your travel at https://www.trip
+ it.com
+GEO:48.3515184;-70.7562325
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170341Z
+SUMMARY:Check-in: Auberge de la Rive de Charlevoix
+TRANSP:TRANSPARENT
+UID:item-5e9249c5-f5c6-9000-0003-000082cabbb7@tripit.com
+DTSTART:20171006T190000Z
+DTEND:20171006T200000Z
+LOCATION:280 rue de l'Église\, Saint-Joseph-de-la-Rive (Québec)\, G0A 3Y0\
+ , Canada
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/199249252\n \n\n3:00 PM EDT\n[Lodging] Arrive Auberge de la Riv
+ e de Charlevoix\nCheck-In: 3:00pm\n280 rue de l'Église\, Saint-Joseph-de-l
+ a-Rive (Québec)\, G0A 3Y0\, Canada\n+14186352846\n \n\n \nTripIt - organiz
+ e your travel at https://www.tripit.com
+GEO:47.4569585;-70.3623958
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170341Z
+SUMMARY:Check-out: Auberge de la Rive de Charlevoix
+TRANSP:TRANSPARENT
+UID:item-9040148c-297a-9000-0003-000082cabbb8@tripit.com
+DTSTART:20171007T160000Z
+DTEND:20171007T170000Z
+LOCATION:280 rue de l'Église\, Saint-Joseph-de-la-Rive (Québec)\, G0A 3Y0\
+ , Canada
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/199249252\n \n\nSat\, Oct 7\n12:00 PM EDT\n[Lodging] Depart Aub
+ erge de la Rive de Charlevoix\nCheck-Out: 12:00pm\n280 rue de l'Église\, S
+ aint-Joseph-de-la-Rive (Québec)\, G0A 3Y0\, Canada\n+14186352846\n \n\n \n
+ TripIt - organize your travel at https://www.tripit.com
+GEO:47.4569585;-70.3623958
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170341Z
+SUMMARY:Check-in: Le Brillant des Aulnaies
+TRANSP:TRANSPARENT
+UID:item-a5c39272-e3bd-9000-0003-000082d106e5@tripit.com
+DTSTART:20171007T190000Z
+DTEND:20171007T200000Z
+LOCATION:780 Route de la Seigneurie\, Saint-Roch-des-Aulnaies\, G0R 4E0\, 
+ Canada
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/199249252\n \n\n3:00 PM EDT\n[Lodging] Arrive Le Brillant des A
+ ulnaies\nCheck-In: 3:00pm\n780 Route de la Seigneurie\, Saint-Roch-des-Aul
+ naies\, G0R 4E0\, Canada\n+14184762127\n \n\n \nTripIt - organize your tra
+ vel at https://www.tripit.com
+GEO:47.3156819;-70.1454052
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170341Z
+SUMMARY:Check-out: Le Brillant des Aulnaies
+TRANSP:TRANSPARENT
+UID:item-6c3fe54c-a8ca-9000-0003-000082d106e6@tripit.com
+DTSTART:20171008T150000Z
+DTEND:20171008T160000Z
+LOCATION:780 Route de la Seigneurie\, Saint-Roch-des-Aulnaies\, G0R 4E0\, 
+ Canada
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/199249252\n \n\nSun\, Oct 8\n11:00 AM EDT\n[Lodging] Depart Le 
+ Brillant des Aulnaies\nCheck-Out: 11:00am\n780 Route de la Seigneurie\, Sa
+ int-Roch-des-Aulnaies\, G0R 4E0\, Canada\n+14184762127\n \n\n \nTripIt - o
+ rganize your travel at https://www.tripit.com
+GEO:47.3156819;-70.1454052
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170341Z
+SUMMARY:Check-in: Chez Yves
+TRANSP:TRANSPARENT
+UID:item-d96c3184-b260-9000-0003-000082d10c40@tripit.com
+DTSTART:20171008T210000Z
+DTEND:20171008T220000Z
+LOCATION:87 Rue Sainte-Anne\, QC\, Canada
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/199249252\n \n\n5:00 PM EDT\n[Lodging] Arrive 581 995 9009\nChe
+ ck-In: 5:00pm\n87 Rue Sainte-Anne\, QC\, Canada\n \n\n \nTripIt - organize
+  your travel at https://www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170341Z
+SUMMARY:Check-out: Chez Yves
+TRANSP:TRANSPARENT
+UID:item-4ef2be3c-6030-9000-0003-000082d10c41@tripit.com
+DTSTART:20171010T140000Z
+DTEND:20171010T150000Z
+LOCATION:87 Rue Sainte-Anne\, QC\, Canada
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/199249252\n \n\nTue\, Oct 10\n10:00 AM EDT\n[Lodging] Depart 58
+ 1 995 9009\nCheck-Out: 10:00am\n87 Rue Sainte-Anne\, QC\, Canada\n \n\n \n
+ TripIt - organize your travel at https://www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170341Z
+DTEND:20171012T084500Z
+SUMMARY:AC1962 YUL to MRS
+LOCATION:Montreal (YUL)
+UID:item-7145e377-55e0-9000-0003-00008099be6f@tripit.com
+DTSTART:20171012T011500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/199249252\n \n\nWed\, Oct 11\n9:15 PM EDT\n[Flight] YUL to MRS\
+ n \n\nAir Canada 1962\, Terminal \, Gate \n \n\n \nThu\, Oct 12\n10:45 AM 
+ CEST\nArrive Marseille (MRS)\nTerminal \, Gate \n \n\n \nTripIt - organize
+  your travel at https://www.tripit.com
+GEO:43.3;5.4
+END:VEVENT
+END:VCALENDAR

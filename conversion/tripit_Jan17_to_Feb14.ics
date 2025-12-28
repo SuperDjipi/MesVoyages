@@ -1,0 +1,191 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+X-WR-CALNAME:Vincent Delcourt (TripIt - Laos et Cambodge)
+X-WR-CALDESC:Laos et Cambodge (Trip Shared by Vincent Delcourt)
+PRODID:-//John Papaioannou/NONSGML Bennu 0.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20251227T170259Z
+UID:ed2e0925-80b4-9000-0001-00000c671384@tripit.com
+DTSTART;VALUE=DATE:20180117
+DTEND;VALUE=DATE:20180215
+SUMMARY:Laos et Cambodge
+LOCATION:Bangkok\, Thailand
+GEO:13.75398;100.50144
+TRANSP:TRANSPARENT
+DESCRIPTION:Vincent Delcourt is in Bangkok\, Thailand from Jan 17 to Feb 1
+ 4\, 2018\nView and/or edit details in TripIt : https://www.tripit.com/trip
+ /show?id=208081796\nTripIt - organize your travel at https://www.tripit.co
+ m\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170259Z
+DTEND:20180117T073000Z
+SUMMARY:EY7206 MRS to BRU
+LOCATION:Marseille (MRS)
+UID:item-c533a7ac-6b39-9000-0003-000083db2714@tripit.com
+DTSTART:20180117T054500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/208081796\n \n\nWed\, Jan 17\n6:45 AM CET\n[Flight] MRS to BRU\
+ n \n\nBrussels Airlines 3604\, Terminal \, Gate \n \n\n8:30 AM CET\nArrive
+  Brussels (BRU)\nTerminal \, Gate \, 1h\, 35m layover\n \n\n \nTripIt - or
+ ganize your travel at https://www.tripit.com
+GEO:50.85045;4.34878
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170259Z
+DTEND:20180117T155500Z
+SUMMARY:EY58 BRU to AUH
+LOCATION:Brussels (BRU)
+UID:item-92911029-a7be-9000-0003-000083db2715@tripit.com
+DTSTART:20180117T090500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/208081796\n \n\n10:05 AM CET\n[Flight] BRU to AUH\n \n\nEtihad 
+ Airways 58\, Terminal \, Gate B10\n \n\n7:55 PM +04\nArrive Abu Dhabi (AUH
+ )\nTerminal T3\, Gate \, 3h\, 45m layover\n \n\n \nTripIt - organize your 
+ travel at https://www.tripit.com
+GEO:24.46667;54.36667
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170259Z
+DTEND:20180118T015500Z
+SUMMARY:EY406 AUH to BKK
+LOCATION:Abu Dhabi (AUH)
+UID:item-a367fcf2-9d6b-9000-0003-000083db2716@tripit.com
+DTSTART:20180117T194000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/208081796\n \n\n11:40 PM +04\n[Flight] AUH to BKK\n \n\nEtihad 
+ Airways 406\, Terminal \, Gate \n \n\n \nThu\, Jan 18\n8:55 AM +07\nArrive
+  Bangkok (BKK)\nTerminal \, Gate \n \n\n \nTripIt - organize your travel a
+ t https://www.tripit.com
+GEO:13.75398;100.50144
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170259Z
+DTEND:20180118T094000Z
+SUMMARY:PG945 BKK to LPQ
+LOCATION:Bangkok (BKK)
+UID:item-4e078bcc-91b1-9000-0003-000083de28b0@tripit.com
+DTSTART:20180118T080500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/208081796\n \n\n3:05 PM +07\n[Flight] BKK to LPQ\n \n\nBangkok 
+ Airways 945\, Terminal \, Gate \n \n\n4:40 PM +07\nArrive Luang Prabang (L
+ PQ)\nTerminal \, Gate \n \n\n \nTripIt - organize your travel at https://w
+ ww.tripit.com
+GEO:19.885556;102.134722
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170259Z
+TRANSP:TRANSPARENT
+UID:item-be697fd0-590b-9000-0003-00008433c385@tripit.com
+DTSTART:20180208T050000Z
+DTEND:20180208T060000Z
+SUMMARY:Arrive Lodging
+LOCATION:
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/208081796\n \n\nThu\, Feb 8\n12:00 PM +07\n[Lodging] Arrive Lod
+ ging\nCheck-In: 12:00pm\n+855715525555\n \n\n \nTripIt - organize your tra
+ vel at https://www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170259Z
+SUMMARY:Check-in: Preah Vihear Jaya Hotel
+TRANSP:TRANSPARENT
+UID:item-a255a88e-0475-9000-0003-000084d2a943@tripit.com
+DTSTART:20180208T050000Z
+DTEND:20180208T060000Z
+LOCATION:Street 69B\, Sra Em Village\, Sra Em Commune\, Chaom Ksan Distric
+ t\, Anlong Veaeng\, Choam Ksant\, Cambodge
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/208081796\n \n\n12:00 PM +07\n[Lodging] Arrive Lodging\nCheck-I
+ n: 12:00pm\nStreet 69B\, Sra Em Village\, Sra Em Commune\, Chaom Ksan Dist
+ rict\, Anlong Veaeng\, Choam Ksant\, Cambodge\n+855 71 552 5555\n \n\n \nT
+ ripIt - organize your travel at https://www.tripit.com
+GEO:14.2390939;104.7179379
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170259Z
+TRANSP:TRANSPARENT
+UID:item-81f06f2e-f169-9000-0003-00008433c386@tripit.com
+DTSTART:20180209T053000Z
+DTEND:20180209T063000Z
+SUMMARY:Depart Lodging
+LOCATION:
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/208081796\n \n\nFri\, Feb 9\n12:30 PM +07\n[Lodging] Depart Lod
+ ging\nCheck-Out: 12:30pm\n+855715525555\n \n\n \nTripIt - organize your tr
+ avel at https://www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170259Z
+SUMMARY:Check-out: Preah Vihear Jaya Hotel
+TRANSP:TRANSPARENT
+UID:item-f9071193-87c9-9000-0003-000084d2a944@tripit.com
+DTSTART:20180209T053000Z
+DTEND:20180209T063000Z
+LOCATION:Street 69B\, Sra Em Village\, Sra Em Commune\, Chaom Ksan Distric
+ t\, Anlong Veaeng\, Choam Ksant\, Cambodge
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/208081796\n \n\n12:30 PM +07\n[Lodging] Depart Lodging\nCheck-O
+ ut: 12:30pm\nStreet 69B\, Sra Em Village\, Sra Em Commune\, Chaom Ksan Dis
+ trict\, Anlong Veaeng\, Choam Ksant\, Cambodge\n+855 71 552 5555\n \n\n \n
+ TripIt - organize your travel at https://www.tripit.com
+GEO:14.2390939;104.7179379
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170259Z
+DTEND:20180213T072000Z
+SUMMARY:PG906 REP to BKK
+LOCATION:REP
+UID:item-4bb2148c-d758-9000-0003-000083de287d@tripit.com
+DTSTART:20180213T062500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/208081796\n \n\nTue\, Feb 13\n1:25 PM +07\n[Flight] REP to BKK\
+ n \n\nBangkok Airways 906\, Terminal GARDEN INTL\, Gate \n \n\n2:20 PM +07
+ \nArrive Bangkok (BKK)\nTerminal \, Gate \n \n\n \nTripIt - organize your 
+ travel at https://www.tripit.com
+GEO:13.75398;100.50144
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170259Z
+DTEND:20180213T180500Z
+SUMMARY:EY405 BKK to AUH
+LOCATION:Bangkok (BKK)
+UID:item-3eb8c594-a7bd-9000-0003-000083db2fb2@tripit.com
+DTSTART:20180213T110500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/208081796\n \n\n6:05 PM +07\n[Flight] BKK to AUH\n \n\nEtihad A
+ irways 405\, Terminal \, Gate \n \n\n10:05 PM +04\nArrive Abu Dhabi (AUH)\
+ nTerminal \, Gate \, 4h\, 40m layover\n \n\n \nTripIt - organize your trav
+ el at https://www.tripit.com
+GEO:24.46667;54.36667
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170259Z
+DTEND:20180214T063000Z
+SUMMARY:EY57 AUH to BRU
+LOCATION:Abu Dhabi (AUH)
+UID:item-e0c1d070-19aa-9000-0003-000083db2fb3@tripit.com
+DTSTART:20180213T224500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/208081796\n \n\nWed\, Feb 14\n2:45 AM +04\n[Flight] AUH to BRU\
+ n \n\nEtihad Airways 57\, Terminal \, Gate \n \n\n7:30 AM CET\nArrive Brus
+ sels (BRU)\nTerminal \, Gate \, 2h\, 55m layover\n \n\n \nTripIt - organiz
+ e your travel at https://www.tripit.com
+GEO:50.85045;4.34878
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170259Z
+DTEND:20180214T110500Z
+SUMMARY:EY7205 BRU to MRS
+LOCATION:Brussels (BRU)
+UID:item-4670286a-5396-9000-0003-000083db2fb4@tripit.com
+DTSTART:20180214T092500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/208081796\n \n\n10:25 AM CET\n[Flight] BRU to MRS\n \n\nBrussel
+ s Airlines 3597\, Terminal \, Gate \n \n\n12:05 PM CET\nArrive Marseille (
+ MRS)\nTerminal \, Gate \n \n\n \nTripIt - organize your travel at https://
+ www.tripit.com
+GEO:43.3;5.4
+END:VEVENT
+END:VCALENDAR

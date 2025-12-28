@@ -1,0 +1,79 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+X-WR-CALNAME:Vincent Delcourt (TripIt - Pavia, Italy, March 2015)
+X-WR-CALDESC:Pavia, Italy, March 2015 (Trip Shared by Vincent Delcourt)
+PRODID:-//John Papaioannou/NONSGML Bennu 0.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20251227T170559Z
+UID:3131b0a3-3f34-9000-0001-000008f02b22@tripit.com
+DTSTART;VALUE=DATE:20150330
+DTEND;VALUE=DATE:20150402
+SUMMARY:Pavia\, Italy\, March 2015
+LOCATION:Pavia\, Italy
+GEO:45.19205;9.15917
+TRANSP:TRANSPARENT
+DESCRIPTION:Vincent Delcourt is in Pavia\, Italy from Mar 30 to Apr 1\, 20
+ 15\nView and/or edit details in TripIt : https://www.tripit.com/trip/show?
+ id=149957410\nTripIt - organize your travel at https://www.tripit.com\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170559Z
+SUMMARY:Check-in: Michele Albertini
+TRANSP:TRANSPARENT
+UID:item-a4fc6e27-1b36-9000-0003-00005af8be44@tripit.com
+DTSTART:20150330T130000Z
+DTEND:20150330T140000Z
+LOCATION:Via Milazzo\, 247\, Pavia\, Lombardie 27100\, Italie
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/149957410\n \n\nMon\, Mar 30\n3:00 PM CEST\n[Lodging] Arrive Mi
+ chele Albertini\nCheck-In: 3:00pm\nVia Milazzo\, 247\, Pavia\, Lombardie 2
+ 7100\, Italie\n+39 3664 297 405\n \n\n \nTripIt - organize your travel at 
+ https://www.tripit.com
+GEO:45.1755256;9.1649608
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170559Z
+SUMMARY:Check-out: Michele Albertini
+TRANSP:TRANSPARENT
+UID:item-14425a99-e3f7-9000-0003-00005af8be45@tripit.com
+DTSTART:20150331T070000Z
+DTEND:20150331T080000Z
+LOCATION:Via Milazzo\, 247\, Pavia\, Lombardie 27100\, Italie
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/149957410\n \n\nTue\, Mar 31\n9:00 AM CEST\n[Lodging] Depart Mi
+ chele Albertini\nCheck-Out: 9:00am\nVia Milazzo\, 247\, Pavia\, Lombardie 
+ 27100\, Italie\n+39 3664 297 405\n \n\n \nTripIt - organize your travel at
+  https://www.tripit.com
+GEO:45.1755256;9.1649608
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170559Z
+SUMMARY:Check-in: Idea Hotel Milano Corso Genova
+TRANSP:TRANSPARENT
+UID:item-135c05ee-bd4b-9000-0003-00005af8b112@tripit.com
+DTSTART:20150331T120000Z
+DTEND:20150331T130000Z
+LOCATION:Via Conca del Naviglio 20\, Milano
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/149957410\n \n\n2:00 PM CEST\n[Lodging] Arrive Idea Hotel Milan
+ o Corso Genova\nCheck-In: 2:00pm\nVia Conca del Naviglio 20\, Milano\n+390
+ 236604800\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:45.4567307;9.1772959
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170559Z
+SUMMARY:Check-out: Idea Hotel Milano Corso Genova
+TRANSP:TRANSPARENT
+UID:item-c19d44cf-0b84-9000-0003-00005af8b113@tripit.com
+DTSTART:20150401T100000Z
+DTEND:20150401T110000Z
+LOCATION:Via Conca del Naviglio 20\, Milano
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/149957410\n \n\nWed\, Apr 1\n12:00 PM CEST\n[Lodging] Depart Id
+ ea Hotel Milano Corso Genova\nCheck-Out: 12:00pm\nVia Conca del Naviglio 2
+ 0\, Milano\n+390236604800\n \n\n \nTripIt - organize your travel at https:
+ //www.tripit.com
+GEO:45.4567307;9.1772959
+END:VEVENT
+END:VCALENDAR

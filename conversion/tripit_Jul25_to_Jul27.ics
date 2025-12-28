@@ -1,0 +1,79 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+X-WR-CALNAME:Vincent Delcourt (TripIt - Sud Cantal)
+X-WR-CALDESC:Sud Cantal (Trip Shared by Vincent Delcourt)
+PRODID:-//John Papaioannou/NONSGML Bennu 0.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20251227T170056Z
+UID:4b955f74-88c5-9000-0001-000012651cce@tripit.com
+DTSTART;VALUE=DATE:20210725
+DTEND;VALUE=DATE:20210728
+SUMMARY:Sud Cantal
+LOCATION:No destination specified
+TRANSP:TRANSPARENT
+DESCRIPTION:Vincent Delcourt is in an unspecified location from Jul 25 to 
+ 27\, 2021\nView and/or edit details in TripIt : https://www.tripit.com/tri
+ p/show?id=308616398\nTripIt - organize your travel at https://www.tripit.c
+ om\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170056Z
+SUMMARY:Check-in: HOTEL RESTAURANT L'ESCOUNDILLOU
+TRANSP:TRANSPARENT
+UID:item-e23a1c42-4688-9000-0003-0000cd69db51@tripit.com
+DTSTART:20210725T130000Z
+DTEND:20210725T140000Z
+LOCATION:Route de la Gare 15800 ST JACQUES DES BLATS\, FRANCE
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/308616398\n \n\nSun\, Jul 25\n3:00 PM CEST\n[Lodging] Arrive HO
+ TEL RESTAURANT L'ESCOUNDILLOU\nCheck-In: 3:00pm\nRoute de la Gare 15800 ST
+  JACQUES DES BLATS\, FRANCE\n+33 4.71.47.06.42\n \n\n \nTripIt - organize 
+ your travel at https://www.tripit.com
+GEO:45.0509633;2.712893
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170056Z
+SUMMARY:Check-out: HOTEL RESTAURANT L'ESCOUNDILLOU
+TRANSP:TRANSPARENT
+UID:item-f30afa32-03fd-9000-0003-0000cd69db55@tripit.com
+DTSTART:20210726T090000Z
+DTEND:20210726T100000Z
+LOCATION:Route de la Gare 15800 ST JACQUES DES BLATS\, FRANCE
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/308616398\n \n\nMon\, Jul 26\n11:00 AM CEST\n[Lodging] Depart H
+ OTEL RESTAURANT L'ESCOUNDILLOU\nCheck-Out: 11:00am\nRoute de la Gare 15800
+  ST JACQUES DES BLATS\, FRANCE\n+33 4.71.47.06.42\n \n\n \nTripIt - organi
+ ze your travel at https://www.tripit.com
+GEO:45.0509633;2.712893
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170056Z
+SUMMARY:Check-in: Chambres d'Hôtes de l'Auberge L'Astrassadou
+TRANSP:TRANSPARENT
+UID:item-6bff11bc-3512-9000-0003-0000cd69e8bd@tripit.com
+DTSTART:20210726T130000Z
+DTEND:20210726T140000Z
+LOCATION:Le Bourg\, 15170 Rézentières\, France
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/308616398\n \n\n3:00 PM CEST\n[Lodging] Arrive Chambres d'Hôtes
+  de l'Auberge L'Astrassadou\nCheck-In: 3:00pm\nLe Bourg\, 15170 Rézentière
+ s\, France\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:45.1351261;3.1017174
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170056Z
+SUMMARY:Check-out: Chambres d'Hôtes de l'Auberge L'Astrassadou
+TRANSP:TRANSPARENT
+UID:item-faa3d6ea-0025-9000-0003-0000cd69e8c1@tripit.com
+DTSTART:20210727T090000Z
+DTEND:20210727T100000Z
+LOCATION:Le Bourg\, 15170 Rézentières\, France
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/308616398\n \n\nTue\, Jul 27\n11:00 AM CEST\n[Lodging] Depart C
+ hambres d'Hôtes de l'Auberge L'Astrassadou\nCheck-Out: 11:00am\nLe Bourg\,
+  15170 Rézentières\, France\n \n\n \nTripIt - organize your travel at http
+ s://www.tripit.com
+GEO:45.1351261;3.1017174
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+X-WR-CALNAME:Vincent Delcourt (TripIt - Albi et statues menhir)
+X-WR-CALDESC:Albi et statues menhir (Trip Shared by Vincent Delcourt)
+PRODID:-//John Papaioannou/NONSGML Bennu 0.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20251227T165846Z
+UID:2c3a1002-878b-9000-0001-0000151a947d@tripit.com
+DTSTART;VALUE=DATE:20240821
+DTEND;VALUE=DATE:20240824
+SUMMARY:Albi et statues menhir
+LOCATION:Albi\, France
+GEO:43.9298;2.148
+TRANSP:TRANSPARENT
+DESCRIPTION:Vincent Delcourt is in Albi\, France from Aug 21 to 23\, 2024\
+ nView and/or edit details in TripIt : https://www.tripit.com/trip/show?id=
+ 354063485\nTripIt - organize your travel at https://www.tripit.com\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T165846Z
+SUMMARY:Check-in: ibis Styles Albi Centre Le Theatro
+TRANSP:TRANSPARENT
+UID:item-b7f9ece2-b885-9000-0003-0001176f6655@tripit.com
+DTSTART:20240821T130000Z
+DTEND:20240821T140000Z
+LOCATION:48 Place Jean Jaures
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/354063485\n \n\nWed\, Aug 21\n3:00 PM CEST\n[Lodging] Arrive ib
+ is Styles Albi Centre Le Theatro\nCheck-In: 3:00pm\n48 Place Jean Jaures\n
+ 33 5 63432020\n \n\n \nTripIt - organize your travel at https://www.tripit
+ .com
+GEO:43.2940661;5.3858777
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T165846Z
+SUMMARY:Check-out: ibis Styles Albi Centre Le Theatro
+TRANSP:TRANSPARENT
+UID:item-d4e962b6-31c3-9000-0003-0001176f6659@tripit.com
+DTSTART:20240823T100000Z
+DTEND:20240823T110000Z
+LOCATION:48 Place Jean Jaures
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/354063485\n \n\nFri\, Aug 23\n12:00 PM CEST\n[Lodging] Depart i
+ bis Styles Albi Centre Le Theatro\nCheck-Out: 12:00pm\n48 Place Jean Jaure
+ s\n33 5 63432020\n \n\n \nTripIt - organize your travel at https://www.tri
+ pit.com
+GEO:43.2940661;5.3858777
+END:VEVENT
+END:VCALENDAR

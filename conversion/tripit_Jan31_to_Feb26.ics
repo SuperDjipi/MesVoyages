@@ -1,0 +1,714 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+X-WR-CALNAME:Vincent Delcourt (TripIt - Bengaluru, India, January 2014)
+X-WR-CALDESC:Bengaluru, India, January 2014 (Trip Shared by Vincent Delcou
+ rt)
+PRODID:-//John Papaioannou/NONSGML Bennu 0.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20251227T170638Z
+UID:ef2b0a2e-4637-9000-0001-0000065e0dc1@tripit.com
+DTSTART;VALUE=DATE:20140131
+DTEND;VALUE=DATE:20140227
+SUMMARY:Bengaluru\, India\, January 2014
+LOCATION:Bengaluru\, India
+GEO:12.97194;77.59369
+TRANSP:TRANSPARENT
+DESCRIPTION:Vincent Delcourt is in Bengaluru\, India from Jan 31 to Feb 26
+ \, 2014\nView and/or edit details in TripIt : https://www.tripit.com/trip/
+ show?id=106827201\nTripIt - organize your travel at https://www.tripit.com
+ \n
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+DTEND:20140131T134500Z
+SUMMARY:LH2263 MRS to MUC
+LOCATION:Marseille (MRS)
+UID:item-5bff19a0-7460-9000-0003-00003e07c1b1@tripit.com
+DTSTART:20140131T120500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\nFri\, Jan 31\n1:05 PM CET\n[Flight] MRS to MUC\
+ n \n\nLufthansa 2263\, Terminal \, Gate \n \n\n2:45 PM CET\nArrive Munich 
+ (MUC)\nTerminal \, Gate \, 4h\, 55m layover\n \n\n \nTripIt - organize you
+ r travel at https://www.tripit.com
+GEO:48.15;11.583333
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+DTEND:20140201T021500Z
+SUMMARY:LH762 MUC to DEL
+LOCATION:Munich (MUC)
+UID:item-35e5b351-4423-9000-0003-00003e07c1b4@tripit.com
+DTSTART:20140131T184000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\n7:40 PM CET\n[Flight] MUC to DEL\n \n\nLufthans
+ a 762\, Terminal \, Gate \n \n\n \nSat\, Feb 1\n7:45 AM IST\nArrive Delhi 
+ (DEL)\nTerminal \, Gate \n \n\n \nTripIt - organize your travel at https:/
+ /www.tripit.com
+GEO:28.666667;77.216667
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+DTEND:20140201T101500Z
+SUMMARY:AI502 DEL to BLR
+LOCATION:Delhi (DEL)
+UID:item-1dc5cac4-0ff8-9000-0003-00003e07c1b7@tripit.com
+DTSTART:20140201T074000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\n1:10 PM IST\n[Flight] DEL to BLR\n \n\nAir Indi
+ a 502\, Terminal \, Gate \n \n\n3:45 PM IST\nArrive Bengaluru (BLR)\nTermi
+ nal \, Gate \n \n\n \nTripIt - organize your travel at https://www.tripit.
+ com
+GEO:12.976624;77.600126
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-in: Mango Hotel
+TRANSP:TRANSPARENT
+UID:item-1b1b56a9-62dd-9000-0003-00003c4c7073@tripit.com
+DTSTART:20140201T132000Z
+DTEND:20140201T142000Z
+LOCATION:Jayalakshmipuram Mysore\, Karnataka 570012
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\n6:50 PM IST\n[Lodging] Arrive Mango Hotel\nChec
+ k-In: 6:50pm\nJayalakshmipuram Mysore\, Karnataka 570012\n \n\n \nTripIt -
+  organize your travel at https://www.tripit.com
+GEO:12.3219037;76.6224981
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-out: Mango Hotel
+TRANSP:TRANSPARENT
+UID:item-84f5ba87-433a-9000-0003-00003c4c7075@tripit.com
+DTSTART;VALUE=DATE:20140202
+DTEND;VALUE=DATE:20140203
+LOCATION:Jayalakshmipuram Mysore\, Karnataka 570012
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\nSun\, Feb 2\n  \n[Lodging] Depart Mango Hotel\n
+ Check-Out: \nJayalakshmipuram Mysore\, Karnataka 570012\n \n\n \nTripIt - 
+ organize your travel at https://www.tripit.com
+GEO:12.3219037;76.6224981
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-in: Bouganvilla
+TRANSP:TRANSPARENT
+UID:item-8a113a2d-13b4-9000-0003-00003d582297@tripit.com
+DTSTART:20140202T103000Z
+DTEND:20140202T113000Z
+LOCATION:St Thomas Rd\, Fern Hill\, Ooty\, Tamil Nadu\, India
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\n4:00 PM IST\n[Lodging] Arrive Bouganvilla\nChec
+ k-In: 4:00pm\nSt Thomas Rd\, Fern Hill\, Ooty\, Tamil Nadu\, India\n0423 2
+ 44 4456\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:11.4000117;76.6944233
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-out: Bouganvilla
+TRANSP:TRANSPARENT
+UID:item-3b9f9513-1d9c-9000-0003-00003d58229a@tripit.com
+DTSTART:20140204T033000Z
+DTEND:20140204T043000Z
+LOCATION:St Thomas Rd\, Fern Hill\, Ooty\, Tamil Nadu\, India
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\nTue\, Feb 4\n9:00 AM IST\n[Lodging] Depart Boug
+ anvilla\nCheck-Out: 9:00am\nSt Thomas Rd\, Fern Hill\, Ooty\, Tamil Nadu\,
+  India\n0423 244 4456\n \n\n \nTripIt - organize your travel at https://ww
+ w.tripit.com
+GEO:11.4000117;76.6944233
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-in: Black Thunder Resort
+TRANSP:TRANSPARENT
+UID:item-706e24b2-a27b-9000-0003-00003c52d8ab@tripit.com
+DTSTART:20140204T123000Z
+DTEND:20140204T133000Z
+LOCATION:Ooty Main Road\, Mettupalayam\, Coimbatore\, Tamil Nadu 641305\, 
+ India
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\n6:00 PM IST\n[Lodging] Arrive Black Thunder Res
+ ort\nCheck-In: 6:00pm\nOoty Main Road\, Mettupalayam\, Coimbatore\, Tamil 
+ Nadu 641305\, India\n04254 226 632\n \n\n \nTripIt - organize your travel 
+ at https://www.tripit.com
+GEO:11.4069933;76.7146259
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-out: Black Thunder Resort
+TRANSP:TRANSPARENT
+UID:item-df7b23d7-d966-9000-0003-00003c52d8b1@tripit.com
+DTSTART:20140205T033000Z
+DTEND:20140205T043000Z
+LOCATION:Ooty Main Road\, Mettupalayam\, Coimbatore\, Tamil Nadu 641305\, 
+ India
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\nWed\, Feb 5\n9:00 AM IST\n[Lodging] Depart Blac
+ k Thunder Resort\nCheck-Out: 9:00am\nOoty Main Road\, Mettupalayam\, Coimb
+ atore\, Tamil Nadu 641305\, India\n04254 226 632\n \n\n \nTripIt - organiz
+ e your travel at https://www.tripit.com
+GEO:11.4069933;76.7146259
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-in: Villa Retreat
+TRANSP:TRANSPARENT
+UID:item-dd9c1edb-c5e2-9000-0003-00003c52db99@tripit.com
+DTSTART:20140205T123000Z
+DTEND:20140205T133000Z
+LOCATION:Coaker's Walk\, Kodaikanal
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\n6:00 PM IST\n[Lodging] Arrive Villa Retreat\nCh
+ eck-In: 6:00pm\nCoaker's Walk\, Kodaikanal\n \n\n \nTripIt - organize your
+  travel at https://www.tripit.com
+GEO:10.2304117;77.4934494
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-out: Villa Retreat
+TRANSP:TRANSPARENT
+UID:item-b8ee6c99-84e2-9000-0003-00003c52db9c@tripit.com
+DTSTART;VALUE=DATE:20140206
+DTEND;VALUE=DATE:20140207
+LOCATION:Coaker's Walk\, Kodaikanal
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\nThu\, Feb 6\n  \n[Lodging] Depart Villa Retreat
+ \nCheck-Out: \nCoaker's Walk\, Kodaikanal\n \n\n \nTripIt - organize your 
+ travel at https://www.tripit.com
+GEO:10.2304117;77.4934494
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-in: Abad Green Forest Resort
+TRANSP:TRANSPARENT
+UID:item-9b7e3f73-2974-9000-0003-00003c49d627@tripit.com
+DTSTART;VALUE=DATE:20140206
+DTEND;VALUE=DATE:20140207
+LOCATION:Opp. R.C. Church\, Thekkady Jn.\, Kumily\, Vous Reporter à L'e-ma
+ il De Confirmation
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\n  \n[Lodging] Arrive Abad Green Forest Resort\n
+ Check-In: \nOpp. R.C. Church\, Thekkady Jn.\, Kumily\, Vous Reporter à L'e
+ -mail De Confirmation\n \n\n \nTripIt - organize your travel at https://ww
+ w.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-out: Abad Green Forest Resort
+TRANSP:TRANSPARENT
+UID:item-ed56a7ae-2161-9000-0003-00003c49d629@tripit.com
+DTSTART;VALUE=DATE:20140208
+DTEND;VALUE=DATE:20140209
+LOCATION:Opp. R.C. Church\, Thekkady Jn.\, Kumily\, Vous Reporter à L'e-ma
+ il De Confirmation
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\nSat\, Feb 8\n  \n[Lodging] Depart Abad Green Fo
+ rest Resort\nCheck-Out: \nOpp. R.C. Church\, Thekkady Jn.\, Kumily\, Vous 
+ Reporter à L'e-mail De Confirmation\n \n\n \nTripIt - organize your travel
+  at https://www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-in: Kaivalyam Retreat
+TRANSP:TRANSPARENT
+UID:item-5abaf333-f779-9000-0003-00003fe34b16@tripit.com
+DTSTART:20140208T103000Z
+DTEND:20140208T113000Z
+LOCATION:Moolakada\, Pallivasal\, Munnar 685612.
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\n4:00 PM IST\n[Lodging] Arrive Kaivalyam Retreat
+ \nCheck-In: 4:00pm\nMoolakada\, Pallivasal\, Munnar 685612.\n \n\n \nTripI
+ t - organize your travel at https://www.tripit.com
+GEO:10.0889333;77.0595248
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-in: Bright Heritage
+TRANSP:TRANSPARENT
+UID:item-acc66d28-83d9-9000-0003-00003ce9c0e0@tripit.com
+DTSTART;VALUE=DATE:20140209
+DTEND;VALUE=DATE:20140210
+LOCATION:1/508\, A1\, Tower Road\, Fort Cochin Kochi 682001 India
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\nSun\, Feb 9\n  \n[Lodging] Arrive Bright Herita
+ ge\nCheck-In: \n1/508\, A1\, Tower Road\, Fort Cochin Kochi 682001 India\n
+ 914842216635\n \n\n \nTripIt - organize your travel at https://www.tripit.
+ com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-out: Kaivalyam Retreat
+TRANSP:TRANSPARENT
+UID:item-03122183-9892-9000-0003-00003fe34b19@tripit.com
+DTSTART:20140209T033000Z
+DTEND:20140209T043000Z
+LOCATION:Moolakada\, Pallivasal\, Munnar 685612.
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\n9:00 AM IST\n[Lodging] Depart Kaivalyam Retreat
+ \nCheck-Out: 9:00am\nMoolakada\, Pallivasal\, Munnar 685612.\n \n\n \nTrip
+ It - organize your travel at https://www.tripit.com
+GEO:10.0889333;77.0595248
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-out: Bright Heritage
+TRANSP:TRANSPARENT
+UID:item-cbc28da5-2280-9000-0003-00003ce9c0e3@tripit.com
+DTSTART;VALUE=DATE:20140211
+DTEND;VALUE=DATE:20140212
+LOCATION:1/508\, A1\, Tower Road\, Fort Cochin Kochi 682001 India
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\nTue\, Feb 11\n  \n[Lodging] Depart Bright Herit
+ age\nCheck-Out: \n1/508\, A1\, Tower Road\, Fort Cochin Kochi 682001 India
+ \n914842216635\n \n\n \nTripIt - organize your travel at https://www.tripi
+ t.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-in: World Backwaters
+TRANSP:TRANSPARENT
+UID:item-e3c0f7a5-c2b7-9000-0003-00003ce90c68@tripit.com
+DTSTART;VALUE=DATE:20140211
+DTEND;VALUE=DATE:20140212
+LOCATION:Kannankara Post\,AlleppeyThanneermukkom688527
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\n  \n[Lodging] Arrive World Backwaters\nCheck-In
+ : \nKannankara Post\,AlleppeyThanneermukkom688527\n914782583939\n \n\n \nT
+ ripIt - organize your travel at https://www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-out: World Backwaters
+TRANSP:TRANSPARENT
+UID:item-0155463f-7947-9000-0003-00003ce90c6b@tripit.com
+DTSTART;VALUE=DATE:20140212
+DTEND;VALUE=DATE:20140213
+LOCATION:Kannankara Post\,AlleppeyThanneermukkom688527
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\nWed\, Feb 12\n  \n[Lodging] Depart World Backwa
+ ters\nCheck-Out: \nKannankara Post\,AlleppeyThanneermukkom688527\n91478258
+ 3939\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-in: Estuary Island
+TRANSP:TRANSPARENT
+UID:item-deef77de-45ea-9000-0003-00003d5889ff@tripit.com
+DTSTART:20140213T083000Z
+DTEND:20140213T093000Z
+LOCATION:Poovar
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\nThu\, Feb 13\n2:00 PM IST\n[Lodging] Arrive Est
+ uary Island\nCheck-In: 2:00pm\nPoovar\n \n\n \nTripIt - organize your trav
+ el at https://www.tripit.com
+GEO:8.3174333;77.0712972
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-out: Estuary Island
+TRANSP:TRANSPARENT
+UID:item-51e488fb-7f6f-9000-0003-00003d588a02@tripit.com
+DTSTART:20140215T063000Z
+DTEND:20140215T073000Z
+LOCATION:Poovar
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\nSat\, Feb 15\n12:00 PM IST\n[Lodging] Depart Es
+ tuary Island\nCheck-Out: 12:00pm\nPoovar\n \n\n \nTripIt - organize your t
+ ravel at https://www.tripit.com
+GEO:8.3174333;77.0712972
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-in: Gateway Hotel Pasumalai
+TRANSP:TRANSPARENT
+UID:item-34e852c8-5d13-9000-0003-00003ce9a35e@tripit.com
+DTSTART:20140215T083000Z
+DTEND:20140215T093000Z
+LOCATION:Number 40 T P K Road Madurai 625004 India
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\n2:00 PM IST\n[Lodging] Arrive Gateway Hotel Pas
+ umalai\nCheck-In: 2:00pm\nNumber 40 T P K Road Madurai 625004 India\n \n\n
+  \nTripIt - organize your travel at https://www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-out: Gateway Hotel Pasumalai
+TRANSP:TRANSPARENT
+UID:item-8f3285af-32f7-9000-0003-00003ce9a361@tripit.com
+DTSTART:20140216T063000Z
+DTEND:20140216T073000Z
+LOCATION:Number 40 T P K Road Madurai 625004 India
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\nSun\, Feb 16\n12:00 PM IST\n[Lodging] Depart Ga
+ teway Hotel Pasumalai\nCheck-Out: 12:00pm\nNumber 40 T P K Road Madurai 62
+ 5004 India\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-in: Hotel Lakshmi at Thanjavur
+TRANSP:TRANSPARENT
+UID:item-0ea25794-26d1-9000-0003-00003d590016@tripit.com
+DTSTART:20140216T113000Z
+DTEND:20140216T123000Z
+LOCATION:44P / 45 P Voc Nagar\, Trichy Main Road\,\, Near Marys Corner\,\,
+  Thanjavur\, Thanjavur\, India
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\n5:00 PM IST\n[Lodging] Arrive Hotel Lakshmi at 
+ Thanjavur\nCheck-In: 5:00pm\n44P / 45 P Voc Nagar\, Trichy Main Road\,\, N
+ ear Marys Corner\,\, Thanjavur\, Thanjavur\, India\n \n\n \nTripIt - organ
+ ize your travel at https://www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-out: Hotel Lakshmi at Thanjavur
+TRANSP:TRANSPARENT
+UID:item-a736c04c-da84-9000-0003-00003d590019@tripit.com
+DTSTART:20140217T033000Z
+DTEND:20140217T043000Z
+LOCATION:44P / 45 P Voc Nagar\, Trichy Main Road\,\, Near Marys Corner\,\,
+  Thanjavur\, Thanjavur\, India
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\nMon\, Feb 17\n9:00 AM IST\n[Lodging] Depart Hot
+ el Lakshmi at Thanjavur\nCheck-Out: 9:00am\n44P / 45 P Voc Nagar\, Trichy 
+ Main Road\,\, Near Marys Corner\,\, Thanjavur\, Thanjavur\, India\n \n\n \
+ nTripIt - organize your travel at https://www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-in: Accord Puducherry Bon Plan
+TRANSP:TRANSPARENT
+UID:item-db86f4c5-6ea2-9000-0003-00003d590214@tripit.com
+DTSTART:20140217T113000Z
+DTEND:20140217T123000Z
+LOCATION:No.1. Thilagar Nagar\, Ellapilaichavady\, Pondicherry\, 605009\, 
+ Inde
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\n5:00 PM IST\n[Lodging] Arrive Accord Puducherry
+  Bon Plan\nCheck-In: 5:00pm\nNo.1. Thilagar Nagar\, Ellapilaichavady\, Pon
+ dicherry\, 605009\, Inde\n+91-8489977707\n \n\n \nTripIt - organize your t
+ ravel at https://www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-out: Accord Puducherry Bon Plan
+TRANSP:TRANSPARENT
+UID:item-49133da8-9e69-9000-0003-00003d590217@tripit.com
+DTSTART:20140218T033000Z
+DTEND:20140218T043000Z
+LOCATION:No.1. Thilagar Nagar\, Ellapilaichavady\, Pondicherry\, 605009\, 
+ Inde
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\nTue\, Feb 18\n9:00 AM IST\n[Lodging] Depart Acc
+ ord Puducherry Bon Plan\nCheck-Out: 9:00am\nNo.1. Thilagar Nagar\, Ellapil
+ aichavady\, Pondicherry\, 605009\, Inde\n+91-8489977707\n \n\n \nTripIt - 
+ organize your travel at https://www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-in: E Hotel - Chennai
+TRANSP:TRANSPARENT
+UID:item-b07983a7-677c-9000-0003-00003d5902fe@tripit.com
+DTSTART:20140218T113000Z
+DTEND:20140218T123000Z
+LOCATION:Express Avenue Mall\, Gate # 1 Patullos Road Chennai (Madras) 600
+  002 Inde
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\n5:00 PM IST\n[Lodging] Arrive E Hotel - Chennai
+ \nCheck-In: 5:00pm\nExpress Avenue Mall\, Gate # 1 Patullos Road Chennai (
+ Madras) 600 002 Inde\n \n\n \nTripIt - organize your travel at https://www
+ .tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-out: E Hotel - Chennai
+TRANSP:TRANSPARENT
+UID:item-45f0a258-0727-9000-0003-00003d590301@tripit.com
+DTSTART:20140219T025500Z
+DTEND:20140219T035500Z
+LOCATION:Express Avenue Mall\, Gate # 1 Patullos Road Chennai (Madras) 600
+  002 Inde
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\nWed\, Feb 19\n8:25 AM IST\n[Lodging] Depart E H
+ otel - Chennai\nCheck-Out: 8:25am\nExpress Avenue Mall\, Gate # 1 Patullos
+  Road Chennai (Madras) 600 002 Inde\n \n\n \nTripIt - organize your travel
+  at https://www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+DTEND:20140219T070500Z
+SUMMARY:SG917 MAA to IXZ
+LOCATION:Chennai (MAA)
+UID:item-f4b26e4e-a462-9000-0003-00003c4be94d@tripit.com
+DTSTART:20140219T045500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\n10:25 AM IST\n[Flight] MAA to IXZ\n \n\nSpiceJe
+ t 917\, Terminal \, Gate \n \n\n12:35 PM IST\nArrive Port Blair (IXZ)\nTer
+ minal \, Gate \n \n\n \nTripIt - organize your travel at https://www.tripi
+ t.com
+GEO:11.666667;92.75
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+DTEND:20140219T070500Z
+SUMMARY:SG917 MAA to IXZ
+LOCATION:Chennai (MAA)
+UID:item-c563ee0e-c952-9000-0003-00003c4bed23@tripit.com
+DTSTART:20140219T045500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\n10:25 AM IST\n[Flight] MAA to IXZ\n \n\nSpiceJe
+ t 917\, Terminal \, Gate \n \n\n12:35 PM IST\nArrive Port Blair (IXZ)\nTer
+ minal \, Gate \n \n\n \nTripIt - organize your travel at https://www.tripi
+ t.com
+GEO:11.666667;92.75
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+DTEND:20140219T070500Z
+SUMMARY:SG917 MAA to IXZ
+LOCATION:Chennai (MAA)
+UID:item-da71d7ea-da55-9000-0003-00003d1f675b@tripit.com
+DTSTART:20140219T045500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\n10:25 AM IST\n[Flight] MAA to IXZ\n \n\nSpiceJe
+ t 917\, Terminal \, Gate \n \n\n12:35 PM IST\nArrive Port Blair (IXZ)\nTer
+ minal \, Gate \n \n\n \nTripIt - organize your travel at https://www.tripi
+ t.com
+GEO:11.666667;92.75
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-in: Hotel Islander Inn
+TRANSP:TRANSPARENT
+UID:item-7fc3ad57-d5dd-9000-0003-00003d591de3@tripit.com
+DTSTART:20140219T063000Z
+DTEND:20140219T073000Z
+LOCATION:Port Blair
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\n12:00 PM IST\n[Lodging] Arrive Hotel Islander I
+ nn\nCheck-In: 12:00pm\nPort Blair\n \n\n \nTripIt - organize your travel a
+ t https://www.tripit.com
+GEO:11.666667;92.75
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-out: Hotel Islander Inn
+TRANSP:TRANSPARENT
+UID:item-8e21d2b3-e375-9000-0003-00003d591de6@tripit.com
+DTSTART:20140220T033000Z
+DTEND:20140220T043000Z
+LOCATION:Port Blair
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\nThu\, Feb 20\n9:00 AM IST\n[Lodging] Depart Hot
+ el Islander Inn\nCheck-Out: 9:00am\nPort Blair\n \n\n \nTripIt - organize 
+ your travel at https://www.tripit.com
+GEO:11.666667;92.75
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-in: Silver Sand Beach Resort - Havelock
+TRANSP:TRANSPARENT
+UID:item-c4cd4b4a-b003-9000-0003-00003c98086f@tripit.com
+DTSTART:20140220T063000Z
+DTEND:20140220T073000Z
+LOCATION:VijayNagar Beach \, Andaman and Nicobar\, Islands\, Havelock Isla
+ nd\, Andaman And
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\n12:00 PM IST\n[Lodging] Arrive Silver Sand Beac
+ h Resort - Havelock\nCheck-In: 12:00pm\nVijayNagar Beach \, Andaman and Ni
+ cobar\, Islands\, Havelock Island\, Andaman And\n+919609506000\n \n\n \nTr
+ ipIt - organize your travel at https://www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-out: Silver Sand Beach Resort - Havelock
+TRANSP:TRANSPARENT
+UID:item-6405fdab-c3ba-9000-0003-00003c980872@tripit.com
+DTSTART:20140223T033000Z
+DTEND:20140223T043000Z
+LOCATION:VijayNagar Beach \, Andaman and Nicobar\, Islands\, Havelock Isla
+ nd\, Andaman And
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\nSun\, Feb 23\n9:00 AM IST\n[Lodging] Depart Sil
+ ver Sand Beach Resort - Havelock\nCheck-Out: 9:00am\nVijayNagar Beach \, A
+ ndaman and Nicobar\, Islands\, Havelock Island\, Andaman And\n+91960950600
+ 0\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-in: Chaukhat Bed and Breakfast - Port Blair
+TRANSP:TRANSPARENT
+UID:item-92313672-1c46-9000-0003-00003cea7858@tripit.com
+DTSTART:20140223T063000Z
+DTEND:20140223T073000Z
+LOCATION:port blair
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\n12:00 PM IST\n[Lodging] Arrive Chaukhat Bed and
+  Breakfast - Port Blair\nCheck-In: 12:00pm\nport blair\n \n\n \nTripIt - o
+ rganize your travel at https://www.tripit.com
+GEO:11.666667;92.75
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-out: Chaukhat Bed and Breakfast - Port Blair
+TRANSP:TRANSPARENT
+UID:item-a1047c61-be35-9000-0003-00003cea785b@tripit.com
+DTSTART:20140224T053500Z
+DTEND:20140224T063500Z
+LOCATION:port blair
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\nMon\, Feb 24\n11:05 AM IST\n[Lodging] Depart Ch
+ aukhat Bed and Breakfast - Port Blair\nCheck-Out: 11:05am\nport blair\n \n
+ \n \nTripIt - organize your travel at https://www.tripit.com
+GEO:11.666667;92.75
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+DTEND:20140224T095500Z
+SUMMARY:SG272 IXZ to MAA
+LOCATION:Port Blair (IXZ)
+UID:item-f3225ba4-4da9-9000-0003-00003c4be94f@tripit.com
+DTSTART:20140224T073500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\n1:05 PM IST\n[Flight] IXZ to MAA\n \n\nSpiceJet
+  272\, Terminal \, Gate \n \n\n3:25 PM IST\nArrive Chennai (MAA)\nTerminal
+  \, Gate \n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:13.087839;80.278473
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+DTEND:20140224T095500Z
+SUMMARY:SG272 IXZ to MAA
+LOCATION:Port Blair (IXZ)
+UID:item-78c321e2-0e4e-9000-0003-00003c4bed25@tripit.com
+DTSTART:20140224T073500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\n1:05 PM IST\n[Flight] IXZ to MAA\n \n\nSpiceJet
+  272\, Terminal \, Gate \n \n\n3:25 PM IST\nArrive Chennai (MAA)\nTerminal
+  \, Gate \n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:13.087839;80.278473
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+DTEND:20140224T095500Z
+SUMMARY:SG272 IXZ to MAA
+LOCATION:Port Blair (IXZ)
+UID:item-2d98c479-21a2-9000-0003-00003d1f675e@tripit.com
+DTSTART:20140224T073500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\n1:05 PM IST\n[Flight] IXZ to MAA\n \n\nSpiceJet
+  272\, Terminal \, Gate \n \n\n3:25 PM IST\nArrive Chennai (MAA)\nTerminal
+  \, Gate \n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:13.087839;80.278473
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-in: E Hotel - Chennai
+TRANSP:TRANSPARENT
+UID:item-74a5fad8-bcdf-9000-0003-00003c4be5e9@tripit.com
+DTSTART:20140224T115500Z
+DTEND:20140224T125500Z
+LOCATION:
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\n5:25 PM IST\n[Lodging] Arrive E Hotel - Chennai
+ \nCheck-In: 5:25pm\n \n\n \nTripIt - organize your travel at https://www.t
+ ripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+SUMMARY:Check-out: E Hotel - Chennai
+TRANSP:TRANSPARENT
+UID:item-38412678-0cea-9000-0003-00003c4be5eb@tripit.com
+DTSTART:20140225T063000Z
+DTEND:20140225T073000Z
+LOCATION:
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\nTue\, Feb 25\n12:00 PM IST\n[Lodging] Depart E 
+ Hotel - Chennai\nCheck-Out: 12:00pm\n \n\n \nTripIt - organize your travel
+  at https://www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+DTEND:20140225T154000Z
+SUMMARY:470 MAA to BOM
+LOCATION:Chennai (MAA)
+UID:item-c6260b9e-6223-9000-0003-00003c3f7dbb@tripit.com
+DTSTART:20140225T134000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\n7:10 PM IST\n[Flight] MAA to BOM\n \n\n9W 470\,
+  Terminal \, Gate \n \n\n9:10 PM IST\nArrive Mumbai (BOM)\nTerminal \, Gat
+ e \, 4h\, 55m layover\n \n\n \nTripIt - organize your travel at https://ww
+ w.tripit.com
+GEO:18.975;72.825833
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+DTEND:20140225T154000Z
+SUMMARY:470 MAA to BOM
+LOCATION:Chennai (MAA)
+UID:item-e56efb20-a8eb-9000-0003-00003d1f8372@tripit.com
+DTSTART:20140225T134000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\n7:10 PM IST\n[Flight] MAA to BOM\n \n\n9W 470\,
+  Terminal \, Gate \n \n\n9:10 PM IST\nArrive Mumbai (BOM)\nTerminal \, Gat
+ e \, 4h\, 55m layover\n \n\n \nTripIt - organize your travel at https://ww
+ w.tripit.com
+GEO:18.975;72.825833
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+DTEND:20140226T065000Z
+SUMMARY:228 BOM to BRU
+LOCATION:Mumbai (BOM)
+UID:item-d0e8cabb-13d5-9000-0003-00003c3f7dc1@tripit.com
+DTSTART:20140225T203500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\nWed\, Feb 26\n2:05 AM IST\n[Flight] BOM to BRU\
+ n \n\n9W 228\, Terminal \, Gate \n \n\n7:50 AM CET\nArrive Brussels (BRU)\
+ nTerminal \, Gate \, 2h\, 10m layover\n \n\n \nTripIt - organize your trav
+ el at https://www.tripit.com
+GEO:50.846597;4.352775
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+DTEND:20140226T065000Z
+SUMMARY:228 BOM to BRU
+LOCATION:Mumbai (BOM)
+UID:item-1a6498fb-1e37-9000-0003-00003d1f8378@tripit.com
+DTSTART:20140225T203500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\n2:05 AM IST\n[Flight] BOM to BRU\n \n\n9W 228\,
+  Terminal \, Gate \n \n\n7:50 AM CET\nArrive Brussels (BRU)\nTerminal \, G
+ ate \, 2h\, 10m layover\n \n\n \nTripIt - organize your travel at https://
+ www.tripit.com
+GEO:50.846597;4.352775
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+DTEND:20140226T104500Z
+SUMMARY:6097 BRU to MRS
+LOCATION:Brussels (BRU)
+UID:item-07084d25-0618-9000-0003-00003c3f7dc4@tripit.com
+DTSTART:20140226T090000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\n10:00 AM CET\n[Flight] BRU to MRS\n \n\nBrussel
+ s Airlines 3597\, Terminal \, Gate \n \n\n11:45 AM CET\nArrive Marseille (
+ MRS)\nTerminal \, Gate \n \n\n \nTripIt - organize your travel at https://
+ www.tripit.com
+GEO:43.3;5.4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170639Z
+DTEND:20140226T104500Z
+SUMMARY:6097 BRU to MRS
+LOCATION:Brussels (BRU)
+UID:item-9fb72fd8-30be-9000-0003-00003d1f837b@tripit.com
+DTSTART:20140226T090000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/106827201\n \n\n10:00 AM CET\n[Flight] BRU to MRS\n \n\nBrussel
+ s Airlines 3597\, Terminal \, Gate \n \n\n11:45 AM CET\nArrive Marseille (
+ MRS)\nTerminal \, Gate \n \n\n \nTripIt - organize your travel at https://
+ www.tripit.com
+GEO:43.3;5.4
+END:VEVENT
+END:VCALENDAR

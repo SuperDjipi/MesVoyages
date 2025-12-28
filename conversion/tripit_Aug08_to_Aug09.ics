@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+X-WR-CALNAME:Vincent Delcourt (TripIt - Gourdon, France, August 2023)
+X-WR-CALDESC:Gourdon, France, August 2023 (Trip Shared by Vincent Delcourt)
+PRODID:-//John Papaioannou/NONSGML Bennu 0.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20251227T165959Z
+UID:c1db161b-6f41-9000-0001-00001410e0ad@tripit.com
+DTSTART;VALUE=DATE:20230808
+DTEND;VALUE=DATE:20230810
+SUMMARY:Gourdon\, France\, August 2023
+LOCATION:Gourdon\, France
+GEO:44.73576;1.38071
+TRANSP:TRANSPARENT
+DESCRIPTION:Vincent Delcourt is in Gourdon\, France from Aug 8 to 9\, 2023
+ \nView and/or edit details in TripIt : https://www.tripit.com/trip/show?id
+ =336650413\nTripIt - organize your travel at https://www.tripit.com\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T165959Z
+SUMMARY:Check-in: La Parenthèse chambre romantique
+TRANSP:TRANSPARENT
+UID:item-eaceba27-8f0f-9000-0003-0000fabc7675@tripit.com
+DTSTART:20230808T150000Z
+DTEND:20230808T160000Z
+LOCATION:465 route de Gagnepas\, Gourdon\, 46300\, France
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/336650413\n \n\nTue\, Aug 8\n5:00 PM CEST\n[Lodging] Arrive La 
+ Parenthèse chambre romantique\nCheck-In: 5:00pm\n465 route de Gagnepas\, G
+ ourdon\, 46300\, France\n+33646084290\n \n\n \nTripIt - organize your trav
+ el at https://www.tripit.com
+GEO:44.750157;1.396937
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T165959Z
+SUMMARY:Check-out: La Parenthèse chambre romantique
+TRANSP:TRANSPARENT
+UID:item-a2be45be-ac9b-9000-0003-0000fabc767d@tripit.com
+DTSTART:20230809T090000Z
+DTEND:20230809T100000Z
+LOCATION:465 route de Gagnepas\, Gourdon\, 46300\, France
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/336650413\n \n\nWed\, Aug 9\n11:00 AM CEST\n[Lodging] Depart La
+  Parenthèse chambre romantique\nCheck-Out: 11:00am\n465 route de Gagnepas\
+ , Gourdon\, 46300\, France\n+33646084290\n \n\n \nTripIt - organize your t
+ ravel at https://www.tripit.com
+GEO:44.750157;1.396937
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,190 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+X-WR-CALNAME:Vincent Delcourt (TripIt - Af Sud 2016)
+X-WR-CALDESC:Af Sud 2016 (Trip Shared by Vincent Delcourt)
+PRODID:-//John Papaioannou/NONSGML Bennu 0.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20251227T170413Z
+UID:0b7ed6ce-69a7-9000-0001-00000acbb85a@tripit.com
+DTSTART;VALUE=DATE:20161109
+DTEND;VALUE=DATE:20161202
+SUMMARY:Af Sud 2016
+LOCATION:Cape Town\, South Africa
+GEO:-33.92584;18.42322
+TRANSP:TRANSPARENT
+DESCRIPTION:Vincent Delcourt is in Cape Town\, South Africa from Nov 9 to 
+ Dec 1\, 2016\nView and/or edit details in TripIt : https://www.tripit.com/
+ trip/show?id=181123162\nTripIt - organize your travel at https://www.tripi
+ t.com\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170413Z
+DTEND:20161109T154500Z
+SUMMARY:BA369 MRS to LHR
+LOCATION:Marseille (MRS)
+UID:item-27ce9e65-cf2f-9000-0003-000071dc5085@tripit.com
+DTSTART:20161109T134000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/181123162\n \n\nWed\, Nov 9\n2:40 PM CET\n[Flight] MRS to LHR\n
+  \n\nBritish Airways 369\, Terminal \, Gate \n \n\n3:45 PM GMT\nArrive Lon
+ don (LHR)\nTerminal \, Gate \, 2h\, 20m layover\n \n\n \nTripIt - organize
+  your travel at https://www.tripit.com
+GEO:51.5;-0.116667
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170413Z
+DTEND:20161110T054000Z
+SUMMARY:BA43 LHR to CPT
+LOCATION:London (LHR)
+UID:item-d04fdc31-c9e4-9000-0003-000071dc5086@tripit.com
+DTSTART:20161109T180500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/181123162\n \n\n6:05 PM GMT\n[Flight] LHR to CPT\n \n\nBritish 
+ Airways 43\, Terminal 3\, Gate 40\n \n\n \nThu\, Nov 10\n7:40 AM SAST\nArr
+ ive Cape Town (CPT)\nTerminal \, Gate \n \n\n \nTripIt - organize your tra
+ vel at https://www.tripit.com
+GEO:-33.916667;18.416667
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170413Z
+TRANSP:TRANSPARENT
+UID:item-2f48aaee-2e48-9000-0003-000075f477ec@tripit.com
+DTSTART:20161110T180000Z
+DTEND:20161110T190000Z
+SUMMARY:Pick Up Car Rental
+LOCATION:
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/181123162\n \n\n8:00 PM SAST\n[Car Rental] Pick Up Car Rental\n
+ Pick-Up: 8:00pm\n \n\n \nTripIt - organize your travel at https://www.trip
+ it.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170413Z
+SUMMARY:Check-in: 49 On Cliff
+TRANSP:TRANSPARENT
+UID:item-739be230-8c0a-9000-0003-0000722f5050@tripit.com
+DTSTART:20161116T120000Z
+DTEND:20161116T130000Z
+LOCATION:49 cliff street de kelders 7220 gansbaai
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/181123162\n \n\nWed\, Nov 16\n2:00 PM SAST\n[Lodging] Arrive 49
+  On Cliff\nCheck-In: 2:00pm\n49 cliff street de kelders 7220 gansbaai\n+27
+ 833100165\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:-34.5528806;19.3685675
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170413Z
+SUMMARY:Check-out: 49 On Cliff
+TRANSP:TRANSPARENT
+UID:item-4ab88387-e979-9000-0003-0000722f5051@tripit.com
+DTSTART:20161117T090000Z
+DTEND:20161117T100000Z
+LOCATION:49 cliff street de kelders 7220 gansbaai
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/181123162\n \n\nThu\, Nov 17\n11:00 AM SAST\n[Lodging] Depart 4
+ 9 On Cliff\nCheck-Out: 11:00am\n49 cliff street de kelders 7220 gansbaai\n
+ +27833100165\n \n\n \nTripIt - organize your travel at https://www.tripit.
+ com
+GEO:-34.5528806;19.3685675
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170413Z
+SUMMARY:Check-in: Kuzuko Lodge
+TRANSP:TRANSPARENT
+UID:item-6f382f77-3bde-9000-0003-0000722f51be@tripit.com
+DTSTART:20161121T100000Z
+DTEND:20161121T110000Z
+LOCATION:Olivenfontein farm\, Kommadaga\, Addo Elephant Park\, Eastern Cap
+ e\, Afrique du Sud
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/181123162\n \n\nMon\, Nov 21\n12:00 PM SAST\n[Lodging] Arrive K
+ uzuko Lodge\nCheck-In: 12:00pm\nOlivenfontein farm\, Kommadaga\, Addo Elep
+ hant Park\, Eastern Cape\, Afrique du Sud\n \n\n \nTripIt - organize your 
+ travel at https://www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170413Z
+SUMMARY:Check-out: Kuzuko Lodge
+TRANSP:TRANSPARENT
+UID:item-db683ece-0001-9000-0003-0000722f51bf@tripit.com
+DTSTART:20161123T100000Z
+DTEND:20161123T110000Z
+LOCATION:Olivenfontein farm\, Kommadaga\, Addo Elephant Park\, Eastern Cap
+ e\, Afrique du Sud
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/181123162\n \n\nWed\, Nov 23\n12:00 PM SAST\n[Lodging] Depart K
+ uzuko Lodge\nCheck-Out: 12:00pm\nOlivenfontein farm\, Kommadaga\, Addo Ele
+ phant Park\, Eastern Cape\, Afrique du Sud\n \n\n \nTripIt - organize your
+  travel at https://www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170413Z
+SUMMARY:Check-in: Little Samadhi Karoo Retreat
+TRANSP:TRANSPARENT
+UID:item-db26f629-330d-9000-0003-000075ef5bcf@tripit.com
+DTSTART;VALUE=DATE:20161125
+DTEND;VALUE=DATE:20161126
+LOCATION:2 Laing Street\, Barrydale\, 6750\, Afrique du Sud
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/181123162\n \n\nFri\, Nov 25\n  \n[Lodging] Arrive Little Samad
+ hi Karoo Retreat\nCheck-In: \n2 Laing Street\, Barrydale\, 6750\, Afrique 
+ du Sud\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:-33.906079;20.7206109
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170413Z
+SUMMARY:Check-out: Little Samadhi Karoo Retreat
+TRANSP:TRANSPARENT
+UID:item-96840fe0-aa6f-9000-0003-000075ef5bd0@tripit.com
+DTSTART;VALUE=DATE:20161126
+DTEND;VALUE=DATE:20161127
+LOCATION:2 Laing Street\, Barrydale\, 6750\, Afrique du Sud
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/181123162\n \n\nSat\, Nov 26\n  \n[Lodging] Depart Little Samad
+ hi Karoo Retreat\nCheck-Out: \n2 Laing Street\, Barrydale\, 6750\, Afrique
+  du Sud\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:-33.906079;20.7206109
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170413Z
+TRANSP:TRANSPARENT
+UID:item-1289ba5a-7b17-9000-0003-000075f477ed@tripit.com
+DTSTART:20161130T160000Z
+DTEND:20161130T170000Z
+SUMMARY:Drop Off Car Rental
+LOCATION:
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/181123162\n \n\nWed\, Nov 30\n6:00 PM SAST\n[Car Rental] Drop O
+ ff Car Rental\nDrop-Off: 6:00pm\n \n\n \nTripIt - organize your travel at 
+ https://www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170413Z
+DTEND:20161201T061500Z
+SUMMARY:BA58 CPT to LHR
+LOCATION:Cape Town (CPT)
+UID:item-e50c3bdd-c7d9-9000-0003-000071dc520f@tripit.com
+DTSTART:20161130T181500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/181123162\n \n\n8:15 PM SAST\n[Flight] CPT to LHR\n \n\nBritish
+  Airways 58\, Terminal \, Gate \n \n\n \nThu\, Dec 1\n6:15 AM GMT\nArrive 
+ London (LHR)\nTerminal 3\, Gate \, 1h\, 25m layover\n \n\n \nTripIt - orga
+ nize your travel at https://www.tripit.com
+GEO:51.5;-0.116667
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170413Z
+DTEND:20161201T093500Z
+SUMMARY:BA366 LHR to MRS
+LOCATION:London (LHR)
+UID:item-b5b4f41e-d98c-9000-0003-000071dc5210@tripit.com
+DTSTART:20161201T074000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/181123162\n \n\n7:40 AM GMT\n[Flight] LHR to MRS\n \n\nBritish 
+ Airways 366\, Terminal \, Gate \n \n\n10:35 AM CET\nArrive Marseille (MRS)
+ \nTerminal \, Gate \n \n\n \nTripIt - organize your travel at https://www.
+ tripit.com
+GEO:43.3;5.4
+END:VEVENT
+END:VCALENDAR

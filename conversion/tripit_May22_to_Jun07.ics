@@ -1,0 +1,170 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+X-WR-CALNAME:Vincent Delcourt (TripIt - Mariage Maud)
+X-WR-CALDESC:Mariage Maud (Trip Shared by Vincent Delcourt)
+PRODID:-//John Papaioannou/NONSGML Bennu 0.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20251227T170007Z
+UID:b8cb9ea3-e080-9000-0001-00001391690a@tripit.com
+DTSTART;VALUE=DATE:20230522
+DTEND;VALUE=DATE:20230608
+SUMMARY:Mariage Maud
+LOCATION:Bonifacio\, France
+GEO:41.38723;9.15667
+TRANSP:TRANSPARENT
+DESCRIPTION:Vincent Delcourt is in Bonifacio\, France from May 22 to Jun 7
+ \, 2023\nView and/or edit details in TripIt : https://www.tripit.com/trip/
+ show?id=328296714\nTripIt - organize your travel at https://www.tripit.com
+ \n
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170007Z
+LOCATION:CORSICA linea Marseille\; Quai du Maroc\, 13002 Marseille\, France
+UID:item-1eed3352-c689-9000-0003-0000ecf2d1dd@tripit.com
+DTSTART:20230522T163000Z
+DTEND:20230522T173000Z
+SUMMARY:Embark - Corsica Linea
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/328296714\n \n\nMon\, May 22\n6:30 PM CEST\n[Cruise] Embark - C
+ orsica Linea\nCorsica Linea\, A Nepita\nCORSICA linea Marseille\, Quai du 
+ Maroc\, 13002 Marseille\, France\n \n\n \nTripIt - organize your travel at
+  https://www.tripit.com
+GEO:43.309432;5.365131
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170007Z
+LOCATION:CORSICA linea Propriano\; Corsica Linea Propriano
+UID:item-eac4531b-44ef-9000-0003-0000ecf2d1e1@tripit.com
+DTSTART:20230523T050000Z
+DTEND:20230523T060000Z
+SUMMARY:Disembark - Corsica Linea
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/328296714\n \n\nTue\, May 23\n7:00 AM CEST\n[Cruise] Disembark 
+ - Corsica Linea\nCorsica Linea\, A Nepita\nCORSICA linea Propriano\, Corsi
+ ca Linea Propriano\n \n\n \nTripIt - organize your travel at https://www.t
+ ripit.com
+GEO:41.673892;8.901759
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170007Z
+SUMMARY:Check-in: Airbnb - jolie villa arborée d oliviers centre ville 3 *
+ **
+TRANSP:TRANSPARENT
+UID:item-3651144a-4b8a-9000-0003-0000ee8c6661@tripit.com
+DTSTART:20230523T150000Z
+DTEND:20230523T160000Z
+LOCATION:Rue Maréchal Juin\, Porto-Vecchio\, Corsica 20137\, France
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/328296714\n \n\n5:00 PM CEST\n[Lodging] Arrive Airbnb - jolie v
+ illa arborée d oliviers centre ville 3 ***\nCheck-In: 5:00pm\nRue Maréchal
+  Juin\, Porto-Vecchio\, Corsica 20137\, France\n+33 6 20 40 46 72\n \n\n \
+ nTripIt - organize your travel at https://www.tripit.com
+GEO:41.5838819;9.2757926
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170007Z
+SUMMARY:Check-out: Airbnb - jolie villa arborée d oliviers centre ville 3 
+ ***
+TRANSP:TRANSPARENT
+UID:item-5bfdcc93-1e1f-9000-0003-0000ee8c6669@tripit.com
+DTSTART:20230527T080000Z
+DTEND:20230527T090000Z
+LOCATION:Rue Maréchal Juin\, Porto-Vecchio\, Corsica 20137\, France
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/328296714\n \n\nSat\, May 27\n10:00 AM CEST\n[Lodging] Depart A
+ irbnb - jolie villa arborée d oliviers centre ville 3 ***\nCheck-Out: 10:0
+ 0am\nRue Maréchal Juin\, Porto-Vecchio\, Corsica 20137\, France\n+33 6 20 
+ 40 46 72\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:41.5838819;9.2757926
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170007Z
+SUMMARY:Check-in: Résidence Maora Village
+TRANSP:TRANSPARENT
+UID:item-5bc9d0fa-5732-9000-0003-0000ecaca315@tripit.com
+DTSTART:20230527T140000Z
+DTEND:20230527T150000Z
+LOCATION:Route de Santa Manza\, Bonifacio\, 20169\, FR
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/328296714\n \n\n4:00 PM CEST\n[Lodging] Arrive Résidence Maora 
+ Village\nCheck-In: 4:00pm\nRoute de Santa Manza\, Bonifacio\, 20169\, FR\n
+ +33495731399\n \n\n \nTripIt - organize your travel at https://www.tripit.
+ com
+GEO:41.4155294;9.2381106
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170007Z
+SUMMARY:Check-out: Résidence Maora Village
+TRANSP:TRANSPARENT
+UID:item-dc93a689-7459-9000-0003-0000ecaca319@tripit.com
+DTSTART:20230529T090000Z
+DTEND:20230529T100000Z
+LOCATION:Route de Santa Manza\, Bonifacio\, 20169\, FR
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/328296714\n \n\nMon\, May 29\n11:00 AM CEST\n[Lodging] Depart R
+ ésidence Maora Village\nCheck-Out: 11:00am\nRoute de Santa Manza\, Bonifac
+ io\, 20169\, FR\n+33495731399\n \n\n \nTripIt - organize your travel at ht
+ tps://www.tripit.com
+GEO:41.4155294;9.2381106
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170007Z
+SUMMARY:Check-in: Airbnb - Village Cargèse **
+TRANSP:TRANSPARENT
+UID:item-5522f3f2-54b2-9000-0003-0000f3e50309@tripit.com
+DTSTART:20230529T130000Z
+DTEND:20230529T140000Z
+LOCATION:Rue Marbeuf\, 20130 Cargèse\, Corse\, France
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/328296714\n \n\n3:00 PM CEST\n[Lodging] Arrive Airbnb - Village
+  Cargèse **\nCheck-In: 3:00pm\nRue Marbeuf\, 20130 Cargèse\, Corse\, Franc
+ e\n+33 6 49 22 25 83\n \n\n \nTripIt - organize your travel at https://www
+ .tripit.com
+GEO:42.1347444;8.595294
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170007Z
+SUMMARY:Check-out: Airbnb - Village Cargèse **
+TRANSP:TRANSPARENT
+UID:item-79cec82d-f2a5-9000-0003-0000f3e50311@tripit.com
+DTSTART:20230603T090000Z
+DTEND:20230603T100000Z
+LOCATION:Rue Marbeuf\, 20130 Cargèse\, Corse\, France
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/328296714\n \n\nSat\, Jun 3\n11:00 AM CEST\n[Lodging] Depart Ai
+ rbnb - Village Cargèse **\nCheck-Out: 11:00am\nRue Marbeuf\, 20130 Cargèse
+ \, Corse\, France\n+33 6 49 22 25 83\n \n\n \nTripIt - organize your trave
+ l at https://www.tripit.com
+GEO:42.1347444;8.595294
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170007Z
+LOCATION:CORSICA linea Bastia\; Nouveau Port\, Terminal Nord\, 20200 Basti
+ a\, France
+UID:item-825c8b4b-ea92-9000-0003-0000ecf2db49@tripit.com
+DTSTART:20230606T160000Z
+DTEND:20230606T170000Z
+SUMMARY:Embark - Corsica Linea
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/328296714\n \n\nTue\, Jun 6\n6:00 PM CEST\n[Cruise] Embark - Co
+ rsica Linea\nCorsica Linea\, Villanova\nCORSICA linea Bastia\, Nouveau Por
+ t\, Terminal Nord\, 20200 Bastia\, France\n \n\n \nTripIt - organize your 
+ travel at https://www.tripit.com
+GEO:42.7;9.45
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170007Z
+LOCATION:CORSICA linea Marseille\; Quai du Maroc\, 13002 Marseille\, France
+UID:item-240b56a0-fad6-9000-0003-0000ecf2db4d@tripit.com
+DTSTART:20230607T050000Z
+DTEND:20230607T060000Z
+SUMMARY:Disembark - Corsica Linea
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/328296714\n \n\nWed\, Jun 7\n7:00 AM CEST\n[Cruise] Disembark -
+  Corsica Linea\nCorsica Linea\, Villanova\nCORSICA linea Marseille\, Quai 
+ du Maroc\, 13002 Marseille\, France\n \n\n \nTripIt - organize your travel
+  at https://www.tripit.com
+GEO:43.309432;5.365131
+END:VEVENT
+END:VCALENDAR

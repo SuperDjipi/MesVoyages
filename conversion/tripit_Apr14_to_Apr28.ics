@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+X-WR-CALNAME:Vincent Delcourt (TripIt - Grèce)
+X-WR-CALDESC:Grèce (Trip Shared by Vincent Delcourt)
+PRODID:-//John Papaioannou/NONSGML Bennu 0.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20251227T170434Z
+UID:0d4c6509-21aa-9000-0001-000009addf6a@tripit.com
+DTSTART;VALUE=DATE:20160414
+DTEND;VALUE=DATE:20160429
+SUMMARY:Grèce
+LOCATION:Athens\, Greece
+GEO:37.98376;23.72784
+TRANSP:TRANSPARENT
+DESCRIPTION:Vincent Delcourt is in Athens\, Greece from Apr 14 to 28\, 201
+ 6\nView and/or edit details in TripIt : https://www.tripit.com/trip/show?i
+ d=162389866\nTripIt - organize your travel at https://www.tripit.com\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170434Z
+DTEND:20160414T174000Z
+SUMMARY:A3631 MRS to ATH
+LOCATION:Marseille (MRS)
+UID:item-b1f14963-5cb0-9000-0003-000063fb4c1d@tripit.com
+DTSTART:20160414T150000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/162389866\n \n\nThu\, Apr 14\n5:00 PM CEST\n[Flight] MRS to ATH
+ \n \n\nAegean Airlines 631\, Terminal \, Gate \n \n\n8:40 PM EEST\nArrive 
+ Athens (ATH)\nTerminal \, Gate \n \n\n \nTripIt - organize your travel at 
+ https://www.tripit.com
+GEO:37.983333;23.733333
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170434Z
+DTEND:20160428T142000Z
+SUMMARY:A3630 ATH to MRS
+LOCATION:Athens (ATH)
+UID:item-bbca7c93-1849-9000-0003-000064244c03@tripit.com
+DTSTART:20160428T113000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/162389866\n \n\nThu\, Apr 28\n2:30 PM EEST\n[Flight] ATH to MRS
+ \n \n\nAegean Airlines 630\, Terminal \, Gate \n \n\n4:20 PM CEST\nArrive 
+ Marseille (MRS)\nTerminal \, Gate \n \n\n \nTripIt - organize your travel 
+ at https://www.tripit.com
+GEO:43.3;5.4
+END:VEVENT
+END:VCALENDAR

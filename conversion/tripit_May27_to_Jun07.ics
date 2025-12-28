@@ -1,0 +1,287 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+X-WR-CALNAME:Vincent Delcourt (TripIt - Géorgie)
+X-WR-CALDESC:Géorgie (Trip Shared by Vincent Delcourt)
+PRODID:-//John Papaioannou/NONSGML Bennu 0.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20251227T170158Z
+UID:fc6d163b-acc6-9000-0001-00000f64f429@tripit.com
+DTSTART;VALUE=DATE:20190527
+DTEND;VALUE=DATE:20190608
+SUMMARY:Géorgie
+LOCATION:Tbilisi\, Georgia
+GEO:41.69143;44.83412
+TRANSP:TRANSPARENT
+DESCRIPTION:Vincent Delcourt is in Tbilisi\, Georgia from May 27 to Jun 7\
+ , 2019\nView and/or edit details in TripIt : https://www.tripit.com/trip/s
+ how?id=258274345\nTripIt - organize your travel at https://www.tripit.com\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170158Z
+DTEND:20190527T190500Z
+SUMMARY:TK1368 MRS to IST
+LOCATION:Marseille (MRS)
+UID:item-20ba5db6-4306-9000-0003-00009e319149@tripit.com
+DTSTART:20190527T155500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/258274345\n \n\nMon\, May 27\n5:55 PM CEST\n[Flight] MRS to IST
+ \n \n\nTurkish Airlines 1368\, Terminal \, Gate \n \n\n10:05 PM +03\nArriv
+ e Istanbul (IST)\nTerminal \, Gate \, 3h\, 5m layover\n \n\n \nTripIt - or
+ ganize your travel at https://www.tripit.com
+GEO:41.01384;28.94966
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170158Z
+DTEND:20190528T003000Z
+SUMMARY:TK376 IST to TBS
+LOCATION:Istanbul (IST)
+UID:item-014801fc-d2b7-9000-0003-00009e3192bd@tripit.com
+DTSTART:20190527T221000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/258274345\n \n\nTue\, May 28\n1:10 AM +03\n[Flight] IST to TBS\
+ n \n\nTurkish Airlines 376\, Terminal \, Gate \n \n\n4:30 AM +04\nArrive T
+ bilisi (TBS)\nTerminal \, Gate \n \n\n \nTripIt - organize your travel at 
+ https://www.tripit.com
+GEO:41.69411;44.83368
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170158Z
+SUMMARY:Check-in: Hotel Flower
+TRANSP:TRANSPARENT
+UID:item-7aebfa5e-05f2-9000-0003-0000a564a875@tripit.com
+DTSTART:20190528T083000Z
+DTEND:20190528T093000Z
+LOCATION:36a Lado Asatiani Street\, Tbilissi\, 0105\, Géorgie
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/258274345\n \n\n12:30 PM +04\n[Lodging] Arrive Hotel Flower\nCh
+ eck-In: 12:30pm\n36a Lado Asatiani Street\, Tbilissi\, 0105\, Géorgie\n+99
+ 5 577 73 73 74\n \n\n \nTripIt - organize your travel at https://www.tripi
+ t.com
+GEO:41.689424;44.8006187
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170158Z
+SUMMARY:Check-out: Hotel Flower
+TRANSP:TRANSPARENT
+UID:item-7e542261-805a-9000-0003-0000a564a879@tripit.com
+DTSTART:20190530T080000Z
+DTEND:20190530T090000Z
+LOCATION:36a Lado Asatiani Street\, Tbilissi\, 0105\, Géorgie
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/258274345\n \n\nThu\, May 30\n12:00 PM +04\n[Lodging] Depart Ho
+ tel Flower\nCheck-Out: 12:00pm\n36a Lado Asatiani Street\, Tbilissi\, 0105
+ \, Géorgie\n+995 577 73 73 74\n \n\n \nTripIt - organize your travel at ht
+ tps://www.tripit.com
+GEO:41.689424;44.8006187
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170158Z
+SUMMARY:Check-in: Airbnb - Aprili House
+TRANSP:TRANSPARENT
+UID:item-ecefd8e3-df4a-9000-0003-0000a564c0e9@tripit.com
+DTSTART:20190530T100000Z
+DTEND:20190530T110000Z
+LOCATION:Aprili Street\, Sighnaghi\, sighnaghi\, Georgia\, Géorgie
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/258274345\n \n\n2:00 PM +04\n[Lodging] Arrive Airbnb - Aprili H
+ ouse\nCheck-In: 2:00pm\nAprili Street\, Sighnaghi\, sighnaghi\, Georgia\, 
+ Géorgie\n+44 7914 674481\n \n\n \nTripIt - organize your travel at https:/
+ /www.tripit.com
+GEO:41.6959237;44.7974342
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170158Z
+SUMMARY:Check-out: Airbnb - Aprili House
+TRANSP:TRANSPARENT
+UID:item-1991d989-4ac4-9000-0003-0000a564c0ed@tripit.com
+DTSTART:20190531T070000Z
+DTEND:20190531T080000Z
+LOCATION:Aprili Street\, Sighnaghi\, sighnaghi\, Georgia\, Géorgie
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/258274345\n \n\nFri\, May 31\n11:00 AM +04\n[Lodging] Depart Ai
+ rbnb - Aprili House\nCheck-Out: 11:00am\nAprili Street\, Sighnaghi\, sighn
+ aghi\, Georgia\, Géorgie\n+44 7914 674481\n \n\n \nTripIt - organize your 
+ travel at https://www.tripit.com
+GEO:41.6959237;44.7974342
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170158Z
+SUMMARY:Check-in: Homestay OutInn
+TRANSP:TRANSPARENT
+UID:item-9d509315-4129-9000-0003-0000a56b8b31@tripit.com
+DTSTART:20190531T140000Z
+DTEND:20190531T150000Z
+LOCATION:Chichinadze st N 31\, Tbilissi\, 0131\, Géorgie
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/258274345\n \n\n6:00 PM +04\n[Lodging] Arrive Homestay OutInn\n
+ Check-In: 6:00pm\nChichinadze st N 31\, Tbilissi\, 0131\, Géorgie\n+995 55
+ 5 93 11 39\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:41.8253156;44.7568357
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170158Z
+SUMMARY:Check-out: Homestay OutInn
+TRANSP:TRANSPARENT
+UID:item-c90021ae-4927-9000-0003-0000a56b8b35@tripit.com
+DTSTART:20190601T070000Z
+DTEND:20190601T080000Z
+LOCATION:Chichinadze st N 31\, Tbilissi\, 0131\, Géorgie
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/258274345\n \n\nSat\, Jun 1\n11:00 AM +04\n[Lodging] Depart Hom
+ estay OutInn\nCheck-Out: 11:00am\nChichinadze st N 31\, Tbilissi\, 0131\, 
+ Géorgie\n+995 555 93 11 39\n \n\n \nTripIt - organize your travel at https
+ ://www.tripit.com
+GEO:41.8253156;44.7568357
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170158Z
+SUMMARY:Check-in: Hotel on Tabidze 42
+TRANSP:TRANSPARENT
+UID:item-94f94fff-4c57-9000-0003-0000a56c9dfd@tripit.com
+DTSTART:20190601T090000Z
+DTEND:20190601T100000Z
+LOCATION:42 Tabidze\, Stepantsminda\, 4700\, Géorgie
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/258274345\n \n\n1:00 PM +04\n[Lodging] Arrive Hotel on Tabidze 
+ 42\nCheck-In: 1:00pm\n42 Tabidze\, Stepantsminda\, 4700\, Géorgie\n+995551
+ 160921\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:42.6587124;44.6477078
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170158Z
+SUMMARY:Check-out: Hotel on Tabidze 42
+TRANSP:TRANSPARENT
+UID:item-71a2ddcd-7db0-9000-0003-0000a56c9e01@tripit.com
+DTSTART:20190602T070000Z
+DTEND:20190602T080000Z
+LOCATION:42 Tabidze\, Stepantsminda\, 4700\, Géorgie
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/258274345\n \n\nSun\, Jun 2\n11:00 AM +04\n[Lodging] Depart Hot
+ el on Tabidze 42\nCheck-Out: 11:00am\n42 Tabidze\, Stepantsminda\, 4700\, 
+ Géorgie\n+995551160921\n \n\n \nTripIt - organize your travel at https://w
+ ww.tripit.com
+GEO:42.6587124;44.6477078
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170158Z
+SUMMARY:Check-in: Hotel Beni
+TRANSP:TRANSPARENT
+UID:item-70df1efb-af86-9000-0003-0000a56c38f9@tripit.com
+DTSTART:20190602T080000Z
+DTEND:20190602T090000Z
+LOCATION:Beni\nახალციხე ხარისჭირაშვილის ქუჩა\, 5\, Akhaltsikhe\, Géorgie
+ 
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/258274345\n \n\n12:00 PM +04\n[Lodging] Arrive Hotel Beni\nChec
+ k-In: 12:00pm\nBeni\nახალციხე ხარისჭირაშვილის ქუჩა\, 5\, Akhaltsikhe\, Géo
+ rgie\n+995 555 77 72 00\n \n\n \nTripIt - organize your travel at https://
+ www.tripit.com
+GEO:41.6448756;42.9735953
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170158Z
+SUMMARY:Check-out: Hotel Beni
+TRANSP:TRANSPARENT
+UID:item-92dda3fb-6da3-9000-0003-0000a56c3905@tripit.com
+DTSTART:20190603T070000Z
+DTEND:20190603T080000Z
+LOCATION:Beni\nახალციხე ხარისჭირაშვილის ქუჩა\, 5\, Akhaltsikhe\, Géorgie
+ 
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/258274345\n \n\nMon\, Jun 3\n11:00 AM +04\n[Lodging] Depart Hot
+ el Beni\nCheck-Out: 11:00am\nBeni\nახალციხე ხარისჭირაშვილის ქუჩა\, 5\, Akh
+ altsikhe\, Géorgie\n+995 555 77 72 00\n \n\n \nTripIt - organize your trav
+ el at https://www.tripit.com
+GEO:41.6448756;42.9735953
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170158Z
+SUMMARY:Check-in: Agati Hotel
+TRANSP:TRANSPARENT
+UID:item-9a19bdd3-5a3f-9000-0003-0000a58ed1a5@tripit.com
+DTSTART:20190603T080000Z
+DTEND:20190603T090000Z
+LOCATION:Gelati № 11\, Street № 2\, Dead end №1 \, Koutaïssi\, 4306\, Géor
+ gie
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/258274345\n \n\n12:00 PM +04\n[Lodging] Arrive Agati Hotel\nChe
+ ck-In: 12:00pm\nGelati № 11\, Street № 2\, Dead end №1 \, Koutaïssi\, 4306
+ \, Géorgie\n+995 551 34 10 10\n \n\n \nTripIt - organize your travel at ht
+ tps://www.tripit.com
+GEO:42.2662428;42.7180019
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170158Z
+SUMMARY:Check-out: Agati Hotel
+TRANSP:TRANSPARENT
+UID:item-58088b12-0ba9-9000-0003-0000a58ed1a9@tripit.com
+DTSTART:20190604T070800Z
+DTEND:20190604T080800Z
+LOCATION:Gelati № 11\, Street № 2\, Dead end №1 \, Koutaïssi\, 4306\, Géor
+ gie
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/258274345\n \n\nTue\, Jun 4\n11:08 AM +04\n[Lodging] Depart Aga
+ ti Hotel\nCheck-Out: 11:08am\nGelati № 11\, Street № 2\, Dead end №1 \, Ko
+ utaïssi\, 4306\, Géorgie\n+995 551 34 10 10\n \n\n \nTripIt - organize you
+ r travel at https://www.tripit.com
+GEO:42.2662428;42.7180019
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170158Z
+SUMMARY:Check-in: Hotel Old House
+TRANSP:TRANSPARENT
+UID:item-aa596d5c-c6de-9000-0003-0000a564a8b9@tripit.com
+DTSTART:20190604T073000Z
+DTEND:20190604T083000Z
+LOCATION:Lanchvali street 1\, Mestia\, 3200\, Géorgie
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/258274345\n \n\n11:30 AM +04\n[Lodging] Arrive Hotel Old House\
+ nCheck-In: 11:30am\nLanchvali street 1\, Mestia\, 3200\, Géorgie\n+995 551
+  80 90 90\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:43.0491106;42.7316441
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170158Z
+SUMMARY:Check-out: Hotel Old House
+TRANSP:TRANSPARENT
+UID:item-b2f6c5e8-3c34-9000-0003-0000a564a8bd@tripit.com
+DTSTART:20190606T090000Z
+DTEND:20190606T100000Z
+LOCATION:Lanchvali street 1\, Mestia\, 3200\, Géorgie
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/258274345\n \n\nThu\, Jun 6\n1:00 PM +04\n[Lodging] Depart Hote
+ l Old House\nCheck-Out: 1:00pm\nLanchvali street 1\, Mestia\, 3200\, Géorg
+ ie\n+995 551 80 90 90\n \n\n \nTripIt - organize your travel at https://ww
+ w.tripit.com
+GEO:43.0491106;42.7316441
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170158Z
+DTEND:20190607T025000Z
+SUMMARY:TK387 TBS to IST
+LOCATION:Tbilisi (TBS)
+UID:item-9a302f2c-faaf-9000-0003-0000a5487af1@tripit.com
+DTSTART:20190607T001500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/258274345\n \n\nFri\, Jun 7\n4:15 AM +04\n[Flight] TBS to IST\n
+  \n\nTurkish Airlines 387\, Terminal \, Gate \n \n\n5:50 AM +03\nArrive Is
+ tanbul (IST)\nTerminal \, Gate \n \n\n \nTripIt - organize your travel at 
+ https://www.tripit.com
+GEO:41.01384;28.94966
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170158Z
+DTEND:20190607T091000Z
+SUMMARY:TK1365 IST to MRS
+LOCATION:Istanbul (IST)
+UID:item-074e3afd-a006-9000-0003-0000a54881cd@tripit.com
+DTSTART:20190607T054500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/258274345\n \n\n8:45 AM +03\n[Flight] IST to MRS\n \n\nTurkish 
+ Airlines 1365\, Terminal \, Gate \n \n\n11:10 AM CEST\nArrive Marseille (M
+ RS)\nTerminal \, Gate \n \n\n \nTripIt - organize your travel at https://w
+ ww.tripit.com
+GEO:43.29695;5.38107
+END:VEVENT
+END:VCALENDAR

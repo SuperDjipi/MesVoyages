@@ -1,0 +1,96 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+X-WR-CALNAME:Vincent Delcourt (TripIt - Bateau)
+X-WR-CALDESC:Bateau (Trip Shared by Vincent Delcourt)
+PRODID:-//John Papaioannou/NONSGML Bennu 0.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20251227T170522Z
+UID:f07b420a-1a27-9000-0001-0000094a4ad7@tripit.com
+DTSTART;VALUE=DATE:20150805
+DTEND;VALUE=DATE:20150811
+SUMMARY:Bateau
+LOCATION:Mao\, Spain
+GEO:39.88853;4.26583
+TRANSP:TRANSPARENT
+DESCRIPTION:Vincent Delcourt is in Mao\, Spain from Aug 5 to 10\, 2015\nVi
+ ew and/or edit details in TripIt : https://www.tripit.com/trip/show?id=155
+ 863767\nTripIt - organize your travel at https://www.tripit.com\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170522Z
+DTEND:20150805T172800Z
+LOCATION:NARBONNE\; NARBONNE
+UID:item-2cf3f781-f51a-9000-0003-000060773c9f@tripit.com
+DTSTART:20150805T153200Z
+SUMMARY:SNCF - NARBONNE to BARCELONA SANTS
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/155863767\n \n\nWed\, Aug 5\n5:32 PM CEST\n[Rail] SNCF - NARBON
+ NE to BARCELONA SANTS\nDepart NARBONNE NARBONNE\n \n7:28 PM CEST\nArrive B
+ ARCELONA SANTS BARCELONA SANTS\n \n\nTripIt - organize your travel at http
+ s://www.tripit.com
+GEO:41.3790928;2.1401328
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170522Z
+DTEND:20150806T053000Z
+LOCATION:Barcelone
+TRANSP:TRANSPARENT
+UID:item-5f9600d8-c151-9000-0003-00005f4a245f@tripit.com
+DTSTART:20150805T210000Z
+SUMMARY:Trasmediterranea - Barcelone to Mahon
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/155863767\n \n\n11:00 PM CEST\n[Ferry] Trasmediterranea - Barce
+ lone to Mahon\nDepart Barcelone \n \nThu\, Aug 6\n7:30 AM CEST\nArrive Mah
+ on \n<div>-------- Message d'origine --------</div><div>De : "Directferrie
+ s.com" <bookings@directferries.com> </div><div>Date :03/07/2015  8:52 PM  
+ (GMT+01:00) </div><div>À : v.delcourtpub@laposte.net </div><div>Objet : Co
+ nfirmation de la réservation Direct Ferries DFP10319206 </div><div>\n</div
+ >        \nVotre numéro de réservation avec Direct Ferries est le DFP10319
+ 206 \nVotre numéro de réservation avec Trasmediterranea est le 7241639 \nN
+ uméro(s) de ticket avec Trasmediterranea: 3368805166                      
+        \n  Itinéraire    \nBarcelone - Mahon\nDépart:    Mer. 05 août 2015
+  @ 23:00\nArrivée:    Jeu. 06 août 2015 @ 07:30 (+1 jour)\nDurée:    08h 3
+ 0m\nPassager Principal:    M. Vincent Delcourt (Adulte)\nAutres Passagers:
+     Aucun\nInstallation / siège:    Siège réservé (BYG x1)\nAnimaux:    Au
+ cun\nMontant Total: €62\,53\n  Informations importantes    \n    Type de t
+ arif : comme spécifié au moment de la réservation\, votre billet peut être
+  modifié. Veuillez noter que certains tarifs n'acceptent pas de modificati
+ ons si d'autres conditions s'appliquent. Pour plus de détails\, veuillez c
+ onsulter nos termes et conditions sur le site Internet.\n \nCe billet n'es
+ t pas remboursable.\n    Informations sur l'enregistrement : l'enregistrem
+ ent doit s'effectuer au moins 60 minutes avant l'heure de départ. Si vous 
+ arrivez en retard\, vous perdez votre place et dans la plupart des cas\, a
+ ucun remboursement ne sera accordé.\n    Billets : aucun billet ne sera en
+ voyé par courrier. Ils seront à retirer au port de départ au moment de l'e
+ nregistrement. Veuillez amener votre confirmation de réservation avec vous
+ .\n    Passeport et carte d'identité : si vous voyagez entre les pays de l
+ 'Union Européenne\, une carte d'identité suffit. Si vous voyagez en dehors
+  de l'UE\, un passeport est obligatoire. Tout document doit être en cours 
+ de validité.\n    Vous voulez réaliser des changements sur votre réservati
+ on? : veuillez vous connecter à votre compte en utilisant votre adresse e-
+ mail et le mot de passe que vous avez créés au moment de la réservation. \
+ nVous pouvez également appeler notre service client au 08.92.23.08.58 depu
+ is la France et au 00 33 184 88 97 59 depuis l'étranger\, du lundi au vend
+ redi de 09h00 à 18h00. Services fermés le week-end. \nDes frais de 25\,00€
+ /£20\,00 minimum seront facturés pour chaque changement effectué\, en plus
+  des éventuels frais imposés par la compagnie avec laquelle vous voyagez. 
+ Tous les billets ne peuvent pas être modifiés/annulés (voir type de tarif 
+ ci-dessus).\n    F.A.Q. : pour recevoir de l'aide\, des conseils et trouve
+ r les réponses à toutes vos questions\, veuillez cliquer ici.\n    Animaux
+ : Les passagers voyageant avec un animal de compagnie sont responsables du
+  respect des règlements en vigueur et doivent répondre aux exigences de ch
+ aque pays ou territoire de départ et/ou de destination. Tout document néce
+ ssaire à l'embarquement d'un animal doit être un document original. Les ph
+ otocopies ne seront pas acceptées.\nNote: Les durées des traversées sont a
+ pproximatives\, elles peuvent changer sans que nous en soyons informés ou 
+ à cause de circonstances indépendantes de notre fait. Merci de bien vouloi
+ r consulter nos termes et conditions pour plus d’informations.\nToute tran
+ saction réalisée par Direct Ferries Ltd est soumise à nos conditions comme
+ rciales que vous avez préalablement acceptées au moment de la réservation.
+  Un exemplaire de ces conditions est disponible sur demande ou bien en lig
+ ne en cliquant ici. Sur votre relevé bancaire\, le débit sera indiqué Dire
+ ct Ferries.\n \n\n \n\nTripIt - organize your travel at https://www.tripit
+ .com
+END:VEVENT
+END:VCALENDAR

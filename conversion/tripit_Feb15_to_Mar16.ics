@@ -1,0 +1,105 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+X-WR-CALNAME:Vincent Delcourt (TripIt - Kunming, China, February 2017)
+X-WR-CALDESC:Kunming, China, February 2017 (Trip Shared by Vincent Delcour
+ t)
+PRODID:-//John Papaioannou/NONSGML Bennu 0.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20251227T170402Z
+UID:0ca63688-2f7e-9000-0001-00000af65f6e@tripit.com
+DTSTART;VALUE=DATE:20170215
+DTEND;VALUE=DATE:20170317
+SUMMARY:Kunming\, China\, February 2017
+LOCATION:Kunming\, China
+GEO:25.03889;102.71833
+TRANSP:TRANSPARENT
+DESCRIPTION:Vincent Delcourt is in Kunming\, China from Feb 15 to Mar 16\,
+  2017\nView and/or edit details in TripIt : https://www.tripit.com/trip/sh
+ ow?id=183918446\nTripIt - organize your travel at https://www.tripit.com\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170402Z
+DTEND:20170215T104000Z
+SUMMARY:KL2038 MRS to AMS
+LOCATION:Marseille (MRS)
+UID:item-463bbe76-442c-9000-0003-000074272037@tripit.com
+DTSTART:20170215T084000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/183918446\n \n\nWed\, Feb 15\n9:40 AM CET\n[Flight] MRS to AMS\
+ n \n\nAir France 1820\, Terminal \, Gate \n \n\n11:40 AM CET\nArrive Amste
+ rdam (AMS)\nTerminal \, Gate \, 3h layover\n \n\n \nTripIt - organize your
+  travel at https://www.tripit.com
+GEO:52.35;4.916667
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170402Z
+DTEND:20170215T225500Z
+SUMMARY:KL4303 AMS to PEK
+LOCATION:Amsterdam (AMS)
+UID:item-aec5fd72-3020-9000-0003-000074272038@tripit.com
+DTSTART:20170215T134000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/183918446\n \n\n2:40 PM CET\n[Flight] AMS to PEK\n \n\nChina So
+ uthern 346\, Terminal \, Gate \n \n\n \nThu\, Feb 16\n6:55 AM CST\nArrive 
+ Beijing (PEK)\nTerminal \, Gate \, 2h\, 5m layover\n \n\n \nTripIt - organ
+ ize your travel at https://www.tripit.com
+GEO:39.928889;116.388333
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170402Z
+DTEND:20170216T044500Z
+SUMMARY:KL4327 PEK to KMG
+LOCATION:Beijing (PEK)
+UID:item-1a38fb81-31ab-9000-0003-000074272039@tripit.com
+DTSTART:20170216T010000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/183918446\n \n\n9:00 AM CST\n[Flight] PEK to KMG\n \n\nChina So
+ uthern 3901\, Terminal \, Gate \n \n\n12:45 PM CST\nArrive Kunming (KMG)\n
+ Terminal \, Gate \n \n\n \nTripIt - organize your travel at https://www.tr
+ ipit.com
+GEO:25.038889;102.718333
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170402Z
+DTEND:20170315T125000Z
+SUMMARY:KL4394 KMG to CAN
+LOCATION:Kunming (KMG)
+UID:item-c00d0d0a-2525-9000-0003-00007427203a@tripit.com
+DTSTART:20170315T104000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/183918446\n \n\nWed\, Mar 15\n6:40 PM CST\n[Flight] KMG to CAN\
+ n \n\nChina Southern 3450\, Terminal \, Gate \n \n\n8:50 PM CST\nArrive Gu
+ angzhou (CAN)\nTerminal \, Gate \, 3h\, 15m layover\n \n\n \nTripIt - orga
+ nize your travel at https://www.tripit.com
+GEO:23.116667;113.25
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170402Z
+DTEND:20170316T045500Z
+SUMMARY:KL4300 CAN to AMS
+LOCATION:Guangzhou (CAN)
+UID:item-98121b18-2700-9000-0003-00007427203b@tripit.com
+DTSTART:20170315T160500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/183918446\n \n\nThu\, Mar 16\n12:05 AM CST\n[Flight] CAN to AMS
+ \n \n\nChina Southern 307\, Terminal \, Gate \n \n\n5:55 AM CET\nArrive Am
+ sterdam (AMS)\nTerminal \, Gate \, 3h\, 55m layover\n \n\n \nTripIt - orga
+ nize your travel at https://www.tripit.com
+GEO:52.35;4.916667
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170402Z
+DTEND:20170316T104000Z
+SUMMARY:KL2037 AMS to MRS
+LOCATION:Amsterdam (AMS)
+UID:item-81ff4de0-3457-9000-0003-00007427203c@tripit.com
+DTSTART:20170316T085000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/183918446\n \n\n9:50 AM CET\n[Flight] AMS to MRS\n \n\nAir Fran
+ ce 1807\, Terminal \, Gate \n \n\n11:40 AM CET\nArrive Marseille (MRS)\nTe
+ rminal \, Gate \n \n\n \nTripIt - organize your travel at https://www.trip
+ it.com
+GEO:43.3;5.4
+END:VEVENT
+END:VCALENDAR

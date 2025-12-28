@@ -1,0 +1,273 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+X-WR-CALNAME:Vincent Delcourt (TripIt - Krakow, Budapest)
+X-WR-CALDESC:Krakow, Budapest (Trip Shared by Vincent Delcourt)
+PRODID:-//John Papaioannou/NONSGML Bennu 0.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20251227T170144Z
+UID:be7f4a4d-ba78-9000-0001-0000106a105d@tripit.com
+DTSTART;VALUE=DATE:20190913
+DTEND;VALUE=DATE:20191003
+SUMMARY:Krakow\, Budapest
+LOCATION:No destination specified
+TRANSP:TRANSPARENT
+DESCRIPTION:Vincent Delcourt is in an unspecified location from Sep 13 to 
+ Oct 2\, 2019\nView and/or edit details in TripIt : https://www.tripit.com/
+ trip/show?id=275386461\nTripIt - organize your travel at https://www.tripi
+ t.com\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170144Z
+DTEND:20190913T210500Z
+SUMMARY:FR5413 MRS to KRK
+LOCATION:Marseille (MRS)
+UID:item-5208bab4-33e8-9000-0003-0000ab1ed039@tripit.com
+DTSTART:20190913T184500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/275386461\n \n\nFri\, Sep 13\n8:45 PM CEST\n[Flight] MRS to KRK
+ \n \n\nRyanair 5413\, Terminal 2\, Gate \n \n\n11:05 PM CEST\nArrive Krako
+ w (KRK)\nTerminal \, Gate \n \n\n \nTripIt - organize your travel at https
+ ://www.tripit.com
+GEO:50.06143;19.93658
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170144Z
+SUMMARY:Pick Up Rental Car: ODKRYJ-AUTO
+TRANSP:TRANSPARENT
+UID:item-1bf3bf75-54e6-9000-0003-0000ad8b8675@tripit.com
+DTSTART:20190913T210000Z
+DTEND:20190913T220000Z
+LOCATION:
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/275386461\n \n\n11:00 PM CEST\n[Car Rental] Pick Up ODKRYJ-AUTO
+  Car Rental\nPick-Up: 11:00pm\n+48 660 505 474\n \n\n \nTripIt - organize 
+ your travel at https://www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170144Z
+SUMMARY:Check-in: Neohotel Airport
+TRANSP:TRANSPARENT
+UID:item-13090612-9913-9000-0003-0000ad8bd775@tripit.com
+DTSTART:20190913T215500Z
+DTEND:20190913T225500Z
+LOCATION:Rząska ul. Topolowa 12\, Szczyglice\, 30-199\, Pologne
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/275386461\n \n\n11:55 PM CEST\n[Lodging] Arrive Neohotel Airpor
+ t\nCheck-In: 11:55pm\nRząska ul. Topolowa 12\, Szczyglice\, 30-199\, Polog
+ ne\n+48126260688\n \n\n \nTripIt - organize your travel at https://www.tri
+ pit.com
+GEO:50.0918359;19.8325814
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170144Z
+SUMMARY:Check-out: Neohotel Airport
+TRANSP:TRANSPARENT
+UID:item-79fcbf5e-6592-9000-0003-0000ad8bd77d@tripit.com
+DTSTART:20190914T083000Z
+DTEND:20190914T093000Z
+LOCATION:Rząska ul. Topolowa 12\, Szczyglice\, 30-199\, Pologne
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/275386461\n \n\nSat\, Sep 14\n10:30 AM CEST\n[Lodging] Depart N
+ eohotel Airport\nCheck-Out: 10:30am\nRząska ul. Topolowa 12\, Szczyglice\,
+  30-199\, Pologne\n+48126260688\n \n\n \nTripIt - organize your travel at 
+ https://www.tripit.com
+GEO:50.0918359;19.8325814
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170144Z
+SUMMARY:Check-in: Qubus Hotel Lodz
+TRANSP:TRANSPARENT
+UID:item-e53aa824-8347-9000-0003-0000b13d1f49@tripit.com
+DTSTART:20190914T120000Z
+DTEND:20190914T130000Z
+LOCATION:Adam Mickiewicz Avenue 7\, 90-443 Lodz\, Poland
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/275386461\n \n\n2:00 PM CEST\n[Lodging] Arrive Qubus Hotel Lodz
+ \nCheck-In: 2:00pm\nAdam Mickiewicz Avenue 7\, 90-443 Lodz\, Poland\n42 27
+ 5 5100\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:51.7581884;19.452856
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170144Z
+SUMMARY:Check-out: Qubus Hotel Lodz
+TRANSP:TRANSPARENT
+UID:item-3387a7d9-b7d1-9000-0003-0000b13d1f4d@tripit.com
+DTSTART:20190915T100000Z
+DTEND:20190915T110000Z
+LOCATION:Adam Mickiewicz Avenue 7\, 90-443 Lodz\, Poland
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/275386461\n \n\nSun\, Sep 15\n12:00 PM CEST\n[Lodging] Depart Q
+ ubus Hotel Lodz\nCheck-Out: 12:00pm\nAdam Mickiewicz Avenue 7\, 90-443 Lod
+ z\, Poland\n42 275 5100\n \n\n \nTripIt - organize your travel at https://
+ www.tripit.com
+GEO:51.7581884;19.452856
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170144Z
+SUMMARY:Check-in: Hôtel Polonia
+TRANSP:TRANSPARENT
+UID:item-0de1b5d7-d6b6-9000-0003-0000b1510aed@tripit.com
+DTSTART:20190915T130000Z
+DTEND:20190915T140000Z
+LOCATION:ul. Piłsudskiego 66\,\n \n50-020 Wrocław\, PL
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/275386461\n \n\n3:00 PM CEST\n[Lodging] Arrive Lodging\nCheck-I
+ n: 3:00pm\nul. Piłsudskiego 66\,\n \n50-020 Wrocław\, PL\n \n\n \nTripIt -
+  organize your travel at https://www.tripit.com
+GEO:51.101174;17.0307329
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170144Z
+SUMMARY:Check-out: Hôtel Polonia
+TRANSP:TRANSPARENT
+UID:item-440d9c53-8085-9000-0003-0000b1510af1@tripit.com
+DTSTART:20190917T090000Z
+DTEND:20190917T100000Z
+LOCATION:ul. Piłsudskiego 66\,\n \n50-020 Wrocław\, PL
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/275386461\n \n\nTue\, Sep 17\n11:00 AM CEST\n[Lodging] Depart L
+ odging\nCheck-Out: 11:00am\nul. Piłsudskiego 66\,\n \n50-020 Wrocław\, PL\
+ n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:51.101174;17.0307329
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170144Z
+SUMMARY:Check-in: Villa Tilia
+TRANSP:TRANSPARENT
+UID:item-83809daa-69c8-9000-0003-0000b1785939@tripit.com
+DTSTART:20190917T120000Z
+DTEND:20190917T130000Z
+LOCATION:Lipowa 9\, 57-320 Polanica-Zdrój\, Pologne
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/275386461\n \n\n2:00 PM CEST\n[Lodging] Arrive Lodging\nCheck-I
+ n: 2:00pm\nLipowa 9\, 57-320 Polanica-Zdrój\, Pologne\n+48 74 869 22 22\n 
+ \n\n \nTripIt - organize your travel at https://www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170144Z
+SUMMARY:Check-out: Villa Tilia
+TRANSP:TRANSPARENT
+UID:item-bc763e67-6ee9-9000-0003-0000b178599d@tripit.com
+DTSTART:20190918T090000Z
+DTEND:20190918T100000Z
+LOCATION:Lipowa 9\, 57-320 Polanica-Zdrój\, Pologne
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/275386461\n \n\nWed\, Sep 18\n11:00 AM CEST\n[Lodging] Depart L
+ odging\nCheck-Out: 11:00am\nLipowa 9\, 57-320 Polanica-Zdrój\, Pologne\n+4
+ 8 74 869 22 22\n \n\n \nTripIt - organize your travel at https://www.tripi
+ t.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170144Z
+SUMMARY:Check-in: Chez Monika Karwinska
+TRANSP:TRANSPARENT
+UID:item-f241a664-e7f5-9000-0003-0000b1220a01@tripit.com
+DTSTART:20190918T130000Z
+DTEND:20190918T140000Z
+LOCATION:Ślusarska 5\, Kraków\, Pologne
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/275386461\n \n\n3:00 PM CEST\n[Lodging] Arrive Chez Monika\nChe
+ ck-In: 3:00pm\nŚlusarska 5\, Kraków\, Pologne\n \n\n \nTripIt - organize y
+ our travel at https://www.tripit.com
+GEO:50.0494187;19.961778
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170144Z
+TRANSP:TRANSPARENT
+UID:item-86ebe450-ffce-9000-0003-0000b1e63bc1@tripit.com
+DTSTART:20190920T120000Z
+DTEND:20190920T130000Z
+SUMMARY:Arrive Lodging
+LOCATION:ul. Zamoyskiego 21\, Zakopane
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/275386461\n \n\nFri\, Sep 20\n2:00 PM CEST\n[Lodging] Arrive Lo
+ dging\nCheck-In: 2:00pm\nul. Zamoyskiego 21\, Zakopane\n+48 18 201 55 75\n
+  \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:49.2888506;19.9654976
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170144Z
+TRANSP:TRANSPARENT
+UID:item-4adb7b49-9b53-9000-0003-0000b1e63bc9@tripit.com
+DTSTART:20190921T090000Z
+DTEND:20190921T100000Z
+SUMMARY:Depart Lodging
+LOCATION:ul. Zamoyskiego 21\, Zakopane
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/275386461\n \n\nSat\, Sep 21\n11:00 AM CEST\n[Lodging] Depart L
+ odging\nCheck-Out: 11:00am\nul. Zamoyskiego 21\, Zakopane\n+48 18 201 55 7
+ 5\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:49.2888506;19.9654976
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170144Z
+SUMMARY:Drop Off Rental Car: ODKRYJ-AUTO
+TRANSP:TRANSPARENT
+UID:item-508f7380-0cb3-9000-0003-0000ad8b869d@tripit.com
+DTSTART:20190922T100000Z
+DTEND:20190922T110000Z
+LOCATION:
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/275386461\n \n\nSun\, Sep 22\n12:00 PM CEST\n[Car Rental] Drop 
+ Off ODKRYJ-AUTO Car Rental\nDrop-Off: 12:00pm\n+48 660 505 474\n \n\n \nTr
+ ipIt - organize your travel at https://www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170144Z
+SUMMARY:Check-out: Chez Monika Karwinska
+TRANSP:TRANSPARENT
+UID:item-144675f3-c84e-9000-0003-0000b1220a0d@tripit.com
+DTSTART:20190925T090000Z
+DTEND:20190925T100000Z
+LOCATION:Ślusarska 5\, Kraków\, Pologne
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/275386461\n \n\nWed\, Sep 25\n11:00 AM CEST\n[Lodging] Depart C
+ hez Monika\nCheck-Out: 11:00am\nŚlusarska 5\, Kraków\, Pologne\n \n\n \nTr
+ ipIt - organize your travel at https://www.tripit.com
+GEO:50.0494187;19.961778
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170144Z
+DTEND:20190925T190500Z
+LOCATION:Gare Routière Cracovie\; Bosacka 18\, Cracovie\, Pologne
+TRANSP:TRANSPARENT
+UID:item-1b4ee3ee-3903-9000-0003-0000b20815e5@tripit.com
+DTSTART:20190925T114000Z
+SUMMARY:FLIXBUS - Gare Routière Cracovie to Gare Routière Budapest
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/275386461\n \n\n1:40 PM CEST\n[Ground Transportation] FLIXBUS -
+  Gare Routière Cracovie to Gare Routière Budapest\nDepart Gare Routière Cr
+ acovie Bosacka 18\, Cracovie\, Pologne\n \n9:05 PM CEST\nArrive Gare Routi
+ ère Budapest Budapest\, Népliget Autóbusz-pályaudvar parkoló\, Könyves Kál
+ mán körút\, Hongrie\n \n\n \n\nTripIt - organize your travel at https://ww
+ w.tripit.com
+GEO:47.4738375;19.0973342
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170144Z
+DTEND:20190926T180000Z
+LOCATION:
+UID:item-9219a16a-9671-9000-0003-0000ad8b67d9@tripit.com
+DTSTART:20190926T170000Z
+SUMMARY:Opéra Warriors
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/275386461\n \n\nThu\, Sep 26\n7:00 PM CEST\n[Theater] Opéra War
+ riors\n7:00pm to 8:00pm\n \n\n \nTripIt - organize your travel at https://
+ www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170144Z
+DTEND:20191002T115000Z
+SUMMARY:FR7750 BUD to MRS
+LOCATION:Budapest (BUD)
+UID:item-41e96f8e-b76f-9000-0003-0000ab2cd6b1@tripit.com
+DTSTART:20191002T094500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/275386461\n \n\nWed\, Oct 2\n11:45 AM CEST\n[Flight] BUD to MRS
+ \n \n\nRyanair 7750\, Terminal \, Gate \n \n\n1:50 PM CEST\nArrive Marseil
+ le (MRS)\nTerminal 2\, Gate \n \n\n \nTripIt - organize your travel at htt
+ ps://www.tripit.com
+GEO:43.29695;5.38107
+END:VEVENT
+END:VCALENDAR

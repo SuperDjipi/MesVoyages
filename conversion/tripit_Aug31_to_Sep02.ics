@@ -1,0 +1,51 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+X-WR-CALNAME:Vincent Delcourt (TripIt - Drôme provençale)
+X-WR-CALDESC:Drôme provençale (Trip Shared by Vincent Delcourt)
+PRODID:-//John Papaioannou/NONSGML Bennu 0.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20251227T170108Z
+UID:c3d5593b-2998-9000-0001-0000120c85e8@tripit.com
+DTSTART;VALUE=DATE:20200831
+DTEND;VALUE=DATE:20200903
+SUMMARY:Drôme provençale
+LOCATION:Saint-Paul-Trois-Chateaux\, France
+GEO:44.34594;4.76356
+TRANSP:TRANSPARENT
+DESCRIPTION:Vincent Delcourt is in Saint-Paul-Trois-Chateaux\, France from
+  Aug 31 to Sep 2\, 2020\nView and/or edit details in TripIt : https://www.
+ tripit.com/trip/show?id=302810600\nTripIt - organize your travel at https:
+ //www.tripit.com\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170108Z
+SUMMARY:Check-in: Gîte B&B & Chambre d'Hôte Drome - Les Basses Granges
+TRANSP:TRANSPARENT
+UID:item-4d4aa87a-36cc-9000-0003-0000c54b93d9@tripit.com
+DTSTART:20200831T160000Z
+DTEND:20200831T170000Z
+LOCATION:195 Chemin des Basses Granges\, 26160 Portes-en-Valdaine\, France
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/302810600\n \n\nMon\, Aug 31\n6:00 PM CEST\n[Lodging] Arrive Gî
+ te B&B & Chambre d'Hôte Drome - Les Basses Granges\nCheck-In: 6:00pm\n195 
+ Chemin des Basses Granges\, 26160 Portes-en-Valdaine\, France\n+33 4 75 98
+  94 65\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:44.540673;4.902337
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170108Z
+SUMMARY:Check-out: Gîte B&B & Chambre d'Hôte Drome - Les Basses Granges
+TRANSP:TRANSPARENT
+UID:item-540bb18b-aa6c-9000-0003-0000c54b93dd@tripit.com
+DTSTART:20200902T090000Z
+DTEND:20200902T100000Z
+LOCATION:195 Chemin des Basses Granges\, 26160 Portes-en-Valdaine\, France
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/302810600\n \n\nWed\, Sep 2\n11:00 AM CEST\n[Lodging] Depart Gî
+ te B&B & Chambre d'Hôte Drome - Les Basses Granges\nCheck-Out: 11:00am\n19
+ 5 Chemin des Basses Granges\, 26160 Portes-en-Valdaine\, France\n+33 4 75 
+ 98 94 65\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:44.540673;4.902337
+END:VEVENT
+END:VCALENDAR

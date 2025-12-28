@@ -1,0 +1,286 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+X-WR-CALNAME:Vincent Delcourt (TripIt - Guatemala City, Guatemala, Februar
+ y 2020)
+X-WR-CALDESC:Guatemala City, Guatemala, February 2020 (Trip Shared by Vinc
+ ent Delcourt)
+PRODID:-//John Papaioannou/NONSGML Bennu 0.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20251227T170119Z
+UID:f442771f-dd2b-9000-0001-00001189dd93@tripit.com
+DTSTART;VALUE=DATE:20200211
+DTEND;VALUE=DATE:20200306
+SUMMARY:Guatemala City\, Guatemala\, February 2020
+LOCATION:Guatemala City\, Guatemala
+GEO:14.64072;-90.51327
+TRANSP:TRANSPARENT
+DESCRIPTION:Vincent Delcourt is in Guatemala City\, Guatemala from Feb 11 
+ to Mar 5\, 2020\nView and/or edit details in TripIt : https://www.tripit.c
+ om/trip/show?id=294247827\nTripIt - organize your travel at https://www.tr
+ ipit.com\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170119Z
+DTEND:20200211T075500Z
+SUMMARY:DL8298 MRS to AMS
+LOCATION:Marseille (MRS)
+UID:item-f9a1299d-98ac-9000-0003-0000b9969e1d@tripit.com
+DTSTART:20200211T054500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/294247827\n \n\nTue\, Feb 11\n6:45 AM CET\n[Flight] MRS to AMS\
+ n \n\nAir France 1806\, Terminal \, Gate \n \n\n8:55 AM CET\nArrive Amster
+ dam (AMS)\nTerminal \, Gate \, 1h\, 40m layover\n \n\n \nTripIt - organize
+  your travel at https://www.tripit.com
+GEO:52.37403;4.88969
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170119Z
+DTEND:20200211T194500Z
+SUMMARY:DL73 AMS to ATL
+LOCATION:Amsterdam (AMS)
+UID:item-264946de-4b85-9000-0003-0000b9969e21@tripit.com
+DTSTART:20200211T093500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/294247827\n \n\n10:35 AM CET\n[Flight] AMS to ATL\n \n\nDelta A
+ ir Lines 73\, Terminal \, Gate D7\n \n\n2:45 PM EST\nArrive Atlanta (ATL)\
+ nTerminal I\, Gate E26\, 3h\, 26m layover\n \n\n \nTripIt - organize your 
+ travel at https://www.tripit.com
+GEO:33.749;-84.38798
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170119Z
+DTEND:20200212T024600Z
+SUMMARY:DL909 ATL to GUA
+LOCATION:Atlanta (ATL)
+UID:item-7ab2901b-9ae1-9000-0003-0000b9969e25@tripit.com
+DTSTART:20200211T231100Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/294247827\n \n\n6:11 PM EST\n[Flight] ATL to GUA\n \n\nDelta Ai
+ r Lines 909\, Terminal \, Gate \n \n\n8:46 PM CST\nArrive Guatemala City (
+ GUA)\nTerminal \, Gate \n \n\n \nTripIt - organize your travel at https://
+ www.tripit.com
+GEO:14.64072;-90.51327
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170119Z
+SUMMARY:Check-in: Posada De Los Volcanes
+TRANSP:TRANSPARENT
+UID:item-b4e73232-f1fa-9000-0003-0000c08732a1@tripit.com
+DTSTART:20200218T200000Z
+DTEND:20200218T210000Z
+LOCATION:Calle Santander 5-51 Zona 2\, Panajachel\, 07010\, Guatemala
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/294247827\n \n\nTue\, Feb 18\n2:00 PM CST\n[Lodging] Arrive Pos
+ ada De Los Volcanes\nCheck-In: 2:00pm\nCalle Santander 5-51 Zona 2\, Panaj
+ achel\, 07010\, Guatemala\n+50277621096\n \n\n \nTripIt - organize your tr
+ avel at https://www.tripit.com
+GEO:14.7398629;-91.1603504
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170119Z
+SUMMARY:Check-out: Posada De Los Volcanes
+TRANSP:TRANSPARENT
+UID:item-74804c85-be13-9000-0003-0000c08732b1@tripit.com
+DTSTART:20200220T144500Z
+DTEND:20200220T154500Z
+LOCATION:Calle Santander 5-51 Zona 2\, Panajachel\, 07010\, Guatemala
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/294247827\n \n\nThu\, Feb 20\n8:45 AM CST\n[Lodging] Depart Pos
+ ada De Los Volcanes\nCheck-Out: 8:45am\nCalle Santander 5-51 Zona 2\, Pana
+ jachel\, 07010\, Guatemala\n+50277621096\n \n\n \nTripIt - organize your t
+ ravel at https://www.tripit.com
+GEO:14.7398629;-91.1603504
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170119Z
+SUMMARY:Check-in: POSADA SAN ANTONIO\, ACUL\, NEBAJ\, QUICHE\, GUATEMALA
+TRANSP:TRANSPARENT
+UID:item-5b5fa829-bae1-9000-0003-0000c049b86d@tripit.com
+DTSTART:20200220T210000Z
+DTEND:20200220T220000Z
+LOCATION:ACUL\, NEBAJ\, SANTA CRUZ DEL QUICHE\, GUATEMALA\, Guatemala
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/294247827\n \n\n3:00 PM CST\n[Lodging] Arrive POSADA SAN ANTONI
+ O\, ACUL\, NEBAJ\, QUICHE\, GUATEMALA\nCheck-In: 3:00pm\nACUL\, NEBAJ\, SA
+ NTA CRUZ DEL QUICHE\, GUATEMALA\, Guatemala\n+502 5702 1907\n \n\n \nTripI
+ t - organize your travel at https://www.tripit.com
+GEO:15.4112237;-91.194562
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170119Z
+SUMMARY:Check-out: POSADA SAN ANTONIO\, ACUL\, NEBAJ\, QUICHE\, GUATEMALA
+TRANSP:TRANSPARENT
+UID:item-499db4e4-aeb9-9000-0003-0000c049b875@tripit.com
+DTSTART:20200221T170000Z
+DTEND:20200221T180000Z
+LOCATION:ACUL\, NEBAJ\, SANTA CRUZ DEL QUICHE\, GUATEMALA\, Guatemala
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/294247827\n \n\nFri\, Feb 21\n11:00 AM CST\n[Lodging] Depart PO
+ SADA SAN ANTONIO\, ACUL\, NEBAJ\, QUICHE\, GUATEMALA\nCheck-Out: 11:00am\n
+ ACUL\, NEBAJ\, SANTA CRUZ DEL QUICHE\, GUATEMALA\, Guatemala\n+502 5702 19
+ 07\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:15.4112237;-91.194562
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170119Z
+DTEND:20200224T183000Z
+SUMMARY:5U130 GUA to FRS
+LOCATION:Guatemala City (GUA)
+UID:item-2b863e1b-5f27-9000-0003-0000c099edb5@tripit.com
+DTSTART:20200224T173000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/294247827\n \n\nMon\, Feb 24\n11:30 AM CST\n[Flight] GUA to FRS
+ \n \n\nTAG Airlines 130\, Terminal \, Gate \n \n\n12:30 PM CST\nArrive Flo
+ res (FRS)\nTerminal \, Gate \n \n\n \nTripIt - organize your travel at htt
+ ps://www.tripit.com
+GEO:16.92258;-89.89941
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170119Z
+SUMMARY:Check-in: Hotel Casa Amelia
+TRANSP:TRANSPARENT
+UID:item-a76a2ca8-96cf-9000-0003-0000c1001401@tripit.com
+DTSTART:20200224T210000Z
+DTEND:20200224T220000Z
+LOCATION:Calle La Union\, Flores\, 17001\, Guatemala
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/294247827\n \n\n3:00 PM CST\n[Lodging] Arrive Hotel Casa Amelia
+ \nCheck-In: 3:00pm\nCalle La Union\, Flores\, 17001\, Guatemala\n+502 7867
+  5430\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:16.9305718;-89.8926888
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170119Z
+SUMMARY:Check-out: Hotel Casa Amelia
+TRANSP:TRANSPARENT
+UID:item-25b1109d-d984-9000-0003-0000c100141d@tripit.com
+DTSTART:20200225T190000Z
+DTEND:20200225T200000Z
+LOCATION:Calle La Union\, Flores\, 17001\, Guatemala
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/294247827\n \n\nTue\, Feb 25\n1:00 PM CST\n[Lodging] Depart Hot
+ el Casa Amelia\nCheck-Out: 1:00pm\nCalle La Union\, Flores\, 17001\, Guate
+ mala\n+502 7867 5430\n \n\n \nTripIt - organize your travel at https://www
+ .tripit.com
+GEO:16.9305718;-89.8926888
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170119Z
+SUMMARY:Check-in: Hotel Jaguar Inn Tikal
+TRANSP:TRANSPARENT
+UID:item-3cb8f573-95b7-9000-0003-0000bd820c8d@tripit.com
+DTSTART:20200225T200000Z
+DTEND:20200225T210000Z
+LOCATION:Tikal National Park\, Tikal\, 20001\, Guatemala
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/294247827\n \n\n2:00 PM CST\n[Lodging] Arrive Hotel Jaguar Inn 
+ Tikal\nCheck-In: 2:00pm\nTikal National Park\, Tikal\, 20001\, Guatemala\n
+ +502 7926 2411\n \n\n \nTripIt - organize your travel at https://www.tripi
+ t.com
+GEO:17.2220409;-89.6236995
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170119Z
+SUMMARY:Check-out: Hotel Jaguar Inn Tikal
+TRANSP:TRANSPARENT
+UID:item-febdc123-c7d7-9000-0003-0000bd820c91@tripit.com
+DTSTART:20200226T180000Z
+DTEND:20200226T190000Z
+LOCATION:Tikal National Park\, Tikal\, 20001\, Guatemala
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/294247827\n \n\nWed\, Feb 26\n12:00 PM CST\n[Lodging] Depart Ho
+ tel Jaguar Inn Tikal\nCheck-Out: 12:00pm\nTikal National Park\, Tikal\, 20
+ 001\, Guatemala\n+502 7926 2411\n \n\n \nTripIt - organize your travel at 
+ https://www.tripit.com
+GEO:17.2220409;-89.6236995
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170119Z
+SUMMARY:Check-in: Ecolodge El Sombrero
+TRANSP:TRANSPARENT
+UID:item-b0a6dab0-f93b-9000-0003-0000c10004bd@tripit.com
+DTSTART:20200226T190000Z
+DTEND:20200226T200000Z
+LOCATION:Yaxha Lagoon\, Yaxha-Nakum-Naranjo National Park\, Laguna Yaxha\,
+  17000\, Guatemala
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/294247827\n \n\n1:00 PM CST\n[Lodging] Arrive Ecolodge El Sombr
+ ero\nCheck-In: 1:00pm\nYaxha Lagoon\, Yaxha-Nakum-Naranjo National Park\, 
+ Laguna Yaxha\, 17000\, Guatemala\n+502 5460 2934\n \n\n \nTripIt - organiz
+ e your travel at https://www.tripit.com
+GEO:17.0544375;-89.3870964
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170119Z
+SUMMARY:Check-out: Ecolodge El Sombrero
+TRANSP:TRANSPARENT
+UID:item-8ab7a1e8-e907-9000-0003-0000c10004c1@tripit.com
+DTSTART:20200227T170000Z
+DTEND:20200227T180000Z
+LOCATION:Yaxha Lagoon\, Yaxha-Nakum-Naranjo National Park\, Laguna Yaxha\,
+  17000\, Guatemala
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/294247827\n \n\nThu\, Feb 27\n11:00 AM CST\n[Lodging] Depart Ec
+ olodge El Sombrero\nCheck-Out: 11:00am\nYaxha Lagoon\, Yaxha-Nakum-Naranjo
+  National Park\, Laguna Yaxha\, 17000\, Guatemala\n+502 5460 2934\n \n\n \
+ nTripIt - organize your travel at https://www.tripit.com
+GEO:17.0544375;-89.3870964
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170119Z
+DTEND:20200229T200000Z
+SUMMARY:5U131 FRS to GUA
+LOCATION:Flores (FRS)
+UID:item-783fbe63-72d8-9000-0003-0000c099fe05@tripit.com
+DTSTART:20200229T190000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/294247827\n \n\nSat\, Feb 29\n1:00 PM CST\n[Flight] FRS to GUA\
+ n \n\nTAG Airlines 131\, Terminal \, Gate \n \n\n2:00 PM CST\nArrive Guate
+ mala City (GUA)\nTerminal \, Gate \n \n\n \nTripIt - organize your travel 
+ at https://www.tripit.com
+GEO:14.64072;-90.51327
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170119Z
+DTEND:20200304T234900Z
+SUMMARY:DL906 GUA to ATL
+LOCATION:Guatemala City (GUA)
+UID:item-a22cd883-d04b-9000-0003-0000b9969e29@tripit.com
+DTSTART:20200304T202500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/294247827\n \n\nWed\, Mar 4\n2:25 PM CST\n[Flight] GUA to ATL\n
+  \n\nDelta Air Lines 906\, Terminal \, Gate \n \n\n6:49 PM EST\nArrive Atl
+ anta (ATL)\nTerminal \, Gate \, 4h\, 3m layover\n \n\n \nTripIt - organize
+  your travel at https://www.tripit.com
+GEO:33.749;-84.38798
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170119Z
+DTEND:20200305T122000Z
+SUMMARY:DL84 ATL to CDG
+LOCATION:Atlanta (ATL)
+UID:item-6a27d88a-b2b6-9000-0003-0000b9969e2d@tripit.com
+DTSTART:20200305T035200Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/294247827\n \n\n10:52 PM EST\n[Flight] ATL to CDG\n \n\nDelta A
+ ir Lines 84\, Terminal I\, Gate F4\n \n\n \nThu\, Mar 5\n1:20 PM CET\nArri
+ ve Paris (CDG)\nTerminal 2E\, Gate \, 2h\, 10m layover\n \n\n \nTripIt - o
+ rganize your travel at https://www.tripit.com
+GEO:48.85341;2.3488
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170119Z
+DTEND:20200305T155500Z
+SUMMARY:DL8406 CDG to MRS
+LOCATION:Paris (CDG)
+UID:item-d3a0c064-4782-9000-0003-0000b9969e31@tripit.com
+DTSTART:20200305T143000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/294247827\n \n\n3:30 PM CET\n[Flight] CDG to MRS\n \n\nAir Fran
+ ce 7666\, Terminal \, Gate \n \n\n4:55 PM CET\nArrive Marseille (MRS)\nTer
+ minal \, Gate \n \n\n \nTripIt - organize your travel at https://www.tripi
+ t.com
+GEO:43.29695;5.38107
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,219 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+X-WR-CALNAME:Vincent Delcourt (TripIt - Porto, Portugal, April 2022)
+X-WR-CALDESC:Porto, Portugal, April 2022 (Trip Shared by Vincent Delcourt)
+PRODID:-//John Papaioannou/NONSGML Bennu 0.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20251227T170024Z
+UID:22633bfa-6a67-9000-0001-000012d991e8@tripit.com
+DTSTART;VALUE=DATE:20220415
+DTEND;VALUE=DATE:20220426
+SUMMARY:Porto\, Portugal\, April 2022
+LOCATION:Porto\, Portugal
+GEO:41.1485;-8.61097
+TRANSP:TRANSPARENT
+DESCRIPTION:Vincent Delcourt is in Porto\, Portugal from Apr 15 to 25\, 20
+ 22\nView and/or edit details in TripIt : https://www.tripit.com/trip/show?
+ id=316248552\nTripIt - organize your travel at https://www.tripit.com\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170024Z
+SUMMARY:Check-in: Bilbao
+TRANSP:TRANSPARENT
+UID:item-41b5c151-d817-9000-0003-0000d8f0c599@tripit.com
+DTSTART:20220415T130000Z
+DTEND:20220415T140000Z
+LOCATION:Colón de Larreátegui Kalea\, 5\, 48001 Bilbao\, Espagne
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/316248552\n \n\nFri\, Apr 15\n3:00 PM CEST\n[Lodging] Arrive Bi
+ lbao\nCheck-In: 3:00pm\nColón de Larreátegui Kalea\, 5\, 48001 Bilbao\, Es
+ pagne\n+34669549526\n \n\n \nTripIt - organize your travel at https://www.
+ tripit.com
+GEO:43.2622075;-2.9268615
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170024Z
+DTEND:20220416T123000Z
+LOCATION:Guggenheim Museum\; Abandoibarra Etorb.\, 2\, 48009 Bilbo\, Bizka
+ ia\, Espagne
+UID:item-25f44025-0ad1-9000-0003-0000d9eb2845@tripit.com
+DTSTART:20220416T113000Z
+SUMMARY:Activity
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/316248552\n \n\nSat\, Apr 16\n1:30 PM CEST\n[Activity] Activity
+ \nAbandoibarra Etorb.\, 2\, 48009 Bilbo\, Bizkaia\, Espagne\n1:30pm to 2:3
+ 0pm\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:43.26861;-2.93438
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170024Z
+SUMMARY:Check-out: Bilbao
+TRANSP:TRANSPARENT
+UID:item-c61cfce1-29b8-9000-0003-0000d8f0c59d@tripit.com
+DTSTART:20220417T090000Z
+DTEND:20220417T100000Z
+LOCATION:Colón de Larreátegui Kalea\, 5\, 48001 Bilbao\, Espagne
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/316248552\n \n\nSun\, Apr 17\n11:00 AM CEST\n[Lodging] Depart B
+ ilbao\nCheck-Out: 11:00am\nColón de Larreátegui Kalea\, 5\, 48001 Bilbao\,
+  Espagne\n+34669549526\n \n\n \nTripIt - organize your travel at https://w
+ ww.tripit.com
+GEO:43.2622075;-2.9268615
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170024Z
+SUMMARY:Check-in: Crisol Puerta de Burgos
+TRANSP:TRANSPARENT
+UID:item-882b6183-95f9-9000-0003-0000d8f09645@tripit.com
+DTSTART:20220417T120000Z
+DTEND:20220417T130000Z
+LOCATION:Vitoria\, 69\, Burgos\, 09006\, Espagne
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/316248552\n \n\n2:00 PM CEST\n[Lodging] Arrive Crisol Puerta de
+  Burgos\nCheck-In: 2:00pm\nVitoria\, 69\, Burgos\, 09006\, Espagne\n+34 94
+ 7 24 10 00\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:42.3450012;-3.6847676
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170024Z
+SUMMARY:Check-out: Crisol Puerta de Burgos
+TRANSP:TRANSPARENT
+UID:item-7c8a0559-5690-9000-0003-0000d8f09649@tripit.com
+DTSTART:20220418T100000Z
+DTEND:20220418T110000Z
+LOCATION:Vitoria\, 69\, Burgos\, 09006\, Espagne
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/316248552\n \n\nMon\, Apr 18\n12:00 PM CEST\n[Lodging] Depart C
+ risol Puerta de Burgos\nCheck-Out: 12:00pm\nVitoria\, 69\, Burgos\, 09006\
+ , Espagne\n+34 947 24 10 00\n \n\n \nTripIt - organize your travel at http
+ s://www.tripit.com
+GEO:42.3450012;-3.6847676
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170025Z
+SUMMARY:Check-in: Porto Essence
+TRANSP:TRANSPARENT
+UID:item-243cfb4b-ec63-9000-0003-0000d8f092f9@tripit.com
+DTSTART:20220418T140000Z
+DTEND:20220418T150000Z
+LOCATION:507 Rua do Bonjardim 3 Esquerdo Frente\, União de Freguesias do C
+ entro\, Porto\, 4000-126\, Portugal
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/316248552\n \n\n3:00 PM WEST\n[Lodging] Arrive Porto Essence\nC
+ heck-In: 3:00pm\n507 Rua do Bonjardim 3 Esquerdo Frente\, União de Fregues
+ ias do Centro\, Porto\, 4000-126\, Portugal\n+351 910 687 903\n \n\n \nTri
+ pIt - organize your travel at https://www.tripit.com
+GEO:41.1517143;-8.6083848
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170025Z
+SUMMARY:Check-out: Porto Essence
+TRANSP:TRANSPARENT
+UID:item-485db03d-eb06-9000-0003-0000d8f092fd@tripit.com
+DTSTART:20220422T100000Z
+DTEND:20220422T110000Z
+LOCATION:507 Rua do Bonjardim 3 Esquerdo Frente\, União de Freguesias do C
+ entro\, Porto\, 4000-126\, Portugal
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/316248552\n \n\nFri\, Apr 22\n11:00 AM WEST\n[Lodging] Depart P
+ orto Essence\nCheck-Out: 11:00am\n507 Rua do Bonjardim 3 Esquerdo Frente\,
+  União de Freguesias do Centro\, Porto\, 4000-126\, Portugal\n+351 910 687
+  903\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:41.1517143;-8.6083848
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170025Z
+SUMMARY:Check-in: ELE Enara Boutique Hotel
+TRANSP:TRANSPARENT
+UID:item-15da1d28-ee1b-9000-0003-0000da382475@tripit.com
+DTSTART:20220422T120000Z
+DTEND:20220422T130000Z
+LOCATION:Plaza de España\, 5 -Entrada por Montero Calvo\, 30-\, Valladolid
+ \, 47001\, Espagne
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/316248552\n \n\n2:00 PM CEST\n[Lodging] Arrive ELE Enara Boutiq
+ ue Hotel\nCheck-In: 2:00pm\nPlaza de España\, 5 -Entrada por Montero Calvo
+ \, 30-\, Valladolid\, 47001\, Espagne\n+34 983 30 02 11\n \n\n \nTripIt - 
+ organize your travel at https://www.tripit.com
+GEO:41.6492049;-4.7254208
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170025Z
+SUMMARY:Check-out: ELE Enara Boutique Hotel
+TRANSP:TRANSPARENT
+UID:item-78eaf8df-0fee-9000-0003-0000da382481@tripit.com
+DTSTART:20220423T100000Z
+DTEND:20220423T110000Z
+LOCATION:Plaza de España\, 5 -Entrada por Montero Calvo\, 30-\, Valladolid
+ \, 47001\, Espagne
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/316248552\n \n\nSat\, Apr 23\n12:00 PM CEST\n[Lodging] Depart E
+ LE Enara Boutique Hotel\nCheck-Out: 12:00pm\nPlaza de España\, 5 -Entrada 
+ por Montero Calvo\, 30-\, Valladolid\, 47001\, Espagne\n+34 983 30 02 11\n
+  \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:41.6492049;-4.7254208
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170025Z
+SUMMARY:Check-in: Cesaraugusta
+TRANSP:TRANSPARENT
+UID:item-47797450-0e7e-9000-0003-0000da37e535@tripit.com
+DTSTART:20220423T120000Z
+DTEND:20220423T130000Z
+LOCATION:Avenida Anselmo Clavé\, 45\, Centro\, Saragosse\, 50004\, Espagne
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/316248552\n \n\n2:00 PM CEST\n[Lodging] Arrive Cesaraugusta\nCh
+ eck-In: 2:00pm\nAvenida Anselmo Clavé\, 45\, Centro\, Saragosse\, 50004\, 
+ Espagne\n+34976282727\n \n\n \nTripIt - organize your travel at https://ww
+ w.tripit.com
+GEO:41.6491074;-0.8935483
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170025Z
+SUMMARY:Check-out: Cesaraugusta
+TRANSP:TRANSPARENT
+UID:item-90a14fc6-b9f9-9000-0003-0000da37e539@tripit.com
+DTSTART:20220424T100000Z
+DTEND:20220424T110000Z
+LOCATION:Avenida Anselmo Clavé\, 45\, Centro\, Saragosse\, 50004\, Espagne
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/316248552\n \n\nSun\, Apr 24\n12:00 PM CEST\n[Lodging] Depart C
+ esaraugusta\nCheck-Out: 12:00pm\nAvenida Anselmo Clavé\, 45\, Centro\, Sar
+ agosse\, 50004\, Espagne\n+34976282727\n \n\n \nTripIt - organize your tra
+ vel at https://www.tripit.com
+GEO:41.6491074;-0.8935483
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170025Z
+SUMMARY:Check-in: La Casa de Antonio Boutique Rooms
+TRANSP:TRANSPARENT
+UID:item-56aeb574-e428-9000-0003-0000da659e2d@tripit.com
+DTSTART:20220424T130000Z
+DTEND:20220424T140000Z
+LOCATION:Gran Via de las Cortes Catalanas 584 2 1\, Eixample\, Barcelone\,
+  08004\, Espagne
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/316248552\n \n\n3:00 PM CEST\n[Lodging] Arrive La Casa de Anton
+ io Boutique Rooms\nCheck-In: 3:00pm\nGran Via de las Cortes Catalanas 584 
+ 2 1\, Eixample\, Barcelone\, 08004\, Espagne\n+34 617783263\n \n\n \nTripI
+ t - organize your travel at https://www.tripit.com
+GEO:41.3848133;2.162945
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170025Z
+SUMMARY:Check-out: La Casa de Antonio Boutique Rooms
+TRANSP:TRANSPARENT
+UID:item-69fbfb75-c8e6-9000-0003-0000da659e31@tripit.com
+DTSTART:20220425T100000Z
+DTEND:20220425T110000Z
+LOCATION:Gran Via de las Cortes Catalanas 584 2 1\, Eixample\, Barcelone\,
+  08004\, Espagne
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/316248552\n \n\nMon\, Apr 25\n12:00 PM CEST\n[Lodging] Depart L
+ a Casa de Antonio Boutique Rooms\nCheck-Out: 12:00pm\nGran Via de las Cort
+ es Catalanas 584 2 1\, Eixample\, Barcelone\, 08004\, Espagne\n+34 6177832
+ 63\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:41.3848133;2.162945
+END:VEVENT
+END:VCALENDAR

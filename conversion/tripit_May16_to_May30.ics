@@ -1,0 +1,107 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+X-WR-CALNAME:Vincent Delcourt (TripIt - Échange Massfelder)
+X-WR-CALDESC:Échange Massfelder (Trip Shared by Vincent Delcourt)
+PRODID:-//John Papaioannou/NONSGML Bennu 0.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20251227T165908Z
+UID:ef08b24c-bdbb-9000-0001-000014d516c9@tripit.com
+DTSTART;VALUE=DATE:20240516
+DTEND;VALUE=DATE:20240531
+SUMMARY:Échange Massfelder
+LOCATION:No destination specified
+TRANSP:TRANSPARENT
+DESCRIPTION:Vincent Delcourt is in an unspecified location from May 16 to 
+ 30\, 2024\nView and/or edit details in TripIt : https://www.tripit.com/tri
+ p/show?id=349509321\nTripIt - organize your travel at https://www.tripit.c
+ om\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T165908Z
+SUMMARY:Check-in: Hôtel d'Angleterre (by Popinns)
+TRANSP:TRANSPARENT
+UID:item-b670ca53-b624-9000-0003-00010f8f8311@tripit.com
+DTSTART:20240516T130000Z
+DTEND:20240516T140000Z
+LOCATION:162 rue de Charmey \, Vittel\, 88800\, France
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/349509321\n \n\nThu\, May 16\n3:00 PM CEST\n[Lodging] Arrive Hô
+ tel d'Angleterre (by Popinns)\nCheck-In: 3:00pm\n162 rue de Charmey \, Vit
+ tel\, 88800\, France\n+33 3 29 08 08 42\n \n\n \nTripIt - organize your tr
+ avel at https://www.tripit.com
+GEO:48.2027209;5.9409473
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T165908Z
+SUMMARY:Check-out: Hôtel d'Angleterre (by Popinns)
+TRANSP:TRANSPARENT
+UID:item-bbb0fd27-e998-9000-0003-00010f8f8315@tripit.com
+DTSTART:20240517T090000Z
+DTEND:20240517T100000Z
+LOCATION:162 rue de Charmey \, Vittel\, 88800\, France
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/349509321\n \n\nFri\, May 17\n11:00 AM CEST\n[Lodging] Depart H
+ ôtel d'Angleterre (by Popinns)\nCheck-Out: 11:00am\n162 rue de Charmey \, 
+ Vittel\, 88800\, France\n+33 3 29 08 08 42\n \n\n \nTripIt - organize your
+  travel at https://www.tripit.com
+GEO:48.2027209;5.9409473
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T165908Z
+TRANSP:TRANSPARENT
+UID:item-df9c7951-a884-9000-0003-000110c14cb9@tripit.com
+DTSTART:20240517T130000Z
+DTEND:20240517T140000Z
+SUMMARY:Arrive Lodging
+LOCATION:Birkenweg 3\, Eckenroth\, Allemagne
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/349509321\n \n\n3:00 PM CEST\n[Lodging] Arrive Lodging\nCheck-I
+ n: 3:00pm\nBirkenweg 3\, Eckenroth\, Allemagne\n \n\n \nTripIt - organize 
+ your travel at https://www.tripit.com
+GEO:49.9252503;7.7846534
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T165908Z
+TRANSP:TRANSPARENT
+UID:item-81f4f373-3a42-9000-0003-000110c14cc1@tripit.com
+DTSTART:20240529T090000Z
+DTEND:20240529T100000Z
+SUMMARY:Depart Lodging
+LOCATION:Birkenweg 3\, Eckenroth\, Allemagne
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/349509321\n \n\nWed\, May 29\n11:00 AM CEST\n[Lodging] Depart L
+ odging\nCheck-Out: 11:00am\nBirkenweg 3\, Eckenroth\, Allemagne\n \n\n \nT
+ ripIt - organize your travel at https://www.tripit.com
+GEO:49.9252503;7.7846534
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T165908Z
+SUMMARY:Check-in: Hôtel Providence
+TRANSP:TRANSPARENT
+UID:item-7f28570c-fe19-9000-0003-000110c147a1@tripit.com
+DTSTART:20240529T130000Z
+DTEND:20240529T140000Z
+LOCATION:125 Avenue De Châtillon\, Vittel\, 88800 France
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/349509321\n \n\n3:00 PM CEST\n[Lodging] Arrive Hôtel Providence
+ \nCheck-In: 3:00pm\n125 Avenue De Châtillon\, Vittel\, 88800 France\n(33) 
+ 3 29080827\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:48.2036768;5.9404524
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T165908Z
+SUMMARY:Check-out: Hôtel Providence
+TRANSP:TRANSPARENT
+UID:item-dda6030c-af83-9000-0003-000110c147a5@tripit.com
+DTSTART:20240530T090000Z
+DTEND:20240530T100000Z
+LOCATION:125 Avenue De Châtillon\, Vittel\, 88800 France
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/349509321\n \n\nThu\, May 30\n11:00 AM CEST\n[Lodging] Depart H
+ ôtel Providence\nCheck-Out: 11:00am\n125 Avenue De Châtillon\, Vittel\, 88
+ 800 France\n(33) 3 29080827\n \n\n \nTripIt - organize your travel at http
+ s://www.tripit.com
+GEO:48.2036768;5.9404524
+END:VEVENT
+END:VCALENDAR

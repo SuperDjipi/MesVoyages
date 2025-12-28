@@ -1,0 +1,135 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+X-WR-CALNAME:Vincent Delcourt (TripIt - Rome, Italy, November 2015)
+X-WR-CALDESC:Rome, Italy, November 2015 (Trip Shared by Vincent Delcourt)
+PRODID:-//John Papaioannou/NONSGML Bennu 0.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20251227T170458Z
+UID:1950004a-fc8c-9000-0001-000009b4a9c7@tripit.com
+DTSTART;VALUE=DATE:20151126
+DTEND;VALUE=DATE:20151202
+SUMMARY:Rome\, Italy\, November 2015
+LOCATION:Rome\, Italy
+GEO:41.89193;12.51133
+TRANSP:TRANSPARENT
+DESCRIPTION:Vincent Delcourt is in Rome\, Italy from Nov 26 to Dec 1\, 201
+ 5\nView and/or edit details in TripIt : https://www.tripit.com/trip/show?i
+ d=162834887\nTripIt - organize your travel at https://www.tripit.com\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170458Z
+DTEND:20151126T105000Z
+SUMMARY:FR9796 MRS to FCO
+LOCATION:Marseille (MRS)
+UID:item-789bfe63-4c3d-9000-0003-000064507f1f@tripit.com
+DTSTART:20151126T092500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/162834887\n \n\nThu\, Nov 26\n10:25 AM CET\n[Flight] MRS to FCO
+ \n \n\nRyanair 9796\, Terminal MP2\, Gate \n \n\n11:50 AM CET\nArrive Rome
+  (FCO)\nTerminal \, Gate \n \n\n \nTripIt - organize your travel at https:
+ //www.tripit.com
+GEO:41.9;12.483333
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170458Z
+DTEND:20151126T105000Z
+SUMMARY:FR9796 MRS to FCO
+LOCATION:Marseille (MRS)
+UID:item-755fc3b3-79d3-9000-0003-000064508132@tripit.com
+DTSTART:20151126T092500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/162834887\n \n\n10:25 AM CET\n[Flight] MRS to FCO\n \n\nRyanair
+  9796\, Terminal MP2\, Gate \n \n\n11:50 AM CET\nArrive Rome (FCO)\nTermin
+ al \, Gate \n \n\n \nTripIt - organize your travel at https://www.tripit.c
+ om
+GEO:41.9;12.483333
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170458Z
+SUMMARY:Check-in: Hotel Nord Nuova Roma
+TRANSP:TRANSPARENT
+UID:item-6390ebf8-ecf2-9000-0003-0000647e4191@tripit.com
+DTSTART:20151126T130000Z
+DTEND:20151126T140000Z
+LOCATION:Via G. Amendola 3 Stazione Termini Rome\, 00185\, Italie
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/162834887\n \n\n2:00 PM CET\n[Lodging] Arrive Hotel Nord Nuova 
+ Roma\nCheck-In: 2:00pm\nVia G. Amendola 3 Stazione Termini Rome\, 00185\, 
+ Italie\n+39064885441\n \n\n \nTripIt - organize your travel at https://www
+ .tripit.com
+GEO:41.8977003;12.5097274
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170458Z
+SUMMARY:Check-out: Hotel Nord Nuova Roma
+TRANSP:TRANSPARENT
+UID:item-a2a1dee5-3ae2-9000-0003-0000647e4192@tripit.com
+DTSTART:20151127T100000Z
+DTEND:20151127T110000Z
+LOCATION:Via G. Amendola 3 Stazione Termini Rome\, 00185\, Italie
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/162834887\n \n\nFri\, Nov 27\n11:00 AM CET\n[Lodging] Depart Ho
+ tel Nord Nuova Roma\nCheck-Out: 11:00am\nVia G. Amendola 3 Stazione Termin
+ i Rome\, 00185\, Italie\n+39064885441\n \n\n \nTripIt - organize your trav
+ el at https://www.tripit.com
+GEO:41.8977003;12.5097274
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170458Z
+SUMMARY:Check-in: Residenza Di Ripetta Rome
+TRANSP:TRANSPARENT
+UID:item-175ed4c1-95f0-9000-0003-00006464bfa3@tripit.com
+DTSTART:20151127T130000Z
+DTEND:20151127T140000Z
+LOCATION:Via di Ripetta\, 231 00186 - Rome - Italy
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/162834887\n \n\n2:00 PM CET\n[Lodging] Arrive Residenza Di Ripe
+ tta Rome\nCheck-In: 2:00pm\nVia di Ripetta\, 231 00186 - Rome - Italy\n \n
+ \n \nTripIt - organize your travel at https://www.tripit.com
+GEO:41.9084515;12.4759871
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170458Z
+SUMMARY:Check-out: Residenza Di Ripetta Rome
+TRANSP:TRANSPARENT
+UID:item-831e5c1c-eb19-9000-0003-00006464bfa4@tripit.com
+DTSTART:20151201T092500Z
+DTEND:20151201T102500Z
+LOCATION:Via di Ripetta\, 231 00186 - Rome - Italy
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/162834887\n \n\nTue\, Dec 1\n10:25 AM CET\n[Lodging] Depart Res
+ idenza Di Ripetta Rome\nCheck-Out: 10:25am\nVia di Ripetta\, 231 00186 - R
+ ome - Italy\n \n\n \nTripIt - organize your travel at https://www.tripit.c
+ om
+GEO:41.9084515;12.4759871
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170458Z
+DTEND:20151201T130000Z
+SUMMARY:FR9795 FCO to MRS
+LOCATION:Rome (FCO)
+UID:item-a1d3cdce-778e-9000-0003-000064507f20@tripit.com
+DTSTART:20151201T112500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/162834887\n \n\n12:25 PM CET\n[Flight] FCO to MRS\n \n\nRyanair
+  9795\, Terminal \, Gate \n \n\n2:00 PM CET\nArrive Marseille (MRS)\nTermi
+ nal MP2\, Gate \n \n\n \nTripIt - organize your travel at https://www.trip
+ it.com
+GEO:43.3;5.4
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170458Z
+DTEND:20151201T130000Z
+SUMMARY:FR9795 FCO to MRS
+LOCATION:Rome (FCO)
+UID:item-53cb98e9-c923-9000-0003-000064508135@tripit.com
+DTSTART:20151201T112500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/162834887\n \n\n12:25 PM CET\n[Flight] FCO to MRS\n \n\nRyanair
+  9795\, Terminal \, Gate \n \n\n2:00 PM CET\nArrive Marseille (MRS)\nTermi
+ nal MP2\, Gate \n \n\n \nTripIt - organize your travel at https://www.trip
+ it.com
+GEO:43.3;5.4
+END:VEVENT
+END:VCALENDAR

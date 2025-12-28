@@ -1,0 +1,179 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+X-WR-CALNAME:Vincent Delcourt (TripIt - Newark, NJ, January 2015)
+X-WR-CALDESC:Newark, NJ, January 2015 (Trip Shared by Vincent Delcourt)
+PRODID:-//John Papaioannou/NONSGML Bennu 0.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20251227T170614Z
+UID:a58f32c4-734d-9000-0001-00000897a0a8@tripit.com
+DTSTART;VALUE=DATE:20150125
+DTEND;VALUE=DATE:20150224
+SUMMARY:Newark\, NJ\, January 2015
+LOCATION:Newark\, NJ
+GEO:40.73566;-74.17237
+TRANSP:TRANSPARENT
+DESCRIPTION:Vincent Delcourt is in Newark\, NJ from Jan 25 to Feb 23\, 201
+ 5\nView and/or edit details in TripIt : https://www.tripit.com/trip/show?i
+ d=144154792\nTripIt - organize your travel at https://www.tripit.com\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170614Z
+DTEND:20150125T080000Z
+SUMMARY:AF1806 MRS to AMS
+LOCATION:Marseille (MRS)
+UID:item-507de8d7-90be-9000-0003-00005752557a@tripit.com
+DTSTART:20150125T060000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/144154792\n \n\nSun\, Jan 25\n7:00 AM CET\n[Flight] MRS to AMS\
+ n \n\nAir France 1806\, Terminal \, Gate \n \n\n9:00 AM CET\nArrive Amster
+ dam (AMS)\nTerminal \, Gate \, 3h\, 50m layover\n \n\n \nTripIt - organize
+  your travel at https://www.tripit.com
+GEO:52.35;4.916667
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170614Z
+DTEND:20150125T204000Z
+SUMMARY:DL141 AMS to EWR
+LOCATION:Amsterdam (AMS)
+UID:item-6a026f67-fe73-9000-0003-00005752557c@tripit.com
+DTSTART:20150125T115000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/144154792\n \n\n12:50 PM CET\n[Flight] AMS to EWR\n \n\nDelta A
+ ir Lines 141\, Terminal 2\, Gate E7\n \n\n3:40 PM EST\nArrive Newark (EWR)
+ \nTerminal B\, Gate B2-53\n \n\n \nTripIt - organize your travel at https:
+ //www.tripit.com
+GEO:40.735657;-74.172367
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170614Z
+DTEND:20150208T230700Z
+SUMMARY:DL434 JFK to SFO
+LOCATION:New York (JFK)
+UID:item-680760f1-232b-9000-0003-00005752557e@tripit.com
+DTSTART:20150208T163000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/144154792\n \n\nSun\, Feb 8\n11:30 AM EST\n[Flight] JFK to SFO\
+ n \n\nDelta Air Lines 434\, Terminal 4\, Gate B34\n \n\n3:07 PM PST\nArriv
+ e San Francisco (SFO)\nTerminal 1\, Gate 47\n \n\n \nTripIt - organize you
+ r travel at https://www.tripit.com
+GEO:37.774929;-122.419415
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170614Z
+DTEND:20150216T190100Z
+SUMMARY:B6888 SFO to LAS
+LOCATION:San Francisco (SFO)
+UID:item-4495bf3d-de46-9000-0003-00005906a8ec@tripit.com
+DTSTART:20150216T172500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/144154792\n \n\nMon\, Feb 16\n9:25 AM PST\n[Flight] SFO to LAS\
+ n \n\nJetBlue Airways 888\, Terminal \, Gate \n \n\n11:01 AM PST\nArrive L
+ as Vegas (LAS)\nTerminal \, Gate \n \n\n \nTripIt - organize your travel a
+ t https://www.tripit.com
+GEO:36.174971;-115.137223
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170614Z
+SUMMARY:Check-in: Stratosphere
+TRANSP:TRANSPARENT
+UID:item-bf8207b9-d427-9000-0003-000059071b85@tripit.com
+DTSTART:20150216T210100Z
+DTEND:20150216T220100Z
+LOCATION:2000 S. Las Vegas Blvd. \nLas Vegas\, NV 89104
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/144154792\n \n\n1:01 PM PST\n[Lodging] Arrive Stratosphere\nChe
+ ck-In: 1:01pm\n2000 S. Las Vegas Blvd. \nLas Vegas\, NV 89104\n \n\n \nTri
+ pIt - organize your travel at https://www.tripit.com
+GEO:36.1474086;-115.1553903
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170614Z
+SUMMARY:Check-out: Stratosphere
+TRANSP:TRANSPARENT
+UID:item-529cf34f-5ff6-9000-0003-000059071b86@tripit.com
+DTSTART:20150218T204100Z
+DTEND:20150218T214100Z
+LOCATION:2000 S. Las Vegas Blvd. \nLas Vegas\, NV 89104
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/144154792\n \n\nWed\, Feb 18\n12:41 PM PST\n[Lodging] Depart St
+ ratosphere\nCheck-Out: 12:41pm\n2000 S. Las Vegas Blvd. \nLas Vegas\, NV 8
+ 9104\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:36.1474086;-115.1553903
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170614Z
+DTEND:20150218T234500Z
+SUMMARY:B6879 LAS to LGB
+LOCATION:Las Vegas (LAS)
+UID:item-932c04f0-599d-9000-0003-000059070743@tripit.com
+DTSTART:20150218T224100Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/144154792\n \n\n2:41 PM PST\n[Flight] LAS to LGB\n \n\nJetBlue 
+ Airways 879\, Terminal \, Gate \n \n\n3:45 PM PST\nArrive Long Beach (LGB)
+ \nTerminal \, Gate \, 1h\, 25m layover\n \n\n \nTripIt - organize your tra
+ vel at https://www.tripit.com
+GEO:33.766962;-118.189235
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170614Z
+DTEND:20150219T023200Z
+SUMMARY:B61436 LGB to SFO
+LOCATION:Long Beach (LGB)
+UID:item-3ad9d953-a8bd-9000-0003-000059070744@tripit.com
+DTSTART:20150219T011000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/144154792\n \n\n5:10 PM PST\n[Flight] LGB to SFO\n \n\nJetBlue 
+ Airways 1436\, Terminal \, Gate \n \n\n6:32 PM PST\nArrive San Francisco (
+ SFO)\nTerminal \, Gate \n \n\n \nTripIt - organize your travel at https://
+ www.tripit.com
+GEO:37.774929;-122.419415
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170614Z
+LOCATION:1155 LEAVENWORTH ST  SAN FRANCISCO\, CA 94109  1
+TRANSP:TRANSPARENT
+UID:item-502fc978-1b36-9000-0003-000059a18bbd@tripit.com
+DTSTART:20150222T191000Z
+DTEND:20150222T201000Z
+SUMMARY:SuperShuttle - SAN FRANCISCO AIRPORT
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/144154792\n \n\nSun\, Feb 22\n11:10 AM PST\n[Ground Transportat
+ ion] SuperShuttle - SAN FRANCISCO AIRPORT\nDepart  1155 LEAVENWORTH ST  SA
+ N FRANCISCO\, CA 94109  1\n \n  \nArrive SAN FRANCISCO AIRPORT SFO\nOur 15
+ -minute pick-up window means that the van will normally arrive within 15 m
+ inutes of your scheduled pickup time. Please make sure that you are comple
+ tely ready to go at the beginning of your scheduled pickup time window so 
+ that you will not keep other passengers waiting!\n \n\n \n\nTripIt - organ
+ ize your travel at https://www.tripit.com
+GEO:37.615215;-122.389881
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170614Z
+DTEND:20150223T093000Z
+SUMMARY:DL9381 SFO to AMS
+LOCATION:San Francisco (SFO)
+UID:item-b05f39cc-a6a9-9000-0003-000057525580@tripit.com
+DTSTART:20150222T224500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/144154792\n \n\n2:45 PM PST\n[Flight] SFO to AMS\n \n\nKLM 606\
+ , Terminal INTL\, Gate \n \n\n \nMon\, Feb 23\n10:30 AM CET\nArrive Amster
+ dam (AMS)\nTerminal \, Gate \, 1h\, 40m layover\n \n\n \nTripIt - organize
+  your travel at https://www.tripit.com
+GEO:52.35;4.916667
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170614Z
+DTEND:20150223T130000Z
+SUMMARY:DL8366 AMS to MRS
+LOCATION:Amsterdam (AMS)
+UID:item-b215ad6b-eac2-9000-0003-000057525582@tripit.com
+DTSTART:20150223T111000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/144154792\n \n\n12:10 PM CET\n[Flight] AMS to MRS\n \n\nAir Fra
+ nce 1821\, Terminal \, Gate \n \n\n2:00 PM CET\nArrive Marseille (MRS)\nTe
+ rminal \, Gate \n \n\n \nTripIt - organize your travel at https://www.trip
+ it.com
+GEO:43.3;5.4
+END:VEVENT
+END:VCALENDAR

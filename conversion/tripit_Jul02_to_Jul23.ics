@@ -1,0 +1,50 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+X-WR-CALNAME:Vincent Delcourt (TripIt - Leeds, United Kingdom, July 2015)
+X-WR-CALDESC:Leeds, United Kingdom, July 2015 (Trip Shared by Vincent Delc
+ ourt)
+PRODID:-//John Papaioannou/NONSGML Bennu 0.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20251227T170534Z
+UID:f8191e12-cb8d-9000-0001-0000090d67a7@tripit.com
+DTSTART;VALUE=DATE:20150702
+DTEND;VALUE=DATE:20150724
+SUMMARY:Leeds\, United Kingdom\, July 2015
+LOCATION:Leeds\, United Kingdom
+GEO:53.79648;-1.54785
+TRANSP:TRANSPARENT
+DESCRIPTION:Vincent Delcourt is in Leeds\, United Kingdom from Jul 2 to 23
+ \, 2015\nView and/or edit details in TripIt : https://www.tripit.com/trip/
+ show?id=151873447\nTripIt - organize your travel at https://www.tripit.com
+ \n
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170534Z
+DTEND:20150702T170500Z
+SUMMARY:FR2443 MPL to LBA
+LOCATION:Montpellier (MPL)
+UID:item-7bdb75d7-1a69-9000-0003-00005c5d25fd@tripit.com
+DTSTART:20150702T145000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/151873447\n \n\nThu\, Jul 2\n4:50 PM CEST\n[Flight] MPL to LBA\
+ n \n\nRyanair 2443\, Terminal \, Gate \n \n\n6:05 PM BST\nArrive Leeds (LB
+ A)\nTerminal \, Gate \n \n\n \nTripIt - organize your travel at https://ww
+ w.tripit.com
+GEO:53.794162;-1.553192
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170534Z
+DTEND:20150723T142500Z
+SUMMARY:FR2442 LBA to MPL
+LOCATION:Leeds (LBA)
+UID:item-b741547d-99cd-9000-0003-00005c5d25fe@tripit.com
+DTSTART:20150723T121000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/151873447\n \n\nThu\, Jul 23\n1:10 PM BST\n[Flight] LBA to MPL\
+ n \n\nRyanair 2442\, Terminal \, Gate \n \n\n4:25 PM CEST\nArrive Montpell
+ ier (MPL)\nTerminal \, Gate \n \n\n \nTripIt - organize your travel at htt
+ ps://www.tripit.com
+GEO:43.6;3.883333
+END:VEVENT
+END:VCALENDAR

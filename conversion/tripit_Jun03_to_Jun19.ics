@@ -1,0 +1,73 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+X-WR-CALNAME:Vincent Delcourt (TripIt - Corse, June 2015)
+X-WR-CALDESC:Corse, June 2015 (Trip Shared by Vincent Delcourt)
+PRODID:-//John Papaioannou/NONSGML Bennu 0.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20251227T170548Z
+UID:c6592d00-6700-9000-0001-000008f37063@tripit.com
+DTSTART;VALUE=DATE:20150603
+DTEND;VALUE=DATE:20150620
+SUMMARY:Corse\, June 2015
+LOCATION:Marseille\, France
+GEO:43.29695;5.38107
+TRANSP:TRANSPARENT
+DESCRIPTION:Vincent Delcourt is in Marseille\, France from Jun 3 to 19\, 2
+ 015\nView and/or edit details in TripIt : https://www.tripit.com/trip/show
+ ?id=150171747\nTripIt - organize your travel at https://www.tripit.com\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170548Z
+DTEND:20150604T050000Z
+LOCATION:Marseille\; Port autonome de Marseille
+TRANSP:TRANSPARENT
+UID:item-d2d9254d-885d-9000-0003-00005b1f7810@tripit.com
+DTSTART:20150603T170000Z
+SUMMARY:SNCM - Marseille to Bastia
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/150171747\n \n\nWed\, Jun 3\n7:00 PM CEST\n[Ferry] SNCM - Marse
+ ille to Bastia\nDepart Marseille Port autonome de Marseille\n \nThu\, Jun 
+ 4\n7:00 AM CEST\nArrive Bastia \nMARSEILLE - BASTIA - \nNavire :  PASCAL P
+ AOLI \nDépart:03/06/2015 19:00 - / - \nArrivée 04/06/2015 07:00 \nPiétons 
+ Gare maritime Terminal 2 / Véhicules Centre Autos Porte Chanterac\nHeure d
+ e présentation : Piétons : 18:00 \,Véhicules Tourisme : 17:30 \, Autres Vé
+ hicules : 17:00 \nHeure Limite d'Enregistrement (HLE):18:40 Pour les perso
+ nnes å mobilité réduite\, veuillez vous présenter 1 h avant celle(s) indiq
+ uée(s) ci-dessus. Installation: Passager(s): Auto: \n1 Cabine avec Sanitai
+ res Privés - 2 lits bas - avec Hublot (A2E)/Privative/Occupée à 2 BRICAUD 
+ BRIGITTE (19/03/1951)/ DELCOURT VINCENT (25/05/1959)\nPEUGEOT 308 SW MOD. 
+ 2014/ Immatriculation:/Dimensions: L 4.58 H 1.47 I 1.8 Proprietaire du véh
+ icules:VINCENT DELCOURT\n \nBASTIA - MARSEILLE - \nNavire :  PASCAL PAOLI\
+ nDépart:18/06/2015 18:30 - / - \nArrivée 19/06/2015 07:00\nHeure de présen
+ tation : Piétons : 17:30 \,Véhicules Tourisme : 17:00 \, Autres Véhicules 
+ : 16:30\nHeure Limite d'Enregistrement (HLE):18:10\nPour les personnes å m
+ obilité réduite\, veuillez vous présenter 1 h avant celle(s) indiquée(s) c
+ i-dessus.1 Cabine avec Sanitaires Privés - 2 lits bas - avec Hublot (A2E)/
+ Privative/Occupée à 2\nInstallation:BRICAUD BRIGITTE (19/03/1951)/ DELCOUR
+ T VINCENT (25/05/1959)\nPassager(s):PEUGEOT 308 SW MOD. 2014/ Immatriculat
+ ion:/Dimensions: L 4.58 H 1.47 I 1.8Auto:Proprietaire du véhicules:VINCENT
+  DELCOURT\n \n\n \n\nTripIt - organize your travel at https://www.tripit.c
+ om
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170548Z
+DTEND:20150619T050000Z
+LOCATION:Bastia
+TRANSP:TRANSPARENT
+UID:item-64cfc795-f37a-9000-0003-00005b1f822e@tripit.com
+DTSTART:20150618T163000Z
+SUMMARY:SNCM - Bastia to Marseille
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/150171747\n \n\nThu\, Jun 18\n6:30 PM CEST\n[Ferry] SNCM - Bast
+ ia to Marseille\nDepart Bastia \n \nFri\, Jun 19\n7:00 AM CEST\nArrive Mar
+ seille \nBASTIA - MARSEILLE - \nNavire :  PASCAL PAOLI\nDépart:18/06/2015 
+ 18:30 - / - \nArrivée 19/06/2015 07:00\nHeure de présentation : Véhicules 
+ Tourisme : 17:00 \nHeure Limite d'Enregistrement (HLE):18:10\nPour les per
+ sonnes å mobilité réduite\, veuillez vous présenter 1 h avant celle(s) ind
+ iquée(s) ci-dessus.1 Cabine avec Sanitaires Privés - 2 PEUGEOT 308 SW MOD.
+  2014/ Immatriculation:/Dimensions: L 4.58 H 1.47 I 1.8Auto:Proprietaire d
+ u véhicules:VINCENT DELCOURT\n \n\n \n\nTripIt - organize your travel at h
+ ttps://www.tripit.com
+END:VEVENT
+END:VCALENDAR

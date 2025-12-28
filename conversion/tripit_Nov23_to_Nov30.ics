@@ -1,0 +1,206 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+X-WR-CALNAME:Vincent Delcourt (TripIt - Palermo, Italy, November 2018)
+X-WR-CALDESC:Palermo, Italy, November 2018 (Trip Shared by Vincent Delcour
+ t)
+PRODID:-//John Papaioannou/NONSGML Bennu 0.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20251227T170221Z
+UID:fb37257a-9d90-9000-0001-00000df05bc1@tripit.com
+DTSTART;VALUE=DATE:20181123
+DTEND;VALUE=DATE:20181201
+SUMMARY:Palermo\, Italy\, November 2018
+LOCATION:Palermo\, Italy
+GEO:38.1166;13.3636
+TRANSP:TRANSPARENT
+DESCRIPTION:Vincent Delcourt is in Palermo\, Italy from Nov 23 to 30\, 201
+ 8\nView and/or edit details in TripIt : https://www.tripit.com/trip/show?i
+ d=233855937\nTripIt - organize your travel at https://www.tripit.com\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170221Z
+SUMMARY:Check-in: Kristal
+TRANSP:TRANSPARENT
+UID:item-51da4709-2f4e-9000-0003-000092ac37f5@tripit.com
+DTSTART:20181123T140000Z
+DTEND:20181123T150000Z
+LOCATION:Corso Umberto 204 / A \, Cinisi\, 90045\, Italie
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/233855937\n \n\nFri\, Nov 23\n3:00 PM CET\n[Lodging] Arrive Kri
+ stal\nCheck-In: 3:00pm\nCorso Umberto 204 / A \, Cinisi\, 90045\, Italie\n
+ +393200125768\n \n\n \nTripIt - organize your travel at https://www.tripit
+ .com
+GEO:38.158493;13.105642
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170221Z
+DTEND:20181123T211000Z
+SUMMARY:FR6785 MRS to PMO
+LOCATION:Marseille (MRS)
+UID:item-61973f8a-9887-9000-0003-000092700a75@tripit.com
+DTSTART:20181123T193000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/233855937\n \n\n8:30 PM CET\n[Flight] MRS to PMO\n \n\nRyanair 
+ 6785\, Terminal 2\, Gate \n \n\n10:10 PM CET\nArrive Palermo (PMO)\nTermin
+ al \, Gate \n \n\n \nTripIt - organize your travel at https://www.tripit.c
+ om
+GEO:38.13205;13.33561
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170221Z
+SUMMARY:Check-out: Kristal
+TRANSP:TRANSPARENT
+UID:item-bc0e2e5a-4505-9000-0003-000092ac37f9@tripit.com
+DTSTART:20181124T093000Z
+DTEND:20181124T103000Z
+LOCATION:Corso Umberto 204 / A \, Cinisi\, 90045\, Italie
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/233855937\n \n\nSat\, Nov 24\n10:30 AM CET\n[Lodging] Depart Kr
+ istal\nCheck-Out: 10:30am\nCorso Umberto 204 / A \, Cinisi\, 90045\, Itali
+ e\n+393200125768\n \n\n \nTripIt - organize your travel at https://www.tri
+ pit.com
+GEO:38.158493;13.105642
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170221Z
+SUMMARY:Check-in: Hotel Posta
+TRANSP:TRANSPARENT
+UID:item-22f49443-2eff-9000-0003-0000938c0c71@tripit.com
+DTSTART:20181124T140000Z
+DTEND:20181124T150000Z
+LOCATION:Via Antonio Gagini\, 77\, 90133 Palermo PA\, Italie
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/233855937\n \n\n3:00 PM CET\n[Lodging] Arrive Hotel Posta\nChec
+ k-In: 3:00pm\nVia Antonio Gagini\, 77\, 90133 Palermo PA\, Italie\n \n\n \
+ nTripIt - organize your travel at https://www.tripit.com
+GEO:38.1206697;13.3619552
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170221Z
+SUMMARY:Check-out: Hotel Posta
+TRANSP:TRANSPARENT
+UID:item-5e08ab1b-e064-9000-0003-0000938c0c75@tripit.com
+DTSTART:20181127T100000Z
+DTEND:20181127T110000Z
+LOCATION:Via Antonio Gagini\, 77\, 90133 Palermo PA\, Italie
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/233855937\n \n\nTue\, Nov 27\n11:00 AM CET\n[Lodging] Depart Ho
+ tel Posta\nCheck-Out: 11:00am\nVia Antonio Gagini\, 77\, 90133 Palermo PA\
+ , Italie\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:38.1206697;13.3619552
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170221Z
+SUMMARY:Check-in: Bahari Selinunte
+TRANSP:TRANSPARENT
+UID:item-bfb7d87e-43c7-9000-0003-000093d94675@tripit.com
+DTSTART:20181127T130000Z
+DTEND:20181127T140000Z
+LOCATION:Via Sirio 10 A\, Marinella di Selinunte\, 91022\, Italie
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/233855937\n \n\n2:00 PM CET\n[Lodging] Arrive Bahari Selinunte\
+ nCheck-In: 2:00pm\nVia Sirio 10 A\, Marinella di Selinunte\, 91022\, Itali
+ e\n+39 351 258 1453\n \n\n \nTripIt - organize your travel at https://www.
+ tripit.com
+GEO:37.5862661;12.8402681
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170221Z
+SUMMARY:Check-out: Bahari Selinunte
+TRANSP:TRANSPARENT
+UID:item-97225553-9094-9000-0003-000093d94679@tripit.com
+DTSTART:20181128T100000Z
+DTEND:20181128T110000Z
+LOCATION:Via Sirio 10 A\, Marinella di Selinunte\, 91022\, Italie
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/233855937\n \n\nWed\, Nov 28\n11:00 AM CET\n[Lodging] Depart Ba
+ hari Selinunte\nCheck-Out: 11:00am\nVia Sirio 10 A\, Marinella di Selinunt
+ e\, 91022\, Italie\n+39 351 258 1453\n \n\n \nTripIt - organize your trave
+ l at https://www.tripit.com
+GEO:37.5862661;12.8402681
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170221Z
+SUMMARY:Check-in: Hotel Carmine
+TRANSP:TRANSPARENT
+UID:item-53c23174-7e8f-9000-0003-000094098355@tripit.com
+DTSTART:20181128T140000Z
+DTEND:20181128T150000Z
+LOCATION:Piazza Carmine\, 16\, Marsala\, 91025\, Italie
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/233855937\n \n\n3:00 PM CET\n[Lodging] Arrive Hotel Carmine\nCh
+ eck-In: 3:00pm\nPiazza Carmine\, 16\, Marsala\, 91025\, Italie\n+390923711
+ 907\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:37.7996956;12.4317452
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170221Z
+SUMMARY:Check-out: Hotel Carmine
+TRANSP:TRANSPARENT
+UID:item-3895ae06-6af9-9000-0003-000094098359@tripit.com
+DTSTART:20181129T110000Z
+DTEND:20181129T120000Z
+LOCATION:Piazza Carmine\, 16\, Marsala\, 91025\, Italie
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/233855937\n \n\nThu\, Nov 29\n12:00 PM CET\n[Lodging] Depart Ho
+ tel Carmine\nCheck-Out: 12:00pm\nPiazza Carmine\, 16\, Marsala\, 91025\, I
+ talie\n+390923711907\n \n\n \nTripIt - organize your travel at https://www
+ .tripit.com
+GEO:37.7996956;12.4317452
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170221Z
+SUMMARY:Check-in: Il Carmine
+TRANSP:TRANSPARENT
+UID:item-cc81d93d-5229-9000-0003-000094200ae1@tripit.com
+DTSTART:20181129T140000Z
+DTEND:20181129T150000Z
+LOCATION:
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/233855937\n \n\n3:00 PM CET\n[Lodging] Arrive Il Carmine\nCheck
+ -In: 3:00pm\n \n\n \nTripIt - organize your travel at https://www.tripit.c
+ om
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170221Z
+SUMMARY:Check-out: Il Carmine
+TRANSP:TRANSPARENT
+UID:item-f04b1588-f2e6-9000-0003-000094200ae5@tripit.com
+DTSTART:20181130T100000Z
+DTEND:20181130T110000Z
+LOCATION:
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/233855937\n \n\nFri\, Nov 30\n11:00 AM CET\n[Lodging] Depart Il
+  Carmine\nCheck-Out: 11:00am\n \n\n \nTripIt - organize your travel at htt
+ ps://www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170221Z
+DTEND:20181130T190500Z
+SUMMARY:FR6786 PMO to MRS
+LOCATION:Palermo (PMO)
+UID:item-040d17c7-bf68-9000-0003-00008d525b15@tripit.com
+DTSTART:20181130T171500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/233855937\n \n\n6:15 PM CET\n[Flight] PMO to MRS\n \n\nRyanair 
+ 6786\, Terminal \, Gate \n \n\n8:05 PM CET\nArrive Marseille (MRS)\nTermin
+ al \, Gate \n \n\n \nTripIt - organize your travel at https://www.tripit.c
+ om
+GEO:43.29695;5.38107
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170221Z
+DTEND:20181130T190500Z
+SUMMARY:FR6786 PMO to MRS
+LOCATION:Palermo (PMO)
+UID:item-5af7a056-cbd1-9000-0003-000092700a79@tripit.com
+DTSTART:20181130T171500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/233855937\n \n\n6:15 PM CET\n[Flight] PMO to MRS\n \n\nRyanair 
+ 6786\, Terminal \, Gate \n \n\n8:05 PM CET\nArrive Marseille (MRS)\nTermin
+ al 2\, Gate \n \n\n \nTripIt - organize your travel at https://www.tripit.
+ com
+GEO:43.29695;5.38107
+END:VEVENT
+END:VCALENDAR

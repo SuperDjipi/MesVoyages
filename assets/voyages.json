@@ -1,0 +1,2379 @@
+{
+  "memoires": [
+    {
+      "id": "tripit_Apr14_to_Apr28",
+      "categorie": "voyage",
+      "titre": "Grèce",
+      "dateDebut": "2016-04-14",
+      "dateFin": "2016-04-29",
+      "latitude": 39.75569766666666,
+      "longitude": 17.620391,
+      "description": "Voyage du 14/04/2016 au 29/04/2016",
+      "participants": [
+        "Matt"
+      ],
+      "photos": [],
+      "tags": [
+        "circuit"
+      ],
+      "evenements": [
+        {
+          "type": "other",
+          "nom": "Grèce",
+          "lieu": "Athens, Greece",
+          "dateDebut": "2016-04-14",
+          "dateFin": "2016-04-29",
+          "lat": 37.98376,
+          "lng": 23.72784
+        },
+        {
+          "type": "air",
+          "nom": "A3631 MRS to ATH",
+          "lieu": "Marseille (MRS)",
+          "dateDebut": "2016-04-14",
+          "lat": 37.983333,
+          "lng": 23.733333
+        },
+        {
+          "type": "air",
+          "nom": "A3630 ATH to MRS",
+          "lieu": "Athens (ATH)",
+          "dateDebut": "2016-04-28",
+          "lat": 43.3,
+          "lng": 5.4
+        }
+      ]
+    },
+    {
+      "id": "tripit_Apr15_to_Apr25",
+      "categorie": "voyage",
+      "titre": "Porto, Portugal, April 2022",
+      "dateDebut": "2022-04-15",
+      "dateFin": "2022-04-26",
+      "latitude": 41.982394825,
+      "longitude": -3.7776734999999997,
+      "description": "Voyage du 15/04/2022 au 26/04/2022",
+      "participants": [
+        "Matt"
+      ],
+      "photos": [],
+      "tags": [
+        "circuit"
+      ],
+      "evenements": [
+        {
+          "type": "other",
+          "nom": "Porto, Portugal, April 2022",
+          "lieu": "Porto, Portugal",
+          "dateDebut": "2022-04-15",
+          "dateFin": "2022-04-26",
+          "lat": 41.1485,
+          "lng": -8.61097
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Bilbao",
+          "lieu": "Colón de Larreátegui Kalea, 5, 48001 Bilbao, Espagne",
+          "dateDebut": "2022-04-15",
+          "dateFin": "2022-04-17",
+          "lat": 43.2622075,
+          "lng": -2.9268615
+        },
+        {
+          "type": "activity",
+          "nom": "Activity",
+          "lieu": "Guggenheim Museum; Abandoibarra Etorb., 2, 48009 Bilbo, Bizkaia, Espagne",
+          "dateDebut": "2022-04-16",
+          "lat": 43.26861,
+          "lng": -2.93438
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Crisol Puerta de Burgos",
+          "lieu": "Vitoria, 69, Burgos, 09006, Espagne",
+          "dateDebut": "2022-04-17",
+          "dateFin": "2022-04-18",
+          "lat": 42.3450012,
+          "lng": -3.6847676
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Porto Essence",
+          "lieu": "507 Rua do Bonjardim 3 Esquerdo Frente, União de Freguesias do Centro, Porto, 4000-126, Portugal",
+          "dateDebut": "2022-04-18",
+          "dateFin": "2022-04-22",
+          "lat": 41.1517143,
+          "lng": -8.6083848
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: ELE Enara Boutique Hotel",
+          "lieu": "Plaza de España, 5 -Entrada por Montero Calvo, 30-, Valladolid, 47001, Espagne",
+          "dateDebut": "2022-04-22",
+          "dateFin": "2022-04-23",
+          "lat": 41.6492049,
+          "lng": -4.7254208
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Cesaraugusta",
+          "lieu": "Avenida Anselmo Clavé, 45, Centro, Saragosse, 50004, Espagne",
+          "dateDebut": "2022-04-23",
+          "dateFin": "2022-04-24",
+          "lat": 41.6491074,
+          "lng": -0.8935483
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: La Casa de Antonio Boutique Rooms",
+          "lieu": "Gran Via de las Cortes Catalanas 584 2 1, Eixample, Barcelone, 08004, Espagne",
+          "dateDebut": "2022-04-24",
+          "dateFin": "2022-04-25",
+          "lat": 41.3848133,
+          "lng": 2.162945
+        }
+      ]
+    },
+    {
+      "id": "tripit_Aug05_to_Aug10",
+      "categorie": "voyage",
+      "titre": "Bateau",
+      "dateDebut": "2015-08-05",
+      "dateFin": "2015-08-11",
+      "latitude": 40.6338114,
+      "longitude": 3.2029814,
+      "description": "Voyage du 05/08/2015 au 11/08/2015",
+      "participants": [
+        "Matt"
+      ],
+      "photos": [],
+      "tags": [
+        "circuit"
+      ],
+      "evenements": [
+        {
+          "type": "other",
+          "nom": "Bateau",
+          "lieu": "Mao, Spain",
+          "dateDebut": "2015-08-05",
+          "dateFin": "2015-08-11",
+          "lat": 39.88853,
+          "lng": 4.26583
+        },
+        {
+          "type": "rail",
+          "nom": "SNCF - NARBONNE to BARCELONA SANTS",
+          "lieu": "NARBONNE; NARBONNE",
+          "dateDebut": "2015-08-05",
+          "lat": 41.3790928,
+          "lng": 2.1401328
+        },
+        {
+          "type": "air",
+          "nom": "Trasmediterranea - Barcelone to Mahon",
+          "lieu": "Barcelone",
+          "dateDebut": "2015-08-05",
+          "dateFin": "2015-08-06"
+        }
+      ]
+    },
+    {
+      "id": "tripit_Aug08_to_Aug09",
+      "categorie": "voyage",
+      "titre": "Gourdon, France, August 2023",
+      "dateDebut": "2023-08-08",
+      "dateFin": "2023-08-10",
+      "latitude": 44.7429585,
+      "longitude": 1.3888235,
+      "description": "Voyage du 08/08/2023 au 10/08/2023",
+      "participants": [
+        "Matt"
+      ],
+      "photos": [],
+      "tags": [
+        "ville"
+      ],
+      "evenements": [
+        {
+          "type": "other",
+          "nom": "Gourdon, France, August 2023",
+          "lieu": "Gourdon, France",
+          "dateDebut": "2023-08-08",
+          "dateFin": "2023-08-10",
+          "lat": 44.73576,
+          "lng": 1.38071
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: La Parenthèse chambre romantique",
+          "lieu": "465 route de Gagnepas, Gourdon, 46300, France",
+          "dateDebut": "2023-08-08",
+          "dateFin": "2023-08-09",
+          "lat": 44.750157,
+          "lng": 1.396937
+        }
+      ]
+    },
+    {
+      "id": "tripit_Aug21_to_Aug23",
+      "categorie": "voyage",
+      "titre": "Albi et statues menhir",
+      "dateDebut": "2024-08-21",
+      "dateFin": "2024-08-24",
+      "latitude": 43.611933050000005,
+      "longitude": 3.76693885,
+      "description": "Voyage du 21/08/2024 au 24/08/2024",
+      "participants": [
+        "Matt"
+      ],
+      "photos": [],
+      "tags": [
+        "ville"
+      ],
+      "evenements": [
+        {
+          "type": "other",
+          "nom": "Albi et statues menhir",
+          "lieu": "Albi, France",
+          "dateDebut": "2024-08-21",
+          "dateFin": "2024-08-24",
+          "lat": 43.9298,
+          "lng": 2.148
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: ibis Styles Albi Centre Le Theatro",
+          "lieu": "48 Place Jean Jaures",
+          "dateDebut": "2024-08-21",
+          "dateFin": "2024-08-23",
+          "lat": 43.2940661,
+          "lng": 5.3858777
+        }
+      ]
+    },
+    {
+      "id": "tripit_Aug31_to_Sep02",
+      "categorie": "voyage",
+      "titre": "Drôme provençale",
+      "dateDebut": "2020-08-31",
+      "dateFin": "2020-09-03",
+      "latitude": 44.4433065,
+      "longitude": 4.8329485000000005,
+      "description": "Voyage du 31/08/2020 au 03/09/2020",
+      "participants": [
+        "Matt"
+      ],
+      "photos": [],
+      "tags": [
+        "ville"
+      ],
+      "evenements": [
+        {
+          "type": "other",
+          "nom": "Drôme provençale",
+          "lieu": "Saint-Paul-Trois-Chateaux, France",
+          "dateDebut": "2020-08-31",
+          "dateFin": "2020-09-03",
+          "lat": 44.34594,
+          "lng": 4.76356
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Gîte B&B & Chambre d'Hôte Drome - Les Basses Granges",
+          "lieu": "195 Chemin des Basses Granges, 26160 Portes-en-Valdaine, France",
+          "dateDebut": "2020-08-31",
+          "dateFin": "2020-09-02",
+          "lat": 44.540673,
+          "lng": 4.902337
+        }
+      ]
+    },
+    {
+      "id": "tripit_Dec22_to_Jan05",
+      "categorie": "voyage",
+      "titre": "Jour de l'an 24-25",
+      "dateDebut": "2024-12-22",
+      "dateFin": "2025-01-06",
+      "latitude": 49.13772301,
+      "longitude": 2.4354295400000003,
+      "description": "Voyage du 22/12/2024 au 06/01/2025",
+      "participants": [
+        "Matt"
+      ],
+      "photos": [],
+      "tags": [
+        "circuit"
+      ],
+      "evenements": [
+        {
+          "type": "other",
+          "nom": "Jour de l'an 24-25",
+          "lieu": "No destination specified",
+          "dateDebut": "2024-12-22",
+          "dateFin": "2025-01-06"
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: ibis Bourges",
+          "lieu": "Rue VladimirJankelevitch, Quartier du Prado - 18000 BOURGES - France",
+          "dateDebut": "2024-12-22",
+          "dateFin": "2024-12-23",
+          "lat": 47.0815818,
+          "lng": 2.3867006
+        },
+        {
+          "type": "air",
+          "nom": "TO4318 ORY to CPH",
+          "lieu": "Paris (ORY)",
+          "dateDebut": "2024-12-23",
+          "lat": 55.67594,
+          "lng": 12.56553
+        },
+        {
+          "type": "air",
+          "nom": "TO4319 CPH to ORY",
+          "lieu": "Copenhagen (CPH)",
+          "dateDebut": "2024-12-29",
+          "lat": 48.85341,
+          "lng": 2.3488
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: ibis budget Fresnes",
+          "lieu": "30 Avenue De La Division Leclerc - 94260 FRESNES - France",
+          "dateDebut": "2024-12-29",
+          "dateFin": "2024-12-30",
+          "lat": 48.7592096,
+          "lng": 2.3219249
+        },
+        {
+          "type": "activity",
+          "nom": "Visite Rouen",
+          "lieu": null,
+          "dateDebut": "2024-12-30"
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Le Bréard",
+          "lieu": "7 Rue du Puits, 14600 Honfleur, France",
+          "dateDebut": "2024-12-30",
+          "dateFin": "2025-01-02",
+          "lat": 49.4207662,
+          "lng": 0.2318578
+        },
+        {
+          "type": "activity",
+          "nom": "Visite Côte fleurie",
+          "lieu": "Côte Fleurie; Promenade des Planches, 14800 Deauville, France",
+          "dateDebut": "2024-12-31",
+          "dateFin": "2025-01-01",
+          "lat": 49.367931,
+          "lng": 0.078762
+        },
+        {
+          "type": "restaurant",
+          "nom": "Le Bréard",
+          "lieu": "7 Rue du Puits, 14600, Honfleur",
+          "dateDebut": "2024-12-31",
+          "lat": 49.4207662,
+          "lng": 0.2318578
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Novotel Blois Centre Val De Loire",
+          "lieu": "26 Avenue Maréchal Maunoury, 41000 Blois, France",
+          "dateDebut": "2025-01-02",
+          "dateFin": "2025-01-04",
+          "lat": 47.5916398,
+          "lng": 1.3362094
+        },
+        {
+          "type": "activity",
+          "nom": "Visite Blois",
+          "lieu": "Blois",
+          "dateDebut": "2025-01-03"
+        },
+        {
+          "type": "restaurant",
+          "nom": "Assa restaurant",
+          "lieu": "24 Avenue Du Maréchal Maunoury, 41000 BLOIS",
+          "dateDebut": "2025-01-03",
+          "lat": 47.5918275,
+          "lng": 1.3357749
+        },
+        {
+          "type": "activity",
+          "nom": "Visite Chambord",
+          "lieu": "Château de Chambord; 41250 Chambord, France",
+          "dateDebut": "2025-01-04",
+          "lat": 47.614158,
+          "lng": 1.516878
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Hôtel Relais De Chambord",
+          "lieu": null,
+          "dateDebut": "2025-01-04",
+          "dateFin": "2025-01-05"
+        }
+      ]
+    },
+    {
+      "id": "tripit_Dec30_to_Jan03",
+      "categorie": "voyage",
+      "titre": "Venise, France, December 2023",
+      "dateDebut": "2023-12-30",
+      "dateFin": "2024-01-04",
+      "latitude": 45.71632400000001,
+      "longitude": 9.10193295,
+      "description": "Voyage du 30/12/2023 au 04/01/2024",
+      "participants": [
+        "Matt"
+      ],
+      "photos": [],
+      "tags": [
+        "circuit"
+      ],
+      "evenements": [
+        {
+          "type": "other",
+          "nom": "Venise, France, December 2023",
+          "lieu": "Venise, France",
+          "dateDebut": "2023-12-30",
+          "dateFin": "2024-01-04",
+          "lat": 47.3474,
+          "lng": 6.10768
+        },
+        {
+          "type": "other",
+          "nom": "Drop Off Parking: MRS P7",
+          "lieu": null,
+          "dateDebut": "2023-12-30"
+        },
+        {
+          "type": "air",
+          "nom": " MRS to Venise",
+          "lieu": "Marseille (MRS)",
+          "dateDebut": "2023-12-30",
+          "lat": 47.3474,
+          "lng": 6.10768
+        },
+        {
+          "type": "air",
+          "nom": "Transportation - Aéroport de Venise-Marco Polo (VCE) to Antica Locanda Al Gambero",
+          "lieu": "Aéroport de Venise-Marco Polo (VCE); Viale Galileo Galilei, 30, 30173 Venezia VE, Italie",
+          "dateDebut": "2023-12-30",
+          "lat": 45.435529,
+          "lng": 12.3365387
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Hotel Antica Locanda Al Gambero",
+          "lieu": "Calle dei Fabbri, 4687, San Marco, Venice, VE, 30124 Italie",
+          "dateDebut": "2023-12-30",
+          "dateFin": "2024-01-03",
+          "lat": 45.435529,
+          "lng": 12.3365387
+        },
+        {
+          "type": "restaurant",
+          "nom": "Osteria del Lovo",
+          "lieu": "S. Marco, 4759, 30124 Venezia",
+          "dateDebut": "2023-12-31",
+          "lat": 45.435136,
+          "lng": 12.3420903
+        },
+        {
+          "type": "air",
+          "nom": "V71210 VCE to MRS",
+          "lieu": "Venice (VCE)",
+          "dateDebut": "2024-01-03",
+          "lat": 43.29695,
+          "lng": 5.38107
+        },
+        {
+          "type": "other",
+          "nom": "Pick Up Parking: MRS P7",
+          "lieu": null,
+          "dateDebut": "2024-01-03"
+        }
+      ]
+    },
+    {
+      "id": "tripit_Feb11_to_Mar05",
+      "categorie": "voyage",
+      "titre": "Guatemala City, Guatemala, February 2020",
+      "dateDebut": "2020-02-11",
+      "dateFin": "2020-03-06",
+      "latitude": 25.30180477142857,
+      "longitude": -69.20385836428572,
+      "description": "Voyage du 11/02/2020 au 06/03/2020",
+      "participants": [
+        "Matt"
+      ],
+      "photos": [],
+      "tags": [
+        "circuit"
+      ],
+      "evenements": [
+        {
+          "type": "other",
+          "nom": "Guatemala City, Guatemala, February 2020",
+          "lieu": "Guatemala City, Guatemala",
+          "dateDebut": "2020-02-11",
+          "dateFin": "2020-03-06",
+          "lat": 14.64072,
+          "lng": -90.51327
+        },
+        {
+          "type": "air",
+          "nom": "DL8298 MRS to AMS",
+          "lieu": "Marseille (MRS)",
+          "dateDebut": "2020-02-11",
+          "lat": 52.37403,
+          "lng": 4.88969
+        },
+        {
+          "type": "air",
+          "nom": "DL73 AMS to ATL",
+          "lieu": "Amsterdam (AMS)",
+          "dateDebut": "2020-02-11",
+          "lat": 33.749,
+          "lng": -84.38798
+        },
+        {
+          "type": "air",
+          "nom": "DL909 ATL to GUA",
+          "lieu": "Atlanta (ATL)",
+          "dateDebut": "2020-02-11",
+          "dateFin": "2020-02-12",
+          "lat": 14.64072,
+          "lng": -90.51327
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Posada De Los Volcanes",
+          "lieu": "Calle Santander 5-51 Zona 2, Panajachel, 07010, Guatemala",
+          "dateDebut": "2020-02-18",
+          "dateFin": "2020-02-20",
+          "lat": 14.7398629,
+          "lng": -91.1603504
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: POSADA SAN ANTONIO, ACUL, NEBAJ, QUICHE, GUATEMALA",
+          "lieu": "ACUL, NEBAJ, SANTA CRUZ DEL QUICHE, GUATEMALA, Guatemala",
+          "dateDebut": "2020-02-20",
+          "dateFin": "2020-02-21",
+          "lat": 15.4112237,
+          "lng": -91.194562
+        },
+        {
+          "type": "air",
+          "nom": "5U130 GUA to FRS",
+          "lieu": "Guatemala City (GUA)",
+          "dateDebut": "2020-02-24",
+          "lat": 16.92258,
+          "lng": -89.89941
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Hotel Casa Amelia",
+          "lieu": "Calle La Union, Flores, 17001, Guatemala",
+          "dateDebut": "2020-02-24",
+          "dateFin": "2020-02-25",
+          "lat": 16.9305718,
+          "lng": -89.8926888
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Hotel Jaguar Inn Tikal",
+          "lieu": "Tikal National Park, Tikal, 20001, Guatemala",
+          "dateDebut": "2020-02-25",
+          "dateFin": "2020-02-26",
+          "lat": 17.2220409,
+          "lng": -89.6236995
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Ecolodge El Sombrero",
+          "lieu": "Yaxha Lagoon, Yaxha-Nakum-Naranjo National Park, Laguna Yaxha, 17000, Guatemala",
+          "dateDebut": "2020-02-26",
+          "dateFin": "2020-02-27",
+          "lat": 17.0544375,
+          "lng": -89.3870964
+        },
+        {
+          "type": "air",
+          "nom": "5U131 FRS to GUA",
+          "lieu": "Flores (FRS)",
+          "dateDebut": "2020-02-29",
+          "lat": 14.64072,
+          "lng": -90.51327
+        },
+        {
+          "type": "air",
+          "nom": "DL906 GUA to ATL",
+          "lieu": "Guatemala City (GUA)",
+          "dateDebut": "2020-03-04",
+          "lat": 33.749,
+          "lng": -84.38798
+        },
+        {
+          "type": "air",
+          "nom": "DL84 ATL to CDG",
+          "lieu": "Atlanta (ATL)",
+          "dateDebut": "2020-03-05",
+          "lat": 48.85341,
+          "lng": 2.3488
+        },
+        {
+          "type": "air",
+          "nom": "DL8406 CDG to MRS",
+          "lieu": "Paris (CDG)",
+          "dateDebut": "2020-03-05",
+          "lat": 43.29695,
+          "lng": 5.38107
+        }
+      ]
+    },
+    {
+      "id": "tripit_Feb15_to_Mar16",
+      "categorie": "voyage",
+      "titre": "Kunming, China, February 2017",
+      "dateDebut": "2017-02-15",
+      "dateFin": "2017-03-17",
+      "latitude": 37.303333571428574,
+      "longitude": 64.32976142857143,
+      "description": "Voyage du 15/02/2017 au 17/03/2017",
+      "participants": [
+        "Matt"
+      ],
+      "photos": [],
+      "tags": [
+        "circuit"
+      ],
+      "evenements": [
+        {
+          "type": "other",
+          "nom": "Kunming, China, February 2017",
+          "lieu": "Kunming, China",
+          "dateDebut": "2017-02-15",
+          "dateFin": "2017-03-17",
+          "lat": 25.03889,
+          "lng": 102.71833
+        },
+        {
+          "type": "air",
+          "nom": "KL2038 MRS to AMS",
+          "lieu": "Marseille (MRS)",
+          "dateDebut": "2017-02-15",
+          "lat": 52.35,
+          "lng": 4.916667
+        },
+        {
+          "type": "air",
+          "nom": "KL4303 AMS to PEK",
+          "lieu": "Amsterdam (AMS)",
+          "dateDebut": "2017-02-15",
+          "lat": 39.928889,
+          "lng": 116.388333
+        },
+        {
+          "type": "air",
+          "nom": "KL4327 PEK to KMG",
+          "lieu": "Beijing (PEK)",
+          "dateDebut": "2017-02-16",
+          "lat": 25.038889,
+          "lng": 102.718333
+        },
+        {
+          "type": "air",
+          "nom": "KL4394 KMG to CAN",
+          "lieu": "Kunming (KMG)",
+          "dateDebut": "2017-03-15",
+          "lat": 23.116667,
+          "lng": 113.25
+        },
+        {
+          "type": "air",
+          "nom": "KL4300 CAN to AMS",
+          "lieu": "Guangzhou (CAN)",
+          "dateDebut": "2017-03-15",
+          "dateFin": "2017-03-16",
+          "lat": 52.35,
+          "lng": 4.916667
+        },
+        {
+          "type": "air",
+          "nom": "KL2037 AMS to MRS",
+          "lieu": "Amsterdam (AMS)",
+          "dateDebut": "2017-03-16",
+          "lat": 43.3,
+          "lng": 5.4
+        }
+      ]
+    },
+    {
+      "id": "tripit_Jan17_to_Feb14",
+      "categorie": "voyage",
+      "titre": "Laos et Cambodge",
+      "dateDebut": "2018-01-17",
+      "dateFin": "2018-02-15",
+      "latitude": 26.932082989999998,
+      "longitude": 63.11878799,
+      "description": "Voyage du 17/01/2018 au 15/02/2018",
+      "participants": [
+        "Matt"
+      ],
+      "photos": [],
+      "tags": [
+        "circuit"
+      ],
+      "evenements": [
+        {
+          "type": "other",
+          "nom": "Laos et Cambodge",
+          "lieu": "Bangkok, Thailand",
+          "dateDebut": "2018-01-17",
+          "dateFin": "2018-02-15",
+          "lat": 13.75398,
+          "lng": 100.50144
+        },
+        {
+          "type": "air",
+          "nom": "EY7206 MRS to BRU",
+          "lieu": "Marseille (MRS)",
+          "dateDebut": "2018-01-17",
+          "lat": 50.85045,
+          "lng": 4.34878
+        },
+        {
+          "type": "air",
+          "nom": "EY58 BRU to AUH",
+          "lieu": "Brussels (BRU)",
+          "dateDebut": "2018-01-17",
+          "lat": 24.46667,
+          "lng": 54.36667
+        },
+        {
+          "type": "air",
+          "nom": "EY406 AUH to BKK",
+          "lieu": "Abu Dhabi (AUH)",
+          "dateDebut": "2018-01-17",
+          "dateFin": "2018-01-18",
+          "lat": 13.75398,
+          "lng": 100.50144
+        },
+        {
+          "type": "air",
+          "nom": "PG945 BKK to LPQ",
+          "lieu": "Bangkok (BKK)",
+          "dateDebut": "2018-01-18",
+          "lat": 19.885556,
+          "lng": 102.134722
+        },
+        {
+          "type": "lodging",
+          "nom": "Arrive Lodging",
+          "lieu": null,
+          "dateDebut": "2018-02-08",
+          "dateFin": "2018-02-09"
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Preah Vihear Jaya Hotel",
+          "lieu": "Street 69B, Sra Em Village, Sra Em Commune, Chaom Ksan District, Anlong Veaeng, Choam Ksant, Cambodge",
+          "dateDebut": "2018-02-08",
+          "dateFin": "2018-02-09",
+          "lat": 14.2390939,
+          "lng": 104.7179379
+        },
+        {
+          "type": "air",
+          "nom": "PG906 REP to BKK",
+          "lieu": "REP",
+          "dateDebut": "2018-02-13",
+          "lat": 13.75398,
+          "lng": 100.50144
+        },
+        {
+          "type": "air",
+          "nom": "EY405 BKK to AUH",
+          "lieu": "Bangkok (BKK)",
+          "dateDebut": "2018-02-13",
+          "lat": 24.46667,
+          "lng": 54.36667
+        },
+        {
+          "type": "air",
+          "nom": "EY57 AUH to BRU",
+          "lieu": "Abu Dhabi (AUH)",
+          "dateDebut": "2018-02-13",
+          "dateFin": "2018-02-14",
+          "lat": 50.85045,
+          "lng": 4.34878
+        },
+        {
+          "type": "air",
+          "nom": "EY7205 BRU to MRS",
+          "lieu": "Brussels (BRU)",
+          "dateDebut": "2018-02-14",
+          "lat": 43.3,
+          "lng": 5.4
+        }
+      ]
+    },
+    {
+      "id": "tripit_Jan25_to_Feb23",
+      "categorie": "voyage",
+      "titre": "Newark, NJ, January 2015",
+      "dateDebut": "2015-01-25",
+      "dateFin": "2015-02-24",
+      "latitude": 40.79324832727273,
+      "longitude": -77.16563293636364,
+      "description": "Voyage du 25/01/2015 au 24/02/2015",
+      "participants": [
+        "Matt"
+      ],
+      "photos": [],
+      "tags": [
+        "circuit"
+      ],
+      "evenements": [
+        {
+          "type": "other",
+          "nom": "Newark, NJ, January 2015",
+          "lieu": "Newark, NJ",
+          "dateDebut": "2015-01-25",
+          "dateFin": "2015-02-24",
+          "lat": 40.73566,
+          "lng": -74.17237
+        },
+        {
+          "type": "air",
+          "nom": "AF1806 MRS to AMS",
+          "lieu": "Marseille (MRS)",
+          "dateDebut": "2015-01-25",
+          "lat": 52.35,
+          "lng": 4.916667
+        },
+        {
+          "type": "air",
+          "nom": "DL141 AMS to EWR",
+          "lieu": "Amsterdam (AMS)",
+          "dateDebut": "2015-01-25",
+          "lat": 40.735657,
+          "lng": -74.172367
+        },
+        {
+          "type": "air",
+          "nom": "DL434 JFK to SFO",
+          "lieu": "New York (JFK)",
+          "dateDebut": "2015-02-08",
+          "lat": 37.774929,
+          "lng": -122.419415
+        },
+        {
+          "type": "air",
+          "nom": "B6888 SFO to LAS",
+          "lieu": "San Francisco (SFO)",
+          "dateDebut": "2015-02-16",
+          "lat": 36.174971,
+          "lng": -115.137223
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Stratosphere",
+          "lieu": "2000 S. Las Vegas Blvd. \nLas Vegas, NV 89104",
+          "dateDebut": "2015-02-16",
+          "dateFin": "2015-02-18",
+          "lat": 36.1474086,
+          "lng": -115.1553903
+        },
+        {
+          "type": "air",
+          "nom": "B6879 LAS to LGB",
+          "lieu": "Las Vegas (LAS)",
+          "dateDebut": "2015-02-18",
+          "lat": 33.766962,
+          "lng": -118.189235
+        },
+        {
+          "type": "air",
+          "nom": "B61436 LGB to SFO",
+          "lieu": "Long Beach (LGB)",
+          "dateDebut": "2015-02-19",
+          "lat": 37.774929,
+          "lng": -122.419415
+        },
+        {
+          "type": "air",
+          "nom": "SuperShuttle - SAN FRANCISCO AIRPORT",
+          "lieu": "1155 LEAVENWORTH ST  SAN FRANCISCO, CA 94109  1",
+          "dateDebut": "2015-02-22",
+          "lat": 37.615215,
+          "lng": -122.389881
+        },
+        {
+          "type": "air",
+          "nom": "DL9381 SFO to AMS",
+          "lieu": "San Francisco (SFO)",
+          "dateDebut": "2015-02-22",
+          "dateFin": "2015-02-23",
+          "lat": 52.35,
+          "lng": 4.916667
+        },
+        {
+          "type": "air",
+          "nom": "DL8366 AMS to MRS",
+          "lieu": "Amsterdam (AMS)",
+          "dateDebut": "2015-02-23",
+          "lat": 43.3,
+          "lng": 5.4
+        }
+      ]
+    },
+    {
+      "id": "tripit_Jan30_to_Feb27",
+      "categorie": "voyage",
+      "titre": "Santiago, Chile, January 2019",
+      "dateDebut": "2019-01-30",
+      "dateFin": "2019-02-28",
+      "latitude": -14.665644799999999,
+      "longitude": -49.76535595384615,
+      "description": "Voyage du 30/01/2019 au 28/02/2019",
+      "participants": [
+        "Matt"
+      ],
+      "photos": [],
+      "tags": [
+        "circuit"
+      ],
+      "evenements": [
+        {
+          "type": "other",
+          "nom": "Santiago, Chile, January 2019",
+          "lieu": "Santiago, Chile",
+          "dateDebut": "2019-01-30",
+          "dateFin": "2019-02-28",
+          "lat": -33.45694,
+          "lng": -70.64827
+        },
+        {
+          "type": "air",
+          "nom": "LH1089 MRS to FRA",
+          "lieu": "Marseille (MRS)",
+          "dateDebut": "2019-01-30",
+          "lat": 50.11552,
+          "lng": 8.68417
+        },
+        {
+          "type": "air",
+          "nom": "LH510 FRA to EZE",
+          "lieu": "Frankfurt (FRA)",
+          "dateDebut": "2019-01-30",
+          "dateFin": "2019-01-31",
+          "lat": -34.6036844,
+          "lng": -58.3815591
+        },
+        {
+          "type": "air",
+          "nom": "LA464 EZE to SCL",
+          "lieu": "Buenos Aires (EZE)",
+          "dateDebut": "2019-01-31",
+          "lat": -33.45694,
+          "lng": -70.64827
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Santiago",
+          "lieu": "Hermanos Amunátegui 890, Santiago, Región Metropolitana, Chili",
+          "dateDebut": "2019-01-31",
+          "dateFin": "2019-02-02",
+          "lat": -33.4334063,
+          "lng": -70.6571371
+        },
+        {
+          "type": "car",
+          "nom": "Pick Up Rental Car: Chilean Rent a car",
+          "lieu": "Pudahuel, Santiago Metropolitan Region, Chili",
+          "dateDebut": "2019-02-02",
+          "lat": -33.4421135,
+          "lng": -70.7640644
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Casa Compléta Y Tranquilidad",
+          "lieu": "Pueblo Seco 2972, Chillán, Chili",
+          "dateDebut": "2019-02-02",
+          "dateFin": "2019-02-03",
+          "lat": -36.6306573,
+          "lng": -72.0761651
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Cabaña Ale Kuyen",
+          "lieu": "Pucón, Chili",
+          "dateDebut": "2019-02-03",
+          "dateFin": "2019-02-06",
+          "lat": -39.2722541,
+          "lng": -71.9776285
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Apart Hotel Puchaley Lafquen",
+          "lieu": null,
+          "dateDebut": "2019-02-06",
+          "dateFin": "2019-02-10"
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Departementos Emanuel, Chaiten",
+          "lieu": "Chaitén, La Florida, Chili",
+          "dateDebut": "2019-02-10",
+          "dateFin": "2019-02-11",
+          "lat": -33.5368433,
+          "lng": -70.5996488
+        },
+        {
+          "type": "air",
+          "nom": "LA9453 SCL to GIG",
+          "lieu": "Santiago (SCL)",
+          "dateDebut": "2019-02-26",
+          "lat": -22.90642,
+          "lng": -43.18223
+        },
+        {
+          "type": "car",
+          "nom": "Drop Off Rental Car: Chilean Rent a car",
+          "lieu": "Pudahuel, Santiago Metropolitan Region, Chili",
+          "dateDebut": "2019-02-26",
+          "lat": -33.4421135,
+          "lng": -70.7640644
+        },
+        {
+          "type": "air",
+          "nom": "LH501 GIG to FRA",
+          "lieu": "Rio De Janeiro (GIG)",
+          "dateDebut": "2019-02-26",
+          "dateFin": "2019-02-27",
+          "lat": 50.11552,
+          "lng": 8.68417
+        },
+        {
+          "type": "air",
+          "nom": "LH1088 FRA to MRS",
+          "lieu": "Frankfurt (FRA)",
+          "dateDebut": "2019-02-27",
+          "lat": 43.29695,
+          "lng": 5.38107
+        }
+      ]
+    },
+    {
+      "id": "tripit_Jan31_to_Feb26",
+      "categorie": "voyage",
+      "titre": "Bengaluru, India, January 2014",
+      "dateDebut": "2014-01-31",
+      "dateFin": "2014-02-27",
+      "latitude": 20.4321235,
+      "longitude": 65.64134457083334,
+      "description": "Voyage du 31/01/2014 au 27/02/2014",
+      "participants": [
+        "Matt"
+      ],
+      "photos": [],
+      "tags": [
+        "circuit"
+      ],
+      "evenements": [
+        {
+          "type": "other",
+          "nom": "Bengaluru, India, January 2014",
+          "lieu": "Bengaluru, India",
+          "dateDebut": "2014-01-31",
+          "dateFin": "2014-02-27",
+          "lat": 12.97194,
+          "lng": 77.59369
+        },
+        {
+          "type": "air",
+          "nom": "LH2263 MRS to MUC",
+          "lieu": "Marseille (MRS)",
+          "dateDebut": "2014-01-31",
+          "lat": 48.15,
+          "lng": 11.583333
+        },
+        {
+          "type": "air",
+          "nom": "LH762 MUC to DEL",
+          "lieu": "Munich (MUC)",
+          "dateDebut": "2014-01-31",
+          "dateFin": "2014-02-01",
+          "lat": 28.666667,
+          "lng": 77.216667
+        },
+        {
+          "type": "air",
+          "nom": "AI502 DEL to BLR",
+          "lieu": "Delhi (DEL)",
+          "dateDebut": "2014-02-01",
+          "lat": 12.976624,
+          "lng": 77.600126
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Mango Hotel",
+          "lieu": "Jayalakshmipuram Mysore, Karnataka 570012",
+          "dateDebut": "2014-02-01",
+          "dateFin": "2014-02-03",
+          "lat": 12.3219037,
+          "lng": 76.6224981
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Bouganvilla",
+          "lieu": "St Thomas Rd, Fern Hill, Ooty, Tamil Nadu, India",
+          "dateDebut": "2014-02-02",
+          "dateFin": "2014-02-04",
+          "lat": 11.4000117,
+          "lng": 76.6944233
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Black Thunder Resort",
+          "lieu": "Ooty Main Road, Mettupalayam, Coimbatore, Tamil Nadu 641305, India",
+          "dateDebut": "2014-02-04",
+          "dateFin": "2014-02-05",
+          "lat": 11.4069933,
+          "lng": 76.7146259
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Villa Retreat",
+          "lieu": "Coaker's Walk, Kodaikanal",
+          "dateDebut": "2014-02-05",
+          "dateFin": "2014-02-07",
+          "lat": 10.2304117,
+          "lng": 77.4934494
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Abad Green Forest Resort",
+          "lieu": "Opp. R.C. Church, Thekkady Jn., Kumily, Vous Reporter à L'e-mail De Confirmation",
+          "dateDebut": "2014-02-06",
+          "dateFin": "2014-02-09"
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Kaivalyam Retreat",
+          "lieu": "Moolakada, Pallivasal, Munnar 685612.",
+          "dateDebut": "2014-02-08",
+          "dateFin": "2014-02-09",
+          "lat": 10.0889333,
+          "lng": 77.0595248
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Bright Heritage",
+          "lieu": "1/508, A1, Tower Road, Fort Cochin Kochi 682001 India",
+          "dateDebut": "2014-02-09",
+          "dateFin": "2014-02-12"
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: World Backwaters",
+          "lieu": "Kannankara Post,AlleppeyThanneermukkom688527",
+          "dateDebut": "2014-02-11",
+          "dateFin": "2014-02-13"
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Estuary Island",
+          "lieu": "Poovar",
+          "dateDebut": "2014-02-13",
+          "dateFin": "2014-02-15",
+          "lat": 8.3174333,
+          "lng": 77.0712972
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Gateway Hotel Pasumalai",
+          "lieu": "Number 40 T P K Road Madurai 625004 India",
+          "dateDebut": "2014-02-15",
+          "dateFin": "2014-02-16"
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Hotel Lakshmi at Thanjavur",
+          "lieu": "44P / 45 P Voc Nagar, Trichy Main Road,, Near Marys Corner,, Thanjavur, Thanjavur, India",
+          "dateDebut": "2014-02-16",
+          "dateFin": "2014-02-17"
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Accord Puducherry Bon Plan",
+          "lieu": "No.1. Thilagar Nagar, Ellapilaichavady, Pondicherry, 605009, Inde",
+          "dateDebut": "2014-02-17",
+          "dateFin": "2014-02-18"
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: E Hotel - Chennai",
+          "lieu": "Express Avenue Mall, Gate # 1 Patullos Road Chennai (Madras) 600 002 Inde",
+          "dateDebut": "2014-02-18",
+          "dateFin": "2014-02-19"
+        },
+        {
+          "type": "air",
+          "nom": "SG917 MAA to IXZ",
+          "lieu": "Chennai (MAA)",
+          "dateDebut": "2014-02-19",
+          "lat": 11.666667,
+          "lng": 92.75
+        },
+        {
+          "type": "air",
+          "nom": "SG917 MAA to IXZ",
+          "lieu": "Chennai (MAA)",
+          "dateDebut": "2014-02-19",
+          "lat": 11.666667,
+          "lng": 92.75
+        },
+        {
+          "type": "air",
+          "nom": "SG917 MAA to IXZ",
+          "lieu": "Chennai (MAA)",
+          "dateDebut": "2014-02-19",
+          "lat": 11.666667,
+          "lng": 92.75
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Hotel Islander Inn",
+          "lieu": "Port Blair",
+          "dateDebut": "2014-02-19",
+          "dateFin": "2014-02-20",
+          "lat": 11.666667,
+          "lng": 92.75
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Silver Sand Beach Resort - Havelock",
+          "lieu": "VijayNagar Beach , Andaman and Nicobar, Islands, Havelock Island, Andaman And",
+          "dateDebut": "2014-02-20",
+          "dateFin": "2014-02-23"
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Chaukhat Bed and Breakfast - Port Blair",
+          "lieu": "port blair",
+          "dateDebut": "2014-02-23",
+          "dateFin": "2014-02-24",
+          "lat": 11.666667,
+          "lng": 92.75
+        },
+        {
+          "type": "air",
+          "nom": "SG272 IXZ to MAA",
+          "lieu": "Port Blair (IXZ)",
+          "dateDebut": "2014-02-24",
+          "lat": 13.087839,
+          "lng": 80.278473
+        },
+        {
+          "type": "air",
+          "nom": "SG272 IXZ to MAA",
+          "lieu": "Port Blair (IXZ)",
+          "dateDebut": "2014-02-24",
+          "lat": 13.087839,
+          "lng": 80.278473
+        },
+        {
+          "type": "air",
+          "nom": "SG272 IXZ to MAA",
+          "lieu": "Port Blair (IXZ)",
+          "dateDebut": "2014-02-24",
+          "lat": 13.087839,
+          "lng": 80.278473
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: E Hotel - Chennai",
+          "lieu": null,
+          "dateDebut": "2014-02-24",
+          "dateFin": "2014-02-25"
+        },
+        {
+          "type": "air",
+          "nom": "470 MAA to BOM",
+          "lieu": "Chennai (MAA)",
+          "dateDebut": "2014-02-25",
+          "lat": 18.975,
+          "lng": 72.825833
+        },
+        {
+          "type": "air",
+          "nom": "470 MAA to BOM",
+          "lieu": "Chennai (MAA)",
+          "dateDebut": "2014-02-25",
+          "lat": 18.975,
+          "lng": 72.825833
+        },
+        {
+          "type": "air",
+          "nom": "228 BOM to BRU",
+          "lieu": "Mumbai (BOM)",
+          "dateDebut": "2014-02-25",
+          "dateFin": "2014-02-26",
+          "lat": 50.846597,
+          "lng": 4.352775
+        },
+        {
+          "type": "air",
+          "nom": "228 BOM to BRU",
+          "lieu": "Mumbai (BOM)",
+          "dateDebut": "2014-02-25",
+          "dateFin": "2014-02-26",
+          "lat": 50.846597,
+          "lng": 4.352775
+        },
+        {
+          "type": "air",
+          "nom": "6097 BRU to MRS",
+          "lieu": "Brussels (BRU)",
+          "dateDebut": "2014-02-26",
+          "lat": 43.3,
+          "lng": 5.4
+        },
+        {
+          "type": "air",
+          "nom": "6097 BRU to MRS",
+          "lieu": "Brussels (BRU)",
+          "dateDebut": "2014-02-26",
+          "lat": 43.3,
+          "lng": 5.4
+        }
+      ]
+    },
+    {
+      "id": "tripit_Jul02_to_Jul23",
+      "categorie": "voyage",
+      "titre": "Leeds, United Kingdom, July 2015",
+      "dateDebut": "2015-07-02",
+      "dateFin": "2015-07-24",
+      "latitude": 50.39688066666667,
+      "longitude": 0.26076366666666667,
+      "description": "Voyage du 02/07/2015 au 24/07/2015",
+      "participants": [
+        "Matt"
+      ],
+      "photos": [],
+      "tags": [
+        "circuit"
+      ],
+      "evenements": [
+        {
+          "type": "other",
+          "nom": "Leeds, United Kingdom, July 2015",
+          "lieu": "Leeds, United Kingdom",
+          "dateDebut": "2015-07-02",
+          "dateFin": "2015-07-24",
+          "lat": 53.79648,
+          "lng": -1.54785
+        },
+        {
+          "type": "air",
+          "nom": "FR2443 MPL to LBA",
+          "lieu": "Montpellier (MPL)",
+          "dateDebut": "2015-07-02",
+          "lat": 53.794162,
+          "lng": -1.553192
+        },
+        {
+          "type": "air",
+          "nom": "FR2442 LBA to MPL",
+          "lieu": "Leeds (LBA)",
+          "dateDebut": "2015-07-23",
+          "lat": 43.6,
+          "lng": 3.883333
+        }
+      ]
+    },
+    {
+      "id": "tripit_Jul25_to_Jul27",
+      "categorie": "voyage",
+      "titre": "Sud Cantal",
+      "dateDebut": "2021-07-25",
+      "dateFin": "2021-07-28",
+      "latitude": 45.0930447,
+      "longitude": 2.9073052,
+      "description": "Voyage du 25/07/2021 au 28/07/2021",
+      "participants": [
+        "Matt"
+      ],
+      "photos": [],
+      "tags": [
+        "circuit"
+      ],
+      "evenements": [
+        {
+          "type": "other",
+          "nom": "Sud Cantal",
+          "lieu": "No destination specified",
+          "dateDebut": "2021-07-25",
+          "dateFin": "2021-07-28"
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: HOTEL RESTAURANT L'ESCOUNDILLOU",
+          "lieu": "Route de la Gare 15800 ST JACQUES DES BLATS, FRANCE",
+          "dateDebut": "2021-07-25",
+          "dateFin": "2021-07-26",
+          "lat": 45.0509633,
+          "lng": 2.712893
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Chambres d'Hôtes de l'Auberge L'Astrassadou",
+          "lieu": "Le Bourg, 15170 Rézentières, France",
+          "dateDebut": "2021-07-26",
+          "dateFin": "2021-07-27",
+          "lat": 45.1351261,
+          "lng": 3.1017174
+        }
+      ]
+    },
+    {
+      "id": "tripit_Jun03_to_Jun19",
+      "categorie": "voyage",
+      "titre": "Corse, June 2015",
+      "dateDebut": "2015-06-03",
+      "dateFin": "2015-06-20",
+      "latitude": 43.29695,
+      "longitude": 5.38107,
+      "description": "Voyage du 03/06/2015 au 20/06/2015",
+      "participants": [
+        "Matt"
+      ],
+      "photos": [],
+      "tags": [
+        "circuit"
+      ],
+      "evenements": [
+        {
+          "type": "other",
+          "nom": "Corse, June 2015",
+          "lieu": "Marseille, France",
+          "dateDebut": "2015-06-03",
+          "dateFin": "2015-06-20",
+          "lat": 43.29695,
+          "lng": 5.38107
+        },
+        {
+          "type": "air",
+          "nom": "SNCM - Marseille to Bastia",
+          "lieu": "Marseille; Port autonome de Marseille",
+          "dateDebut": "2015-06-03",
+          "dateFin": "2015-06-04"
+        },
+        {
+          "type": "air",
+          "nom": "SNCM - Bastia to Marseille",
+          "lieu": "Bastia",
+          "dateDebut": "2015-06-18",
+          "dateFin": "2015-06-19"
+        }
+      ]
+    },
+    {
+      "id": "tripit_Mar30_to_Apr01",
+      "categorie": "voyage",
+      "titre": "Pavia, Italy, March 2015",
+      "dateDebut": "2015-03-30",
+      "dateFin": "2015-04-02",
+      "latitude": 45.27476876666666,
+      "longitude": 9.167142233333333,
+      "description": "Voyage du 30/03/2015 au 02/04/2015",
+      "participants": [
+        "Matt"
+      ],
+      "photos": [],
+      "tags": [
+        "circuit"
+      ],
+      "evenements": [
+        {
+          "type": "other",
+          "nom": "Pavia, Italy, March 2015",
+          "lieu": "Pavia, Italy",
+          "dateDebut": "2015-03-30",
+          "dateFin": "2015-04-02",
+          "lat": 45.19205,
+          "lng": 9.15917
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Michele Albertini",
+          "lieu": "Via Milazzo, 247, Pavia, Lombardie 27100, Italie",
+          "dateDebut": "2015-03-30",
+          "dateFin": "2015-03-31",
+          "lat": 45.1755256,
+          "lng": 9.1649608
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Idea Hotel Milano Corso Genova",
+          "lieu": "Via Conca del Naviglio 20, Milano",
+          "dateDebut": "2015-03-31",
+          "dateFin": "2015-04-01",
+          "lat": 45.4567307,
+          "lng": 9.1772959
+        }
+      ]
+    },
+    {
+      "id": "tripit_May09_to_Jun02",
+      "categorie": "voyage",
+      "titre": "Prague et Vienne",
+      "dateDebut": "2018-05-09",
+      "dateFin": "2018-06-03",
+      "latitude": 48.72981611666666,
+      "longitude": 13.29032875,
+      "description": "Voyage du 09/05/2018 au 03/06/2018",
+      "participants": [
+        "Matt"
+      ],
+      "photos": [],
+      "tags": [
+        "circuit"
+      ],
+      "evenements": [
+        {
+          "type": "other",
+          "nom": "Prague et Vienne",
+          "lieu": "Prague, Czechia",
+          "dateDebut": "2018-05-09",
+          "dateFin": "2018-06-03",
+          "lat": 50.08804,
+          "lng": 14.42076
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Chez Petra et Daniel",
+          "lieu": "U Boroviček 254/6, Prague 17, Tchéquie",
+          "dateDebut": "2018-05-10",
+          "dateFin": "2018-05-24",
+          "lat": 50.0743682,
+          "lng": 14.3229488
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Chez Karl et Eric",
+          "lieu": "Lindengasse 43, Vienne, Autriche",
+          "dateDebut": "2018-05-24",
+          "dateFin": "2018-05-31",
+          "lat": 48.1997253,
+          "lng": 16.3489895
+        },
+        {
+          "type": "other",
+          "nom": "Capriccio",
+          "lieu": "l'Opéra d'État de Vienne; Opernring 2, 1010 Wien, Autriche",
+          "dateDebut": "2018-05-24",
+          "lat": 48.2032743,
+          "lng": 16.3692426
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Landhotel zum Metzgerwirt",
+          "lieu": "Dorfstaße 39, Bad Bayersoien, 82435, Allemagne",
+          "dateDebut": "2018-05-31",
+          "dateFin": "2018-06-01",
+          "lat": 47.6915852,
+          "lng": 10.9938886
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Hôtel l'Orayé",
+          "lieu": "11 Bis rte de Colmar, Ammerschwihr, 68770, FR",
+          "dateDebut": "2018-06-01",
+          "dateFin": "2018-06-02",
+          "lat": 48.1219037,
+          "lng": 7.286143
+        }
+      ]
+    },
+    {
+      "id": "tripit_May16_to_May30",
+      "categorie": "voyage",
+      "titre": "Échange Massfelder",
+      "dateDebut": "2024-05-16",
+      "dateFin": "2024-05-31",
+      "latitude": 48.777216,
+      "longitude": 6.555351033333333,
+      "description": "Voyage du 16/05/2024 au 31/05/2024",
+      "participants": [
+        "Matt"
+      ],
+      "photos": [],
+      "tags": [
+        "circuit"
+      ],
+      "evenements": [
+        {
+          "type": "other",
+          "nom": "Échange Massfelder",
+          "lieu": "No destination specified",
+          "dateDebut": "2024-05-16",
+          "dateFin": "2024-05-31"
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Hôtel d'Angleterre (by Popinns)",
+          "lieu": "162 rue de Charmey , Vittel, 88800, France",
+          "dateDebut": "2024-05-16",
+          "dateFin": "2024-05-17",
+          "lat": 48.2027209,
+          "lng": 5.9409473
+        },
+        {
+          "type": "lodging",
+          "nom": "Arrive Lodging",
+          "lieu": "Birkenweg 3, Eckenroth, Allemagne",
+          "dateDebut": "2024-05-17",
+          "dateFin": "2024-05-29",
+          "lat": 49.9252503,
+          "lng": 7.7846534
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Hôtel Providence",
+          "lieu": "125 Avenue De Châtillon, Vittel, 88800 France",
+          "dateDebut": "2024-05-29",
+          "dateFin": "2024-05-30",
+          "lat": 48.2036768,
+          "lng": 5.9404524
+        }
+      ]
+    },
+    {
+      "id": "tripit_May22_to_Jun07",
+      "categorie": "voyage",
+      "titre": "Mariage Maud",
+      "dateDebut": "2023-05-22",
+      "dateFin": "2023-06-08",
+      "latitude": 42.1892677125,
+      "longitude": 8.168486025,
+      "description": "Voyage du 22/05/2023 au 08/06/2023",
+      "participants": [
+        "Matt"
+      ],
+      "photos": [],
+      "tags": [
+        "circuit"
+      ],
+      "evenements": [
+        {
+          "type": "other",
+          "nom": "Mariage Maud",
+          "lieu": "Bonifacio, France",
+          "dateDebut": "2023-05-22",
+          "dateFin": "2023-06-08",
+          "lat": 41.38723,
+          "lng": 9.15667
+        },
+        {
+          "type": "other",
+          "nom": "Embark - Corsica Linea",
+          "lieu": "CORSICA linea Marseille; Quai du Maroc, 13002 Marseille, France",
+          "dateDebut": "2023-05-22",
+          "lat": 43.309432,
+          "lng": 5.365131
+        },
+        {
+          "type": "other",
+          "nom": "Disembark - Corsica Linea",
+          "lieu": "CORSICA linea Propriano; Corsica Linea Propriano",
+          "dateDebut": "2023-05-23",
+          "lat": 41.673892,
+          "lng": 8.901759
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Airbnb - jolie villa arborée d oliviers centre ville 3 ***",
+          "lieu": "Rue Maréchal Juin, Porto-Vecchio, Corsica 20137, France",
+          "dateDebut": "2023-05-23",
+          "dateFin": "2023-05-27",
+          "lat": 41.5838819,
+          "lng": 9.2757926
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Résidence Maora Village",
+          "lieu": "Route de Santa Manza, Bonifacio, 20169, FR",
+          "dateDebut": "2023-05-27",
+          "dateFin": "2023-05-29",
+          "lat": 41.4155294,
+          "lng": 9.2381106
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Airbnb - Village Cargèse **",
+          "lieu": "Rue Marbeuf, 20130 Cargèse, Corse, France",
+          "dateDebut": "2023-05-29",
+          "dateFin": "2023-06-03",
+          "lat": 42.1347444,
+          "lng": 8.595294
+        },
+        {
+          "type": "other",
+          "nom": "Embark - Corsica Linea",
+          "lieu": "CORSICA linea Bastia; Nouveau Port, Terminal Nord, 20200 Bastia, France",
+          "dateDebut": "2023-06-06",
+          "lat": 42.7,
+          "lng": 9.45
+        },
+        {
+          "type": "other",
+          "nom": "Disembark - Corsica Linea",
+          "lieu": "CORSICA linea Marseille; Quai du Maroc, 13002 Marseille, France",
+          "dateDebut": "2023-06-07",
+          "lat": 43.309432,
+          "lng": 5.365131
+        }
+      ]
+    },
+    {
+      "id": "tripit_May27_to_Jun07",
+      "categorie": "voyage",
+      "titre": "Géorgie",
+      "dateDebut": "2019-05-27",
+      "dateFin": "2019-06-08",
+      "latitude": 41.961647891666665,
+      "longitude": 38.364502308333336,
+      "description": "Voyage du 27/05/2019 au 08/06/2019",
+      "participants": [
+        "Matt"
+      ],
+      "photos": [],
+      "tags": [
+        "circuit"
+      ],
+      "evenements": [
+        {
+          "type": "other",
+          "nom": "Géorgie",
+          "lieu": "Tbilisi, Georgia",
+          "dateDebut": "2019-05-27",
+          "dateFin": "2019-06-08",
+          "lat": 41.69143,
+          "lng": 44.83412
+        },
+        {
+          "type": "air",
+          "nom": "TK1368 MRS to IST",
+          "lieu": "Marseille (MRS)",
+          "dateDebut": "2019-05-27",
+          "lat": 41.01384,
+          "lng": 28.94966
+        },
+        {
+          "type": "air",
+          "nom": "TK376 IST to TBS",
+          "lieu": "Istanbul (IST)",
+          "dateDebut": "2019-05-27",
+          "dateFin": "2019-05-28",
+          "lat": 41.69411,
+          "lng": 44.83368
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Hotel Flower",
+          "lieu": "36a Lado Asatiani Street, Tbilissi, 0105, Géorgie",
+          "dateDebut": "2019-05-28",
+          "dateFin": "2019-05-30",
+          "lat": 41.689424,
+          "lng": 44.8006187
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Airbnb - Aprili House",
+          "lieu": "Aprili Street, Sighnaghi, sighnaghi, Georgia, Géorgie",
+          "dateDebut": "2019-05-30",
+          "dateFin": "2019-05-31",
+          "lat": 41.6959237,
+          "lng": 44.7974342
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Homestay OutInn",
+          "lieu": "Chichinadze st N 31, Tbilissi, 0131, Géorgie",
+          "dateDebut": "2019-05-31",
+          "dateFin": "2019-06-01",
+          "lat": 41.8253156,
+          "lng": 44.7568357
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Hotel on Tabidze 42",
+          "lieu": "42 Tabidze, Stepantsminda, 4700, Géorgie",
+          "dateDebut": "2019-06-01",
+          "dateFin": "2019-06-02",
+          "lat": 42.6587124,
+          "lng": 44.6477078
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Hotel Beni",
+          "lieu": "Beni\nახალციხე ხარისჭირაშვილის ქუჩა, 5, Akhaltsikhe, Géorgie",
+          "dateDebut": "2019-06-02",
+          "dateFin": "2019-06-03",
+          "lat": 41.6448756,
+          "lng": 42.9735953
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Agati Hotel",
+          "lieu": "Gelati № 11, Street № 2, Dead end №1 , Koutaïssi, 4306, Géorgie",
+          "dateDebut": "2019-06-03",
+          "dateFin": "2019-06-04",
+          "lat": 42.2662428,
+          "lng": 42.7180019
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Hotel Old House",
+          "lieu": "Lanchvali street 1, Mestia, 3200, Géorgie",
+          "dateDebut": "2019-06-04",
+          "dateFin": "2019-06-06",
+          "lat": 43.0491106,
+          "lng": 42.7316441
+        },
+        {
+          "type": "air",
+          "nom": "TK387 TBS to IST",
+          "lieu": "Tbilisi (TBS)",
+          "dateDebut": "2019-06-07",
+          "lat": 41.01384,
+          "lng": 28.94966
+        },
+        {
+          "type": "air",
+          "nom": "TK1365 IST to MRS",
+          "lieu": "Istanbul (IST)",
+          "dateDebut": "2019-06-07",
+          "lat": 43.29695,
+          "lng": 5.38107
+        }
+      ]
+    },
+    {
+      "id": "tripit_Nov09_to_Dec01",
+      "categorie": "voyage",
+      "titre": "Af Sud 2016",
+      "dateDebut": "2016-11-09",
+      "dateFin": "2016-12-02",
+      "latitude": 1.4283619142857142,
+      "longitude": 11.72796162857143,
+      "description": "Voyage du 09/11/2016 au 02/12/2016",
+      "participants": [
+        "Matt"
+      ],
+      "photos": [],
+      "tags": [
+        "circuit"
+      ],
+      "evenements": [
+        {
+          "type": "other",
+          "nom": "Af Sud 2016",
+          "lieu": "Cape Town, South Africa",
+          "dateDebut": "2016-11-09",
+          "dateFin": "2016-12-02",
+          "lat": -33.92584,
+          "lng": 18.42322
+        },
+        {
+          "type": "air",
+          "nom": "BA369 MRS to LHR",
+          "lieu": "Marseille (MRS)",
+          "dateDebut": "2016-11-09",
+          "lat": 51.5,
+          "lng": -0.116667
+        },
+        {
+          "type": "air",
+          "nom": "BA43 LHR to CPT",
+          "lieu": "London (LHR)",
+          "dateDebut": "2016-11-09",
+          "dateFin": "2016-11-10",
+          "lat": -33.916667,
+          "lng": 18.416667
+        },
+        {
+          "type": "car",
+          "nom": "Pick Up Car Rental",
+          "lieu": null,
+          "dateDebut": "2016-11-10"
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: 49 On Cliff",
+          "lieu": "49 cliff street de kelders 7220 gansbaai",
+          "dateDebut": "2016-11-16",
+          "dateFin": "2016-11-17",
+          "lat": -34.5528806,
+          "lng": 19.3685675
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Kuzuko Lodge",
+          "lieu": "Olivenfontein farm, Kommadaga, Addo Elephant Park, Eastern Cape, Afrique du Sud",
+          "dateDebut": "2016-11-21",
+          "dateFin": "2016-11-23"
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Little Samadhi Karoo Retreat",
+          "lieu": "2 Laing Street, Barrydale, 6750, Afrique du Sud",
+          "dateDebut": "2016-11-25",
+          "dateFin": "2016-11-27",
+          "lat": -33.906079,
+          "lng": 20.7206109
+        },
+        {
+          "type": "car",
+          "nom": "Drop Off Car Rental",
+          "lieu": null,
+          "dateDebut": "2016-11-30"
+        },
+        {
+          "type": "air",
+          "nom": "BA58 CPT to LHR",
+          "lieu": "Cape Town (CPT)",
+          "dateDebut": "2016-11-30",
+          "dateFin": "2016-12-01",
+          "lat": 51.5,
+          "lng": -0.116667
+        },
+        {
+          "type": "air",
+          "nom": "BA366 LHR to MRS",
+          "lieu": "London (LHR)",
+          "dateDebut": "2016-12-01",
+          "lat": 43.3,
+          "lng": 5.4
+        }
+      ]
+    },
+    {
+      "id": "tripit_Nov23_to_Nov30",
+      "categorie": "voyage",
+      "titre": "Palermo, Italy, November 2018",
+      "dateDebut": "2018-11-23",
+      "dateFin": "2018-12-01",
+      "latitude": 39.3134593,
+      "longitude": 11.150120062500001,
+      "description": "Voyage du 23/11/2018 au 01/12/2018",
+      "participants": [
+        "Matt"
+      ],
+      "photos": [],
+      "tags": [
+        "circuit"
+      ],
+      "evenements": [
+        {
+          "type": "other",
+          "nom": "Palermo, Italy, November 2018",
+          "lieu": "Palermo, Italy",
+          "dateDebut": "2018-11-23",
+          "dateFin": "2018-12-01",
+          "lat": 38.1166,
+          "lng": 13.3636
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Kristal",
+          "lieu": "Corso Umberto 204 / A , Cinisi, 90045, Italie",
+          "dateDebut": "2018-11-23",
+          "dateFin": "2018-11-24",
+          "lat": 38.158493,
+          "lng": 13.105642
+        },
+        {
+          "type": "air",
+          "nom": "FR6785 MRS to PMO",
+          "lieu": "Marseille (MRS)",
+          "dateDebut": "2018-11-23",
+          "lat": 38.13205,
+          "lng": 13.33561
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Hotel Posta",
+          "lieu": "Via Antonio Gagini, 77, 90133 Palermo PA, Italie",
+          "dateDebut": "2018-11-24",
+          "dateFin": "2018-11-27",
+          "lat": 38.1206697,
+          "lng": 13.3619552
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Bahari Selinunte",
+          "lieu": "Via Sirio 10 A, Marinella di Selinunte, 91022, Italie",
+          "dateDebut": "2018-11-27",
+          "dateFin": "2018-11-28",
+          "lat": 37.5862661,
+          "lng": 12.8402681
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Hotel Carmine",
+          "lieu": "Piazza Carmine, 16, Marsala, 91025, Italie",
+          "dateDebut": "2018-11-28",
+          "dateFin": "2018-11-29",
+          "lat": 37.7996956,
+          "lng": 12.4317452
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Il Carmine",
+          "lieu": null,
+          "dateDebut": "2018-11-29",
+          "dateFin": "2018-11-30"
+        },
+        {
+          "type": "air",
+          "nom": "FR6786 PMO to MRS",
+          "lieu": "Palermo (PMO)",
+          "dateDebut": "2018-11-30",
+          "lat": 43.29695,
+          "lng": 5.38107
+        },
+        {
+          "type": "air",
+          "nom": "FR6786 PMO to MRS",
+          "lieu": "Palermo (PMO)",
+          "dateDebut": "2018-11-30",
+          "lat": 43.29695,
+          "lng": 5.38107
+        }
+      ]
+    },
+    {
+      "id": "tripit_Nov26_to_Dec01",
+      "categorie": "voyage",
+      "titre": "Rome, Italy, November 2015",
+      "dateDebut": "2015-11-26",
+      "dateFin": "2015-12-02",
+      "latitude": 42.29972597142857,
+      "longitude": 10.466244357142857,
+      "description": "Voyage du 26/11/2015 au 02/12/2015",
+      "participants": [
+        "Matt"
+      ],
+      "photos": [],
+      "tags": [
+        "circuit"
+      ],
+      "evenements": [
+        {
+          "type": "other",
+          "nom": "Rome, Italy, November 2015",
+          "lieu": "Rome, Italy",
+          "dateDebut": "2015-11-26",
+          "dateFin": "2015-12-02",
+          "lat": 41.89193,
+          "lng": 12.51133
+        },
+        {
+          "type": "air",
+          "nom": "FR9796 MRS to FCO",
+          "lieu": "Marseille (MRS)",
+          "dateDebut": "2015-11-26",
+          "lat": 41.9,
+          "lng": 12.483333
+        },
+        {
+          "type": "air",
+          "nom": "FR9796 MRS to FCO",
+          "lieu": "Marseille (MRS)",
+          "dateDebut": "2015-11-26",
+          "lat": 41.9,
+          "lng": 12.483333
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Hotel Nord Nuova Roma",
+          "lieu": "Via G. Amendola 3 Stazione Termini Rome, 00185, Italie",
+          "dateDebut": "2015-11-26",
+          "dateFin": "2015-11-27",
+          "lat": 41.8977003,
+          "lng": 12.5097274
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Residenza Di Ripetta Rome",
+          "lieu": "Via di Ripetta, 231 00186 - Rome - Italy",
+          "dateDebut": "2015-11-27",
+          "dateFin": "2015-12-01",
+          "lat": 41.9084515,
+          "lng": 12.4759871
+        },
+        {
+          "type": "air",
+          "nom": "FR9795 FCO to MRS",
+          "lieu": "Rome (FCO)",
+          "dateDebut": "2015-12-01",
+          "lat": 43.3,
+          "lng": 5.4
+        },
+        {
+          "type": "air",
+          "nom": "FR9795 FCO to MRS",
+          "lieu": "Rome (FCO)",
+          "dateDebut": "2015-12-01",
+          "lat": 43.3,
+          "lng": 5.4
+        }
+      ]
+    },
+    {
+      "id": "tripit_Sep13_to_Oct02",
+      "categorie": "voyage",
+      "titre": "Krakow, Budapest",
+      "dateDebut": "2019-09-13",
+      "dateFin": "2019-10-03",
+      "latitude": 49.140210637500005,
+      "longitude": 17.5823037625,
+      "description": "Voyage du 13/09/2019 au 03/10/2019",
+      "participants": [
+        "Matt"
+      ],
+      "photos": [],
+      "tags": [
+        "circuit"
+      ],
+      "evenements": [
+        {
+          "type": "other",
+          "nom": "Krakow, Budapest",
+          "lieu": "No destination specified",
+          "dateDebut": "2019-09-13",
+          "dateFin": "2019-10-03"
+        },
+        {
+          "type": "air",
+          "nom": "FR5413 MRS to KRK",
+          "lieu": "Marseille (MRS)",
+          "dateDebut": "2019-09-13",
+          "lat": 50.06143,
+          "lng": 19.93658
+        },
+        {
+          "type": "car",
+          "nom": "Pick Up Rental Car: ODKRYJ-AUTO",
+          "lieu": null,
+          "dateDebut": "2019-09-13"
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Neohotel Airport",
+          "lieu": "Rząska ul. Topolowa 12, Szczyglice, 30-199, Pologne",
+          "dateDebut": "2019-09-13",
+          "dateFin": "2019-09-14",
+          "lat": 50.0918359,
+          "lng": 19.8325814
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Qubus Hotel Lodz",
+          "lieu": "Adam Mickiewicz Avenue 7, 90-443 Lodz, Poland",
+          "dateDebut": "2019-09-14",
+          "dateFin": "2019-09-15",
+          "lat": 51.7581884,
+          "lng": 19.452856
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Hôtel Polonia",
+          "lieu": "ul. Piłsudskiego 66,\n \n50-020 Wrocław, PL",
+          "dateDebut": "2019-09-15",
+          "dateFin": "2019-09-17",
+          "lat": 51.101174,
+          "lng": 17.0307329
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Villa Tilia",
+          "lieu": "Lipowa 9, 57-320 Polanica-Zdrój, Pologne",
+          "dateDebut": "2019-09-17",
+          "dateFin": "2019-09-18"
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Chez Monika Karwinska",
+          "lieu": "Ślusarska 5, Kraków, Pologne",
+          "dateDebut": "2019-09-18",
+          "dateFin": "2019-09-25",
+          "lat": 50.0494187,
+          "lng": 19.961778
+        },
+        {
+          "type": "lodging",
+          "nom": "Arrive Lodging",
+          "lieu": "ul. Zamoyskiego 21, Zakopane",
+          "dateDebut": "2019-09-20",
+          "dateFin": "2019-09-21",
+          "lat": 49.2888506,
+          "lng": 19.9654976
+        },
+        {
+          "type": "car",
+          "nom": "Drop Off Rental Car: ODKRYJ-AUTO",
+          "lieu": null,
+          "dateDebut": "2019-09-22"
+        },
+        {
+          "type": "other",
+          "nom": "FLIXBUS - Gare Routière Cracovie to Gare Routière Budapest",
+          "lieu": "Gare Routière Cracovie; Bosacka 18, Cracovie, Pologne",
+          "dateDebut": "2019-09-25",
+          "lat": 47.4738375,
+          "lng": 19.0973342
+        },
+        {
+          "type": "other",
+          "nom": "Opéra Warriors",
+          "lieu": null,
+          "dateDebut": "2019-09-26"
+        },
+        {
+          "type": "air",
+          "nom": "FR7750 BUD to MRS",
+          "lieu": "Budapest (BUD)",
+          "dateDebut": "2019-10-02",
+          "lat": 43.29695,
+          "lng": 5.38107
+        }
+      ]
+    },
+    {
+      "id": "tripit_Sep18_to_Oct12",
+      "categorie": "voyage",
+      "titre": "Canada, Septembre 2017",
+      "dateDebut": "2017-09-18",
+      "dateFin": "2017-10-13",
+      "latitude": 47.12611996,
+      "longitude": -63.65163774,
+      "description": "Voyage du 18/09/2017 au 13/10/2017",
+      "participants": [
+        "Matt"
+      ],
+      "photos": [],
+      "tags": [
+        "circuit"
+      ],
+      "evenements": [
+        {
+          "type": "other",
+          "nom": "Canada, Septembre 2017",
+          "lieu": "Mont-Royal, QC, Canada",
+          "dateDebut": "2017-09-18",
+          "dateFin": "2017-10-13",
+          "lat": 45.51675,
+          "lng": -73.64918
+        },
+        {
+          "type": "air",
+          "nom": "AC1963 MRS to YUL",
+          "lieu": "Marseille (MRS)",
+          "dateDebut": "2017-09-18",
+          "lat": 45.5016889,
+          "lng": -73.567256
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Canopée Lit, Hébergements insolites et bulles",
+          "lieu": "303 Chemin de l'Anse-de-Roche, Sacré-Coeur, QC G0T 1Y0, Canada",
+          "dateDebut": "2017-10-01",
+          "dateFin": "2017-10-03",
+          "lat": 48.2245541,
+          "lng": -69.8704754
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Gîte Chez Lucie",
+          "lieu": "2 rue Dion, Les Escoumins (Québec), G0T 1K0, Canada",
+          "dateDebut": "2017-10-02",
+          "dateFin": "2017-10-03",
+          "lat": 48.3211618,
+          "lng": -69.4170391
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Gîte La Villa Victorienne",
+          "lieu": "432, 3e Rang Ouest, Saint-Henri-de-Taillon (Québec), G0W 2X0, Canada",
+          "dateDebut": "2017-10-03",
+          "dateFin": "2017-10-04",
+          "lat": 48.6761411,
+          "lng": -71.8188535
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Gite Du Lac St-Prime",
+          "lieu": "49 Rue des Amandiers, Saint-Prime (Québec), G8J 1L8, Canada",
+          "dateDebut": "2017-10-04",
+          "dateFin": "2017-10-05",
+          "lat": 48.5967449,
+          "lng": -72.3295399
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Gîte du Vieux Chemin",
+          "lieu": "8313 Chemin de la batture\n \nLa Baie, QC G7B 3P6",
+          "dateDebut": "2017-10-05",
+          "dateFin": "2017-10-06",
+          "lat": 48.3515184,
+          "lng": -70.7562325
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Auberge de la Rive de Charlevoix",
+          "lieu": "280 rue de l'Église, Saint-Joseph-de-la-Rive (Québec), G0A 3Y0, Canada",
+          "dateDebut": "2017-10-06",
+          "dateFin": "2017-10-07",
+          "lat": 47.4569585,
+          "lng": -70.3623958
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Le Brillant des Aulnaies",
+          "lieu": "780 Route de la Seigneurie, Saint-Roch-des-Aulnaies, G0R 4E0, Canada",
+          "dateDebut": "2017-10-07",
+          "dateFin": "2017-10-08",
+          "lat": 47.3156819,
+          "lng": -70.1454052
+        },
+        {
+          "type": "lodging",
+          "nom": "Check-in: Chez Yves",
+          "lieu": "87 Rue Sainte-Anne, QC, Canada",
+          "dateDebut": "2017-10-08",
+          "dateFin": "2017-10-10"
+        },
+        {
+          "type": "air",
+          "nom": "AC1962 YUL to MRS",
+          "lieu": "Montreal (YUL)",
+          "dateDebut": "2017-10-12",
+          "lat": 43.3,
+          "lng": 5.4
+        }
+      ]
+    }
+  ]
+}

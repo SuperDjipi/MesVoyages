@@ -1,0 +1,301 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+X-WR-CALNAME:Vincent Delcourt (TripIt - Santiago, Chile, January 2019)
+X-WR-CALDESC:Santiago, Chile, January 2019 (Trip Shared by Vincent Delcour
+ t)
+PRODID:-//John Papaioannou/NONSGML Bennu 0.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20251227T170209Z
+UID:637d3567-6057-9000-0001-00000e6bffd1@tripit.com
+DTSTART;VALUE=DATE:20190130
+DTEND;VALUE=DATE:20190228
+SUMMARY:Santiago\, Chile\, January 2019
+LOCATION:Santiago\, Chile
+GEO:-33.45694;-70.64827
+TRANSP:TRANSPARENT
+DESCRIPTION:Vincent Delcourt is in Santiago\, Chile from Jan 30 to Feb 27\
+ , 2019\nView and/or edit details in TripIt : https://www.tripit.com/trip/s
+ how?id=241958865\nTripIt - organize your travel at https://www.tripit.com\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170209Z
+DTEND:20190130T192500Z
+SUMMARY:LH1089 MRS to FRA
+LOCATION:Marseille (MRS)
+UID:item-34de94e2-a194-9000-0003-0000926f087d@tripit.com
+DTSTART:20190130T174500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/241958865\n \n\nWed\, Jan 30\n6:45 PM CET\n[Flight] MRS to FRA\
+ n \n\nLufthansa 1089\, Terminal 1A\, Gate \n \n\n8:25 PM CET\nArrive Frank
+ furt (FRA)\nTerminal 1\, Gate \, 1h\, 50m layover\n \n\n \nTripIt - organi
+ ze your travel at https://www.tripit.com
+GEO:50.11552;8.68417
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170209Z
+DTEND:20190131T110000Z
+SUMMARY:LH510 FRA to EZE
+LOCATION:Frankfurt (FRA)
+UID:item-eaeb83b4-f1bf-9000-0003-0000926f0881@tripit.com
+DTSTART:20190130T211500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/241958865\n \n\n10:15 PM CET\n[Flight] FRA to EZE\n \n\nLufthan
+ sa 510\, Terminal 1\, Gate \n \n\n \nThu\, Jan 31\n8:00 AM -03\nArrive Bue
+ nos Aires (EZE)\nTerminal A\, Gate \, 2h\, 55m layover\n \n\n \nTripIt - o
+ rganize your travel at https://www.tripit.com
+GEO:-34.6036844;-58.3815591
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170209Z
+DTEND:20190131T161500Z
+SUMMARY:LA464 EZE to SCL
+LOCATION:Buenos Aires (EZE)
+UID:item-fd8b9ab7-a61c-9000-0003-0000926f0885@tripit.com
+DTSTART:20190131T135500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/241958865\n \n\n10:55 AM -03\n[Flight] EZE to SCL\n \n\nLan Air
+ lines 464\, Terminal A\, Gate \n \n\n1:15 PM -03\nArrive Santiago (SCL)\nT
+ erminal \, Gate \n \n\n \nTripIt - organize your travel at https://www.tri
+ pit.com
+GEO:-33.45694;-70.64827
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170209Z
+SUMMARY:Check-in: Santiago
+TRANSP:TRANSPARENT
+UID:item-e26f406c-4150-9000-0003-000099b728a9@tripit.com
+DTSTART:20190131T170000Z
+DTEND:20190131T180000Z
+LOCATION:Hermanos Amunátegui 890\, Santiago\, Región Metropolitana\, Chili
+ 
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/241958865\n \n\n2:00 PM -03\n[Lodging] Arrive Lodging\nCheck-In
+ : 2:00pm\nHermanos Amunátegui 890\, Santiago\, Región Metropolitana\, Chil
+ i\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:-33.4334063;-70.6571371
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170209Z
+SUMMARY:Pick Up Rental Car: Chilean Rent a car
+TRANSP:TRANSPARENT
+UID:item-496d0240-dc1a-9000-0003-000096e04b7d@tripit.com
+DTSTART:20190202T120000Z
+DTEND:20190202T130000Z
+LOCATION:Pudahuel\, Santiago Metropolitan Region\, Chili
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/241958865\n \n\nSat\, Feb 2\n9:00 AM -03\n[Car Rental] Pick Up 
+ Chilean Rent a car Car Rental\nPick-Up: 9:00am\nPudahuel\, Santiago Metrop
+ olitan Region\, Chili\n \n\n \nTripIt - organize your travel at https://ww
+ w.tripit.com
+GEO:-33.4421135;-70.7640644
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170209Z
+SUMMARY:Check-out: Santiago
+TRANSP:TRANSPARENT
+UID:item-bb5bd3bb-8539-9000-0003-000099b728ad@tripit.com
+DTSTART:20190202T130000Z
+DTEND:20190202T140000Z
+LOCATION:Hermanos Amunátegui 890\, Santiago\, Región Metropolitana\, Chili
+ 
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/241958865\n \n\n10:00 AM -03\n[Lodging] Depart Lodging\nCheck-O
+ ut: 10:00am\nHermanos Amunátegui 890\, Santiago\, Región Metropolitana\, C
+ hili\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:-33.4334063;-70.6571371
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170209Z
+SUMMARY:Check-in: Casa Compléta Y Tranquilidad
+TRANSP:TRANSPARENT
+UID:item-7bf1855d-7644-9000-0003-000099c220f9@tripit.com
+DTSTART:20190202T180000Z
+DTEND:20190202T190000Z
+LOCATION:Pueblo Seco 2972\, Chillán\, Chili
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/241958865\n \n\n3:00 PM -03\n[Lodging] Arrive Casa Compléta Y T
+ ranquilidad\nCheck-In: 3:00pm\nPueblo Seco 2972\, Chillán\, Chili\n5695520
+ 8410\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:-36.6306573;-72.0761651
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170209Z
+SUMMARY:Check-out: Casa Compléta Y Tranquilidad
+TRANSP:TRANSPARENT
+UID:item-e394ea96-a6f5-9000-0003-000099c220fd@tripit.com
+DTSTART:20190203T140000Z
+DTEND:20190203T150000Z
+LOCATION:Pueblo Seco 2972\, Chillán\, Chili
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/241958865\n \n\nSun\, Feb 3\n11:00 AM -03\n[Lodging] Depart Cas
+ a Compléta Y Tranquilidad\nCheck-Out: 11:00am\nPueblo Seco 2972\, Chillán\
+ , Chili\n56955208410\n \n\n \nTripIt - organize your travel at https://www
+ .tripit.com
+GEO:-36.6306573;-72.0761651
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170209Z
+SUMMARY:Check-in: Cabaña Ale Kuyen
+TRANSP:TRANSPARENT
+UID:item-50d582d3-1a77-9000-0003-000096eb6ca5@tripit.com
+DTSTART:20190203T180000Z
+DTEND:20190203T190000Z
+LOCATION:Pucón\, Chili
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/241958865\n \n\n3:00 PM -03\n[Lodging] Arrive Cabaña Ale Kuyen\
+ nCheck-In: 3:00pm\nPucón\, Chili\n \n\n \nTripIt - organize your travel at
+  https://www.tripit.com
+GEO:-39.2722541;-71.9776285
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170209Z
+SUMMARY:Check-out: Cabaña Ale Kuyen
+TRANSP:TRANSPARENT
+UID:item-1a699950-1ff4-9000-0003-000096eb6ca9@tripit.com
+DTSTART:20190206T170000Z
+DTEND:20190206T180000Z
+LOCATION:Pucón\, Chili
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/241958865\n \n\nWed\, Feb 6\n2:00 PM -03\n[Lodging] Depart Caba
+ ña Ale Kuyen\nCheck-Out: 2:00pm\nPucón\, Chili\n \n\n \nTripIt - organize 
+ your travel at https://www.tripit.com
+GEO:-39.2722541;-71.9776285
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170209Z
+SUMMARY:Check-in: Apart Hotel Puchaley Lafquen
+TRANSP:TRANSPARENT
+UID:item-4299cf20-4ffb-9000-0003-00009a4dea35@tripit.com
+DTSTART:20190206T180000Z
+DTEND:20190206T190000Z
+LOCATION:
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/241958865\n \n\n3:00 PM -03\n[Lodging] Arrive Pulachey Lafquen\
+ , Panguipulli\nCheck-In: 3:00pm\n \n\n \nTripIt - organize your travel at 
+ https://www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170209Z
+SUMMARY:Check-out: Apart Hotel Puchaley Lafquen
+TRANSP:TRANSPARENT
+UID:item-3293e8a0-b74a-9000-0003-00009a4dea39@tripit.com
+DTSTART:20190207T140000Z
+DTEND:20190207T150000Z
+LOCATION:
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/241958865\n \n\nThu\, Feb 7\n11:00 AM -03\n[Lodging] Depart Pul
+ achey Lafquen\, Panguipulli\nCheck-Out: 11:00am\n \n\n \nTripIt - organize
+  your travel at https://www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170209Z
+SUMMARY:Check-in: Cabañas Vista Tranquila Chiloé
+TRANSP:TRANSPARENT
+UID:item-4f839ba7-a61e-9000-0003-00009a4df319@tripit.com
+DTSTART:20190207T180000Z
+DTEND:20190207T190000Z
+LOCATION:
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/241958865\n \n\n3:00 PM -03\n[Lodging] Arrive Cabañas Vista Tra
+ nquila Chiloé\nCheck-In: 3:00pm\n \n\n \nTripIt - organize your travel at 
+ https://www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170209Z
+SUMMARY:Check-out: Cabañas Vista Tranquila Chiloé
+TRANSP:TRANSPARENT
+UID:item-92617efc-3e01-9000-0003-00009a4df31d@tripit.com
+DTSTART:20190210T140000Z
+DTEND:20190210T150000Z
+LOCATION:
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/241958865\n \n\nSun\, Feb 10\n11:00 AM -03\n[Lodging] Depart Ca
+ bañas Vista Tranquila Chiloé\nCheck-Out: 11:00am\n \n\n \nTripIt - organiz
+ e your travel at https://www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170209Z
+SUMMARY:Check-in: Departementos Emanuel\, Chaiten
+TRANSP:TRANSPARENT
+UID:item-8016766b-d2d6-9000-0003-00009a85755d@tripit.com
+DTSTART:20190210T180000Z
+DTEND:20190210T190000Z
+LOCATION:Chaitén\, La Florida\, Chili
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/241958865\n \n\n3:00 PM -03\n[Lodging] Arrive Departementos Ema
+ nuel\, Chaiten\nCheck-In: 3:00pm\nChaitén\, La Florida\, Chili\n \n\n \nTr
+ ipIt - organize your travel at https://www.tripit.com
+GEO:-33.5368433;-70.5996488
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170209Z
+SUMMARY:Check-out: Departementos Emanuel\, Chaiten
+TRANSP:TRANSPARENT
+UID:item-08b8ae9c-aae5-9000-0003-00009a857561@tripit.com
+DTSTART:20190211T140000Z
+DTEND:20190211T150000Z
+LOCATION:Chaitén\, La Florida\, Chili
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/241958865\n \n\nMon\, Feb 11\n11:00 AM -03\n[Lodging] Depart De
+ partementos Emanuel\, Chaiten\nCheck-Out: 11:00am\nChaitén\, La Florida\, 
+ Chili\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:-33.5368433;-70.5996488
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170209Z
+DTEND:20190226T203500Z
+SUMMARY:LA9453 SCL to GIG
+LOCATION:Santiago (SCL)
+UID:item-f0b64696-119c-9000-0003-0000926f0889@tripit.com
+DTSTART:20190226T162000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/241958865\n \n\nTue\, Feb 26\n1:20 PM -03\n[Flight] SCL to GIG\
+ n \n\nLan Airlines 9453\, Terminal \, Gate \n \n\n5:35 PM -03\nArrive Rio 
+ De Janeiro (GIG)\nTerminal 2\, Gate \, 2h\, 5m layover\n \n\n \nTripIt - o
+ rganize your travel at https://www.tripit.com
+GEO:-22.90642;-43.18223
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170209Z
+SUMMARY:Drop Off Rental Car: Chilean Rent a car
+TRANSP:TRANSPARENT
+UID:item-6bd1b59f-a10b-9000-0003-000096e04b81@tripit.com
+DTSTART:20190226T200000Z
+DTEND:20190226T210000Z
+LOCATION:Pudahuel\, Santiago Metropolitan Region\, Chili
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/241958865\n \n\n5:00 PM -03\n[Car Rental] Drop Off Chilean Rent
+  a car Car Rental\nDrop-Off: 5:00pm\nPudahuel\, Santiago Metropolitan Regi
+ on\, Chili\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+GEO:-33.4421135;-70.7640644
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170209Z
+DTEND:20190227T100000Z
+SUMMARY:LH501 GIG to FRA
+LOCATION:Rio De Janeiro (GIG)
+UID:item-4e9598a3-5730-9000-0003-0000926f088d@tripit.com
+DTSTART:20190226T224000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/241958865\n \n\n7:40 PM -03\n[Flight] GIG to FRA\n \n\nLufthans
+ a 501\, Terminal 2\, Gate \n \n\n \nWed\, Feb 27\n11:00 AM CET\nArrive Fra
+ nkfurt (FRA)\nTerminal 1\, Gate \, 5h\, 20m layover\n \n\n \nTripIt - orga
+ nize your travel at https://www.tripit.com
+GEO:50.11552;8.68417
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T170209Z
+DTEND:20190227T165000Z
+SUMMARY:LH1088 FRA to MRS
+LOCATION:Frankfurt (FRA)
+UID:item-3a18e248-0ae6-9000-0003-0000926f0891@tripit.com
+DTSTART:20190227T152000Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/241958865\n \n\n4:20 PM CET\n[Flight] FRA to MRS\n \n\nLufthans
+ a 1088\, Terminal 1\, Gate A20\n \n\n5:50 PM CET\nArrive Marseille (MRS)\n
+ Terminal 1A\, Gate \n \n\n \nTripIt - organize your travel at https://www.
+ tripit.com
+GEO:43.29695;5.38107
+END:VEVENT
+END:VCALENDAR

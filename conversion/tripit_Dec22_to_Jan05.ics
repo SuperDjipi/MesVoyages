@@ -1,0 +1,270 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+X-WR-CALNAME:Matt Gamon (TripIt - Jour de l'an 24-25)
+X-WR-CALDESC:Jour de l'an 24-25 (Trip Shared by Matt Gamon)
+PRODID:-//John Papaioannou/NONSGML Bennu 0.1//EN
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:20251227T153219Z
+UID:6531c306-bc56-9000-0001-0000155a274a@tripit.com
+DTSTART;VALUE=DATE:20241222
+DTEND;VALUE=DATE:20250106
+SUMMARY:Jour de l'an 24-25
+LOCATION:No destination specified
+TRANSP:TRANSPARENT
+DESCRIPTION:Matt Gamon is in an unspecified location from Dec 22\, 2
+ 024 to Jan 5\, 2025\nView and/or edit details in TripIt : https://www.trip
+ it.com/trip/show?id=358229834\nTripIt - organize your travel at https://ww
+ w.tripit.com\n
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T153219Z
+SUMMARY:Check-in: ibis Bourges
+TRANSP:TRANSPARENT
+UID:item-2bd6ae77-8e57-9000-0003-0001204613ad@tripit.com
+DTSTART:20241222T130000Z
+DTEND:20241222T140000Z
+LOCATION:Rue VladimirJankelevitch\, Quartier du Prado - 18000 BOURGES - Fr
+ ance
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/358229834\n \n\nSun\, Dec 22\n2:00 PM CET\n[Lodging] Arrive ibi
+ s Bourges\nCheck-In: 2:00pm\nRue VladimirJankelevitch\, Quartier du Prado 
+ - 18000 BOURGES - France\n33 2 48658999\n \n\n \nTripIt - organize your tr
+ avel at https://www.tripit.com
+GEO:47.0815818;2.3867006
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T153219Z
+SUMMARY:Check-out: ibis Bourges
+TRANSP:TRANSPARENT
+UID:item-35877e1a-dcb4-9000-0003-0001204613b1@tripit.com
+DTSTART:20241223T080000Z
+DTEND:20241223T090000Z
+LOCATION:Rue VladimirJankelevitch\, Quartier du Prado - 18000 BOURGES - Fr
+ ance
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/358229834\n \n\nMon\, Dec 23\n9:00 AM CET\n[Lodging] Depart ibi
+ s Bourges\nCheck-Out: 9:00am\nRue VladimirJankelevitch\, Quartier du Prado
+  - 18000 BOURGES - France\n33 2 48658999\n \n\n \nTripIt - organize your t
+ ravel at https://www.tripit.com
+GEO:47.0815818;2.3867006
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T153219Z
+DTEND:20241223T174500Z
+SUMMARY:TO4318 ORY to CPH
+LOCATION:Paris (ORY)
+UID:item-c3b6b3ca-2538-9000-0003-000120461165@tripit.com
+DTSTART:20241223T153500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/358229834\n \n\n4:35 PM CET\n[Flight] ORY to CPH\n \n\nTransavi
+ a France 4318\, Terminal \, Gate \n \n\n6:45 PM CET\nArrive Copenhagen (CP
+ H)\nTerminal \, Gate \n \n\n \nTripIt - organize your travel at https://ww
+ w.tripit.com
+GEO:55.67594;12.56553
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T153219Z
+DTEND:20241229T201500Z
+SUMMARY:TO4319 CPH to ORY
+LOCATION:Copenhagen (CPH)
+UID:item-13bbe5e2-c78b-9000-0003-000120460f71@tripit.com
+DTSTART:20241229T180500Z
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/358229834\n \n\nSun\, Dec 29\n7:05 PM CET\n[Flight] CPH to ORY\
+ n \n\nTransavia France 4319\, Terminal \, Gate \n \n\n9:15 PM CET\nArrive 
+ Paris (ORY)\nTerminal \, Gate \n \n\n \nTripIt - organize your travel at h
+ ttps://www.tripit.com
+GEO:48.85341;2.3488
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T153219Z
+SUMMARY:Check-in: ibis budget Fresnes
+TRANSP:TRANSPARENT
+UID:item-1ed787b7-79c3-9000-0003-00012045e8e9@tripit.com
+DTSTART:20241229T210000Z
+DTEND:20241229T220000Z
+LOCATION:30 Avenue De La Division Leclerc - 94260 FRESNES - France
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/358229834\n \n\n10:00 PM CET\n[Lodging] Arrive ibis budget Fres
+ nes\nCheck-In: 10:00pm\n30 Avenue De La Division Leclerc - 94260 FRESNES -
+  France\n+33 969 39 32 03\n \n\n \nTripIt - organize your travel at https:
+ //www.tripit.com
+GEO:48.7592096;2.3219249
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T153219Z
+SUMMARY:Check-out: ibis budget Fresnes
+TRANSP:TRANSPARENT
+UID:item-52aca0ca-92d2-9000-0003-00012045e8ed@tripit.com
+DTSTART:20241230T080000Z
+DTEND:20241230T090000Z
+LOCATION:30 Avenue De La Division Leclerc - 94260 FRESNES - France
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/358229834\n \n\nMon\, Dec 30\n9:00 AM CET\n[Lodging] Depart ibi
+ s budget Fresnes\nCheck-Out: 9:00am\n30 Avenue De La Division Leclerc - 94
+ 260 FRESNES - France\n+33 969 39 32 03\n \n\n \nTripIt - organize your tra
+ vel at https://www.tripit.com
+GEO:48.7592096;2.3219249
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T153219Z
+DTEND:20241230T140000Z
+LOCATION:
+UID:item-66bbcff2-5845-9000-0003-00012045e771@tripit.com
+DTSTART:20241230T110000Z
+SUMMARY:Visite Rouen
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/358229834\n \n\n12:00 PM CET\n[Activity] Visite Rouen\n12:00pm 
+ to 3:00pm\n \n\n \nTripIt - organize your travel at https://www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T153219Z
+SUMMARY:Check-in: Le Bréard
+TRANSP:TRANSPARENT
+UID:item-3ddefdba-c0f7-9000-0003-000120463e39@tripit.com
+DTSTART:20241230T140000Z
+DTEND:20241230T150000Z
+LOCATION:7 Rue du Puits\, 14600 Honfleur\, France
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/358229834\n \n\n3:00 PM CET\n[Lodging] Arrive Le Bréard\nCheck-
+ In: 3:00pm\n7 Rue du Puits\, 14600 Honfleur\, France\n \n\n \nTripIt - org
+ anize your travel at https://www.tripit.com
+GEO:49.4207662;0.2318578
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T153219Z
+DTEND:20250101T140000Z
+LOCATION:Côte Fleurie\; Promenade des Planches\, 14800 Deauville\, France
+UID:item-461ca9c1-d4b1-9000-0003-00012159a869@tripit.com
+DTSTART:20241231T110000Z
+SUMMARY:Visite Côte fleurie
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/358229834\n \n\nTue\, Dec 31\n12:00 PM CET\n[Activity] Visite C
+ ôte fleurie\nPromenade des Planches\, 14800 Deauville\, France\nUntil Wed\
+ , 1 Jan at 3:00pm\n \n\n \nTripIt - organize your travel at https://www.tr
+ ipit.com
+GEO:49.367931;0.078762
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T153219Z
+UID:item-af179e37-65e1-9000-0003-00011e1df371@tripit.com
+DTSTART:20241231T193000Z
+DTEND:20241231T203000Z
+SUMMARY:Le Bréard
+LOCATION:7 Rue du Puits\, 14600\, Honfleur
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/358229834\n \n\n8:30 PM CET\n[Restaurant] Le Bréard\n7 Rue du P
+ uits\, 14600\, Honfleur\n+332 31 89 53 40\n \n\n \nTripIt - organize your 
+ travel at https://www.tripit.com
+GEO:49.4207662;0.2318578
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T153219Z
+SUMMARY:Check-out: Le Bréard
+TRANSP:TRANSPARENT
+UID:item-3e3631d3-4cdd-9000-0003-000120463e3d@tripit.com
+DTSTART:20250102T090000Z
+DTEND:20250102T100000Z
+LOCATION:7 Rue du Puits\, 14600 Honfleur\, France
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/358229834\n \n\nThu\, Jan 2\n10:00 AM CET\n[Lodging] Depart Le 
+ Bréard\nCheck-Out: 10:00am\n7 Rue du Puits\, 14600 Honfleur\, France\n \n\
+ n \nTripIt - organize your travel at https://www.tripit.com
+GEO:49.4207662;0.2318578
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T153219Z
+SUMMARY:Check-in: Novotel Blois Centre Val De Loire
+TRANSP:TRANSPARENT
+UID:item-2757b8fa-b120-9000-0003-00012045f529@tripit.com
+DTSTART:20250102T170000Z
+DTEND:20250102T180000Z
+LOCATION:26 Avenue Maréchal Maunoury\, 41000 Blois\, France
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/358229834\n \n\n6:00 PM CET\n[Lodging] Arrive Novotel Blois Cen
+ tre Val De Loire\nCheck-In: 6:00pm\n26 Avenue Maréchal Maunoury\, 41000 Bl
+ ois\, France\n+33 2 54 55 44 88\n \n\n \nTripIt - organize your travel at 
+ https://www.tripit.com
+GEO:47.5916398;1.3362094
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T153219Z
+DTEND:20250103T140000Z
+LOCATION:Blois
+UID:item-5eb48f34-90d4-9000-0003-00012045f845@tripit.com
+DTSTART:20250103T110000Z
+SUMMARY:Visite Blois
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/358229834\n \n\nFri\, Jan 3\n12:00 PM CET\n[Activity] Visite Bl
+ ois\n12:00pm to 3:00pm\n \n\n \nTripIt - organize your travel at https://w
+ ww.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T153219Z
+UID:item-90d392a6-da90-9000-0003-000120ed4691@tripit.com
+DTSTART:20250103T190000Z
+DTEND:20250103T200000Z
+SUMMARY:Assa restaurant
+LOCATION:24 Avenue Du Maréchal Maunoury\, 41000 BLOIS
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/358229834\n \n\n8:00 PM CET\n[Restaurant] Assa restaurant\n24 A
+ venue Du Maréchal Maunoury\, 41000 BLOIS\n02 54 78 09 01\n \n\n \nTripIt -
+  organize your travel at https://www.tripit.com
+GEO:47.5918275;1.3357749
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T153219Z
+SUMMARY:Check-out: Novotel Blois Centre Val De Loire
+TRANSP:TRANSPARENT
+UID:item-282c3f9e-fe1c-9000-0003-00012045f52d@tripit.com
+DTSTART:20250104T090000Z
+DTEND:20250104T100000Z
+LOCATION:26 Avenue Maréchal Maunoury\, 41000 Blois\, France
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/358229834\n \n\nSat\, Jan 4\n10:00 AM CET\n[Lodging] Depart Nov
+ otel Blois Centre Val De Loire\nCheck-Out: 10:00am\n26 Avenue Maréchal Mau
+ noury\, 41000 Blois\, France\n+33 2 54 55 44 88\n \n\n \nTripIt - organize
+  your travel at https://www.tripit.com
+GEO:47.5916398;1.3362094
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T153219Z
+DTEND:20250104T140000Z
+LOCATION:Château de Chambord\; 41250 Chambord\, France
+UID:item-adcddf1a-85e4-9000-0003-00012045f3e5@tripit.com
+DTSTART:20250104T110000Z
+SUMMARY:Visite Chambord
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/358229834\n \n\n12:00 PM CET\n[Activity] Visite Chambord\n41250
+  Chambord\, France\n12:00pm to 3:00pm\n \n\n \nTripIt - organize your trav
+ el at https://www.tripit.com
+GEO:47.614158;1.516878
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T153219Z
+SUMMARY:Check-in: Hôtel Relais De Chambord
+TRANSP:TRANSPARENT
+UID:item-0c2e3f2b-c14d-9000-0003-00011eaf06e5@tripit.com
+DTSTART:20250104T140000Z
+DTEND:20250104T150000Z
+LOCATION:
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/358229834\n \n\n3:00 PM CET\n[Lodging] Arrive Hôtel Relais De C
+ hambord\nCheck-In: 3:00pm\n \n\n \nTripIt - organize your travel at https:
+ //www.tripit.com
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251227T153219Z
+SUMMARY:Check-out: Hôtel Relais De Chambord
+TRANSP:TRANSPARENT
+UID:item-3cc983a9-48c1-9000-0003-00011eaf06ed@tripit.com
+DTSTART:20250105T100000Z
+DTEND:20250105T110000Z
+LOCATION:
+DESCRIPTION:View and/or edit details in TripIt : https://www.tripit.com/tr
+ ip/show/id/358229834\n \n\nSun\, Jan 5\n11:00 AM CET\n[Lodging] Depart Hôt
+ el Relais De Chambord\nCheck-Out: 11:00am\n \n\n \nTripIt - organize your 
+ travel at https://www.tripit.com
+END:VEVENT
+END:VCALENDAR
