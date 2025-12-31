@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:intl/intl.dart';
+import 'package:latlong2/latlong.dart';
 import '../models/memoire.dart';
 import '../services/geocoding_service.dart';
+import '../widgets/map_picker.dart';
 
 class AddEventScreen extends StatefulWidget {
   final Evenement? evenement;  // null = nouveau, sinon = édition
@@ -107,6 +109,37 @@ class _AddEventScreenState extends State<AddEventScreen> {
           ),
         );
       }
+    }
+  }
+
+  Future<void> _pickLocationOnMap() async {
+    final initialPosition = (_latitude != null && _longitude != null)
+        ? LatLng(_latitude!, _longitude!)
+        : null;
+  
+    final selectedPosition = await Navigator.push<LatLng>(
+      context,
+      MaterialPageRoute(
+        builder: (context) => MapPicker(
+          initialPosition: initialPosition,
+          locationName: _nomController.text.isNotEmpty ? _nomController.text : null,
+        ),
+      ),
+    );
+  
+    if (selectedPosition != null) {
+      setState(() {
+        _latitude = selectedPosition.latitude;
+        _longitude = selectedPosition.longitude;
+      });
+    
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('📍 Position définie sur la carte'),
+          backgroundColor: Colors.green,
+          duration: Duration(seconds: 2),
+        ),
+      );
     }
   }
 
@@ -239,28 +272,65 @@ class _AddEventScreenState extends State<AddEventScreen> {
             _buildSection(
               icon: FontAwesomeIcons.locationDot,
               title: 'Lieu (optionnel)',
-              child: TextFormField(
-                controller: _lieuController,
-                decoration: InputDecoration(
-                  hintText: 'Ex: Venise, Italie',
-                  helperText: 'Format: Ville, Pays',
-                  helperStyle: const TextStyle(fontSize: 11),
-                  border: const OutlineInputBorder(),
-                  suffixIcon: _isSearchingLocation
-                      ? const Padding(
-                          padding: EdgeInsets.all(12),
-                          child: SizedBox(
-                            width: 20,
-                            height: 20,
-                            child: CircularProgressIndicator(strokeWidth: 2),
+              child: Column(
+                children: [
+                  Row(
+                    children: [
+                      Expanded(
+                        child: TextFormField(
+                          controller: _lieuController,
+                          decoration: InputDecoration(
+                            hintText: 'Ex: Venise, Italie',
+                            helperText: 'Rechercher ou placer sur carte',
+                            helperStyle: const TextStyle(fontSize: 11),
+                            border: const OutlineInputBorder(),
+                            suffixIcon: _isSearchingLocation
+                                ? const Padding(
+                                    padding: EdgeInsets.all(12),
+                                    child: SizedBox(
+                                      width: 20,
+                                      height: 20,
+                                      child: CircularProgressIndicator(strokeWidth: 2),
+                                    ),
+                                  )
+                                : IconButton(
+                                    icon: const Icon(Icons.search),
+                                    onPressed: _searchLocation,
+                                    tooltip: 'Rechercher',
+                                  ),
                           ),
-                        )
-                      : IconButton(
-                          icon: const Icon(Icons.search),
-                          onPressed: _searchLocation,
+                          onFieldSubmitted: (_) => _searchLocation(),
                         ),
-                ),
-                onFieldSubmitted: (_) => _searchLocation(),
+                      ),
+                      const SizedBox(width: 8),
+                      Container(
+                        decoration: BoxDecoration(
+                          color: const Color(0xFF1A3A52).withOpacity(0.1),
+                          borderRadius: BorderRadius.circular(8),
+                        ),
+                        child: IconButton(
+                          icon: const Icon(Icons.map, color: Color(0xFF1A3A52)),
+                          onPressed: _pickLocationOnMap,
+                          tooltip: 'Placer sur carte',
+                        ),
+                      ),
+                    ],
+                  ),
+                  if (_latitude != null && _longitude != null)
+                    Padding(
+                      padding: const EdgeInsets.only(top: 8),
+                      child: Row(
+                        children: [
+                          const Icon(Icons.check_circle, color: Colors.green, size: 16),
+                          const SizedBox(width: 4),
+                          Text(
+                            'Position définie',
+                            style: TextStyle(color: Colors.green[700], fontSize: 12),
+                          ),
+                        ],
+                      ),
+                    ),
+                ],
               ),
             ),
             

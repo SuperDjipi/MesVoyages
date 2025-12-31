@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/foundation.dart';  // Pour kReleaseMode
@@ -6,14 +7,16 @@ import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:file_picker/file_picker.dart';
+import '../config/map_config.dart';
 import '../models/memoire.dart';
-// import '../services/voyage_service.dart';
 import '../services/voyage_storage_service.dart'; 
 import '../services/subscription_service.dart';  
+import '../services/voyage_database.dart';
+import '../services/import_export_service.dart';
 import '../widgets/timeline_widget.dart';
 import 'detail_screen.dart';
 import 'add_voyage_screen.dart';
-import '../services/voyage_database.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -137,12 +140,7 @@ class _MainScreenState extends State<MainScreen> {
         }
       });
     
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('✅ Voyage modifié !'),
-          backgroundColor: Colors.green,
-        ),
-      );
+      _showDetails(voyageModifie);
     }
   }
 
@@ -155,7 +153,7 @@ class _MainScreenState extends State<MainScreen> {
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Text('Mes Voyages v1.0.0'),
+            const Text('Mes Voyages v0.5.0'),
             const SizedBox(height: 16),
             const Text(
               'Cette application utilise :',
@@ -167,6 +165,13 @@ class _MainScreenState extends State<MainScreen> {
               label: const Text('© OpenStreetMap contributors'),
               onPressed: () => launchUrl(
                 Uri.parse('https://www.openstreetmap.org/copyright'),
+              ),
+            ),
+            TextButton.icon(
+              icon: const Icon(Icons.public, size: 16),
+              label: const Text('© CARTO (Basemaps)'),
+              onPressed: () => launchUrl(
+                Uri.parse('https://carto.com/about-carto/'),
               ),
             ),
             TextButton.icon(
@@ -186,6 +191,293 @@ class _MainScreenState extends State<MainScreen> {
         ],
       ),
     );
+  }
+
+  void _showMenu() {
+    showModalBottomSheet(
+      context: context,
+      builder: (context) => SafeArea(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            ListTile(
+              leading: const Icon(Icons.upload_file, color: Color(0xFF1A3A52)),
+              title: const Text('Exporter mes voyages'),
+              subtitle: const Text('Sauvegarder en JSON'),
+              onTap: () {
+                Navigator.pop(context);
+                _showExportOptions();
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.download, color: Color(0xFF1A3A52)),
+              title: const Text('Importer des voyages'),
+              subtitle: const Text('Depuis un fichier JSON'),
+              onTap: () {
+                Navigator.pop(context);
+                _showImportOptions();
+              },
+            ),
+            const Divider(),
+            ListTile(
+              leading: const Icon(Icons.info_outline, color: Colors.grey),
+              title: const Text('À propos'),
+              onTap: () {
+                Navigator.pop(context);
+                _showAbout();
+              },
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  void _showExportOptions() {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Exporter mes voyages'),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            ListTile(
+              leading: const Icon(Icons.select_all),
+              title: const Text('Tout exporter'),
+              subtitle: Text('${_voyages.length} voyages'),
+              onTap: () {
+                Navigator.pop(context);
+                _exportAll();
+              },
+            ),
+          // TODO: Export sélection (future feature)
+          // ListTile(
+          //   leading: const Icon(Icons.checklist),
+          //   title: const Text('Sélection'),
+          //   subtitle: const Text('Choisir les voyages'),
+          //   onTap: () {},
+          // ),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('Annuler'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Future<void> _exportAll() async {
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (context) => const Center(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            CircularProgressIndicator(color: Colors.white),
+            SizedBox(height: 16),
+            Text(
+              'Export en cours...',
+              style: TextStyle(color: Colors.white),
+            ),
+          ],
+        ),
+      ),
+    );
+  
+    try {
+      print('🚀 Démarrage export...');
+      final file = await ImportExportService.exportAllVoyages();
+      print('✅ Export terminé : ${file.path}');
+    
+      Navigator.pop(context); // Fermer loader
+    
+      // Sur Linux, afficher le chemin au lieu de partager
+      if (Platform.isLinux) {
+        showDialog(
+          context: context,
+          builder: (context) => AlertDialog(
+            title: const Text('✅ Export réussi'),
+            content: Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text('${_voyages.length} voyages exportés'),
+                const SizedBox(height: 16),
+                const Text(
+                  'Fichier sauvegardé dans :',
+                  style: TextStyle(fontWeight: FontWeight.bold),
+                ),
+                const SizedBox(height: 8),
+                SelectableText(
+                  file.path,
+                  style: const TextStyle(
+                    fontSize: 12,
+                    fontFamily: 'monospace',
+                  ),
+                ),
+              ],
+            ),
+            actions: [
+              TextButton(
+                onPressed: () => Navigator.pop(context),
+                child: const Text('OK'),
+              ),
+            ],
+          ),
+        );
+      } else {
+        // Sur Android, partager
+        await ImportExportService.shareExportFile(file);
+       
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('✅ ${_voyages.length} voyages exportés !'),
+            backgroundColor: Colors.green,
+          ),
+        );
+      }
+    } catch (e, stackTrace) {
+      print('❌ Erreur export: $e');
+      print('Stack trace: $stackTrace');
+    
+      Navigator.pop(context);
+    
+      showDialog(
+        context: context,
+        builder: (context) => AlertDialog(
+          title: const Text('❌ Erreur'),
+          content: SelectableText('Erreur lors de l\'export :\n\n$e'),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(context),
+              child: const Text('OK'),
+            ),
+          ],
+        ),
+      );  
+    }
+  }
+
+  void _showImportOptions() {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Importer des voyages'),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const Text(
+              'Choisissez le mode d\'import :',
+              style: TextStyle(fontWeight: FontWeight.bold),
+            ),
+            const SizedBox(height: 16),
+            ListTile(
+              leading: const Icon(Icons.refresh, color: Colors.orange),
+              title: const Text('Remplacer tout'),
+              subtitle: const Text('Supprime les voyages actuels'),
+              dense: true,
+              onTap: () {
+                Navigator.pop(context);
+                _importVoyages(ImportMode.replace);
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.merge, color: Colors.blue),
+              title: const Text('Fusionner'),
+              subtitle: const Text('Remplace si ID existe'),
+              dense: true,
+              onTap: () {
+                Navigator.pop(context);
+                _importVoyages(ImportMode.merge);
+              },
+            ),
+            ListTile(
+              leading: const Icon(Icons.add, color: Colors.green),
+              title: const Text('Ajouter nouveaux'),
+              subtitle: const Text('Ignore les doublons'),
+              dense: true,
+              onTap: () {
+                Navigator.pop(context);
+                _importVoyages(ImportMode.addNew);
+              },
+            ),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: const Text('Annuler'),
+          ),
+        ],
+      ),
+    );
+  } 
+
+  Future<void> _importVoyages(ImportMode mode) async {
+    // Choisir le fichier
+    final file = await ImportExportService.pickImportFile();
+  
+    if (file == null) {
+      return; // Annulé
+    }
+  
+    // Afficher loader
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (context) => const Center(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            CircularProgressIndicator(color: Colors.white),
+            SizedBox(height: 16),
+            Text(
+              'Import en cours...',
+              style: TextStyle(color: Colors.white),
+            ),
+          ],
+        ),
+      ),
+    );
+  
+    try {
+      final result = await ImportExportService.importVoyages(file, mode);
+      Navigator.pop(context); // Fermer loader
+    
+      if (result.success) {
+        // Recharger les voyages
+        await _loadVoyages();
+      
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('✅ ${result.message}'),
+            backgroundColor: Colors.green,
+            duration: const Duration(seconds: 4),
+          ),
+        );
+      } else {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('❌ ${result.message}'),
+            backgroundColor: Colors.red,
+            duration: const Duration(seconds: 4),
+          ),
+        );
+      }
+    } catch (e) {
+      Navigator.pop(context);
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text('❌ Erreur : $e'),
+          backgroundColor: Colors.red,
+        ),
+      );
+    }
   }
 
   void _showPremiumDialog() {
@@ -383,6 +675,10 @@ class _MainScreenState extends State<MainScreen> {
         title: Text('Mes Voyages (${_voyages.length})'),
         backgroundColor: const Color(0xFF1A3A52),
         foregroundColor: Colors.white,
+        leading: IconButton(
+          icon: const Icon(Icons.menu),
+          onPressed: _showMenu,
+        ),
         actions: [
           // Badge PRO (avant les autres boutons)
           if (_isPremium)
@@ -438,13 +734,15 @@ class _MainScreenState extends State<MainScreen> {
                 FlutterMap(
                   mapController: _mapController,
                   options: MapOptions(
-                    initialCenter: LatLng(46.5, 2.5),
+                    initialCenter: LatLng(MapConfig.defaultLat, MapConfig.defaultLng),
                     initialZoom: 5.0,
                   ),
                   children: [
                     TileLayer(
-                      urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-                      userAgentPackageName: 'club.djipi.voyage_map_public',
+                      urlTemplate: MapConfig.tileUrl,
+                      subdomains: MapConfig.subdomains,
+                      userAgentPackageName: MapConfig.userAgent,
+                      maxNativeZoom: MapConfig.maxNativeZoom,
                     ),
                     MarkerLayer(
                       markers: _voyages
@@ -456,7 +754,7 @@ class _MainScreenState extends State<MainScreen> {
                           point: LatLng(voyage.latitude!, voyage.longitude!),
                           width: 100,
                           height: isSelected ? 100 : 80,
-                          alignment: Alignment.topCenter,
+                          alignment: Alignment.bottomCenter,
                           child: GestureDetector(
                             onTap: () => _onMarkerTapped(voyage),
                             onDoubleTap: () => _showDetails(voyage),
@@ -510,26 +808,15 @@ class _MainScreenState extends State<MainScreen> {
                 Positioned(
                   right: 8,
                   bottom: 8,
-                  child: GestureDetector(
-                    onTap: () => launchUrl(
-                      Uri.parse('https://www.openstreetmap.org/copyright'),
+                  child: Container(
+                    padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 3),
+                    decoration: BoxDecoration(
+                      color: Colors.white.withOpacity(0.8),
+                      borderRadius: BorderRadius.circular(4),
                     ),
-                    child: Container(
-                      padding: const EdgeInsets.symmetric(
-                        horizontal: 6,
-                        vertical: 3,
-                      ),
-                      decoration: BoxDecoration(
-                        color: Colors.white.withOpacity(0.8),
-                        borderRadius: BorderRadius.circular(4),
-                      ),
-                      child: const Text(
-                        '© OpenStreetMap',
-                        style: TextStyle(
-                          fontSize: 10,
-                          color: Colors.black87,
-                        ),
-                      ),
+                    child: const Text(
+                      '© OSM | CARTO',
+                      style: TextStyle(fontSize: 10, color: Colors.black87),
                     ),
                   ),
                 ),

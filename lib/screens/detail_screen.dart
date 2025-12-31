@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import '../config/map_config.dart';
 import '../models/memoire.dart';
 import '../services/voyage_storage_service.dart';
+import '../services/voyage_database.dart';
 import 'add_voyage_screen.dart';
 import 'add_event_screen.dart';
 
@@ -202,6 +204,23 @@ class _DetailScreenState extends State<DetailScreen> {
     }
   }
 
+  Future<void> _onReorderEvent(int oldIndex, int newIndex) async {
+    if (oldIndex < newIndex) {
+      newIndex -= 1;
+    }
+  
+    final nouveauxEvenements = List<Evenement>.from(widget.memoire.evenements ?? []);
+    final event = nouveauxEvenements.removeAt(oldIndex);
+    nouveauxEvenements.insert(newIndex, event);
+  
+    final voyageMisAJour = widget.memoire.copyWith(evenements: nouveauxEvenements);
+    await VoyageStorageService.updateVoyage(voyageMisAJour);
+  
+    if (mounted) {
+      Navigator.pop(context, voyageMisAJour); 
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     final hasLocation = widget.memoire.latitude != null && widget.memoire.longitude != null;
@@ -342,8 +361,10 @@ class _DetailScreenState extends State<DetailScreen> {
         ),
         children: [
           TileLayer(
-            urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-            userAgentPackageName: 'com.example.memoires_app',
+            urlTemplate: MapConfig.tileUrl,
+            subdomains: MapConfig.subdomains,
+            userAgentPackageName: MapConfig.userAgent,
+            maxNativeZoom: MapConfig.maxNativeZoom,
           ),
           
           if (points.length > 1)
@@ -528,6 +549,7 @@ class _DetailScreenState extends State<DetailScreen> {
   }
 
   Widget _buildEvenements() {
+    final evenements = widget.memoire.evenements ?? [];
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -564,8 +586,8 @@ class _DetailScreenState extends State<DetailScreen> {
         ),
         const SizedBox(height: 12),
       
-        // LISTE DES ÉVÉNEMENTS
-        if (widget.memoire.evenements!.isEmpty)
+        // LISTE RÉORDONNANÇABLE
+        if (evenements.isEmpty)
           const Padding(
             padding: EdgeInsets.all(16),
             child: Center(
@@ -577,20 +599,27 @@ class _DetailScreenState extends State<DetailScreen> {
             ),
           )
         else
-          ...widget.memoire.evenements!.asMap().entries.map((entry) {
-            final index = entry.key;
-            final evt = entry.value;
-            return _buildEvenementCard(evt, index);
-          }),
+          ReorderableListView.builder(
+            shrinkWrap: true,
+            physics: const NeverScrollableScrollPhysics(),
+            itemCount: evenements.length,
+            onReorder: _onReorderEvent,
+            itemBuilder: (context, index) {
+              final evt = evenements[index];
+              return _buildEvenementCard(evt, index, key: ValueKey(evt.nom + index.toString()));
+            },
+          ),
       ],
     );
   }
 
-  Widget _buildEvenementCard(Evenement evt, int index) {
+  Widget _buildEvenementCard(Evenement evt, int index, {Key? key}) {
     final isSelected = _selectedEvenement?.nom == evt.nom;
 
     return GestureDetector(
+      key: key,
       onTap: () => _onEvenementSelected(evt),
+      onDoubleTap: () => _editEvent(evt, index),
       child: Card(
         margin: const EdgeInsets.only(bottom: 12),
         elevation: isSelected ? 4 : 2,
@@ -700,38 +729,25 @@ class _DetailScreenState extends State<DetailScreen> {
                   ),
 
                   // BOUTONS ACTIONS
-                  PopupMenuButton<String>(
-                    icon: const Icon(Icons.more_vert, size: 20),
-                    onSelected: (value) {
-                      if (value == 'edit') {
-                        _editEvent(evt, index);
-                      } else if (value == 'delete') {
-                        _deleteEvent(index);
-                      }
-                    },
-                    itemBuilder: (context) => [
-                      const PopupMenuItem(
-                        value: 'edit',
-                        child: Row(
-                          children: [
-                            Icon(Icons.edit, size: 18),
-                            SizedBox(width: 8),
-                            Text('Modifier'),
-                          ],
-                        ),
+                  Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      IconButton(
+                        icon: const Icon(Icons.edit, size: 18),
+                        color: evt.couleur,
+                        onPressed: () => _editEvent(evt, index),
+                        tooltip: 'Modifier',
+                        padding: EdgeInsets.zero,
+                        constraints: const BoxConstraints(),
                       ),
-                      const PopupMenuItem(
-                        value: 'delete',
-                        child: Row(
-                          children: [
-                            Icon(Icons.delete, size: 18, color: Colors.red),
-                            SizedBox(width: 8),
-                            Text(
-                              'Supprimer',
-                              style: TextStyle(color: Colors.red),
-                            ),
-                          ],
-                        ),
+                      const SizedBox(width: 8),
+                      IconButton(
+                        icon: const Icon(Icons.delete, size: 18),
+                        color: Colors.red,
+                        onPressed: () => _deleteEvent(index),
+                        tooltip: 'Supprimer',
+                        padding: EdgeInsets.zero,
+                        constraints: const BoxConstraints(),
                       ),
                     ],
                   ),
