@@ -10,6 +10,18 @@ class PhotoService {
   static const int hdMaxWidth = 1920;
   static const int hdQuality = 92;
   
+  /// Récupérer le dossier photos de l'app (pour import/export)
+  static Future<Directory> getPhotosDirectory() async {
+    final appDir = await getApplicationDocumentsDirectory();
+    final photosDir = Directory('${appDir.path}/photos');
+  
+    if (!await photosDir.exists()) {
+      await photosDir.create(recursive: true);
+    }
+  
+    return photosDir;
+  }
+
   /// Récupérer le dossier photos de l'app
   static Future<Directory> _getPhotosDirectory() async {
     final appDir = await getApplicationDocumentsDirectory();
