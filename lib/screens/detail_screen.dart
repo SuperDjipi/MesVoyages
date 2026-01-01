@@ -1,11 +1,16 @@
+import 'dart:io';  
 import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:image_picker/image_picker.dart';
 import '../config/map_config.dart';
 import '../models/memoire.dart';
 import '../services/voyage_storage_service.dart';
 import '../services/voyage_database.dart';
+import '../services/photo_service.dart';
+import '../widgets/photo_gallery.dart';
+import '../utils/responsive.dart';
 import 'add_voyage_screen.dart';
 import 'add_event_screen.dart';
 
@@ -44,6 +49,16 @@ class _DetailScreenState extends State<DetailScreen> {
     }
   }
 
+  // Fonction helper pour calculer hauteur grid photos
+  double _calculatePhotoGridHeight(int photoCount) {
+    final columns = Responsive.photoGridColumns(context);
+    final rows = (photoCount / columns).ceil();
+    final thumbSize = Responsive.photoThumbSize(context);
+    final spacing = Responsive.gridSpacing(context);
+  
+    return (rows * thumbSize) + ((rows - 1) * spacing);
+  }
+
   // Scroll vers un événement dans la liste
   void _onMarkerTapped(Evenement evt) {
     setState(() {
@@ -55,14 +70,24 @@ class _DetailScreenState extends State<DetailScreen> {
     final index = evenements.indexWhere((e) => e.nom == evt.nom);
     
     if (index != -1 && _scrollController.hasClients) {
-      // Hauteurs
-      final headerSectionHeight = 350.0;  // En-tête + description...
-      final evenementsTitleHeight = 50.0;  // Titre "Événements"
-      final eventCardHeight = 110.0;  // Hauteur d'une card
+      // Calculer la position en partant du HAUT
+      final headerHeight = 150.0;  // En-tête avec icône
+      final infoSectionHeight = 100.0;  // Description, participants, tags
     
-      // Position de la card dans le scroll
-      final cardPosition = headerSectionHeight + evenementsTitleHeight + (index * eventCardHeight);
+      // AJOUT : Hauteur de la galerie photos
+      final photoCount = widget.memoire.photos.length;
+      final photoGalleryHeight = photoCount > 0 
+          ? 80.0 + _calculatePhotoGridHeight(photoCount)  // En-tête + grid
+          : 0.0;
     
+      final evenementsTitleHeight = 50.0;
+      final eventCardHeight = 110.0;
+    
+      final cardPosition = headerHeight + 
+                        infoSectionHeight + 
+                        photoGalleryHeight + 24 +  // Spacing
+                        evenementsTitleHeight + 
+                        (index * eventCardHeight);
       // Centrer la card sur l'écran
       final screenHeight = MediaQuery.of(context).size.height;
       final appBarHeight = kToolbarHeight + MediaQuery.of(context).padding.top;
@@ -84,15 +109,13 @@ class _DetailScreenState extends State<DetailScreen> {
     final voyageModifie = await Navigator.push<Memoire>(
       context,
       MaterialPageRoute(
-        builder: (context) => AddVoyageScreen(voyage: widget.memoire),  // Passer le voyage
+        builder: (context) => AddVoyageScreen(voyage: widget.memoire),
       ),
     );
   
     if (voyageModifie != null) {
-      // Sauvegarder
       await VoyageStorageService.updateVoyage(voyageModifie);
     
-      // Retourner à l'écran principal avec le voyage modifié
       if (mounted) {
         Navigator.pop(context, voyageModifie);
       }
@@ -104,26 +127,19 @@ class _DetailScreenState extends State<DetailScreen> {
     final nouvelEvent = await Navigator.push<Evenement>(
       context,
       MaterialPageRoute(
-        builder: (context) => const AddEventScreen(),
+        builder: (context) => AddEventScreen(voyage: widget.memoire),
       ),
     );
   
     if (nouvelEvent != null) {
-      // 1. Prendre les événements existants
       final ancienEvenements = widget.memoire.evenements ?? [];
-    
-      // 2. Créer une NOUVELLE liste avec l'événement ajouté
       final nouveauxEvenements = [...ancienEvenements, nouvelEvent];
-    
-      // 3. Créer un NOUVEAU voyage avec cette liste
       final voyageMisAJour = widget.memoire.copyWith(
         evenements: nouveauxEvenements,
       );
     
-      // 4. Sauvegarder en base
       await VoyageStorageService.updateVoyage(voyageMisAJour);
     
-      // 5. Retourner à l'écran principal avec le voyage modifié
       if (mounted) {
         Navigator.pop(context, voyageMisAJour);
       }
@@ -140,21 +156,14 @@ class _DetailScreenState extends State<DetailScreen> {
     );
   
     if (eventModifie != null) {
-      // 1. Copier la liste existante
       final nouveauxEvenements = List<Evenement>.from(widget.memoire.evenements ?? []);
-    
-      // 2. Remplacer l'événement à l'index
       nouveauxEvenements[index] = eventModifie;
-    
-      // 3. Créer nouveau voyage
       final voyageMisAJour = widget.memoire.copyWith(
         evenements: nouveauxEvenements,
       );
     
-      // 4. Sauvegarder
       await VoyageStorageService.updateVoyage(voyageMisAJour);
     
-      // 5. Retour
       if (mounted) {
         Navigator.pop(context, voyageMisAJour);
       }
@@ -183,98 +192,222 @@ class _DetailScreenState extends State<DetailScreen> {
     );
   
     if (confirm == true) {
-      // 1. Copier la liste
       final nouveauxEvenements = List<Evenement>.from(widget.memoire.evenements ?? []);
-    
-      // 2. Supprimer l'événement
       nouveauxEvenements.removeAt(index);
-    
-      // 3. Créer nouveau voyage
       final voyageMisAJour = widget.memoire.copyWith(
         evenements: nouveauxEvenements,
       );
     
-      // 4. Sauvegarder
       await VoyageStorageService.updateVoyage(voyageMisAJour);
     
-      // 5. Retour
       if (mounted) {
         Navigator.pop(context, voyageMisAJour);
       }
     }
   }
 
+  // RÉORGANISER les événements (drag & drop)
   Future<void> _onReorderEvent(int oldIndex, int newIndex) async {
     if (oldIndex < newIndex) {
       newIndex -= 1;
     }
-  
+
     final nouveauxEvenements = List<Evenement>.from(widget.memoire.evenements ?? []);
     final event = nouveauxEvenements.removeAt(oldIndex);
     nouveauxEvenements.insert(newIndex, event);
-  
+
     final voyageMisAJour = widget.memoire.copyWith(evenements: nouveauxEvenements);
+    await VoyageStorageService.updateVoyage(voyageMisAJour);
+
+    if (mounted) {
+      Navigator.pop(context, voyageMisAJour);
+    }
+  }
+
+  // ==================== GESTION DES PHOTOS ====================
+
+  Future<void> _addPhotos() async {
+    final photos = await PhotoService.pickPhotos(multiple: true);
+  
+    if (photos == null || photos.isEmpty) {
+      return;
+    }
+  
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (context) => Center(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            const CircularProgressIndicator(color: Colors.white),
+            const SizedBox(height: 16),
+            Text(
+              'Ajout de ${photos.length} photo(s)...',
+              style: const TextStyle(color: Colors.white),
+            ),
+          ],
+        ),
+      ),
+    );
+  
+    try {
+      final List<String> savedPhotos = [];
+    
+      for (var photo in photos) {
+        final file = File(photo.path);
+        final photoPath = await PhotoService.savePhoto(file, widget.memoire.id);
+      
+        if (photoPath != null) {
+          savedPhotos.add(photoPath);
+        }
+      }
+    
+      Navigator.pop(context); // Fermer loader
+    
+      if (savedPhotos.isEmpty) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text('❌ Aucune photo n\'a pu être sauvegardée'),
+            backgroundColor: Colors.red,
+          ),
+        );
+        return;
+      }
+    
+      final nouveauxPhotos = [...widget.memoire.photos, ...savedPhotos];
+      final voyageMisAJour = widget.memoire.copyWith(photos: nouveauxPhotos);
+    
+      await VoyageStorageService.updateVoyage(voyageMisAJour);
+    
+      if (mounted) {
+        Navigator.pop(context, voyageMisAJour);
+      }
+    
+    } catch (e) {
+      Navigator.pop(context);
+    
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text('❌ Erreur : $e'),
+          backgroundColor: Colors.red,
+        ),
+      );
+    }
+  }
+
+  Future<void> _deletePhoto(String photoPath) async {
+    final success = await PhotoService.deletePhoto(photoPath);
+  
+    if (!success) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('❌ Erreur lors de la suppression'),
+          backgroundColor: Colors.red,
+        ),
+      );
+      return;
+    }
+  
+    final nouveauxPhotos = widget.memoire.photos.where((p) => p != photoPath).toList();
+    final voyageMisAJour = widget.memoire.copyWith(photos: nouveauxPhotos);
+  
     await VoyageStorageService.updateVoyage(voyageMisAJour);
   
     if (mounted) {
-      Navigator.pop(context, voyageMisAJour); 
+      Navigator.pop(context, voyageMisAJour);
     }
   }
 
   @override
   Widget build(BuildContext context) {
-    final hasLocation = widget.memoire.latitude != null && widget.memoire.longitude != null;
-
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.memoire.titre),
         backgroundColor: const Color(0xFF1A3A52),
         foregroundColor: Colors.white,
         actions: [
-          // NOUVEAU : Bouton éditer
           IconButton(
             icon: const Icon(Icons.edit),
-            onPressed: () => _editVoyage(),
+            onPressed: _editVoyage,
             tooltip: 'Modifier',
           ),
         ],
       ),
       body: Column(
         children: [
-          // MINI-CARTE STICKY (reste en haut)
-          if (hasLocation)
-            _buildMiniMap(),
+          // MINI-CARTE STICKY
+          _buildMiniMap(),
           
           // CONTENU SCROLLABLE
           Expanded(
             child: SingleChildScrollView(
               controller: _scrollController,
-              child: Padding(
-                padding: const EdgeInsets.all(20),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    _buildHeader(),
-                    const SizedBox(height: 16),
-                    _buildDateInfo(),
-                    const SizedBox(height: 16),
-                    Text(
-                      widget.memoire.description,
-                      style: const TextStyle(fontSize: 16),
-                    ),
-                    const SizedBox(height: 16),
-                    if (widget.memoire.participants.isNotEmpty)
-                      _buildParticipants(),
-                    if (widget.memoire.tags.isNotEmpty) ...[
-                      const SizedBox(height: 16),
-                      _buildTags(),
+              padding: Responsive.pagePadding(context),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  // EN-TÊTE
+                  Row(
+                    children: [
+                      Container(
+                        padding: const EdgeInsets.all(12),
+                        decoration: BoxDecoration(
+                          color: widget.memoire.couleur.withOpacity(0.1),
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                        child: FaIcon(
+                          widget.memoire.icone,
+                          color: widget.memoire.couleur,
+                          size: 32,
+                        ),
+                      ),
+                      const SizedBox(width: 16),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              widget.memoire.titre,
+                              style: const TextStyle(
+                                fontSize: 24,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                            Text(
+                              widget.memoire.periode,
+                              style: TextStyle(
+                                fontSize: 16,
+                                color: Colors.grey[600],
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
                     ],
-                    if (widget.memoire.evenements != null && widget.memoire.evenements!.isNotEmpty) ...[
-                      const SizedBox(height: 30),
-                      _buildEvenements(),
-                    ],
-                  ],
-                ),
+                  ),
+                  
+                  const SizedBox(height: 24),
+                  
+                  // INFORMATIONS
+                  _buildInfoSection(),
+                  
+                  const SizedBox(height: 24),
+                  
+                  // ==================== GALERIE PHOTOS ====================
+                  PhotoGallery(
+                    photos: widget.memoire.photos,
+                    onDeletePhoto: _deletePhoto,
+                    onAddPhoto: _addPhotos,
+                    maxDisplay: Responsive.isMobile(context) ? 6 : 8,
+                  ),
+                  
+                  const SizedBox(height: 24),
+                  
+                  // ÉVÉNEMENTS
+                  if (widget.memoire.evenements != null && widget.memoire.evenements!.isNotEmpty)
+                    _buildEvenements(),
+                ],
               ),
             ),
           ),
@@ -284,71 +417,56 @@ class _DetailScreenState extends State<DetailScreen> {
   }
 
   Widget _buildMiniMap() {
-    final points = <LatLng>[];
+    final evenements = widget.memoire.evenements
+        ?.where((e) => e.lat != null && e.lng != null)
+        .toList() ?? [];
     
-    if (widget.memoire.latitude != null && widget.memoire.longitude != null) {
-      points.add(LatLng(widget.memoire.latitude!, widget.memoire.longitude!));
+    if (evenements.isEmpty) {
+      return const SizedBox.shrink();
     }
     
-    if (widget.memoire.evenements != null) {
-      for (var evt in widget.memoire.evenements!) {
-        if (evt.lat != null && evt.lng != null) {
-          points.add(LatLng(evt.lat!, evt.lng!));
-        }
-      }
+    final points = evenements.map((e) => LatLng(e.lat!, e.lng!)).toList();
+    
+    double minLat = points.first.latitude;
+    double maxLat = points.first.latitude;
+    double minLng = points.first.longitude;
+    double maxLng = points.first.longitude;
+    
+    for (var point in points) {
+      if (point.latitude < minLat) minLat = point.latitude;
+      if (point.latitude > maxLat) maxLat = point.latitude;
+      if (point.longitude < minLng) minLng = point.longitude;
+      if (point.longitude > maxLng) maxLng = point.longitude;
     }
     
-    LatLng center;
-    double zoom;
+    final center = LatLng(
+      (minLat + maxLat) / 2,
+      (minLng + maxLng) / 2,
+    );
     
-    if (points.length == 1) {
-      center = points.first;
+    final maxDiff = ((maxLat - minLat) > (maxLng - minLng))
+        ? (maxLat - minLat)
+        : (maxLng - minLng);
+    
+    double zoom = 9.0;
+    if (maxDiff < 0.01) {
+      zoom = 12.0;
+    } else if (maxDiff < 0.1) {
       zoom = 10.0;
-    } else if (points.length > 1) {
-      double latSum = 0, lngSum = 0;
-      for (var point in points) {
-        latSum += point.latitude;
-        lngSum += point.longitude;
-      }
-      center = LatLng(latSum / points.length, lngSum / points.length);
-      
-      double maxLat = points.map((p) => p.latitude).reduce((a, b) => a > b ? a : b);
-      double minLat = points.map((p) => p.latitude).reduce((a, b) => a < b ? a : b);
-      double maxLng = points.map((p) => p.longitude).reduce((a, b) => a > b ? a : b);
-      double minLng = points.map((p) => p.longitude).reduce((a, b) => a < b ? a : b);
-      
-      double latDiff = maxLat - minLat;
-      double lngDiff = maxLng - minLng;
-      double maxDiff = latDiff > lngDiff ? latDiff : lngDiff;
-      
-      if (maxDiff > 10) {
-        zoom = 4.0;
-      } else if (maxDiff > 5) {
-        zoom = 5.0;
-      } else if (maxDiff > 2) {
-        zoom = 6.0;
-      } else if (maxDiff > 1) {
-        zoom = 7.0;
-      } else if (maxDiff > 0.5) {
-        zoom = 8.0;
-      } else {
-        zoom = 9.0;
-      }
+    } else if (maxDiff < 1.0) {
+      zoom = 8.0;
+    } else if (maxDiff < 5.0) {
+      zoom = 6.0;
     } else {
-      center = LatLng(46.5, 2.5);
-      zoom = 5.0;
+      zoom = 4.0;
     }
 
     return Container(
       height: 250,
       decoration: BoxDecoration(
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black.withOpacity(0.1),
-            blurRadius: 4,
-            offset: const Offset(0, 2),
-          ),
-        ],
+        border: Border(
+          bottom: BorderSide(color: Colors.grey[300]!),
+        ),
       ),
       child: FlutterMap(
         mapController: _mapController,
@@ -433,76 +551,53 @@ class _DetailScreenState extends State<DetailScreen> {
     );
   }
 
-  Widget _buildHeader() {
-    return Row(
-      children: [
-        FaIcon(
-          widget.memoire.icone,
-          color: widget.memoire.couleur,
-          size: 32,
-        ),
-        const SizedBox(width: 12),
-        Expanded(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(
-                widget.memoire.titre,
-                style: const TextStyle(
-                  fontSize: 24,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-              Text(
-                widget.memoire.categorie.toUpperCase(),
-                style: TextStyle(
-                  fontSize: 12,
-                  color: widget.memoire.couleur,
-                  fontWeight: FontWeight.bold,
-                  letterSpacing: 1.2,
-                ),
-              ),
-            ],
-          ),
-        ),
-      ],
-    );
-  }
-
-  Widget _buildDateInfo() {
+  Widget _buildInfoSection() {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Row(
-          children: [
-            const FaIcon(
-              FontAwesomeIcons.calendar,
-              size: 16,
-              color: Colors.grey,
-            ),
-            const SizedBox(width: 8),
-            Text(
-              widget.memoire.periode,
-              style: const TextStyle(fontSize: 16, color: Colors.grey),
-            ),
-          ],
-        ),
-        if (widget.memoire.dateFin != null) ...[
-          const SizedBox(height: 4),
-          Row(
+        if (widget.memoire.description.isNotEmpty) ...[
+          const Row(
             children: [
-              const FaIcon(
-                FontAwesomeIcons.clock,
-                size: 16,
-                color: Colors.grey,
-              ),
-              const SizedBox(width: 8),
+              Icon(Icons.description, size: 20, color: Color(0xFF1A3A52)),
+              SizedBox(width: 8),
               Text(
-                widget.memoire.duree,
-                style: const TextStyle(fontSize: 14, color: Colors.grey),
+                'Description',
+                style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ],
           ),
+          const SizedBox(height: 8),
+          Text(
+            widget.memoire.description,
+            style: const TextStyle(fontSize: 15),
+          ),
+          const SizedBox(height: 16),
+        ],
+        
+        if (widget.memoire.participants.isNotEmpty) ...[
+          _buildParticipants(),
+          const SizedBox(height: 16),
+        ],
+        
+        if (widget.memoire.tags.isNotEmpty) ...[
+          const Row(
+            children: [
+              Icon(Icons.label, size: 20, color: Color(0xFF1A3A52)),
+              SizedBox(width: 8),
+              Text(
+                'Tags',
+                style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 8),
+          _buildTags(),
         ],
       ],
     );
@@ -553,7 +648,6 @@ class _DetailScreenState extends State<DetailScreen> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        // EN-TÊTE avec bouton ajouter
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
@@ -575,7 +669,6 @@ class _DetailScreenState extends State<DetailScreen> {
               ],
             ),
           
-            // BOUTON AJOUTER ÉVÉNEMENT
             IconButton(
               icon: const Icon(Icons.add_circle),
               color: widget.memoire.couleur,
@@ -586,7 +679,6 @@ class _DetailScreenState extends State<DetailScreen> {
         ),
         const SizedBox(height: 12),
       
-        // LISTE RÉORDONNANÇABLE
         if (evenements.isEmpty)
           const Padding(
             padding: EdgeInsets.all(16),
@@ -632,124 +724,119 @@ class _DetailScreenState extends State<DetailScreen> {
         ),
         child: Padding(
           padding: const EdgeInsets.all(12),
-          child: Column(
+          child: Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Row(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Container(
-                    padding: const EdgeInsets.all(8),
-                    decoration: BoxDecoration(
-                      color: evt.couleur.withOpacity(0.1),
-                      borderRadius: BorderRadius.circular(8),
+              Container(
+                padding: const EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                  color: evt.couleur.withOpacity(0.1),
+                  borderRadius: BorderRadius.circular(8),
+                ),
+                child: FaIcon(evt.icone, color: evt.couleur, size: 20),
+              ),
+
+              const SizedBox(width: 12),
+
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      evt.nom,
+                      style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: isSelected
+                            ? FontWeight.bold
+                            : FontWeight.w600,
+                      ),
                     ),
-                    child: FaIcon(evt.icone, color: evt.couleur, size: 20),
-                  ),
-
-                  const SizedBox(width: 12),
-
-                  Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          evt.nom,
-                          style: TextStyle(
-                            fontSize: 16,
-                            fontWeight: isSelected
-                                ? FontWeight.bold
-                                : FontWeight.w600,
+                    const SizedBox(height: 4),
+                    if (evt.lieu != null)
+                      Row(
+                        children: [
+                          const FaIcon(
+                            FontAwesomeIcons.locationDot,
+                            size: 12,
+                            color: Colors.grey,
                           ),
-                        ),
-                        const SizedBox(height: 4),
-                        if (evt.lieu != null)
-                          Row(
-                            children: [
-                              const FaIcon(
-                                FontAwesomeIcons.locationDot,
-                                size: 12,
-                                color: Colors.grey,
-                              ),
-                              const SizedBox(width: 4),
-                              Expanded(
-                                child: Text(
-                                  evt.lieu!,
-                                  style: const TextStyle(
-                                    fontSize: 13,
-                                    color: Colors.grey,
-                                  ),
-                                ),
-                              ),
-                            ],
-                          ),
-                        const SizedBox(height: 2),
-                        Row(
-                          children: [
-                            const FaIcon(
-                              FontAwesomeIcons.calendar,
-                              size: 12,
-                              color: Colors.grey,
-                            ),
-                            const SizedBox(width: 4),
-                            Text(
-                              evt.dateFormatee,
+                          const SizedBox(width: 4),
+                          Expanded(
+                            child: Text(
+                              evt.lieu!,
                               style: const TextStyle(
-                                fontSize: 12,
+                                fontSize: 13,
                                 color: Colors.grey,
                               ),
                             ),
-                          ],
-                        ),
-                        if (evt.participants != null &&
-                            evt.participants!.isNotEmpty) ...[
-                          const SizedBox(height: 4),
-                          Row(
-                            children: [
-                              const FaIcon(
-                                FontAwesomeIcons.users,
-                                size: 12,
-                                color: Colors.grey,
-                              ),
-                              const SizedBox(width: 4),
-                              Expanded(
-                                child: Text(
-                                  evt.participants!.join(', '),
-                                  style: const TextStyle(
-                                    fontSize: 11,
-                                    fontStyle: FontStyle.italic,
-                                    color: Colors.grey,
-                                  ),
-                                ),
-                              ),
-                            ],
                           ),
                         ],
+                      ),
+                    const SizedBox(height: 2),
+                    Row(
+                      children: [
+                        const FaIcon(
+                          FontAwesomeIcons.calendar,
+                          size: 12,
+                          color: Colors.grey,
+                        ),
+                        const SizedBox(width: 4),
+                        Text(
+                          evt.dateFormatee,
+                          style: const TextStyle(
+                            fontSize: 12,
+                            color: Colors.grey,
+                          ),
+                        ),
                       ],
                     ),
-                  ),
-
-                  // BOUTONS ACTIONS
-                  Row(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      IconButton(
-                        icon: const Icon(Icons.edit, size: 18),
-                        color: evt.couleur,
-                        onPressed: () => _editEvent(evt, index),
-                        tooltip: 'Modifier',
-                        padding: EdgeInsets.zero,
-                        constraints: const BoxConstraints(),
-                      ),
-                      const SizedBox(width: 8),
-                      IconButton(
-                        icon: const Icon(Icons.delete, size: 18),
-                        color: Colors.red,
-                        onPressed: () => _deleteEvent(index),
-                        tooltip: 'Supprimer',
-                        padding: EdgeInsets.zero,
-                        constraints: const BoxConstraints(),
+                    if (evt.participants != null &&
+                        evt.participants!.isNotEmpty) ...[
+                      const SizedBox(height: 4),
+                      Row(
+                        children: [
+                          const FaIcon(
+                            FontAwesomeIcons.users,
+                            size: 12,
+                            color: Colors.grey,
+                          ),
+                          const SizedBox(width: 4),
+                          Expanded(
+                            child: Text(
+                              evt.participants!.join(', '),
+                              style: const TextStyle(
+                                fontSize: 11,
+                                fontStyle: FontStyle.italic,
+                                color: Colors.grey,
+                              ),
+                            ),
+                          ),
+                        ],
                       ),
                     ],
+                  ],
+                ),
+              ),
+
+              Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  IconButton(
+                    icon: const Icon(Icons.edit, size: 18),
+                    color: evt.couleur,
+                    onPressed: () => _editEvent(evt, index),
+                    tooltip: 'Modifier',
+                    padding: EdgeInsets.zero,
+                    constraints: const BoxConstraints(),
+                  ),
+                  const SizedBox(width: 8),
+                  IconButton(
+                    icon: const Icon(Icons.delete, size: 18),
+                    color: Colors.red,
+                    onPressed: () => _deleteEvent(index),
+                    tooltip: 'Supprimer',
+                    padding: EdgeInsets.zero,
+                    constraints: const BoxConstraints(),
                   ),
                 ],
               ),

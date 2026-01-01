@@ -8,8 +8,9 @@ import '../widgets/map_picker.dart';
 
 class AddEventScreen extends StatefulWidget {
   final Evenement? evenement;  // null = nouveau, sinon = édition
+  final Memoire? voyage;  // voyage parent pour les valeurs par défaut
   
-  const AddEventScreen({super.key, this.evenement});
+  const AddEventScreen({super.key, this.evenement, this.voyage});
 
   @override
   State<AddEventScreen> createState() => _AddEventScreenState();
@@ -54,6 +55,18 @@ class _AddEventScreenState extends State<AddEventScreen> {
       _dateFin = e.dateFin;
       _latitude = e.lat;
       _longitude = e.lng;
+    } else if (widget.voyage != null) {
+      // Mode création : pré-remplir avec les infos du voyage
+      _dateDebut = widget.voyage!.dateDebut;  // ← Date début voyage
+      _dateFin = widget.voyage!.dateFin;      // ← Date fin voyage (peut être null)
+      _latitude = widget.voyage!.latitude;
+      _longitude = widget.voyage!.longitude;
+      _participantsController.text = widget.voyage!.participants.join(', ');
+      
+      // Optionnel : pré-remplir le lieu
+      if (widget.voyage!.latitude != null && widget.voyage!.longitude != null) {
+        _lieuController.text = widget.voyage!.titre;  // Approximation
+      }
     }
   }
 
@@ -163,12 +176,58 @@ class _AddEventScreenState extends State<AddEventScreen> {
     }
   }
 
+  Future<void> _selectDateRange() async {
+    final DateTimeRange? picked = await showDateRangePicker(
+      context: context,
+      firstDate: DateTime(1950),
+      lastDate: DateTime.now().add(const Duration(days: 365)),
+      initialDateRange: _dateDebut != null
+          ? DateTimeRange(
+              start: _dateDebut!,
+              end: _dateFin ?? _dateDebut!,
+            )
+          : null,
+      locale: const Locale('fr', 'FR'),
+      builder: (context, child) {
+        return Theme(
+          data: Theme.of(context).copyWith(
+            colorScheme: ColorScheme.light(
+              primary: const Color(0xFF1A3A52),
+              onPrimary: Colors.white,
+              surface: Colors.white,
+              onSurface: Colors.black,
+            ),
+          ),
+          child: child!,
+        );
+      },
+    );
+  
+    if (picked != null) {
+      setState(() {
+        _dateDebut = picked.start;
+        _dateFin = picked.end != picked.start ? picked.end : null;
+      });
+    }
+  }
+
   void _saveEvent() {
     if (!_formKey.currentState!.validate()) return;
     
     if (_dateDebut == null) {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(content: Text('Veuillez sélectionner une date')),
+      );
+      return;
+    }
+
+    // Validation : date fin après date début
+    if (_dateFin != null && _dateFin!.isBefore(_dateDebut!)) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('❌ La date de fin doit être après la date de début'),
+          backgroundColor: Colors.red,
+        ),
       );
       return;
     }
@@ -336,35 +395,51 @@ class _AddEventScreenState extends State<AddEventScreen> {
             
             const SizedBox(height: 24),
             
-            // DATES
+            // DATES - Version range picker
             _buildSection(
               icon: FontAwesomeIcons.calendar,
               title: 'Dates',
-              child: Row(
+              child: Column(
                 children: [
-                  Expanded(
-                    child: OutlinedButton.icon(
-                      icon: const Icon(Icons.event),
-                      label: Text(
-                        _dateDebut == null
-                            ? 'Date début'
-                            : DateFormat('dd/MM/yyyy').format(_dateDebut!),
-                      ),
-                      onPressed: () => _selectDate(true),
+                  OutlinedButton.icon(
+                    icon: const Icon(Icons.date_range),
+                    label: Text(
+                      _dateDebut == null
+                          ? 'Sélectionner les dates'
+                          : _dateFin == null
+                              ? DateFormat('dd/MM/yyyy').format(_dateDebut!)
+                              : '${DateFormat('dd/MM/yyyy').format(_dateDebut!)} → ${DateFormat('dd/MM/yyyy').format(_dateFin!)}',
+                    ),
+                    onPressed: _selectDateRange,
+                    style: OutlinedButton.styleFrom(
+                      minimumSize: const Size(double.infinity, 48),
                     ),
                   ),
-                  const SizedBox(width: 12),
-                  Expanded(
-                    child: OutlinedButton.icon(
-                      icon: const Icon(Icons.event),
-                      label: Text(
-                        _dateFin == null
-                            ? 'Date fin (opt.)'
-                            : DateFormat('dd/MM/yyyy').format(_dateFin!),
+                  if (_dateDebut != null)
+                    Padding(
+                      padding: const EdgeInsets.only(top: 8),
+                      child: Row(
+                        children: [
+                          const Icon(Icons.info_outline, size: 14, color: Colors.grey),
+                          const SizedBox(width: 4),
+                          Expanded(
+                            child: Text(
+                              _dateFin == null
+                                  ? 'Une seule journée'
+                                  : '${_dateFin!.difference(_dateDebut!).inDays + 1} jour(s)',
+                              style: const TextStyle(fontSize: 12, color: Colors.grey),
+                            ),
+                          ),
+                          TextButton(
+                            onPressed: () => setState(() {
+                              _dateDebut = null;
+                              _dateFin = null;
+                            }),
+                            child: const Text('Effacer', style: TextStyle(fontSize: 12)),
+                          ),
+                        ],
                       ),
-                      onPressed: () => _selectDate(false),
                     ),
-                  ),
                 ],
               ),
             ),

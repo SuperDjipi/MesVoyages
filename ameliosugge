@@ -1,9 +1,3 @@
-Les dates de départ et de fin doivent être déterminées par les événements. Mais peut-être aussi forcées par un calendrier.
-Le lieu du voyage doit pouvoir être multiple (ex New York - San Francisco) et le pin doit pouvoir être mis sur la carte plutôt que rentré par un lieu. C'est valable aussi pour les événements (comme pour les photos plus tard)
-La position du pin est bien trop au nord du lieu.
-Après modification du principal ou des étapes, revenir à l'écran du voyage, pas à l'écran principal.
-Pouvoir dragger un événement dans la liste pour changer sa place dans la chronologie.
-Double-clic sur un événement pour le modifier et pas de sous-menu (...) modifier/supprimer tout de suite les boutons correspondants.
-En ce qui concerne les événements, serait-il possible de mettre une trace d'une ballade, randonnée,..
+En ce qui concerne les événements, serait-il possible de mettre une trace d'une ballade, randonnée,.. ce n'est pas une trace au format informatique, mais les différents endroits parcourus, visités ce jour-là.
 
-Il faut prévoir import/export de la base sqflite dans la version pro. (complet/partiel ?)
+
