@@ -28,15 +28,22 @@ class _AddEventScreenState extends State<AddEventScreen> {
   double? _latitude;
   double? _longitude;
   bool _isSearchingLocation = false;
+  List<Waypoint> _waypoints = [];
   
   bool get _isEditing => widget.evenement != null;
+
+  // Types supportant les waypoints
+  bool get _supportsWaypoints => _type == 'day_tour' || _type == 'air_journey'; 
 
   static const Map<String, EventTypeInfo> _eventTypes = {
     'lodging': EventTypeInfo('Hébergement', FontAwesomeIcons.bed, Colors.blue),
     'air': EventTypeInfo('Vol', FontAwesomeIcons.plane, Colors.indigo),
+    'air_journey': EventTypeInfo('Vol multi-segments', FontAwesomeIcons.planeArrival, Colors.deepPurple),
     'rail': EventTypeInfo('Train', FontAwesomeIcons.train, Colors.teal),
     'car': EventTypeInfo('Voiture', FontAwesomeIcons.car, Colors.orange),
+    'day_tour': EventTypeInfo('Journée visite', FontAwesomeIcons.car, Colors.purple),
     'activity': EventTypeInfo('Activité', FontAwesomeIcons.ticket, Colors.green),
+    'hike': EventTypeInfo('Randonnée', FontAwesomeIcons.personHiking, Colors.brown),
     'restaurant': EventTypeInfo('Restaurant', FontAwesomeIcons.utensils, Colors.redAccent),
     'other': EventTypeInfo('Autre', FontAwesomeIcons.circleInfo, Colors.grey),
   };
@@ -55,6 +62,7 @@ class _AddEventScreenState extends State<AddEventScreen> {
       _dateFin = e.dateFin;
       _latitude = e.lat;
       _longitude = e.lng;
+      _waypoints = e.waypoints ?? [];
     } else if (widget.voyage != null) {
       // Mode création : pré-remplir avec les infos du voyage
       _dateDebut = widget.voyage!.dateDebut;  // ← Date début voyage
@@ -244,9 +252,253 @@ class _AddEventScreenState extends State<AddEventScreen> {
           ? _participantsController.text.split(',').map((p) => p.trim()).toList()
           : null,
       photos: _isEditing ? widget.evenement!.photos : null,
+      waypoints: _waypoints.isNotEmpty ? _waypoints : null,
     );
 
     Navigator.pop(context, evenement);
+  }
+
+  Widget _buildWaypointCard(Waypoint waypoint, int index) {
+    return Card(
+      margin: const EdgeInsets.only(bottom: 8),
+      child: ListTile(
+        leading: CircleAvatar(
+          backgroundColor: waypoint.couleur.withOpacity(0.2),
+          child: Text(
+            '${index + 1}',
+            style: TextStyle(
+              color: waypoint.couleur,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+        ),
+        title: Text(waypoint.nom),
+        subtitle: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              '${waypoint.lat.toStringAsFixed(4)}, ${waypoint.lng.toStringAsFixed(4)}',
+              style: const TextStyle(fontSize: 11),
+            ),
+            if (waypoint.heure != null)
+              Text('🕐 ${waypoint.heure}', style: const TextStyle(fontSize: 11)),
+          ],
+        ),
+        trailing: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            IconButton(
+              icon: const Icon(Icons.edit, size: 18),
+              onPressed: () => _editWaypoint(index),
+              padding: EdgeInsets.zero,
+              constraints: const BoxConstraints(),
+            ),
+            const SizedBox(width: 8),
+            IconButton(
+              icon: const Icon(Icons.delete, size: 18, color: Colors.red),
+              onPressed: () => _deleteWaypoint(index),
+              padding: EdgeInsets.zero,
+              constraints: const BoxConstraints(),
+            ),
+          ],
+        ),
+      ),  
+    );
+  }
+
+  Future<void> _addWaypoint() async {
+    final waypoint = await _showWaypointDialog();
+  
+    if (waypoint != null) {
+      setState(() {
+        _waypoints.add(waypoint);
+      });
+    }
+  }
+
+  Future<void> _editWaypoint(int index) async {
+    final waypoint = await _showWaypointDialog(existing: _waypoints[index]);
+  
+    if (waypoint != null) {
+      setState(() {
+        _waypoints[index] = waypoint;
+      });
+    }
+  }
+
+  void _deleteWaypoint(int index) {
+    setState(() {
+      _waypoints.removeAt(index);
+    });
+  }
+
+  Future<Waypoint?> _showWaypointDialog({Waypoint? existing}) async {
+    final nomController = TextEditingController(text: existing?.nom ?? '');
+    final heureController = TextEditingController(text: existing?.heure ?? '');
+    double? lat = existing?.lat;
+    double? lng = existing?.lng;
+    String? selectedType = existing?.type ?? (_type == 'day_tour' ? 'activity' : null);
+  
+    return showDialog<Waypoint>(
+      context: context,
+      builder: (context) => StatefulBuilder(
+        builder: (context, setDialogState) => AlertDialog(
+          title: Text(existing == null ? 'Ajouter un point' : 'Modifier le point'),
+          content: SingleChildScrollView(
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                // Nom
+                TextField(
+                  controller: nomController,
+                  decoration: InputDecoration(
+                    labelText: _type == 'day_tour' ? 'Nom du lieu' : 'Aéroport/Vol',
+                    hintText: _type == 'day_tour' ? 'Ex: Palais des Doges' : 'Ex: AMS (KL5678)',
+                    border: const OutlineInputBorder(),
+                  ),
+                ),
+               
+                const SizedBox(height: 16),
+              
+                // Type (seulement pour day_tour)
+                if (_type == 'day_tour') ...[
+                  DropdownButtonFormField<String>(
+                    value: selectedType,
+                    decoration: const InputDecoration(
+                      labelText: 'Type',
+                      border: OutlineInputBorder(),
+                    ),
+                    items: const [
+                      DropdownMenuItem(value: 'activity', child: Text('🎭 Activité')),
+                      DropdownMenuItem(value: 'restaurant', child: Text('🍽️ Restaurant')),
+                      DropdownMenuItem(value: 'viewpoint', child: Text('📸 Point de vue')),
+                      DropdownMenuItem(value: 'lodging', child: Text('🛏️ Hébergement')),
+                      DropdownMenuItem(value: null, child: Text('📍 Autre')),
+                    ],
+                    onChanged: (value) {
+                      setDialogState(() {
+                        selectedType = value;
+                      });
+                    },
+                  ),
+                  const SizedBox(height: 16),
+                ],
+              
+                // Heure (optionnel)
+                TextField(
+                  controller: heureController,
+                  decoration: const InputDecoration(
+                    labelText: 'Heure (optionnel)',
+                    hintText: 'Ex: 14:30',
+                    border: OutlineInputBorder(),
+                  ),
+                ),
+              
+                const SizedBox(height: 16),
+              
+                // Bouton placer sur carte
+                OutlinedButton.icon(
+                  icon: const Icon(Icons.map),
+                  label: Text(
+                    lat != null && lng != null
+                        ? 'Position définie ✓'
+                        : 'Placer sur la carte',
+                  ),
+                  onPressed: () async {
+                    // Déterminer la position initiale intelligemment
+                    LatLng? initialPosition;
+    
+                    if (lat != null && lng != null) {
+                      // Si le waypoint a déjà une position, l'utiliser
+                      initialPosition = LatLng(lat!, lng!);
+                    } else if (_waypoints.isNotEmpty) {
+                      // Sinon, utiliser la position du dernier waypoint
+                      final lastWaypoint = _waypoints.last;
+                      initialPosition = LatLng(lastWaypoint.lat, lastWaypoint.lng);
+                    } else if (_latitude != null && _longitude != null) {
+                      // Sinon, utiliser la position de l'événement
+                      initialPosition = LatLng(_latitude!, _longitude!);
+                    } else if (widget.voyage != null && 
+                               widget.voyage!.latitude != null && 
+                               widget.voyage!.longitude != null) {
+                      // Sinon, utiliser la position du voyage
+                      initialPosition = LatLng(
+                        widget.voyage!.latitude!, 
+                        widget.voyage!.longitude!,
+                      );
+                    }
+                    // Sinon, MapPicker utilisera Paris par défaut (son propre fallback)
+    
+                    final position = await Navigator.push<LatLng>(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => MapPicker(
+                          initialPosition: initialPosition,
+                         locationName: nomController.text.isNotEmpty 
+                              ? nomController.text 
+                              : (_type == 'day_tour' ? 'Point d\'intérêt' : 'Segment de vol'),
+                        ),
+                      ),
+                    );
+                  
+                    if (position != null) {
+                      setDialogState(() {
+                        lat = position.latitude;
+                        lng = position.longitude;
+                      });
+                    }
+                  },
+                ),
+              
+                if (lat != null && lng != null)
+                  Padding(
+                    padding: const EdgeInsets.only(top: 8),
+                    child: Text(
+                      '${lat!.toStringAsFixed(4)}, ${lng!.toStringAsFixed(4)}',
+                      style: const TextStyle(fontSize: 11, color: Colors.grey),
+                    ),
+                  ),
+              ],
+            ),
+          ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(context),
+              child: const Text('Annuler'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                if (nomController.text.isEmpty) {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(content: Text('Le nom est obligatoire')),
+                  );
+                  return;
+                }
+              
+                if (lat == null || lng == null) {
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    const SnackBar(content: Text('Position obligatoire')),
+                  );
+                  return;
+                }
+              
+                Navigator.pop(
+                  context,
+                  Waypoint(
+                    nom: nomController.text,
+                    lat: lat!,
+                    lng: lng!,
+                    heure: heureController.text.isNotEmpty ? heureController.text : null,
+                    type: selectedType,
+                  ),
+                );
+              },
+              child: const Text('Valider'),
+            ),
+          ],
+        ),
+      ),
+    );
   }
 
   @override
@@ -458,8 +710,59 @@ class _AddEventScreenState extends State<AddEventScreen> {
                 ),
               ),
             ),
-            
-            const SizedBox(height: 32),
+
+            const SizedBox(height: 24),
+
+            // WAYPOINTS (seulement pour day_tour et air_journey)
+            if (_supportsWaypoints) ...[
+              _buildSection(
+                icon: FontAwesomeIcons.mapPin,
+                title: _type == 'day_tour' 
+                    ? 'Points d\'intérêt (${_waypoints.length})'
+                    : 'Segments de vol (${_waypoints.length})',
+                child: Column(
+                  children: [
+                    // Liste des waypoints
+                    if (_waypoints.isEmpty)
+                      Container(
+                        padding: const EdgeInsets.all(16),
+                        decoration: BoxDecoration(
+                          color: Colors.grey[100],
+                          borderRadius: BorderRadius.circular(8),
+                        ),
+                        child: Center(
+                          child: Text(
+                            _type == 'day_tour'
+                                ? 'Aucun point d\'intérêt.\nAjoutez les lieux visités pendant cette journée.'
+                                : 'Aucun segment.\nAjoutez les vols composant ce trajet.',
+                            textAlign: TextAlign.center,
+                            style: TextStyle(color: Colors.grey[600]),
+                          ),
+                        ),
+                      )
+                    else
+                      ...List.generate(_waypoints.length, (index) {
+                        return _buildWaypointCard(_waypoints[index], index);
+                      }),
+        
+                    const SizedBox(height: 12),
+        
+                    // Bouton ajouter waypoint
+                    OutlinedButton.icon(
+                      icon: const Icon(Icons.add_location),
+                      label: Text(_type == 'day_tour' ? 'Ajouter un point' : 'Ajouter un vol'),
+                      onPressed: _addWaypoint,
+                      style: OutlinedButton.styleFrom(
+                        minimumSize: const Size(double.infinity, 48),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(height: 24),
+            ],
+
+            const SizedBox(height: 34),
             
             // BOUTON ENREGISTRER
             ElevatedButton.icon(

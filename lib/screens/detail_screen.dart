@@ -420,34 +420,50 @@ class _DetailScreenState extends State<DetailScreen> {
     final evenements = widget.memoire.evenements
         ?.where((e) => e.lat != null && e.lng != null)
         .toList() ?? [];
-    
+  
     if (evenements.isEmpty) {
       return const SizedBox.shrink();
     }
-    
-    final points = evenements.map((e) => LatLng(e.lat!, e.lng!)).toList();
-    
-    double minLat = points.first.latitude;
-    double maxLat = points.first.latitude;
-    double minLng = points.first.longitude;
-    double maxLng = points.first.longitude;
-    
-    for (var point in points) {
+  
+    // Collecter TOUS les points (événements + leurs waypoints)
+    final List<LatLng> allPoints = [];
+  
+    for (var evt in evenements) {
+      if (evt.waypoints != null && evt.waypoints!.isNotEmpty) {
+        // Si l'événement a des waypoints, utiliser ceux-ci
+        allPoints.addAll(evt.waypoints!.map((w) => LatLng(w.lat, w.lng)));
+      } else if (evt.lat != null && evt.lng != null) {
+        // Sinon utiliser la position de l'événement
+        allPoints.add(LatLng(evt.lat!, evt.lng!));
+      }
+    }
+  
+    if (allPoints.isEmpty) {
+      return const SizedBox.shrink();
+    }
+  
+    // Calculer les bounds
+    double minLat = allPoints.first.latitude;
+    double maxLat = allPoints.first.latitude;
+    double minLng = allPoints.first.longitude;
+    double maxLng = allPoints.first.longitude;
+  
+    for (var point in allPoints) {
       if (point.latitude < minLat) minLat = point.latitude;
       if (point.latitude > maxLat) maxLat = point.latitude;
       if (point.longitude < minLng) minLng = point.longitude;
       if (point.longitude > maxLng) maxLng = point.longitude;
     }
-    
+  
     final center = LatLng(
       (minLat + maxLat) / 2,
       (minLng + maxLng) / 2,
     );
-    
+  
     final maxDiff = ((maxLat - minLat) > (maxLng - minLng))
         ? (maxLat - minLat)
         : (maxLng - minLng);
-    
+  
     double zoom = 9.0;
     if (maxDiff < 0.01) {
       zoom = 12.0;
@@ -484,71 +500,225 @@ class _DetailScreenState extends State<DetailScreen> {
             userAgentPackageName: MapConfig.userAgent,
             maxNativeZoom: MapConfig.maxNativeZoom,
           ),
-          
-          if (points.length > 1)
-            PolylineLayer(
-              polylines: [
-                Polyline(
-                  points: points,
-                  strokeWidth: 3.0,
-                  color: widget.memoire.couleur.withOpacity(0.7),
-                  borderStrokeWidth: 1.0,
-                  borderColor: Colors.white,
-                ),
-              ],
-            ),
-          
+        
+          // Polylines pour événements normaux (sans waypoints)
+          PolylineLayer(
+            polylines: _buildEventPolylines(evenements),
+          ),
+        
+          // Polylines pour waypoints (journées visite et vols)
+          PolylineLayer(
+            polylines: _buildWaypointPolylines(evenements),
+          ),
+        
+          // Markers pour événements normaux
           MarkerLayer(
-            markers: widget.memoire.evenements
-                    ?.where((e) => e.lat != null && e.lng != null)
-                    .map((evt) {
-                  final isSelected = _selectedEvenement?.nom == evt.nom;
-                  
-                  return Marker(
-                    point: LatLng(evt.lat!, evt.lng!),
-                    width: 70,
-                    height: 70,
-                    alignment: Alignment.center,
-                    child: GestureDetector(
-                      onTap: () => _onMarkerTapped(evt),
-                      child: Column(
-                        mainAxisSize: MainAxisSize.min,
-                        children: [
-                          Container(
-                            padding: EdgeInsets.all(isSelected ? 8 : 6),
-                            decoration: BoxDecoration(
-                              color: Colors.white,
-                              shape: BoxShape.circle,
-                              border: Border.all(
-                                color: evt.couleur,
-                                width: isSelected ? 4 : 3,
-                              ),
-                              boxShadow: [
-                                BoxShadow(
-                                  color: isSelected 
-                                      ? evt.couleur.withOpacity(0.5)
-                                      : Colors.black.withOpacity(0.2),
-                                  blurRadius: isSelected ? 8 : 4,
-                                  spreadRadius: isSelected ? 2 : 0,
-                                ),
-                              ],
-                            ),
-                            child: FaIcon(
-                              evt.icone,
-                              size: isSelected ? 20 : 16,
-                              color: evt.couleur,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                  );
-                }).toList() ??
-                [],
+            markers: _buildEventMarkers(evenements),
+          ),
+        
+          // Markers pour waypoints
+          MarkerLayer(
+            markers: _buildWaypointMarkers(evenements),
           ),
         ],
       ),
     );
+  }
+
+  // ===== POLYLINES ÉVÉNEMENTS NORMAUX =====
+
+  List<Polyline> _buildEventPolylines(List<Evenement> evenements) {
+    final eventsWithoutWaypoints = evenements
+        .where((e) => e.waypoints == null || e.waypoints!.isEmpty)
+        .where((e) => e.lat != null && e.lng != null)
+        .toList();
+  
+    if (eventsWithoutWaypoints.length <= 1) return [];
+  
+    final points = eventsWithoutWaypoints
+        .map((e) => LatLng(e.lat!, e.lng!))
+        .toList();
+  
+    return [
+      Polyline(
+        points: points,
+        strokeWidth: 3.0,
+        color: widget.memoire.couleur.withOpacity(0.7),
+        borderStrokeWidth: 1.0,
+        borderColor: Colors.white,
+      ),
+    ];
+  }
+
+  // ===== POLYLINES WAYPOINTS =====
+
+  List<Polyline> _buildWaypointPolylines(List<Evenement> evenements) {
+    final polylines = <Polyline>[];
+  
+    for (var evt in evenements) {
+      if (evt.waypoints == null || evt.waypoints!.length < 2) continue;
+    
+      final points = evt.waypoints!.map((w) => LatLng(w.lat, w.lng)).toList();
+    
+      // Style selon le type d'événement
+      if (evt.type == 'day_tour') {
+        // Journée visite : ligne pointillée fine
+        polylines.add(
+          Polyline(
+            points: points,
+            strokeWidth: 1.5,
+            color: evt.couleur.withOpacity(0.6),
+          ),
+        );
+      } else if (evt.type == 'air_journey') {
+        // Vol multi-segments : ligne directe du premier au dernier
+        polylines.add(
+          Polyline(
+            points: [points.first, points.last],
+            strokeWidth: 2.5,
+            color: evt.couleur.withOpacity(0.8),
+            borderStrokeWidth: 1.0,
+            borderColor: Colors.white,
+          ),
+        );
+      } else {
+        // Autres types avec waypoints : ligne normale
+        polylines.add(
+          Polyline(
+            points: points,
+            strokeWidth: 2.5,
+            color: evt.couleur.withOpacity(0.7),
+          ),
+        );
+      }
+    }
+  
+    return polylines;
+  }
+
+  // ===== MARKERS ÉVÉNEMENTS =====
+
+  List<Marker> _buildEventMarkers(List<Evenement> evenements) {
+    final markers = <Marker>[];
+  
+    for (var evt in evenements) {
+      // Ne pas afficher le pin de l'événement s'il a des waypoints
+      // (on affichera les waypoints à la place)
+      if (evt.waypoints != null && evt.waypoints!.isNotEmpty) continue;
+    
+      if (evt.lat == null || evt.lng == null) continue;
+    
+      final isSelected = _selectedEvenement?.nom == evt.nom;
+    
+      markers.add(
+        Marker(
+          point: LatLng(evt.lat!, evt.lng!),
+          width: 70,
+          height: 70,
+          alignment: Alignment.center,
+          child: GestureDetector(
+            onTap: () => _onMarkerTapped(evt),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Container(
+                  padding: EdgeInsets.all(isSelected ? 8 : 6),
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    shape: BoxShape.circle,
+                    border: Border.all(
+                      color: evt.couleur,
+                      width: isSelected ? 4 : 3,
+                    ),
+                    boxShadow: [
+                      BoxShadow(
+                        color: isSelected 
+                            ? evt.couleur.withOpacity(0.5)
+                            : Colors.black.withOpacity(0.2),
+                        blurRadius: isSelected ? 8 : 4,
+                        spreadRadius: isSelected ? 2 : 0,
+                      ),
+                    ],
+                  ),
+                  child: FaIcon(
+                    evt.icone,
+                    size: isSelected ? 20 : 16,
+                    color: evt.couleur,
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
+      );
+    }
+  
+    return markers;
+  }
+
+  // ===== MARKERS WAYPOINTS =====
+
+  List<Marker> _buildWaypointMarkers(List<Evenement> evenements) {
+    final markers = <Marker>[];
+  
+    for (var evt in evenements) {
+      if (evt.waypoints == null || evt.waypoints!.isEmpty) continue;
+    
+      for (var i = 0; i < evt.waypoints!.length; i++) {
+        final waypoint = evt.waypoints![i];
+        final isSelected = _selectedEvenement?.nom == evt.nom;
+      
+        markers.add(
+          Marker(
+            point: LatLng(waypoint.lat, waypoint.lng),
+            width: 60,
+            height: 60,
+            alignment: Alignment.center,
+            child: GestureDetector(
+              onTap: () => _onMarkerTapped(evt),
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Container(
+                    width: isSelected ? 32 : 28,
+                    height: isSelected ? 32 : 28,
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      shape: BoxShape.circle,
+                      border: Border.all(
+                        color: evt.couleur,
+                        width: isSelected ? 3 : 2,
+                      ),
+                      boxShadow: [
+                        BoxShadow(
+                          color: isSelected 
+                              ? evt.couleur.withOpacity(0.4)
+                              : Colors.black.withOpacity(0.2),
+                          blurRadius: isSelected ? 6 : 3,
+                          spreadRadius: isSelected ? 1 : 0,
+                        ),
+                      ],
+                    ),
+                    child: Center(
+                      child: Text(
+                        '${i + 1}',
+                        style: TextStyle(
+                          color: evt.couleur,
+                          fontSize: isSelected ? 14 : 12,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+        );
+      }
+    }
+  
+    return markers;
   }
 
   Widget _buildInfoSection() {

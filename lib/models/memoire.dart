@@ -176,6 +176,63 @@ class Memoire {
         //  }
 }
 
+class Waypoint {
+  final String nom;
+  final double lat;
+  final double lng;
+  final String? heure;
+  final String? type;  // activity, restaurant, viewpoint...
+  
+  Waypoint({
+    required this.nom,
+    required this.lat,
+    required this.lng,
+    this.heure,
+    this.type,
+  });
+  
+  factory Waypoint.fromJson(Map<String, dynamic> json) {
+    return Waypoint(
+      nom: json['nom'],
+      lat: json['lat'],
+      lng: json['lng'],
+      heure: json['heure'],
+      type: json['type'],
+    );
+  }
+  
+  Map<String, dynamic> toJson() {
+    return {
+      'nom': nom,
+      'lat': lat,
+      'lng': lng,
+      if (heure != null) 'heure': heure,
+      if (type != null) 'type': type,
+    };
+  }
+  
+  // Icône selon le type
+  IconData get icone {
+    switch (type) {
+      case 'activity': return FontAwesomeIcons.ticket;
+      case 'restaurant': return FontAwesomeIcons.utensils;
+      case 'viewpoint': return FontAwesomeIcons.mountain;
+      case 'lodging': return FontAwesomeIcons.bed;
+      default: return FontAwesomeIcons.locationDot;
+    }
+  }
+  
+  Color get couleur {
+    switch (type) {
+      case 'activity': return Colors.green;
+      case 'restaurant': return Colors.redAccent;
+      case 'viewpoint': return Colors.orange;
+      case 'lodging': return Colors.blue;
+      default: return Colors.grey;
+    }
+  }
+}
+
 class Evenement {
   final String type;
   final String nom;
@@ -186,6 +243,7 @@ class Evenement {
   final double? lng;
   final List<String>? participants;
   final List<String>? photos;
+  final List<Waypoint>? waypoints;
 
   Evenement({
     required this.type,
@@ -197,6 +255,7 @@ class Evenement {
     this.lng,
     this.participants,
     this.photos,
+    this.waypoints,
   });
 
   factory Evenement.fromJson(Map<String, dynamic> json) {
@@ -214,6 +273,11 @@ class Evenement {
       photos: json['photos'] != null 
           ? List<String>.from(json['photos']) 
           : null,
+      waypoints: json['waypoints'] != null  // ← AJOUT
+          ? (json['waypoints'] as List)
+              .map((w) => Waypoint.fromJson(w))
+              .toList()
+          : null,
     );
   }
 
@@ -221,13 +285,14 @@ class Evenement {
     return {
       'type': type,
       'nom': nom,
-      'lieu': lieu,
+      if (lieu != null) 'lieu': lieu,
       'dateDebut': dateDebut.toIso8601String(),
-      'dateFin': dateFin?.toIso8601String(),
-      'lat': lat,
-      'lng': lng,
-      'participants': participants,
-      'photos': photos,
+      if (dateFin != null) 'dateFin': dateFin!.toIso8601String(),
+      if (lat != null) 'lat': lat,
+      if (lng != null) 'lng': lng,
+      if (participants != null) 'participants': participants,
+      if (photos != null) 'photos': photos,
+      if (waypoints != null) 'waypoints': waypoints!.map((w) => w.toJson()).toList(),
     };
   }
 
@@ -246,14 +311,20 @@ class Evenement {
         return FontAwesomeIcons.bed;
       case 'air':
         return FontAwesomeIcons.plane;
+      case 'air_journey':
+        return FontAwesomeIcons.planeArrival;
       case 'rail':
         return FontAwesomeIcons.train;
       case 'car':
         return FontAwesomeIcons.car;
+      case 'day_tour':
+        return FontAwesomeIcons.route;
       case 'activity':
         return FontAwesomeIcons.ticket;
       case 'restaurant':
         return FontAwesomeIcons.utensils;
+      case 'hike':
+        return FontAwesomeIcons.personHiking;
       default:
         return FontAwesomeIcons.circleInfo;
     }
@@ -265,14 +336,20 @@ class Evenement {
         return Colors.blue;
       case 'air':
         return Colors.indigo;
+      case 'air_journey':
+        return Colors.deepPurple;
       case 'rail':
         return Colors.teal;
       case 'car':
         return Colors.orange;
+      case 'day_tour':
+        return Colors.purple;
       case 'activity':
         return Colors.green;
       case 'restaurant':
         return Colors.redAccent;
+      case 'hike':
+        return Colors.brown;
       default:
         return Colors.grey;
     }
