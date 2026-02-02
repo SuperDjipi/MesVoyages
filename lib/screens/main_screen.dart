@@ -1,18 +1,14 @@
-import 'dart:convert';
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter/foundation.dart';  // Pour kReleaseMode
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:file_picker/file_picker.dart';
 import '../config/map_config.dart';
+import '../config/pin_config.dart';
 import '../models/memoire.dart';
 import '../services/voyage_storage_service.dart'; 
-import '../services/subscription_service.dart';  
-import '../services/voyage_database.dart';
+import '../services/subscription_service.dart';
 import '../services/import_export_service.dart';
 import '../widgets/timeline_widget.dart';
 import 'detail_screen.dart';
@@ -32,8 +28,6 @@ class _MainScreenState extends State<MainScreen> {
   List<Memoire> _voyages = [];  
   Memoire? _selectedVoyage;  
   bool _isLoading = true;
-  bool _isPremium = false;
-
   @override
   void initState() {
     super.initState();
@@ -48,11 +42,9 @@ class _MainScreenState extends State<MainScreen> {
 
   Future<void> _loadVoyages() async {
     final voyages = await VoyageStorageService.loadVoyages();
-    final premium = await SubscriptionService.isPremium();
-    
+
     setState(() {
       _voyages = voyages;
-      _isPremium = premium;
       _isLoading = false;
     });
   }
@@ -572,96 +564,6 @@ class _MainScreenState extends State<MainScreen> {
     );
   }
   
-  Future<void> _importAllVoyages() async {
-    // Confirmation
-    final confirm = await showDialog<bool>(
-      context: context,
-      builder: (context) => AlertDialog(
-        title: const Text('Importer tous les voyages ?'),
-        content: const Text(
-          'Cette action va :\n'
-          '1. Activer la version PRO\n'
-          '2. Importer tous les voyages depuis le JSON\n'
-          '3. Les sauvegarder en base Sqflite\n\n'
-          'Continuer ?',
-        ),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(context, false),
-            child: const Text('Annuler'),
-          ),
-          ElevatedButton(
-            onPressed: () => Navigator.pop(context, true),
-            child: const Text('Importer'),
-          ),
-        ],
-      ),
-    );
-
-    if (confirm != true) return;
-
-    // Afficher loader
-    showDialog(
-      context: context,
-      barrierDismissible: false,
-      builder: (context) => const Center(
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            CircularProgressIndicator(),
-            SizedBox(height: 16),
-            Text('Import en cours...', style: TextStyle(color: Colors.white)),
-          ],
-        ),
-      ),
-    );
-
-    try {
-      // 1. Activer premium
-      await SubscriptionService.activatePremium();
-
-      // 2. Charger tous les voyages depuis le JSON
-      final String response = await rootBundle.loadString(
-        'assets/voyages.json',
-      );
-      final data = json.decode(response);
-      final List<dynamic> memoiresJson = data['memoires'];
-
-      // 3. Filtrer uniquement les voyages
-      final voyages = memoiresJson
-          .map((json) => Memoire.fromJson(json))
-          .where((m) => m.categorie == 'voyage')
-          .toList();
-
-      // 4. Insérer en base
-      for (var voyage in voyages) {
-        await VoyageDatabase.instance.insertVoyage(voyage);
-      }
-
-      // 5. Recharger
-      await _loadVoyages();
-
-      Navigator.pop(context); // Fermer loader
-
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text('✅ ${voyages.length} voyages importés !'),
-          backgroundColor: Colors.green,
-          duration: const Duration(seconds: 3),
-        ),
-      );
-    } catch (e) {
-      Navigator.pop(context); // Fermer loader
-
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text('❌ Erreur import : $e'),
-          backgroundColor: Colors.red,
-        ),
-      );
-    }
-  }
-
   @override
   Widget build(BuildContext context) {
     if (_isLoading) {
@@ -680,48 +582,12 @@ class _MainScreenState extends State<MainScreen> {
           onPressed: _showMenu,
         ),
         actions: [
-          // Badge PRO (avant les autres boutons)
-          if (_isPremium)
-            Center(
-              child: Container(
-                margin: const EdgeInsets.only(right: 8),
-                padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-                decoration: BoxDecoration(
-                  color: Colors.orange,
-                  borderRadius: BorderRadius.circular(12),
-                ),
-                child: const Text(
-                  '⭐ PRO',
-                  style: TextStyle(
-                    fontSize: 11,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.white,
-                  ),
-                ),
-              ),
-            ),
-          // BOUTON DEBUG (temporaire)
-          if (!kReleaseMode) // Seulement en mode debug
-            IconButton(
-              icon: const Icon(Icons.bug_report),
-              onPressed: _importAllVoyages,
-              tooltip: 'Importer tous les voyages',
-            ),
-
           // Bouton À propos
           IconButton(
             icon: const Icon(Icons.info_outline),
             onPressed: _showAbout,
             tooltip: 'À propos',
           ),
-    
-          // Bouton détails (si sélection)
-          if (_selectedVoyage != null)
-            IconButton(
-              icon: const FaIcon(FontAwesomeIcons.circleInfo),
-              onPressed: () => _showDetails(_selectedVoyage!),
-              tooltip: 'Voir les détails',
-            ),
         ],
       ),
       body: Column(
@@ -736,6 +602,9 @@ class _MainScreenState extends State<MainScreen> {
                   options: MapOptions(
                     initialCenter: LatLng(MapConfig.defaultLat, MapConfig.defaultLng),
                     initialZoom: 5.0,
+                    interactionOptions: const InteractionOptions(
+                      flags: InteractiveFlag.all & ~InteractiveFlag.rotate,
+                    ),
                   ),
                   children: [
                     TileLayer(
@@ -752,19 +621,21 @@ class _MainScreenState extends State<MainScreen> {
                         
                         return Marker(
                           point: LatLng(voyage.latitude!, voyage.longitude!),
-                          width: 100,
-                          height: isSelected ? 100 : 80,
-                          alignment: Alignment.bottomCenter,
+                          // width: isSelected ? 50 : 40, 
+                          width: 150,
+                          height: isSelected ? 72 : 58,  
+                          alignment: Alignment.topCenter,
                           child: GestureDetector(
                             onTap: () => _onMarkerTapped(voyage),
                             onDoubleTap: () => _showDetails(voyage),
                             child: Column(
                               mainAxisSize: MainAxisSize.min,
                               children: [
-                                FaIcon(
-                                  voyage.iconePin,
-                                  color: voyage.couleur,
-                                  size: isSelected ? 40 : 30,
+                                Image.asset(
+                                  PinConfig.getPinAsset(voyage.couleur),
+                                  width: isSelected ? 50 : 40,
+                                  height: isSelected ? 72 : 58,
+                                  fit: BoxFit.contain,
                                 ),
                                 if (isSelected)
                                   Container(
@@ -844,26 +715,11 @@ class _MainScreenState extends State<MainScreen> {
         ],
       ),
       
-      floatingActionButton: Column(
-        mainAxisAlignment: MainAxisAlignment.end,
-        children: [
-          // Bouton ajouter voyage
-          FloatingActionButton(
-            heroTag: 'add',
-            onPressed: _addVoyage,
-            backgroundColor: Colors.green,
-            child: const Icon(Icons.add, color: Colors.white),
-          ),
-          const SizedBox(height: 12),
-          // Bouton détails (si sélection)
-          if (_selectedVoyage != null)
-            FloatingActionButton(
-              heroTag: 'details',
-              onPressed: () => _showDetails(_selectedVoyage!),
-              backgroundColor: _selectedVoyage!.couleur,
-              child: const FaIcon(FontAwesomeIcons.circleInfo, color: Colors.white),
-            ),
-        ],
+      floatingActionButton: FloatingActionButton(
+        heroTag: 'add',
+        onPressed: _addVoyage,
+        backgroundColor: Colors.green,
+        child: const Icon(Icons.add, color: Colors.white),
       ),
     );
   }

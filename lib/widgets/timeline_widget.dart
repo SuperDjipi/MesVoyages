@@ -157,9 +157,9 @@ class TimelineWidget extends StatelessWidget {
                         ),
                       ],
                     ),
-                    
+
                     const SizedBox(height: 4),
-                    
+
                     // Date
                     Text(
                       dateFormatter.format(memoire.dateDebut),
@@ -168,7 +168,7 @@ class TimelineWidget extends StatelessWidget {
                         color: Colors.grey[600],
                       ),
                     ),
-                    
+
                     // Tags
                     if (memoire.tags.isNotEmpty)
                       Padding(
@@ -196,11 +196,25 @@ class TimelineWidget extends StatelessWidget {
                           }).toList(),
                         ),
                       ),
-                    
+
                     const SizedBox(height: 8),
                   ],
                 ),
               ),
+
+              // Bouton détails (visible quand sélectionné)
+              if (isSelected)
+                GestureDetector(
+                  onTap: () => onMemoireDoubleTapped(memoire),
+                  child: Padding(
+                    padding: const EdgeInsets.only(left: 4, right: 4),
+                    child: Icon(
+                      Icons.chevron_right,
+                      color: memoire.couleur,
+                      size: 28,
+                    ),
+                  ),
+                ),
             ],
           ),
         ),

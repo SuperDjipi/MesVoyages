@@ -5,6 +5,7 @@ import 'package:latlong2/latlong.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:image_picker/image_picker.dart';
 import '../config/map_config.dart';
+import '../config/pin_config.dart';
 import '../models/memoire.dart';
 import '../services/voyage_storage_service.dart';
 import '../services/voyage_database.dart';
@@ -405,8 +406,7 @@ class _DetailScreenState extends State<DetailScreen> {
                   const SizedBox(height: 24),
                   
                   // ÉVÉNEMENTS
-                  if (widget.memoire.evenements != null && widget.memoire.evenements!.isNotEmpty)
-                    _buildEvenements(),
+                  _buildEvenements(),
                 ],
               ),
             ),
@@ -613,40 +613,16 @@ class _DetailScreenState extends State<DetailScreen> {
       markers.add(
         Marker(
           point: LatLng(evt.lat!, evt.lng!),
-          width: 70,
-          height: 70,
-          alignment: Alignment.center,
+          width: isSelected ? 40 : 32,
+          height: isSelected ? 58 : 46,
+          alignment: Alignment.topCenter,  
           child: GestureDetector(
             onTap: () => _onMarkerTapped(evt),
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Container(
-                  padding: EdgeInsets.all(isSelected ? 8 : 6),
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                    shape: BoxShape.circle,
-                    border: Border.all(
-                      color: evt.couleur,
-                      width: isSelected ? 4 : 3,
-                    ),
-                    boxShadow: [
-                      BoxShadow(
-                        color: isSelected 
-                            ? evt.couleur.withOpacity(0.5)
-                            : Colors.black.withOpacity(0.2),
-                        blurRadius: isSelected ? 8 : 4,
-                        spreadRadius: isSelected ? 2 : 0,
-                      ),
-                    ],
-                  ),
-                  child: FaIcon(
-                    evt.icone,
-                    size: isSelected ? 20 : 16,
-                    color: evt.couleur,
-                  ),
-                ),
-              ],
+            child: Image.asset(
+              PinConfig.getPinAsset(evt.couleur),
+              width: isSelected ? 40 : 32,
+              height: isSelected ? 58 : 46,
+              fit: BoxFit.contain,
             ),
           ),
         ),
